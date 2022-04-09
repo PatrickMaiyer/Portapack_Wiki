@@ -12,7 +12,7 @@ The Key Items on the App that can be selected with the cursor and changed with t
 
 Note (*)  : Currently , **for correct Replay application ,you should ONLY use Capture App selecting any Bandwith capture <= 600 Khz. (500Khz recommended for majority micro SD cards compatibility)**. 600khz may need fast and good quality micro SD Card , and with not so high random latency . (In the GUI , those correct bandwidth capture options appear with the Normal usual "REC" icon Background colour, as user recomended BW capture options)
 
-Above 600Khz bandwith options (with YELLOW REC button background Icon), in current fw version , the recorded files are “decimated” , and it has not recorded all full original samples content and therefore it is NOT useful for the Replay App , just useful to check the spectrum image, example using the tool "inspectrum" ). Anyway when replaying those captured files , the replay time will be shorter than real . but I always got modulation.
+Above 600Khz bandwith options (with YELLOW REC button background Icon), in current fw version , the recorded files are “decimated” , and it has not recorded all full original samples content and therefore it is NOT useful for the Replay App , just useful to check the spectrum image, example using the tool "inspectrum" ). Anyway when replaying those captured files , the replay time will be shorter than real . but normally you should always got modulation.
 In future versions, it is pending to investigate and try to apply a correct .C16 recording files (without any decimated samples ) till a capture of 1Mhz. 
 
 ![image](https://user-images.githubusercontent.com/86470699/162581344-446a1a0b-325e-4bb6-a451-f47ecc91d8e3.png)
