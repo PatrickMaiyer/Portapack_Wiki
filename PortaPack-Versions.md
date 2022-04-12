@@ -21,6 +21,13 @@ Photos still to come...
 ### Differences:
 * Still to come...
 
+## H2+
+
+![image](https://user-images.githubusercontent.com/4393979/162888499-4d780cd0-2ddd-47f0-b465-2c29238af6ad.png)
+
+### Differences:
+* Still to come...
+
 ## H3
 ![image](https://user-images.githubusercontent.com/4393979/162887707-27f173f3-6aa7-42cf-bd89-e0447bc0fdd5.png)
 
