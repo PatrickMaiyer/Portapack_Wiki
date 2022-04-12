@@ -15,7 +15,7 @@ The original H1 powers instantly when you plug a power supply to the USB port. T
 
 To power on/off the H2, you need to hold the middle button (knob or pushbutton) for few seconds. See more details [here](https://github.com/eried/portapack-mayhem/wiki/Powering-the-PortaPack).
 
-For some H2+, click the knob to poower on, double-click the knob to power off. 
+For some H2+, click the knob to power on, double-click the knob to power off. 
 
 # Extra functionality (H2 and H2+)
 ## Charging
