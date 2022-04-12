@@ -25,6 +25,7 @@ Now don't get confused with the incrementing numbers, the higher does not necess
 ### Differences:
 * Bigger touch screen
 * Different control/button layout
+* Built in battery
 
 ## H2+
 
@@ -37,4 +38,7 @@ Now don't get confused with the incrementing numbers, the higher does not necess
 ![image](https://user-images.githubusercontent.com/4393979/162887707-27f173f3-6aa7-42cf-bd89-e0447bc0fdd5.png)
 
 ### Differences:
-* Still to come...
+* Not supported in Mayhem firmware
+* Built in microphone
+* Built in GPS
+* Built in battery
