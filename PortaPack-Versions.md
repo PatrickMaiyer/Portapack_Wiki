@@ -14,7 +14,7 @@ Now don't get confused with the incrementing numbers, the higher does not necess
 
 ### Differences:
 * The H1R1 has a WM8731 audio chip
-* The H1R1 has a AK4951 audio chip
+* The H1R2 has a AK4951 audio chip
 * Some versions have a touch screen while a lot of the clones do not
 
 ## H2
