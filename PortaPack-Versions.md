@@ -8,7 +8,9 @@ Here are all the versions of the PortaPack:
 Now don't get confused with the incrementing numbers, the higher does not necessarily mean its better. We recommend you stick with an H1 or an H2.
 
 ## H1(R1/R2)
-Photos still to come...
+![image](https://user-images.githubusercontent.com/4393979/162888735-083d4fb5-dfd5-499c-94b1-c0fbbec0fda2.png)
+![image](https://user-images.githubusercontent.com/4393979/162888869-cc9a45ed-170f-435c-a3c1-43076d0035b2.png)
+
 
 ### Differences:
 * Still to come...
