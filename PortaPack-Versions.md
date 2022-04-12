@@ -21,7 +21,8 @@ Now don't get confused with the incrementing numbers, the higher does not necess
 
 
 ### Differences:
-* Still to come...
+* Bigger touch screen
+* Different control/button layout
 
 ## H2+
 
