@@ -32,7 +32,9 @@ Now don't get confused with the incrementing numbers, the higher does not necess
 ![image](https://user-images.githubusercontent.com/4393979/162888499-4d780cd0-2ddd-47f0-b465-2c29238af6ad.png)
 
 ### Differences:
-* Still to come...
+* Similar to  H2 in early versions except claim for better TXCO spec(quesionable) and board marked as H2+.
+* Battery state indicator with 4 leds under Encoder Knob for 25%,50%,75%,100%,flashing while charging, steady when that level full. 
+* Later versions  the standard CPLD 5M40ZE64CN5 was  replaced with EPM240T100C5N ( due to cost and supply issues by supplier "OpenSourceSDR Lab") which has caused some issues ( they issues their work around fixes in a version 1.4.3)  and resolved in version 1.5.x due to a lot of hard work.
 
 ## H3
 ![image](https://user-images.githubusercontent.com/4393979/162887707-27f173f3-6aa7-42cf-bd89-e0447bc0fdd5.png)
