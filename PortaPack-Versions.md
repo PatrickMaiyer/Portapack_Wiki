@@ -3,9 +3,7 @@ Here are all the versions of the PortaPack:
 * H1R2
 * H2
 * H2+
-* H3 _(Incompatible, do not buy)_
-
-Now don't get confused with the incrementing numbers, the higher does not necessarily mean its better. We recommend you stick with an H1 or an H2.
+* H3 
 
 ## H1(R1/R2)
 ![image](https://user-images.githubusercontent.com/4393979/162888735-083d4fb5-dfd5-499c-94b1-c0fbbec0fda2.png)
@@ -40,7 +38,9 @@ Now don't get confused with the incrementing numbers, the higher does not necess
 ![image](https://user-images.githubusercontent.com/4393979/162887707-27f173f3-6aa7-42cf-bd89-e0447bc0fdd5.png)
 
 ### Differences:
-* Not supported in Mayhem firmware
+* Special Firmware supporting SSTV and NOAA receiving
 * Built in microphone
-* Built in GPS
-* Built in battery
+* Built in GPS receiver
+* Built in battery and level indicator
+* Built in barometer
+* Built in compass
