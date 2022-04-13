@@ -21,4 +21,4 @@ If you device won't boot and leaves you on a black screen, then you will need to
 
 _**Note:** H2+ usually require you to hold the **UP key** on the first boot to configure them._
 
-_This is valid from nightly version **n_220406** and stable release version: _**No stable release yet**__
+_This is valid from nightly version **n_220412** and stable release version: **v1.5.1**_
