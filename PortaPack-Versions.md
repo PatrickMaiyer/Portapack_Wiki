@@ -38,6 +38,7 @@ Here are all the versions of the PortaPack:
 ![image](https://user-images.githubusercontent.com/4393979/162887707-27f173f3-6aa7-42cf-bd89-e0447bc0fdd5.png)
 
 ### Differences:
+* Designed by Jamesshao8, contributor of Analog TV receiving, BTLE receiving, NRF receiving, GPS Sim transmitting
 * Special Firmware supporting SSTV and NOAA receiving
 * Built in microphone
 * Built in GPS receiver
