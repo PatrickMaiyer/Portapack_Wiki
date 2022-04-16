@@ -31,18 +31,28 @@ There are many different versions of PortaPack, mainly due to Chinese’s Compan
 * Similar to  H2 in early versions except claim for better TXCO spec(quesionable) and board marked as H2+.
 * Battery state indicator with 4 leds under Encoder Knob for 25%,50%,75%,100%,flashing while charging, steady when that level full. 
 
-H2+R2
+## H2+R2
+
+![H2+ R2](https://user-images.githubusercontent.com/32274981/163668781-3f9beec7-b670-43dd-aa97-b01a63343157.JPG)
+
 
 ### Differences:
 * Similar to  H2+R1 except using the WM8731 Codec and  has an added audio power amp INS8002E. The front face of the board is marked as H2+ as in H2+R1 above.
 * Battery state indicator with 4 leds under Encoder Knob for 25%,50%,75%,100%,flashing while charging, steady when that level full. 
 
-H2+R3
+## H2+R3
+
+![H2+R3](https://user-images.githubusercontent.com/32274981/163668864-cfddc191-cdf5-418c-b8fd-7d7b16937c02.jpg)
+
+
+### Differences
 * Similar to  H2+R2 except
-* Later versions  the standard CPLD 5M40ZE64CN5 was  replaced with EPM240T100C5N ( due to cost and supply issues by supplier "OpenSourceSDR Lab") which has caused some issues ( they issues their work around fixes in a version 1.4.3)  and resolved in version 1.5.x due to a lot of hard work.
+* This versions the standard CPLD 5M40ZE64CN5 was  replaced with EPM240T100C5N ( due to cost and supply issues by supplier "OpenSourceSDR Lab") which has caused some issues ( they issues their work around fixes in a version 1.4.3)  and resolved in version 1.5.x due to a lot of hard work.
 
 
 ## H3
+Bespoke software and not compatible with mayhem software
+
 ![image](https://user-images.githubusercontent.com/4393979/162887707-27f173f3-6aa7-42cf-bd89-e0447bc0fdd5.png)
 
 ### Differences:
