@@ -2,7 +2,7 @@ The Capture app records into C16 files, and the Replay app read those files.
 
 As described in an [issue](https://github.com/sharebrained/portapack-hackrf/issues/139) in PortaPack's repo, this format consist of a tuple of 16 bits signed integers. The first number is I and second Q, forming a complex number. As a result, you get a tridimensional representation of the capture: the real and the imaginary parts in the file (I and Q) versus the time (defined by the sample rate, in this case in an adjacent TXT file with the same filename as the C16).
 
-### Capture manipulation
+### Capture Manipulation
 
 You can open the C16 file in Audacity importing it as _Raw data_. Consider the sample rate you used when you did the capture.
 
@@ -25,3 +25,12 @@ center_frequency=<FREQ IN HZ>
 As a final remark, if you created a new file, be sure that the Project Rate matches your capture:
 
 <img src="img/c16_export2.png" width="300">
+
+### Capture Manipulation Pt2
+ 
+Alternatively you can use GNU Radio Companion (GRC) to convert the C16 short into a complex IQ file. 
+
+To accomplish this you'll need to bring in the original C16 file using the GRC block "File Source", pipe it to "IShort To Complex", "Multiply Consent" using the magic number 1.0 /32768.0 for the constant, then exporting the file with "File Sink".
+
+
+ 
