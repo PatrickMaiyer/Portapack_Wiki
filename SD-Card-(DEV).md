@@ -225,8 +225,6 @@ if(check_sd_card()) {                                        // Check to see if 
 
 ### Rename File or Directory
 
-**NOTE: Code below reflects future update, current implementation of delete_file() dose not return a value.**
-
 To rename a file or directory the `rename_file()` function from [File](https://github.com/eried/portapack-mayhem/blob/next/firmware/application/file.cpp) can be used. The helper function below will return true if `rename_file()` succeeds (Success from `rename_file()` returns a 0, other values means failure) and takes two variable inputs for file path and directory name. Again the input for the file path is a `std::filesystem::path` which can be `UTF-16 string literal`. The root of the SD Card is `u""` and any directory beyond that is `u"DIRECTORY/SUB_DIRECTORY"`
 
 #### ui_newapp.cpp
@@ -252,8 +250,6 @@ if(check_sd_card()) {                                       // Check to see if S
 
 
 ### Delete File or Directory
-
-**NOTE: Code below reflects future update, current implementation of delete_file() dose not return a value.**
 
 To delete a file or directory the `delete_file()` function from [File](https://github.com/eried/portapack-mayhem/blob/next/firmware/application/file.cpp) can be used. The helper function below will return true if `delete_file()` succeeds (Success from `make_new_directory()` returns a 0, other values means failure) and takes two variable inputs for file path and directory name. Again the input for the file path is a `std::filesystem::path` which can be `UTF-16 string literal`. The root of the SD Card is `u""` and any directory beyond that is `u"DIRECTORY/SUB_DIRECTORY"`    
 
