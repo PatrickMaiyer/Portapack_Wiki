@@ -63,3 +63,5 @@ Bespoke software and not compatible with mayhem software
 * Built in battery and level indicator
 * Built in barometer
 * Built in compass
+* 2.4" Touch screen
+* Same control/button as H1 to guarantee minimum thickness
