@@ -30,7 +30,7 @@ As a final remark, if you created a new file, be sure that the Project Rate matc
  
 Alternatively you can use GNU Radio Companion (GRC) to convert the C16 short into a complex IQ file. 
 
-To accomplish this you'll need to bring in the original C16 file using the GRC block "File Source", pipe it to "IShort To Complex", "Multiply Consent" using the magic number 1.0 /32768.0 for the constant, then exporting the file with "File Sink".
+To accomplish this you'll need to bring in the original C16 file using the GRC block "File Source" setting the output type to short, pipe it to "IShort To Complex", "Multiply Consent" using the magic number 1.0 /32768.0 for the constant, then exporting the file with "File Sink".
 
 
  
