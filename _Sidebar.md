@@ -94,6 +94,7 @@
    * [Persistent Memory](Persistent-Memory)
    * [ChibiOS Notes](ChibiOS-Notes)
 * [Software Dev Guides](Software-Dev-Guides)
+   * [Code contribution rules](Code-contribution-rules)
    * [Create a Simple App](Create-a-simple-app)
    * [Widgets](Widgets)
    * [SD Card](SD-Card-(DEV))
