@@ -10,6 +10,7 @@ It's important for everyone, be it contributors or reviewers, to have a clear co
 * Have an error management in your app
 * Make reusable content (class, structs, gui filler functions, ...)
 * Document global processing as well as tricky parts, don't be lazy, some may contribute to your own contribution, help them to help you, to help us
+* Fix your compilation warnings before making a pull request. ALL your warnings. It's making a terrible noise in the compilation log each time we accept PRs with warnings everywhere
 * Provide access to your sources via a public repository
 
 # A note on Pull Requests
