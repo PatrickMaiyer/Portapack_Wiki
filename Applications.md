@@ -5,6 +5,8 @@ There are separate categories for the applications
 * Replay
 * Calls
 * Scanner
+* Microphone
+* Looking Glass
 * Tools
 * Options
 * Debug
