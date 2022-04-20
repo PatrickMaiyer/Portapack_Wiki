@@ -1,25 +1,25 @@
-The Audio App is the main way that signal can be heard and seen in detail. Three types of decoders are provided for audio modulated signals and a spectrum view of the signals. The user interface has the ability to view and change:
+The Audio App is the main way that signals can be heard and seen in detail. Three types of decoders are provided for audio modulated signals and a spectrum view of the signals. The user interface has the ability to view and change:
  
 
-* **SPEC:** Display a Spectrum of the received signal and allows viewing of 10MHz of RF Spectrum, centred on a configurable frequency, with 5MHz above the frequency and 5MHz below.
+* **SPEC:** Display a Spectrum of the received signal and allow viewing of 10MHz of RF Spectrum, centered on a configurable frequency, with 5MHz above the frequency and 5MHz below.
 
-* **AM:** Its purpose is to Demodulate and Record RF Signals modulated using the Amplitude Modulation scheme. It can demodulate Double-Sideband AM (ITU Designation: A3E) and both Lower-Sideband and Upper-Sideband Single-Sideband AM (ITU Classification: R2E, H3E, J3E) signals.
+* **AM:** Demodulate and Record RF Signals modulated using the Amplitude Modulation scheme. It can demodulate Double-Sideband AM (ITU Designation: A3E) and both Lower-Sideband and Upper-Sideband Single-Sideband AM (ITU Classification: R2E, H3E, J3E) signals.
 
 * **NFM:** The Narrow Band Frequency Modulation decoding ITU Classification: FM3
 
-* **WBM:** The Wide FM Receiver is a Sub-Application of the Audio Receiver Application. Its purpose is to Demodulate and Record RF Signals modulated using the Frequency Modulation scheme. It can demodulate mono and stereo Wide FM signals of 200KHz bandwidth. Such signals are commonly used for VHF FM Broadcast services.
+* **WFM:** The Wide FM Receiver is a Sub-Application of the Audio Receiver Application. Its purpose is to Demodulate and Record RF Signals modulated using the Frequency Modulation scheme. It can demodulate mono and stereo Wide FM signals of 200KHz bandwidth. Such signals are commonly used for VHF FM Broadcast services.
 
 The Key Items on the App that can be seen or selected with the cursor and changed with the encoder knob are:
 
 * **Title bar:** The usual Items may be changed and displayed.
 
-* **Mode:** On the line below title bar is the demodulation mode AM, NFN, WFM, SPEC. When either of these are selected it will bring up a secondary set of relevant items on the line below. These are discussed in secondary items below.
+* **Mode:** On the line below title bar is the demodulation mode AM, NFM, WFM, SPEC. When either of these are selected it will bring up a secondary set of relevant items on the line below. These are discussed in secondary items below.
 
 * **Frequency:** The Centre frequency of the demodulation band. 
   
-* **Gain:** Setting are shown in order of LNA(IF) (0-40) and VGA (Baseband Gain) (0-62). When either of these are selected in the secondary line the AMP setting is shown and can be as either set to  0=0db or 1=14dB.
+* **Gain:** Settings are shown in order of LNA(IF) (0-40) and VGA (Baseband Gain) (0-62). When either of these are selected in the secondary line the AMP setting is shown and can be as either set to  0=0db or 1=14dB.
 
-* **Signal Display:** The three coloured displays are  top to bottom RSSI(Red/Blue) with an average marker in the line. Next is the Baseband signal and last the Audio level.
+* **Signal Display:** The three coloured displays are top to bottom RSSI(Red/Blue) with an average marker in the line. Next is the Baseband signal and last the Audio level.
 
 * **Volume:** The Last item on this line is the audio volume control (O-99) that is used with either headphone or speaker if fitted.
 
@@ -28,7 +28,7 @@ The Key Items on the App that can be seen or selected with the cursor and change
     * **AM:** Bandwidth settings of DSB, USB, LSB, CW. The Spectrum view is +/-20k.
     * **NFM:** Bandwidth Settings of 16k,11k,8k5. Note there is no setting for the more common 6k5 used in European Spectrum plans. Next item is SQ: which is shown in the format of 40/99 allow the noise squelch point to be set Between 0-99. Typically, around 40-50 is a good threshold.
     * **Gain:** The RF Amp settings. The Spectrum view is +/-20k.
-    * **WFM:** There is no Secondary settings, The Spectrum view is +/-100k with a marker That may be changed (though seem the incorrect value).
+    * **WFM:** There are no Secondary settings, The Spectrum view is +/-100k with a marker That may be changed (though seem the incorrect value).
     * **SPEC.** The spectrum Secondary Items allows the view of the RF spectrum with different setting for maximum bandwidth shown:
             
             20M with markers at +/- 5M
@@ -40,9 +40,9 @@ The Key Items on the App that can be seen or selected with the cursor and change
 
 The next item is the setting of the bin sizes used for the waterfall (0-63) with “0” being the minimum information being the fastest display and “63” the maximum information collected the slowest display. Adjust to give a balance of speed and information seen. 
 
-* **CTCSS:** This Continuous Tone Coded Squelch System is a display at the end of the secondary information line. It is used by many systems and standardised by EIA/TIA, with a description [here.](https://en.wikipedia.org/wiki/Continuous_Tone-Coded_Squelch_System ) The display of the CTCSS shows the tone decoded as a Number and Letter code not the actual tone code itself. See the Annex to this document below. It should be noted that most of the time the display is jumping around and only clearly displays the received tone when the is a gap in the voice and the Signal is of good quality. 
+* **CTCSS:** This Continuous Tone Coded Squelch System is a display at the end of the secondary information line. It is used by many systems and standardised by EIA/TIA, with a description [here.](https://en.wikipedia.org/wiki/Continuous_Tone-Coded_Squelch_System ) The display of the CTCSS shows the tone decoded as a Number and Letter code not the actual tone code itself. See the Annex to this document below. It should be noted that most of the time the display is jumping around and only clearly displays the received tone when there is a gap in the voice and the Signal is of good quality. 
 
-* **Record:** The record button if selected will shows the record file name, % of the SD Card used, and at the end of the line is the total recording time available left on the SD card and this decrements when recording. 
+* **Record:** The record button if selected will show the record file name, % of the SD Card used, and at the end of the line is the total recording time available left on the SD card and this decrements when recording. 
 
 ## CTCSS Tone List
 
