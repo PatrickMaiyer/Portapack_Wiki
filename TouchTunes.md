@@ -43,9 +43,9 @@ Below is all the technical data regarding the wireless message structure.
 
 ### Message Structure
 
-* **Structure:** {SYNC} {PREAMBLE} {PIN} {COMMAND} {TAIL}
-* **Sync (Literal Symbols):** 0xFFFF00
-* **Preamble (Decoded NEC):** 0x5D
+* **Structure:** {PREAMBLE} {SYNC} {PIN} {COMMAND} {TAIL}
+* **Preamble (Literal Symbols):** 0xFFFF00
+* **Sync (Decoded NEC):** 0x5D
 * **PIN 000-255 (Decoded NEC):** 0x00-0xFF (LSB)
 * **Tail (Literal Symbols):** 0x8
 
@@ -87,5 +87,5 @@ Below is all the technical data regarding the wireless message structure.
 
 ### Example
 * **Command:** Pin 000 - On/Off
-* **Literal Symbols (HEX):** ffff00 a2888a2 aaaa 8888aa2aa2220 (SYNC PREAMBLE PIN COMMAND TAIL)
+* **Literal Symbols (HEX):** ffff00 a2888a2 aaaa 8888aa2aa2220 (PREAMBLE SYNC PIN COMMAND TAIL)
 * **Literal Symbols (BIN):** 11111111111111110000 10 1000 10 1000 1000 1000 10 1000 10 10 10 10 10 10 10 10 10 1000 1000 1000 1000 10 10 10 1000 10 10 10 10 1000 1000 1000 100000
