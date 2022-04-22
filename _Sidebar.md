@@ -23,7 +23,7 @@
    * [Firmware upgrade](https://github.com/eried/portapack-mayhem/wiki/Update-firmware-troubleshooting)
    * [Receive Quality Issues](https://github.com/eried/portapack-mayhem/wiki/Help!-Im-not-receiving-anything!---Receive-Quality-Issues)
    * [Preamplifier IC replacement](https://github.com/eried/portapack-mayhem/wiki/preamplifier-ic-replacement)
-   * [H2+ speaker modification](H2+-speaker-modification)
+   * [H2+ speaker modification](H2-Plus-speaker-modification)
 * [Care of PortaPack/HackRF](Care)
 * [Applications](Applications)
    * [Receivers](Receivers)
