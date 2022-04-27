@@ -59,7 +59,7 @@
    * [Capture](Capture)
       * [C16 Format](C16-format)
    * [Replay](Replay)
-   * [Calls](Calls)
+   * [Search](Search)
    * [Scanner](Scanner)
    * [Microphone Tranceiver](Microphone-Tranceiver)
    * [Looking Glass](Looking-Glass)
