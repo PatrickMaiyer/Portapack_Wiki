@@ -3,7 +3,7 @@ There are separate categories for the applications
 * Transmit
 * Capture
 * Replay
-* Calls
+* Search
 * Scanner
 * Microphone
 * Looking Glass
