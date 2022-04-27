@@ -57,7 +57,7 @@ Bespoke software and not compatible with mayhem software
 
 ### Differences:
 * Designed by Jamesshao8, contributor of Analog TV receiving, BTLE receiving, NRF receiving, GPS Sim transmitting
-* Special Firmware supporting SSTV and NOAA receiving
+* Special Firmware supporting SSTV and NOAA receiving, GPS time sync
 * Built in microphone
 * Built in GPS receiver
 * Built in battery and level indicator
