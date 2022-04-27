@@ -1,6 +1,7 @@
 Initially from: https://github.com/furrtek/portapack-havoc/wiki/Close-Call
 
-The Calls mode is similar in functionality found on many Uniden scanners. It allows to define a frequency range to scan (min/max), and a power threshold. If a signal appears above the RF signal threshold for a sufficient amount of time, the signal's frequency is "locked", shown in green on the main display and logged in a table at the bottom of the screen. Unfortunately, it does not allow you to listen to the call or jump to the say the audio App screen with the selected call frequency. You need to manually note the frequency and then place it in another App to listen to the frequency.
+The Search app is similar in functionality found on many Uniden scanners. It allows to define a frequency range to scan (min/max), and a power threshold. If a signal appears above the RF signal threshold for a sufficient amount of time, the signal's frequency is "locked", shown in green on the main display and logged in a table at the bottom of the screen.
+Unfortunately, it does not allow you to listen to the call or jump to the say the audio App screen with the selected call frequency. You need to manually note the frequency and then place it in another App to listen to the frequency.
 The Speed of scanning is based the frequency range set. The frequency range if larger than 2.5 MHz will be split in to slices that are scanned. The scan time significantly increase when you have multiple slices.
 
    [[img/screenshots/Calls.png]]
