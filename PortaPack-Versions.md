@@ -53,7 +53,7 @@ _(Note: The H3 is Incompatible, do not buy it)_
 
 
 ## H3
-Do no buy. Uses custom close source firmware. Not compatible with Mayhem
+Uses custom close source firmware. Not compatible with Mayhem
 
 ![image](https://user-images.githubusercontent.com/4393979/162887707-27f173f3-6aa7-42cf-bd89-e0447bc0fdd5.png)
 
