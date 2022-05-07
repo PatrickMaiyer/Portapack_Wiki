@@ -40,12 +40,12 @@ That parameter , is directly related to the transmitted channel spectrum (see Ca
 ![image](https://user-images.githubusercontent.com/86470699/167274573-14fcc124-5a0d-4dff-94a5-11e2c62b583c.png)
 
 
-* **ROGER BEEP :** This will add a roger bleep if enabled.  (note , currently only available for FM / AM / DSB) 
+* **ROGER BEEP (currently only available for FM / AM / DSB)  :** This will add a roger bleep if enabled.
 
 * **RX audio listening:** The Tick box to select this item is difficult to select with cursor having to go down and up though item, and with some luck you may enable the box. It is better to select from the touch screen. If this is enabled then it will turn on the Audio Receiver and with the following setting will allow you to listen to a receive channel when not transmitting. The TX-RX timing gap is not known. The frequency can be set separately to that of the transmitter section above. The following setting can be applied to the receiver.
 (Note the demodulation type , is linked automatically to the TX Mode type :  FM/AM/USB/LSB/DSB) 
 
-* **FM RX BW:** The is the narrow band FM Receiver Band Width setting. It can be set to either 8k5kHz,11Khz or 16kHz.(this option is only applicable and available to the FM reception) 
+* **FM RX BW (this option is only applicable and available to the FM reception) :** The is the narrow band FM Receiver Band Width setting. It can be set to either 8k5kHz,11Khz or 16kHz. 
 
 * **F:** The frequency can be set in the usual way with text pad when selected
 
