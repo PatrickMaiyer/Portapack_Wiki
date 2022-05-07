@@ -21,6 +21,7 @@ That parameter , is directly related to the transmitted channel spectrum (see Ca
 
 * **MODE :**  Selection TX modulation type (FM/AM/USB/LSB/DSB) 
 
+(You can see different screens , when selecting different modulation modes. To avoid user confusions,the non available options are hidden )
 ![image](https://user-images.githubusercontent.com/86470699/167274656-e7eb95a3-ef4a-4820-8f75-2f51413a7406.png)
 
 
