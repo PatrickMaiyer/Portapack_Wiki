@@ -15,7 +15,7 @@ Note : this mic GAIN , is scaling the captured audio samples, therefore it will 
 
 * **BW:** This field sets the +/- FM Frequency deviation (adjustment range 0-150 Khz) . 
 (WFM systems usually +/-75 Khz,  NFM :  a typical VHF/UHF two-way radio signal is using 5 kHz peak deviation)
-That parameter , is directly related to the transmitted channel spectrum (see Carson's bandwidth rule)
+That parameter , is directly related to the transmitted FM channel spectrum (see Carson's bandwidth rule)
 
 * **GAIN & AMP :** Is set for TX_GAIN (IF) and (0-47) and TX RF AMP 0dB or 14dB.Node transmission gain , to all modulation systems from fw version 1.4.0 onwards ,  FM/AM/LSB/USB/DSB)
 
