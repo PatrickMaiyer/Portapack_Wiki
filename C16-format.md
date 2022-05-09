@@ -34,6 +34,8 @@ Alternatively you can use GNU Radio Companion (GRC) to convert the C16 short int
 
 As seen in the image above you'll need to bring in the original C16 file using the GRC block `File Source` setting the output type to short, pipe it to `IShort To Complex`, then `Multiply Consent` using the magic number 1.0 / 32768.0 for the constant, and finally export it with `File Sink`.
 
+The reason that the value 32768.0 is used to normalize the C16 audio capture is because int16 has a range of -32768 to +32767. 2^15 is 32768.0, so dividing int16 value by 2^15 gives a number that is normalized between -1 and +1.
+
 This GRC script can be found at [`firmware/tools/convert_C16_to_complex.grc`](https://github.com/eried/portapack-mayhem/blob/next/firmware/tools/convert_C16_to_complex.grc)
 
 
