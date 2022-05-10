@@ -1,6 +1,6 @@
 The Microphone App provided till firmware version 1.3.1  a Narrow band  FM  transmitter application, that allows the transmission of voice and when not transmitting allows you to receive in a simplex way if configured. 
 
-From firmware version 1.4.0 onwards,  it has been added added some other additional analogue  mod(TX) /demod (RX)   FM/AM/LSB/USB/DSB.  
+From firmware version 1.4.0 onwards,  it has been added some other additional analogue  mod(TX) /demod (RX)   FM/AM/LSB/USB/DSB.  
 
 ## Key Controls
 
@@ -11,7 +11,7 @@ Note : this mic GAIN , is scaling the captured audio samples, therefore it will 
 
 
 
-* **F:** This field set the Frequency for the transmission.	
+* **F:** This field set the TX Frequency for the transmission.	
 
 * **BW:** This field sets the +/- FM Frequency deviation (adjustment range 0-150 Khz) . 
 (WFM systems usually +/-75 Khz,  NFM :  a typical VHF/UHF two-way radio signal is using 5 kHz peak deviation)
@@ -48,7 +48,7 @@ Note the level % of the Tone compared to the Microphone,  can be set in the menu
 
 * **FM RX BW (this option is only applicable and available to the FM reception) :** The is the narrow band FM Receiver Band Width setting. It can be set to either 8k5kHz,11Khz or 16kHz. 
 
-* **F:** The frequency can be set in the usual way with text pad when selected
+* **F:** The RX frequency can be set in the usual way with text pad when selected
 
 * **SQ:**  This can be set between 0 and 99 typically 50 is threshold.
 
