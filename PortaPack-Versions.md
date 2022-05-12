@@ -59,7 +59,8 @@ Uses custom close source firmware. Not compatible with Mayhem
 
 ### Differences:
 * Designed by Jamesshao8, contributor of Analog TV receiving, BTLE receiving, NRF receiving, GPS Sim transmitting
-* Special Firmware supporting SSTV and NOAA receiving, GPS time sync
+* Special Firmware supporting SSTV(robot8, martin m1&m2, scottie s1&s2, pd-120) and NOAA receiving, GPS time sync
+* Improved Analog TV receiver (with AGC and line sync)
 * Built in microphone
 * Built in GPS receiver
 * Built in battery and level indicator
