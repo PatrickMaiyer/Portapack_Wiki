@@ -53,18 +53,4 @@ _(Note: The H3 is Incompatible, do not buy it)_
 
 
 ## H3
-Uses custom close source firmware. Not compatible with Mayhem
-
-![image](https://user-images.githubusercontent.com/4393979/162887707-27f173f3-6aa7-42cf-bd89-e0447bc0fdd5.png)
-
-### Differences:
-* Designed by Jamesshao8, contributor of Analog TV receiving, BTLE receiving, NRF receiving, GPS Sim transmitting
-* Special Firmware supporting SSTV(robot8, martin m1&m2, scottie s1&s2, pd-120) and NOAA receiving, GPS time sync
-* Improved Analog TV receiver (with AGC and line sync)
-* Built in microphone
-* Built in GPS receiver
-* Built in battery and level indicator
-* Built in barometer
-* Built in compass
-* 2.4" Touch screen
-* Same control/button as H1 to guarantee minimum thickness
+Uses custom close source firmware. **Not compatible with Mayhem. Do not buy or support.**
