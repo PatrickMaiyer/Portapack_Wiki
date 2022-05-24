@@ -4,7 +4,7 @@ There are many different versions of PortaPack, mainly due to Chinese’s Compan
 
 ![image](https://user-images.githubusercontent.com/32274981/163668369-81ec10b5-a7a2-4fa0-bc46-09764819bccf.png)
 
-_(Note: The H3 is Incompatible, do not buy it)_
+_(Note: The H3 is Incompatible, do not buy it as it's a scam)_
  
 ## H1(R1/R2)
 ![image](https://user-images.githubusercontent.com/4393979/162888735-083d4fb5-dfd5-499c-94b1-c0fbbec0fda2.png)
