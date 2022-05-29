@@ -2,7 +2,8 @@
 
 There are many different versions of PortaPack, mainly due to Chinese’s Companies putting their own take of the design such as adding a larger screen, adding charging or changing the main chip due to price and availability. The current list is:
 
-![image](https://user-images.githubusercontent.com/32274981/163668369-81ec10b5-a7a2-4fa0-bc46-09764819bccf.png)
+![image](https://user-images.githubusercontent.com/4393979/170891223-85f21e44-77e7-466d-af44-7c73f51af917.png)
+
 
 _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
  
