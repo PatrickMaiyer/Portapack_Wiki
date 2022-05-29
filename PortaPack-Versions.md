@@ -50,6 +50,7 @@ _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
 ### Differences
 * Similar to  H2+R2 except
 * This versions the standard CPLD 5M40ZE64CN5 was  replaced with EPM240T100C5N ( due to cost and supply issues by supplier "OpenSourceSDR Lab") which has caused some issues ( they issues their work around fixes in a version 1.4.3)  and resolved in version 1.5.x due to a lot of hard work.
+* Note: We are only now just seeing new version with the AG256SL100 IC. We may consider this an H2+ R4
 
 
 ## H3
