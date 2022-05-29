@@ -53,5 +53,14 @@ _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
 * Note: We are only now just seeing new version with the AG256SL100 IC. We may consider this an H2+ R4
 
 
+## H2+R4
+
+
+
+
+### Differences
+* Similar to the H2+R3 except it now uses the AG256SL100 IC. As well as it uses the AK4951
+
+
 ## H3
 Uses custom close source firmware. **Not compatible with Mayhem. Do not buy or support as it's a scam**
