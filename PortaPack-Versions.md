@@ -55,6 +55,8 @@ _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
 
 ## H2+R4
 
+![image](https://user-images.githubusercontent.com/4393979/170890941-609efeb7-8683-40eb-98d1-875fc25748b6.png)
+![image](https://user-images.githubusercontent.com/4393979/170890950-7818c099-01b1-47c1-a705-9ef4a4bcf62b.png)
 
 
 
