@@ -187,7 +187,7 @@ some compiling errors to check it's better to call it without '-j 8')
 
 ## 7. Create makefile through cmake and compile (as user) (it's important to call the PATH cmd in step 6 just before making the cmake)
 
-    cmake -B./ -S../../
+    cmake ..
     make firmware
 
 ## 8. Flash the firmware to HackRF
