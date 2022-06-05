@@ -17,7 +17,8 @@ If you device won't boot and leaves you on a black screen, then you will need to
 * UP key = LCD driver 1
 * DOWN key = LCD driver 2
 * OK/SELECT key = Reset/Automatic detection
-* LEFT key = Updates _2021/12 QFP100_ chip
+* LEFT key = LCD driver 2 QFP100 chip
+* RIGHT key = LCD driver 1 QFP100 chip
 
 _**Note:** H2+ usually require you to hold the **UP key** on the first boot to configure them._
 
