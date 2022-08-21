@@ -41,7 +41,7 @@ Note the level % of the Tone compared to the Microphone,  can be set in the menu
 ![image](https://user-images.githubusercontent.com/86470699/167274573-14fcc124-5a0d-4dff-94a5-11e2c62b583c.png)
 
 
-* **ROGER BEEP (currently only available for FM / AM / DSB)  :** This will add a roger bleep if enabled.
+* **ROGER BEEP (currently only available for FM / AM / DSB)  :** This will add a roger beep if enabled.
 
 * **RX audio listening:** The Tick box to select this item is difficult to select with cursor having to go down and up though item, and with some luck you may enable the box. It is better to select from the touch screen. If this is enabled then it will turn on the Audio Receiver and with the following setting will allow you to listen to a receive channel when not transmitting. The TX-RX timing gap is not known. The frequency can be set separately to that of the transmitter section above. The following setting can be applied to the receiver.
 (Note the demodulation type , is linked automatically to the TX Mode type :  FM/AM/USB/LSB/DSB) 
