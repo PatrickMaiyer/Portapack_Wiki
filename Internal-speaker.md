@@ -9,7 +9,7 @@ On the H2, normally the connector and cable (use the red and yellow wires, isola
 [[img/hw_h2_speaker_pinout.png]]
 
 For both versions, you need a small speaker. Typically a laptop speaker will work, for example: 
-https://s.click.aliexpress.com/e/_dWBRFr2
+https://a.aliexpress.com/_mLuZk4U
 
 Connect `SPK+` and `SPK-` to the speaker and use double sided tape to fix it to the PCB.
 
