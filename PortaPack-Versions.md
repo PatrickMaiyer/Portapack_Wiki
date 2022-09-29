@@ -2,8 +2,7 @@
 
 There are many different versions of PortaPack, mainly due to Chinese’s Companies putting their own take of the design such as adding a larger screen, adding charging or changing the main chip due to price and availability. The current list is:
 
-![image](https://user-images.githubusercontent.com/4393979/170891223-85f21e44-77e7-466d-af44-7c73f51af917.png)
-
+![PortaPack Hardware Revisions](https://user-images.githubusercontent.com/54041511/193085181-7b333297-0835-4899-a869-be049f7c4072.png)
 
 _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
  
@@ -51,7 +50,6 @@ _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
 ### Differences
 * Similar to  H2+R2 except
 * This versions the standard CPLD 5M40ZE64CN5 was  replaced with EPM240T100C5N ( due to cost and supply issues by supplier "OpenSourceSDR Lab") which has caused some issues ( they issues their work around fixes in a version 1.4.3)  and resolved in version 1.5.x due to a lot of hard work.
-* Note: We are only now just seeing new version with the AG256SL100 IC. We may consider this an H2+ R4
 
 
 ## H2+R4
@@ -61,7 +59,10 @@ _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
 
 
 ### Differences
-* Similar to the H2+R3 except it now uses the AG256SL100 IC. As well as it uses the AK4951
+* Similar to the H2+R3 except it now uses the AG256SL100 IC as well as the 28 pin QFN WM8731L instead of the 38 pin QFN AK4951. Marked as "PCB v3.6 mmdvm.club". 
+* 3W LTK8002D SOP8 Class D amplifier for the speaker (INS8002e clone?).
+* Power IC IP5306 SOP8.
+
 
 
 ## H3
