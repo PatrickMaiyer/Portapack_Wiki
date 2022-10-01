@@ -152,6 +152,8 @@ If you decide to [ignore this guide](https://github.com/eried/portapack-mayhem/i
 * You can speed up the building process by calling 'make -j 8 firmware' instead, where 8 is the number of physical CPU cores (if you have 
 some compiling errors to check it's better to call it without '-j 8')
 
+* **Use the following commands while logged into your every day user profile. :)**
+
 ## 1. Update a Debian based OS, install cmake, python, pyyaml
 
     sudo apt-get update
