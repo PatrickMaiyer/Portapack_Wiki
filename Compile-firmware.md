@@ -129,7 +129,7 @@ If you decide to [ignore this guide](https://github.com/eried/portapack-mayhem/i
 
 
 
-# Using arm on Debian
+# Using ARM on Debian
 
 * Untested on other linux flavors
 
