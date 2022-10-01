@@ -159,7 +159,7 @@ some compiling errors to check it's better to call it without '-j 8')
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py; python3 get-pip.py
     pip install pyyaml
 
-## 2. Install the necessary ARM compiler to /opt/armbin (if not done before, root needed if you install it in /opt)
+## 2. Install the necessary ARM compiler to /opt/armbin (if not done before)
 
     sudo mkdir /opt/build
     cd /opt/build
@@ -177,7 +177,7 @@ some compiling errors to check it's better to call it without '-j 8')
     cd /opt
     sudo git clone --recurse-submodules https://github.com/eried/portapack-mayhem.git
 
-## 5. Give permission for the portapack-mayhem directory to your user
+## 5. Give permission for the portapack-mayhem directory to your user 
 
     sudo chown -R my_user:my_usergroup /opt/portapack-mayhem
 
