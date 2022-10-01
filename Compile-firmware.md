@@ -138,14 +138,14 @@ If you decide to [ignore this guide](https://github.com/eried/portapack-mayhem/i
 * For convenience the compiler will be installed to /opt/build
 
 * Needed steps
-1. update a Debian based OS
-2. install the necessary ARM compiler to /opt/armbin (if not done before)
-3. make user mayhem dir
-3. clone mayhem repository from GitHub (if not done before)
-4. do required modification for python 3 on source
-5. setup environmental variables for compiler
-6. create makefile through cmake and compile
-7. flash the firmware
+1. Update a Debian based OS
+2. Install the necessary ARM compiler to /opt/armbin (if not done before)
+3. Link ARM compiler to your bash environment
+4. Clone Mayhem repository from GitHub (if not done before)
+5. Giver user permission to the Mayhem repository
+6. Do required modification for python 3 on source
+7. Create makefile through cmake and compile
+8. Flash the firmware
 
 * Once done you only need to call 'make firmware' in the /opt/portapack-mayhem/firmware/build directory
 
