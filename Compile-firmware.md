@@ -161,38 +161,41 @@ some compiling errors to check it's better to call it without '-j 8')
 
 ## 2. Install the necessary ARM compiler to /opt/armbin (as root) (if not done before, root needed if you install it in /opt)
 
-    mkdir /opt/build; cd /opt/build
+    mkdir /opt/build
+    cd /opt/build
     wget -O gcc-arm-none-eabi.tar.bz2 'https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2020q2/gcc-arm-none-eabi-9-2020-q2-update-x86_64-linux.tar.bz2?revision=05382cca-1721-44e1-ae19-1e7c3dc96118&la=en&hash=D7C9D18FCA2DD9F894FD9F3C3DC9228498FA281A'
     mkdir armbin
     tar --strip=1 -xjvf gcc-arm-none-eabi.tar.bz2 -C armbin
 
-## 3. Create portapack-mayhem directory and give permission to your user
+## 3. Link ARM compiler to your bash environment
 
-    mkdir /opt/portapack-mayhem
+    echo 'PATH=/opt/build/armbin/bin:/opt/build/armbin/lib:$PATH' >> ~/.bashrc
+    source ~/.bashrc
+
+## 4. Clone the eried's mayhem repository from GitHub (as user) (if not done before) into /opt
+
+    cd /opt
+    git clone --recurse-submodules https://github.com/eried/portapack-mayhem.git
+
+## 5. Give permission for the portapack-mayhem directory to your user
+
     chown -R my_user:my_usergroup /opt/portapack-mayhem
 
-## 4. Clone the eried's mayhem repository from GitHub (as user) (if not done before)
-
-    git clone --recurse-submodules https://github.com/eried/portapack-mayhem.git /opt/portapack-mayhem/
-
-## 5. Replace the python version in libopencm3 to use python3 (as user)
+## 6. Replace the python version in libopencm3 to use python3 (as user)
 
     sed -i 's/env python/env python3/g' /opt/portapack-mayhem/hackrf/firmware/libopencm3/scripts/irq2nvic_h
 
-## 6. Setup environmental variables for compiler (as user)
-
-    cd /opt/portapack-mayhem/firmware
-    mkdir build; cd build
-    PATH=/opt/build/armbin/bin:/opt/build/armbin/lib:$PATH
-
-## 7. Create makefile through cmake and compile (as user) (it's important to call the PATH cmd in step 6 just before making the cmake)
-
+## 7. Create makefile through cmake and compile (as user) (it's important to call the PATH cmd in step 3 just before making the cmake)
+    
+    cd /opt/portapack-mayhem
+    mkdir build
+    cd build
     cmake ..
     make firmware
 
 ## 8. Flash the firmware to HackRF
 
-    hackrf_spiflash -w /opt/portapack-mayhem/firmware/build/firmware/portapack-h1_h2-mayhem.bin
+    hackrf_spiflash -w /opt/portapack-mayhem/build/firmware/portapack-h1_h2-mayhem.bin
 
 # Debian setup script repository
 
