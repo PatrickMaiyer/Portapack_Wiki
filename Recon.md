@@ -1,5 +1,5 @@
 # Recon App
-![Recon App Menu Entry](https://www.nilorea.net/wp-content/uploads/2022/05/PORTAPACK_SEARCH_APP_MAIN_1.png)
+![Recon App Menu Entry](https://www.nilorea.net/wp-content/uploads/2022/10/MainScreen.png)
 
 # Introduction
 A scan is when using a defined list
