@@ -17,7 +17,7 @@ For better scanning precision, once a frequency with a powerful enough signal is
 You can check some demo videos at https://youtube.com/playlist?list=PL-tahIjVksD3rLlhhtemp6wvddnsYAVzv (warning: some features in the video may have been upgraded since filming)
 
 # Main Screen
-![Recon App Main Screen](https://www.nilorea.net/wp-content/uploads/2022/05/PORTAPACK_SEARCH_APP_MAIN_2.png)
+![Recon App Main Screen](https://www.nilorea.net/wp-content/uploads/2022/10/MainScreen.png)
 
 Buttons description, from top to bottom, and left to right
 
