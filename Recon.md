@@ -4,7 +4,9 @@
 # Introduction
 A scan is when using a defined list
 
-A search is when using one or many ranges of frequencies with step
+A search is when using one or many ranges of frequencies with step. 
+
+The Recon app is full rework of the Scanner app, offering different possibilities and customisations.
 
 Both are using all the frequencies in their hand and pause on a frequency when matching criteria (like modulation, amplitude,...)
 
