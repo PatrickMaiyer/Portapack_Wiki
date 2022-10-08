@@ -27,6 +27,8 @@ Buttons description, from top to bottom, and left to right
 
 * OPT => the settings page
 
+* FREQ DISPLAY => Current frequency, RSSI MIN/MED/MAX, Value of timer if current frequency is matching
+
 * START freq, END freq, SEARCH button => set the manual start and end of a range and launch a search on it. These values will be updated by the search if auto update m-ranges is checked. If highlighted, you can use the rotary encoder to adjust start or end
 
 * Mode , step => demod to use and step
