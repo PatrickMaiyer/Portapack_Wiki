@@ -25,9 +25,9 @@ Buttons description, from top to bottom, and left to right
 
 * VOL , BW , SQUELCH, W,L => bandwidth for actual demod, squelch is the level of DB to match a signal, wait is the time we will stay on the frequency if it's matching lock_duration*nb_locks. If wait is a negative number, then it represent the time we are staying on a matched frequency waiting for new activity, and a new match during the wait reset the counters. L is the lock wait timer, representing the maximum time we stay on a freq waiting for a lock. The lock wait timer is adjusted to the smallest optimal value at app startup and after a OPT save. You may adjust it if needed.
 
-* OPT => the settings page
+* Current frequency index / Nb frequencies to search , Current DB value , OPT => the settings page
 
-* FREQ DISPLAY => Current frequency, RSSI MIN/MED/MAX, Value of timer if current frequency is matching
+* Current frequency, RSSI MIN/MED/MAX, Value of timer if current frequency is matching
 
 * START freq, END freq, SEARCH button => set the manual start and end of a range and launch a search on it. These values will be updated by the search if auto update m-ranges is checked. If highlighted, you can use the rotary encoder to adjust start or end
 
