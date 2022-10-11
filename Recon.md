@@ -2,9 +2,6 @@
 ![Recon App Menu Entry](https://www.nilorea.net/wp-content/uploads/2022/10/MainScreen.png)
 
 # Introduction
-A scan is when using a defined list
-
-A search is when using one or many ranges of frequencies with step. 
 
 The Recon app is full rework of the Scanner app, offering different possibilities and customisations.
 
@@ -16,28 +13,58 @@ The search will stop into any frequency carrying a signal strong enough. You can
 
 For better scanning precision, once a frequency with a powerful enough signal is found, the search, like the scanner, will analyze it for some extra milliseconds, in order to confirm that the signal is still present (and not a spurious peak)
 
+A scan is when using a defined list. You know you're in scanner mode when the button in the middle right of the screen is showing 'SCANNER' in red.
+
+A search/recon is when using one or ranges of frequencies with step. In our case it can be a list of fixed frequencies, a list of ranges, or a mix between both ranges and fixed frequencies. You know you're in search/recon mode when the button in the middle right of the screen is showing 'RECON' in blue.
+
 You can check some demo videos at https://youtube.com/playlist?list=PL-tahIjVksD3rLlhhtemp6wvddnsYAVzv (warning: some features in the video may have been upgraded since filming)
 
+## TODO first
+If you are launching the Recon app for the first time, chances are high that you do not have the wanted options selected by default.
+
+We highly encourage you to go and check what's under the 'OPT' button and get yourself used to the 'Main' and 'More' pages under it.
+
+### Common defaults options
+Go into OPT.
+
+Main:
+
+* Check input file and output file name
+
+* Check options under it. A lots are complaining that the search is not starting by itself, but they do not have 'autostart recon' checked.
+
+More:
+
+* Check that 'input: load freqs' and 'input: load ranges' are checked
+
 # Main Screen
-![Recon App Main Screen](https://www.nilorea.net/wp-content/uploads/2022/10/MainScreen.png)
+![Recon App MANUAL-SEARCH Main Screen](https://www.nilorea.net/wp-content/uploads/2022/10/MainScreen.png)
+![Recon App RECON Main Screen](https://www.nilorea.net/wp-content/uploads/2022/10/MAIN_SCREEN_RECON.png)
+![Recon App RECON Main Screen](https://www.nilorea.net/wp-content/uploads/2022/10/MAIN_SCREEN_SCANNER.png)
 
-Buttons description, from top to bottom, and left to right
+Buttons and information description, from top to bottom, and left to right. [NAME] is used to mark a button / gui element that the user can change, else it's a description of an onscreen information.
 
-* LNA , VGA , AMP , VOL => gains, amplification on/off , volume
+* [LNA] , [VGA] , [AMP] , [VOL] => gains, amplification on/off , volume
 
-* VOL , BW , SQUELCH, W,L => bandwidth for actual demod, squelch is the level of DB to match a signal, wait is the time we will stay on the frequency if it's matching lock_duration*nb_locks. If wait is a negative number, then it represent the time we are staying on a matched frequency waiting for new activity, and a new match during the wait reset the counters. L is the lock wait timer, representing the maximum time we stay on a freq waiting for a lock. The lock wait timer is adjusted to the smallest optimal value at app startup and after a OPT save. You may adjust it if needed.
+* [BW] , [SQUELCH], [W],[L] => bandwidth for actual demod, squelch is the level of DB to match a signal, wait is the time we will stay on the frequency if it's matching lock_duration*nb_locks. If wait is a negative number, then it represent the time we are staying on a matched frequency waiting for new activity, and a new match during the wait reset the counters. L is the lock wait timer, representing the maximum time we stay on a freq waiting for a lock. The lock wait timer is adjusted to the smallest optimal value at app startup and after a OPT save. You may adjust it if needed.
 
-* Current frequency index / Nb frequencies to search , Current DB value , OPT => the settings page
+* XXX / XXX , XX db, XX/XX value , [OPT] => index of the current frequency in the loaded list, number of frequencies in the list, actual DB value, number of locks / number of needed locks for a match, the settings page
 
-* Current frequency, RSSI MIN/MED/MAX, Value of timer if current frequency is matching
+* FREQ: XXXX => Current frequency
 
-* START freq, END freq, SEARCH button => set the manual start and end of a range and launch a search on it. These values will be updated by the search if auto update m-ranges is checked. If highlighted, you can use the rotary encoder to adjust start or end
+* RSSI: XXX/XXX/XXX => Current min/med/max RSSI values in db
 
-* Mode , step => demod to use and step
+* TIMER: elapsed timer for current frequency lock, 0 if no lock
 
-* PAUSE , AUDIO , STORE => pause or resume the search. If highlighted, you can use the rotary encoder to manually step in the frequencies/ranges, jump to Audio App, store actual frequency in output file
+* [MANUAL-S/SCANNER/RECON] currently used mode. Manual Search, Scanner, Recon/Search. 
 
-* FW, RST, MIC TX , REMOVE => forward/reverse , reset search (it's restarting from the beginning of input file), jump to Mic app, remove a frequency from output file
+* [START], [END], [SEARCH] => set the manual start and end of a range and launch a search on it. These values will be updated by the search if auto update m-ranges is checked. If highlighted, you can use the rotary encoder to adjust start or end
+
+* [Mode] , [STEP] => demodulation and step
+
+* [PAUSE] , [AUDIO] , [STORE] => pause or resume the search. If highlighted, you can use the rotary encoder to manually step in the frequencies/ranges, jump to Audio App, store actual frequency in output file
+
+* [FW], [RST], [MIC TX] , [REMOVE] => forward/reverse , reset search (it's restarting from the beginning of input file), jump to Mic app, remove a frequency from output file
 
 # OPT (Settings)
 ## Main RECON settings page
@@ -64,6 +91,40 @@ One of the first two options have to be checked else nothing will be loaded at a
 * Lock duration => define a single lock duration 
 * Number of match => define the numbers of matching (db > squelch) locks to have a freq match
 * Match mode => Choose between Continuous and Sparse
+
+# Recon / Search / Manual Search modes
+When using the Recon app, 3 modes are accessibles. 
+
+You can switch from RECON to SEARCH using the GUI button, and to Manual search using the Manual-S button (just under the RECON/SEARCH button)
+
+## RECON mode
+Mode button is in blue, and the label is 'RECON'. 
+
+In that mode it takes what you choose in "OPT/select input file" and use it as the list to search. The matched frequencies (if autosave is checked or 'add' is used) are put in what you choose in "OPT/select output file".
+
+STORE and REMOVE are working on what you selected in "OPT/select output file" but changes are not reflected in the used list. 
+
+In that mode you have an input search/recon list, and an output file.
+
+## SEARCH mode
+Mode button is in red, and the label is 'SCANNER'. 
+
+In that mode it takes what you choose in "OPT/select output file" and use it as the list to search.
+
+The matched frequencies (if autosave is checked or 'add' is used) are put in what you choose in "OPT/select output file".
+
+STORE and REMOVE are working on what you selected in "OPT/select output file" and changes are 'live' in the list. reflected in the used list. 
+
+In that mode you have the same file used as an input list and an output file.
+
+## MANUAL-S
+In that mode RECON or SEARCH mode are invalidated. Values in GUI are used as a single range entry.
+
+The matched frequencies (if autosave is checked or 'add' is used) are put in what you choose in "OPT/select output file".
+
+STORE and REMOVE are working on what you selected in "OPT/select output file" but changes are not reflected in the used list. 
+
+In that mode you have a single range as an input list, and an output file.
 
 # Color features for the wait / lock wait values
 * white => okay
