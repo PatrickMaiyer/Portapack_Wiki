@@ -91,7 +91,7 @@
    * [Using Docker and Kitematic](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-docker-hub-and-kitematic)
    * [Docker command-line reference](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#docker---command-line-reference)
    * [Using Buddyworks and other CI platforms](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-buddyworks-and-other-ci-platforms)
-   * [Notes for Buddy.Works (and other CI platforms)](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#notes)
+   * [Notes for Buddy.Works (and other CI platforms)](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#notes-for-buddyworks-and-other-ci-platforms)
    * [Using ARM on Debian host](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-arm-on-debian)
    * [All in one script for ARM on Debian host](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#all-in-one-script-for-arm-on-debian-host)
    * [How to compile faster with WSL 2](How-to-compile-faster-with-WSL-2)
