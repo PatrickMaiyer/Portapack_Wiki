@@ -10,7 +10,7 @@ There are severals ways to compile the firmware. As the traditional way, check t
 
 [Using ARM on Debian host](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-arm-on-debian)
 
-[All in one script for ARM on Debian host](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#debian-setup-script-repository)
+[All in one script for ARM on Debian host](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#all-in-one-script-for-arm-on-debian-host)
 
 # Using Docker Hub and Kitematic
 
