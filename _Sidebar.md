@@ -93,7 +93,7 @@
    * [Using Buddyworks and other CI platforms](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-buddyworks-and-other-ci-platforms)
    * [Notes for Buddy.Works (and other CI platforms)](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#notes)
    * [Using ARM on Debian host](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-arm-on-debian)
-   * [All in one script for ARM on Debian host](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#debian-setup-script-repository)
+   * [All in one script for ARM on Debian host](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#all-in-one-script-for-arm-on-debian-host)
    * [How to compile faster with WSL 2](How-to-compile-faster-with-WSL-2)
 * Description of the Structure
    * [At First Glance](At-first-glance)
