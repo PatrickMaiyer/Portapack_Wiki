@@ -6,3 +6,5 @@ The easiest way to remove them is to clip the legs off, clean the pads carefully
 
 You can also find replacement caps for the tactile switches: https://www.aliexpress.com/item/1005001700437278.html
 
+Alternative caps for the switches: https://www.ebay.com/itm/284831256446
+
