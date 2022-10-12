@@ -87,8 +87,13 @@
    * [HackRF Mode](HackRF)
 * Additional Information
    * [Updating the CPLD](Updating-the-CPLD)
-## Developer Manual
-* [Compile From Source](Compile-firmware)
+* [Developer Manual](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware)
+   * [Using Docker and Kitematic](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-docker-hub-and-kitematic)
+   * [Docker command-line reference](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#docker---command-line-reference)
+   * [Using Buddyworks and other CI platforms](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-buddyworks-and-other-ci-platforms)
+   * [Notes for Buddy.Works (and other CI platforms)](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#notes)
+   * [Using ARM on Debian host](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-arm-on-debian)
+   * [All in one script for ARM on Debian host](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#debian-setup-script-repository)
    * [How to compile faster with WSL 2](How-to-compile-faster-with-WSL-2)
 * Description of the Structure
    * [At First Glance](At-first-glance)
