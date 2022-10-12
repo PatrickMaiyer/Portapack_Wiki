@@ -2,7 +2,6 @@
 ![Recon App Menu Entry](https://www.nilorea.net/wp-content/uploads/2022/10/MainScreen.png)
 
 # Introduction
-
 The Recon app is full rework of the Scanner app, offering different possibilities and customisations.
 
 Both are using all the frequencies in their hand and pause on a frequency when matching criteria (like modulation, amplitude,...)
@@ -22,10 +21,10 @@ You can check some demo videos at https://youtube.com/playlist?list=PL-tahIjVksD
 ## TODO first
 If you are launching the Recon app for the first time, chances are high that you do not have the wanted options selected by default.
 
-We highly encourage you to go and check what's under the 'OPT' button and get yourself used to the 'Main' and 'More' pages under it.
+We highly encourage you to go and check what's under the [OPT](https://github.com/GullCode/portapack-mayhem/wiki/Recon/_edit#opt-settings) button and get yourself used to the 'Main' and 'More' pages under it.
 
-### Common defaults options
-Go into OPT.
+## Common defaults options to set
+Go into [OPT](https://github.com/GullCode/portapack-mayhem/wiki/Recon/_edit#opt-settings)
 
 Main:
 
@@ -46,9 +45,9 @@ Buttons and information description, from top to bottom, and left to right. [NAM
 
 * [LNA] , [VGA] , [AMP] , [VOL] => gains, amplification on/off , volume
 
-* [BW] , [SQUELCH], [W],[L] => bandwidth for actual demod, squelch is the level of DB to match a signal, wait is the time we will stay on the frequency if it's matching lock_duration*nb_locks. If wait is a negative number, then it represent the time we are staying on a matched frequency waiting for new activity, and a new match during the wait reset the counters. L is the lock wait timer, representing the maximum time we stay on a freq waiting for a lock. The lock wait timer is adjusted to the smallest optimal value at app startup and after a OPT save. You may adjust it if needed.
+* [BW] , [SQUELCH], [W],[L] => bandwidth for actual demod, squelch is the level of DB needed to start to lock on a signal, W (wait after match) is the time we will stay on the frequency if it's reaching nb_locks during lock_wait (continously or sparsely). If wait is a negative number, then it represent the time we are staying on a matched frequency waiting for new activity, and a new lock during the wait restart the counters (you keep staying on it until a full wait without a lock is reached). L (lock_wait) is the lock wait timer, representing the maximum time we stay on a freq waiting for a lock. The lock wait timer is adjusted to the smallest optimal value at app startup and after a OPT save. You may adjust it to fit your needs.
 
-* XXX / XXX , XX db, XX/XX value , [OPT] => index of the current frequency in the loaded list, number of frequencies in the list, actual DB value, number of locks / number of needed locks for a match, the settings page
+* XXX / XXX , XX db, XX/XX value , [OPT] => index of the current frequency in the loaded list, number of frequencies in the list, actual DB value, number of locks / number of needed locks for a match, button to the settings page
 
 * FREQ: XXXX => Current frequency
 
@@ -86,13 +85,11 @@ One of the first two options have to be checked else nothing will be loaded at a
 * input: load ranges => allow load of ranges
 * input: load hamradios => allow load of ham radios
 * auto update m-ranges => if checked then the manual range start and stop values are updated using the actual searched range values. If it's actually searching a frequency, manual ranges are untouched
-* Lock duration => define lock duration in msec for a frequency lock to count 
-* Lock number => define number of consecutive locks needed to confirm a matching frequency
-* Lock duration => define a single lock duration 
-* Number of match => define the numbers of matching (db > squelch) locks to have a freq match
-* Match mode => Choose between Continuous and Sparse
+* Lock duration => define lock duration in msec for a single frequency lock to count 
+* Lock number => define number of consecutive locks needed to have a frequency match
+* Match mode => Choose between CONTINUOUS and SPARSE. If continuous, all locks are to be consecutive during lock_wait, if it's sparse then you have to reach nb_locks during lock_wait but not consecutively.
 
-# Recon / Search / Manual Search modes
+# Recon/Search/Manual
 When using the Recon app, 3 modes are accessibles. 
 
 You can switch from RECON to SEARCH using the GUI button, and to Manual search using the Manual-S button (just under the RECON/SEARCH button)
@@ -126,29 +123,33 @@ STORE and REMOVE are working on what you selected in "OPT/select output file" bu
 
 In that mode you have a single range as an input list, and an output file.
 
-# Color features for the wait / lock wait values
+# Color meaning for wait/lock_wait values
 * white => okay
 * yellow => may experience trouble on some situations 
 * red => nearly unusable
-* if lock wait is > 2 * (match_duration x nb_match) => white, normal
-* if lock wait >=  (match_duration x nb_match) &&  lock wait < (match_duration x nb_match) => yellow may experience trouble on some situations
-* if lock wait < (match_duration x nb_match)  => red nearly unusable
-* if wait it > 0 it's the time we are staying on a matching freq before skipping => white
-* if wait < 0 it's the time we are waiting for new activity before skipping. Any new activity (db>squelch) is resetting the timer to 'abs(wait)' => green
-* if wait == 0 it's recon mode. No wait after match. No audio start/stop. Matching freqs are auto saved according to the option in OPT => blue
 
-# Color features for main freq
+## Wait/lock Coloring conditions:
+
+* if lock wait is > 2 * (lock_duration x nb_locks) => wait is in white, everything should be normal
+* if lock wait >=  (lock_duration x nb_locks) &&  lock wait < (lock_duration x nb_locks) => wait value is in yellow, you may experience trouble on some situations
+* if lock wait < (lock_duration x nb_locks)  => wait value is in red, nearly unusable
+* if wait it > 0 it's the time we are staying on a matching freq before skipping => wait value is in white
+* if wait < 0 it's the time we are waiting for new activity before skipping. Any new activity (db>squelch) is resetting the timer to 'abs(wait)' => wait value is in green
+* if wait == 0 it's recon mode. No wait after match. No audio start/stop. Matching freqs are auto saved according to the option in OPT => wait value is in blue
+
+# Color meaning for main freq
 * white => pause / reading signal
-* yellow => got a match, trying to achieve a full lock 
-* green => during a search : locked , during a pause: current freq is matching squelch level
+* yellow => got a lock, trying to achieve a match (when we have nb_locks counted during lock_wait, continuously or sparsely)
+* green => during a search : locked , during a pause: current freq is matching squelch level and nb_locks have been reached
 
-# Wait (after lock) modes
+# Wait modes
+* wait is the timer started after a matched frequency
 * wait > 0 : after a lock stay on freq for 'wait' msecs before skipping to next
-* wait == 0 => immediately leave freq after a lock. Use in conjonction of autosave match option to make a quick map of matching frequencies
-* wait < 0 : after a lock stay on freq for 'wait' msecs before skipping to next, each new (db>squelch) match reset the counter to 'wait'
+* wait == 0 => immediately leave freq after a lock. Use in conjonction of autosave option to make a quick map of matching frequencies
+* wait < 0 : after a lock stay on freq for 'wait' msecs before skipping to next, each new lock (db>squelch) reset the counter to 'wait'
 
-# Match counts
-Match count is reset to 0 after using one of the following buttons:
+# Lock counts
+Lock count is reset to 0 after using one of the following buttons:
 
 * PAUSE 
 * FW,RW
@@ -157,17 +158,17 @@ Match count is reset to 0 after using one of the following buttons:
 
 # Matching modes
 ## Continuous
-* measurement is done in lock_duration msecs
-* at each lock loop if the mean db is > squelch, it's a match
-* it needs nb_match consecutive match to have a lock
-* if the lock_duration is too low according to your settings it's going to be coloured yellow / red
-* it's quicker because we do not wait lock_duration to get nb_match. It can also miss signals since it's rigorous
+* measurement is done in lock_wait msecs
+* at each loop if the mean db is > squelch, it's a lock
+* in that mode you need consecutive nb_locks to match a frequency
+* if the lock_wait is too low according to your settings it's going to be coloured yellow / red
+* it's quicker because we do not wait lock_wait to get nb_locks, it's matching as soon as the counter is reached. It can also miss signals since it's rigorous
 
 ## Sparse
-* measurement is done in lock_duration msecs
-* at each lock loop if the mean db is > squelch, it's a match
-* we need nb_match during  before lock_duration expires
-* it may take longer: any first match is going to trigger a delay of lock_duration, which wait until it reach 0 or nb_match is reached
+* measurement is done in lock_wait msecs
+* at each loop if the mean db is > squelch, it's a lock
+* we need nb_locks before lock_wait expires, but we can have some that are not matching, the lock_count is kept until nb_locks or the timer is set 
+* it may take longer: any first match is going to trigger a delay of lock_wait, which wait until it reach 0 or nb_locks is reached. It's less sensible to bad reception
 
 # Frequencies to scan
 The application parses `FREQMAN\RECON.TXT`  by default. If you set something else in the OPT menu under input, then the specified file will be used
@@ -260,15 +261,21 @@ The Recon app is using the old as the new format, taking informations when it ca
 * 5KHz , 6.25KHz , 8.33KHz , 9KHz , 10KHz , 12.5KHz , 15KHz , 25KHz , 50KHz , 100KHz , 250KHz , 500KHz , 1MHz
 
 # Workflow and tips
+Workflow:
+* Select an input an output file, adjust the settings in OPT while you're at it 
+* Start the RECON, match frequencies, add them to your output file using autosave or STORE button
+* Switch to SCANNER mode to refine your results
+
+Tips:
 * When a file is loaded and checkbox 'autostart searching' have been checked, the search is starting as soon as the apps open up, using last launch settings
 * If 'autostart searching' is not used, then at the app start the last input list is loaded and the search is set in pause on the first frequency of the list
 * To start a search using the input file, use the PAUSE/CONTINUE/RESTART or RST button
 * To start a search using the manual entry fields on the main screen, fill START/END and use the SEARCH button
 * The rotary encoder can be used on the PAUSE/CONTINUE/RESTART and START/END buttons to adjust the frequencies values
-* On a frequency match, if the focus is given to the PAUSE/CONTINUE/RESTART button, press the button or use the rotary encoder to allow you to continue the search. It allows you to go to next matching freq, and trough both direction, changing the search direction on the fly. Pressing the button while in frequency locked mode continue the search using actual direction
+* On a frequency match, if the focus is given to the PAUSE/CONTINUE/RESTART button, press the button or use the rotary encoder to allow you to continue the search. It allows you to go to next freq, and trough both direction, changing the search direction on the fly. Pressing the button while in frequency match (locked mode continue the search using actual direction
 * Recon app is doing it's best when using ranges
 * Use a low squelch value and step down little by little to start to catch stronger frequencies first. If you're using a too low squelch value then the search will stop on a lot of unwanted but matching criteria frequencies
-* Input and output file can be the same files. While it's not advised it can be useful in combination of the input loading options
+* Input and output file should not be the same files. While it's not advised it's working but you loose the ability to delete while in recon mode
 * Both STORE and autosave will save frequency with current searched frequency or range description, or "ADD FQ" if no description
 
 # Troubleshooting
