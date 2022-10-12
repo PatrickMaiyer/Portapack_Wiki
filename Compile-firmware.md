@@ -6,7 +6,7 @@ There are severals ways to compile the firmware. As the traditional way, check t
 
 [Using Buddyworks and other CI platforms](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-buddyworks-and-other-ci-platforms)
 
-[Notes for Buddy.Works (and other CI platforms)](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#notes)
+[Notes for Buddy.Works (and other CI platforms)](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#notes-for-buddyworks-and-other-ci-platforms)
 
 [Using ARM on Debian host](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-arm-on-debian)
 
