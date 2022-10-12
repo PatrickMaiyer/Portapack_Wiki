@@ -6,11 +6,11 @@ There are severals ways to compile the firmware. As the traditional way, check t
 
 [Using Buddyworks and other CI platforms](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-buddyworks-and-other-ci-platforms)
 
-[Notes](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#notes)
+[Notes for Buddy.Works (and other CI platforms)](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#notes)
 
 [Using ARM on Debian host](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-arm-on-debian)
 
-[Debian setup script repository](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#debian-setup-script-repository)
+[All in one script for ARM on Debian host](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#debian-setup-script-repository)
 
 # Using Docker Hub and Kitematic
 
@@ -121,7 +121,7 @@ You can use the following _yml _as your template for your CI platform (pipeline 
     `shell: "SH"
 ```
 
-## Notes
+## Notes for Buddy.Works (and other CI platforms)
 
 If you decide to [ignore this guide](https://github.com/eried/portapack-mayhem/issues/75) and use the command line instead, you will need to include submodules
 
@@ -199,6 +199,6 @@ some compiling errors to check it's better to call it without '-j 8')
 
     hackrf_spiflash -w /opt/portapack-mayhem/build/firmware/portapack-h1_h2-mayhem.bin
 
-# Debian setup script repository
+# All in one script for ARM on Debian host
 
 If you want to have all these commands in one go, go to https://github.com/GullCode/compile-flash-mayhem and download compile-flash-mayhem.sh  and adjust it to fit your needs 
