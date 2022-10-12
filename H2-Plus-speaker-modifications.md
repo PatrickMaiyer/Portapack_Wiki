@@ -1,3 +1,5 @@
+## Amplifier volume gain
+
 The H2+ Version R2, R3 and R4 uses an WM8731 Codec and supports a speaker using a dedicated Audio Amplifier INS8002e. This is a 3-watt amplifier and should give a high volume.
 
 The issue is that when the volume is at 50 (Default) it gives a good safe volume level in the headphones, but the speaker audio is unable to be heard unless you turn up the volume to 80+ on the volume setting and even then, the audio is low.
@@ -12,6 +14,8 @@ The replacement of the resistor is not easy, and then you need the skills and to
 
 ![Spearker Mod Resistor](https://user-images.githubusercontent.com/32274981/164781350-6f921fdd-5bfa-479f-8f2f-b3f520ee4c6e.jpg)
 
+
+## Silencing internal speaker when using audio jack
 
 In the H2+ R4 version the headphone jack switch is disabled. When a pair of headphones are plugged in the internal speaker is not disconnected.
 
