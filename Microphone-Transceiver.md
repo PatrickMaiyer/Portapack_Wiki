@@ -1,4 +1,4 @@
-Originally the Microphone App was created providing support to only Narrow Band FM Transmitter & Receiver in Half Duplex operation, 
+Originally the Microphone App was created providing only support to Narrow Band FM Transmitter & Receiver in Half Duplex operation, 
 like a walkie-talkie (two-way directional voice communication but one at a time). 
 
 But thanks to many great contributors , currently we are supporting multi voice analogue Modulation types : 
