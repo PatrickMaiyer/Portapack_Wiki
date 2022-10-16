@@ -12,11 +12,26 @@ But thanks to many great contributors , currently we are supporting multi voice 
 
 ## # Key Controls
 
-* **MIC. GAIN: **Cursor selection and use rotary encoder is used to select a fixed gain of x0.5, x1.0, x1.5, x2.0. The setting needs to be selected based, on the Microphone used which is connected via the Headset/ Microphone socket (standard smartphone 4 segment 3.5mm connector). The sensitivity of the microphone is shown on the lefthand side and should be configured so the range is green for most of the audio and never hits red to limit over deviation of the signal. That mic gain  adjustment is in fact a post scaling factor, of each captured mic voice data . Then ,that adjustment should be only used,to make mic gain fine tuning of the non distorted voice . But  if the captured data is already distorted ,  due to too much mic sensitivity , or to close mic-mouth distance, or too loud voice ,   the ADC  saturation , should be addressed by other means (ALC or Boost adjustment , or increasing mic-mounth cms distance , or reduce the voice loudness.  
+* **MIC. GAIN:** Cursor selection and use rotary encoder is used to select a fixed gain of x0.5, x1.0, x1.5, x2.0. The setting needs to be selected based, on the Microphone used which is connected via the Headset/ Microphone socket (standard smartphone 4 segment 3.5mm connector). The sensitivity of the microphone is shown on the lefthand side and should be configured so the range is green for most of the audio and never hits red to limit over deviation of the signal. That mic gain  adjustment is in fact a post scaling by above factors (x0.5, x1.0, x1.5, x2.0) , of each captured mic voice data . Then ,that adjustment should be only used,to make mic gain fine tuning of the non distorted voice . But  if the captured data is already distorted ,  due to too much mic sensitivity , or to close mic-mouth distance, or too loud voice ,   the ADC  saturation , should be addressed by other means (ALC or Boost adjustment (*1) , or increasing mic-mounth cms distance , or reduce the voice loudness.)  
+
+* Automatic mic Level Control (ALC) and Boost mic adjustment (*1) : 
+
+ * **ALC Automatic mic volume Level Control** (in the Portapack board that uses AK4951 audio codec platform) : (pending to be updated)
+
+* ![image](https://user-images.githubusercontent.com/86470699/196059046-c706dc55-53da-4a47-9fb1-15b89d070319.png)
+
+ 
+
+ 
+
+ * **Boost mic** (in the Portapack board that uses WM8731 audio codec platform) : (pending to be updated)
+ 
+* ![image](https://user-images.githubusercontent.com/86470699/196058857-0d4f2695-fde1-40eb-aa6e-9d6d5b9110e1.png)
+
 
 * **F:**  This field set the Frequency for the transmission.	
 
-* **BW:** This field sets the Band Width of the transmission under normal conditions from 0-150 kHz.
+* **FM TXBW:** This field sets the FM Band Width of the transmission under normal conditions from 0-150 kHz. (In fact, it is the +/- FM deviation in Khz .
 
 * **GAIN:** Is set for LNA(IF) and (0-47) and AMP 0dB or 14dB.Node mode is set to FM only.
 
