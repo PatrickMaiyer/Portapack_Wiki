@@ -16,7 +16,7 @@ But thanks to many great contributors , currently we are supporting multi voice 
 
 * Automatic mic Level Control (ALC) and Boost mic adjustment (*1) : 
 
- * **ALC Automatic mic volume Level Control** (in the Portapack board that uses AK4951 audio codec platform) : (pending to be updated)
+ * **ALC Automatic mic volume Level Control** (available in Portapack boards that uses AK4951 audio codec platform) : (pending to be updated)
 
 * ![image](https://user-images.githubusercontent.com/86470699/196059046-c706dc55-53da-4a47-9fb1-15b89d070319.png)
 
@@ -24,7 +24,7 @@ But thanks to many great contributors , currently we are supporting multi voice 
 
  
 
- * **Boost mic** (in the Portapack board that uses WM8731 audio codec platform) : (pending to be updated)
+ * **Boost mic** (in Portapack boards that uses WM8731 audio codec platform) : (pending to be updated)
  
 * ![image](https://user-images.githubusercontent.com/86470699/196058857-0d4f2695-fde1-40eb-aa6e-9d6d5b9110e1.png)
 
