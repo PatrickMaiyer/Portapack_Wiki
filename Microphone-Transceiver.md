@@ -7,7 +7,7 @@ But thanks to many great contributors , currently we are supporting multi voice 
 * Amplitude Modulation (AM), 
 * Upper Side Band (USB),
 * Low Side Band (LSB)
-* Double Side band with suppressed carrier (DSB). 
+* Double Side Band with suppressed carrier (DSB). 
 
 
 ## # Key Controls
@@ -47,7 +47,7 @@ But thanks to many great contributors , currently we are supporting multi voice 
 
 RX audio listening: The Tick box to select this item is difficult to select with cursor having to go down and up though item, and with some luck you may enable the box. It is better to select from the touch screen. If this is enabled then it will turn on the Audio Receiver and with the following setting will allow you to listen to a receive channel when not transmitting. The TX-RX timing gap is not known. The frequency can be set separately to that of the transmitter section above. The following setting can be applied to the receiver.
 
-* **FM RX BW:** The is the narrow band FM Receiver Band Width setting. It can be set to either 8k5kHz,11Khz or 16kHz.
+* **FM RX BW:** The is the narrow band FM Receiver Bandwidth setting. It can be set to either 8k5kHz,11Khz or 16kHz.
 
 * **F:** The frequency can be set in the usual way with text pad when selected
 
