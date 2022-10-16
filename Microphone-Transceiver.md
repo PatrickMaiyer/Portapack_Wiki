@@ -1,4 +1,14 @@
-The Microphone App provides a Narrow band  FM  transmitter application, that allows the transmission of voice and when not transmitting allows you to receive in a simplex way. 
+Originally the Microphone App was created providing support to only Narrow Band FM Transmitter & Receiver in Half Duplex operation, 
+like a walkie-talkie (two-way directional voice communication but one at a time). 
+
+But thanks to many great contributors , currently we are supporting multi voice analogue Modulation types : 
+* Narrow band FM (NBFM), 
+* Wide band FM (WBFM), 
+* Amplitude Modulation (AM), 
+* Upper Side Band (USB),
+* Low Side Band (LSB)
+* Double Side band with suppressed carrier (DSB). 
+
 
 ## # Key Controls
 
