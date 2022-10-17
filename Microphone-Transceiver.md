@@ -14,9 +14,9 @@ But thanks to many great contributors , currently we are supporting multi voice 
 
 * **MIC. GAIN:** Cursor selection and use rotary encoder is used to select a fixed gain of x0.5, x1.0, x1.5, x2.0. The setting needs to be selected based, on the Microphone used which is connected via the Headset/ Microphone socket (standard smartphone 4 segment 3.5mm connector). The sensitivity of the microphone is shown on the lefthand side and should be configured so the range is green for most of the audio and never hits red to limit over deviation of the signal. That mic gain  adjustment is in fact a post scaling by above factors (x0.5, x1.0, x1.5, x2.0) , of each captured mic voice data . Then ,that adjustment should be only used,to make mic gain fine tuning of the non distorted voice . But  if the captured data is already distorted ,  due to too much mic sensitivity , or to close mic-mouth distance, or too loud voice ,   the ADC  saturation , should be addressed by other means (ALC or Boost adjustment (*1) , or increasing mic-mounth cms distance , or reducing the voice loudness.)  
 
-**Automatic mic Level Control (ALC) or Boost mic adjustment  :**     (*1) 
+**Automatic mic Level Control "ALC" (AK4951 sound codec IC)  or "Boost" pre-amplifier mic control adjustment (WM8731 audio codec IC) :**     (*1) 
 
-To avoid mic ADC saturation (and consequently harmonic radiation), and adapt better to your needs , depending on the mic type sensitivity , and the distance mic-mouth from the speaker , and the user voice loudness ... we should set up the best ALC or Boost option (checking that he mic sound Vumeter < 80 - 90% )
+To avoid mic ADC saturation (and consequently spectrum harmonics radiation), and adapt better to your needs , depending on the mic type sensitivity , and the distance mic-mouth from the speaker , and the user voice loudness ... we should set up the best ALC or Boost option (checking that he mic sound Vumeter < 80 - 90% )
 
 1.  * **ALC Automatic mic volume Level Control** (available in Portapack boards that uses AK4951 audio codec platform) : 
 With those "ALC" GUI options, user can adjust from +12 dB's to -12 dB's mic gain.
