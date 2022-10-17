@@ -29,7 +29,8 @@ We tried to use and combine several nice programmable digital features, like , A
 Ex. +12dB-6Khz , means activated ALC with maximum gain of 12dB’s and with digital Low Pass Filter of 6kHz .
 
 * ![image](https://user-images.githubusercontent.com/86470699/196059046-c706dc55-53da-4a47-9fb1-15b89d070319.png)
-![image](https://user-images.githubusercontent.com/86470699/196286799-2ae86434-6e69-494c-9ec8-146acea72065.png)
+![image](https://user-images.githubusercontent.com/86470699/196291161-b456a257-587d-42fc-8457-ee180c82ac83.png)
+
 
 
 
