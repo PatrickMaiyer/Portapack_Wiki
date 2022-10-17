@@ -19,7 +19,8 @@ But thanks to many great contributors , currently we are supporting multi voice 
  * **ALC Automatic mic volume Level Control** (available in Portapack boards that uses AK4951 audio codec platform) : 
 
 * ![image](https://user-images.githubusercontent.com/86470699/196059046-c706dc55-53da-4a47-9fb1-15b89d070319.png)
-![image](https://user-images.githubusercontent.com/86470699/196285867-4bf0d64a-6211-4345-8cf9-514614a22ea7.png)
+![image](https://user-images.githubusercontent.com/86470699/196286799-2ae86434-6e69-494c-9ec8-146acea72065.png)
+
 
 
  
