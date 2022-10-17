@@ -38,9 +38,10 @@ Ex. +12dB-6Khz , means activated ALC with maximum gain of 12dB’s and with digi
 
  
 
-2.  * **Boost mic** (in Portapack boards that uses WM8731 audio codec platform) : 
-With those "Boost· GUI options, user can adjust from +12 dB's to -08 dB's mic gain. 
-  we added five user "**Boost**" options , activating on/off , the  mic-boost pre-amplifier (+20 dB's) and playing with internal captured data, to allow smaller steps. We recommend to use the pre-amplifier boost on , only when we are using low sensitivity mics or when we keep speaking >15 cms distance to the mic  :
+2.  * **Boost mic** (in Portapack boards that uses WM8731 audio codec platform) :
+ 
+With those "Boost· GUI options, user can adjust from +12 dB's to -08 dB's mic gain.
+We have added five user "**Boost**" options , activating on/off , the  mic-boost pre-amplifier (+20 dB's) and playing with internal captured data, to allow smaller steps. In order to avoid mic distortion,  We only  recommend to use the pre-amplifier boost on , when we are using low sensitivity mics or when we are keeping  some distance (example >15 cms) to the mic  :
  
 * ![image](https://user-images.githubusercontent.com/86470699/196058857-0d4f2695-fde1-40eb-aa6e-9d6d5b9110e1.png)
 ![image](https://user-images.githubusercontent.com/86470699/196281105-12c56760-a1d9-4fe2-a775-6fefcc5fccbc.png)
