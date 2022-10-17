@@ -14,9 +14,19 @@ But thanks to many great contributors , currently we are supporting multi voice 
 
 * **MIC. GAIN:** Cursor selection and use rotary encoder is used to select a fixed gain of x0.5, x1.0, x1.5, x2.0. The setting needs to be selected based, on the Microphone used which is connected via the Headset/ Microphone socket (standard smartphone 4 segment 3.5mm connector). The sensitivity of the microphone is shown on the lefthand side and should be configured so the range is green for most of the audio and never hits red to limit over deviation of the signal. That mic gain  adjustment is in fact a post scaling by above factors (x0.5, x1.0, x1.5, x2.0) , of each captured mic voice data . Then ,that adjustment should be only used,to make mic gain fine tuning of the non distorted voice . But  if the captured data is already distorted ,  due to too much mic sensitivity , or to close mic-mouth distance, or too loud voice ,   the ADC  saturation , should be addressed by other means (ALC or Boost adjustment (*1) , or increasing mic-mounth cms distance , or reduce the voice loudness.)  
 
-* Automatic mic Level Control (ALC) and Boost mic adjustment (*1) : 
+**Automatic mic Level Control (ALC) or Boost mic adjustment :** 
 
- * **ALC Automatic mic volume Level Control** (available in Portapack boards that uses AK4951 audio codec platform) : 
+To avoid mic ADC saturation (and consequently harmonic radiation), and adapt better to your needs , depending on the mic type sensitivity , and the distance mic-mouth from the speaker , and the user voice loudness ... we should set up the best ALC or Boost option (checking that he mic sound Vumeter < 80 - 90% )
+
+1.  * **ALC Automatic mic volume Level Control** (available in Portapack boards that uses AK4951 audio codec platform) : 
+With those "ALC" GUI options, user can adjust from +12 dB's to -12 dB's mic gain.
+For instance , if we want ,to talk , like handsfree mode , and pick up all the voices and sounds inside our room (from 50 cms till several meters distance from the mic, we can select +12 dB’s ) ,
+If we want to talk around 15 to 20 cms , we can select +0dB’s or -3dB’s depending on the loudness of our voice …
+If we want to avoid saturation when shouting , or talking touching the mic with the lips , you can reduce it til -9, -12 dB’s
+If you leave the default OFF settings , you will have exactly same Mic settings as in previous Mayhem FW versions <=1.4.3 , without activating any digital ALC block of in the AK4951.
+When we saiy , “OFF - 12Khz” it just means that the audio base band output from the IC 4951 has this initial max bandwith, but obviously ,later , when it is post-processed and used for modulation , it is also reduced it.
+We tried to use and combine several nice programmable digital features, like , ALC , Wind Nose Filter, LPF , and boosting peaking Equalizer, and also Pre-amp mic level.
+Ex. +12dB-6Khz , means activated ALC with maximum gain of 12dB’s and with digital Low Pass Filter of 6kHz .
 
 * ![image](https://user-images.githubusercontent.com/86470699/196059046-c706dc55-53da-4a47-9fb1-15b89d070319.png)
 ![image](https://user-images.githubusercontent.com/86470699/196286799-2ae86434-6e69-494c-9ec8-146acea72065.png)
@@ -27,8 +37,9 @@ But thanks to many great contributors , currently we are supporting multi voice 
 
  
 
- * **Boost mic** (in Portapack boards that uses WM8731 audio codec platform) : 
- To avoid mic ADC saturation , and adapt better to your needs , depending on the mic type sensitivity , and the distance mic-mouth from the speaker , and the  loud / soft voice energy ... we added five user "**Boost**" options , activating on/off , the  mic-boost pre-amplifier (+20 dB's) and playing with internal captured data, to allow smaller steps :
+2.  * **Boost mic** (in Portapack boards that uses WM8731 audio codec platform) : 
+With those "Boost· GUI options, user can adjust from +12 dB's to -08 dB's mic gain. 
+  we added five user "**Boost**" options , activating on/off , the  mic-boost pre-amplifier (+20 dB's) and playing with internal captured data, to allow smaller steps :
  
 * ![image](https://user-images.githubusercontent.com/86470699/196058857-0d4f2695-fde1-40eb-aa6e-9d6d5b9110e1.png)
 ![image](https://user-images.githubusercontent.com/86470699/196281105-12c56760-a1d9-4fe2-a775-6fefcc5fccbc.png)
