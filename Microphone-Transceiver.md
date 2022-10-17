@@ -24,9 +24,12 @@ But thanks to many great contributors , currently we are supporting multi voice 
 
  
 
- * **Boost mic** (in Portapack boards that uses WM8731 audio codec platform) : (pending to be updated)
+ * **Boost mic** (in Portapack boards that uses WM8731 audio codec platform) : 
+ To avoid mic ADC saturation , and adapt better to your needs , depending on the mic type sensitivity , and the distance mic-mouth from the speaker , and the  loud / soft voice energy ... we added five user "**Boost**" options , activating on/off , the  mic-boost pre-amplifier (+20 dB's) and playing with internal captured data, to allow smaller steps :
  
 * ![image](https://user-images.githubusercontent.com/86470699/196058857-0d4f2695-fde1-40eb-aa6e-9d6d5b9110e1.png)
+![image](https://user-images.githubusercontent.com/86470699/196281105-12c56760-a1d9-4fe2-a775-6fefcc5fccbc.png)
+
 
 
 * **F:**  This field set the Frequency for the transmission.	
