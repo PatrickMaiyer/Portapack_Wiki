@@ -16,7 +16,7 @@ But thanks to many great contributors , currently we are supporting multi voice 
 
 **Automatic mic Level Control "ALC" (AK4951 sound codec IC)  or "Boost" pre-amplifier mic control adjustment (WM8731 audio codec IC) :**     (*1) 
 
-To avoid mic ADC saturation (and consequently spectrum harmonics radiation), and adapt better to your needs , depending on the mic type sensitivity , and the distance mic-mouth from the speaker , and the user voice loudness ... we should set up the best ALC or Boost option (checking that the mic voice sound Vumeter is below 80-90% )
+To avoid mic ADC saturation (and consequently spectrum harmonics radiation), and adapt better to your needs , depending on the mic type sensitivity , and the distance mic-mouth from the speaker , and the user voice loudness ... we should set up the best ALC or Boost option (checking that the mic voice sound Vumeter (left mic volume peak bar indication)  is below 80-90% )
 
 1.  * **ALC Automatic mic volume Level Control** (available in Portapack boards that uses AK4951 audio codec platform) : 
 With those "ALC" GUI options, user can adjust from +12 dB's to -12 dB's mic gain.
