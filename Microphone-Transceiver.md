@@ -51,7 +51,9 @@ With those "Boost· GUI options, user can adjust from +12 dB's to -08 dB's mic g
 
 * **FM TXBW:** This field sets the FM Band Width of the transmission under normal conditions from 0-150 kHz. (In fact, it is the +/- FM deviation in Khz .
 
-* **GAIN:** Is set for LNA(IF) and (0-47) and AMP 0dB or 14dB.Node mode is set to FM only.
+* **GAIN:** Is set for LNA(IF) and (0-47) 
+
+* **AMP:** 0dB or 14dB.Node mode is set to FM only.
 
 * **TX Activation:**    Field can be selected for one of three settings. Off, PTT, AUTO. In the PTT setting, the PortaPack will transmit when the TX button and the bottom of the App screen is pressed on the touch screen.  In AUTO the Receiver section below is not active, but the triggering is set by the following 3 settings.
 
