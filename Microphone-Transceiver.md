@@ -84,25 +84,25 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 * **MOD:**  to set the selecteed  analogue modulation type :  NFM-FM // WFM // AM // USB // LSB // DSB 
 
-* Narrow band FM (NFM-FM) TX ,and supporting NFM-FM RX : BW: 8K5 (8K50F3E) , 11Khz (11M3F3E) ,and FM RX BW :16Khz (16K0F3E)
+> * Narrow band FM (NFM-FM) TX ,and supporting NFM-FM RX : BW: 8K5 (8K50F3E) , 11Khz (11M3F3E) ,and FM RX BW :16Khz (16K0F3E)
 
-* Wide band FM (WBFM) TX ,  and  supporting WFM RX of the following BW: 200kHz (Emissions Designator 200KF3E)
+> * Wide band FM (WBFM) TX ,  and  supporting WFM RX of the following BW: 200kHz (Emissions Designator 200KF3E)
 
-* Amplitude Modulation (AM) TX ,supporting AM RX with BW : 6 kHZ (covering both simultaneous side lateral bands) (AM6K00A3E)
- 
-* Upper Side Band (USB) TX , supporting USB RX with BW : 3kHZ (SSB3K00J3E)
+> * Amplitude Modulation (AM) TX ,supporting AM RX with BW : 6 kHZ (covering both simultaneous side lateral bands) (AM6K00A3E)
+>  
+> * Upper Side Band (USB) TX , supporting USB RX with BW : 3kHZ (SSB3K00J3E)
 
-* Low Side Band (LSB) TX, supporting USB RX with BW : 3kHZ (SSB3K00J3E)
+> * Low Side Band (LSB) TX, supporting USB RX with BW : 3kHZ (SSB3K00J3E)
 
-* Double Side Band with suppressed carrier (DSB), supporting DSB RX with BW : 6 kHZ (covering both simultaneous side lateral bands)  
+> * Double Side Band with suppressed carrier (DSB), supporting DSB RX with BW : 6 kHZ (covering both simultaneous side lateral bands)  
 
 * **TX Activation:**    Field can be selected for one of three settings. Off, PTT, AUTO. In the PTT setting, the PortaPack will transmit when the TX button and the bottom of the App screen is pressed on the touch screen.  In AUTO the Receiver section below is not active, but the triggering is set by the following 3 settings.
 
-* **LVL:**  The level that triggers the transmission is set by the audio level going over the threshold value set (0-255). This can be seen as a grey dash marked next to the vu-meter and shows its current setting compared to the microphone level.
+> * **LVL:**  The level that triggers the transmission is set by the audio level going over the threshold value set (0-255). This can be seen as a grey dash marked next to the vu-meter and shows its current setting compared to the microphone level.
 
-* **ATT:** This is the attack time of the microphone audio level must be above the set threshold to start transmitting (0 to 999mS). Higher attack helps avoid false triggers but might cut off the first words you say.
+> * **ATT:** This is the attack time of the microphone audio level must be above the set threshold to start transmitting (0 to 999mS). Higher attack helps avoid false triggers but might cut off the first words you say.
 
-* **DEC:** This is the decay time of the microphone audio signal falls below the threshold level be for the transmission is stopped (0 to 9999mS). Lower decay avoids silence at the end of the message but might cut you off in the middle of a sentence. Adjust levels depending on your speaking habits.
+> * **DEC:** This is the decay time of the microphone audio signal falls below the threshold level be for the transmission is stopped (0 to 9999mS). Lower decay avoids silence at the end of the message but might cut you off in the middle of a sentence. Adjust levels depending on your speaking habits.
 
 * **TONE KEY:** The Tick box next to “Roger Beep” can be selected with effort with cursor or better to select with touch screen. This will add a roger bleep if enabled. Note the level of the Tone % compared to the Microphone setting is set in Options >Audio.
 
