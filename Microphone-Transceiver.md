@@ -82,7 +82,7 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 * **AMP:** 0dB or 14dB.Node 
 
-* **MOD:**  to set the selecteed  analogue modulation type : 
+* **MOD:**  to set the selecteed  analogue modulation type :  NFM-FM // WFM // AM // USB // LSB // DSB 
 
 * Narrow band FM (NFM-FM) TX ,and supporting NFM-FM RX : BW: 8K5 (8K50F3E) , 11Khz (11M3F3E) ,and FM RX BW :16Khz (16K0F3E)
 
