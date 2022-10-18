@@ -16,6 +16,10 @@ But thanks to many great contributors , currently we are supporting multi voice 
 If you go to the "debug" -> peripherals menu , you will see which peripheral devices you can explore. And in the audio block icon , you will see the audio codec IC name , mounted on your Portapack board : AK4951 or WM8731.
 
 * ![image](https://user-images.githubusercontent.com/86470699/196535035-d618672a-c6b8-42cc-823a-3d429ed0621e.png)
+![image](https://user-images.githubusercontent.com/86470699/196536085-5e024d25-74c9-4415-948b-64ca311183c8.png)
+
+
+
 
 
 **Automatic mic Level Control "ALC" (AK4951 sound codec IC)  or "Boost" pre-amplifier mic control adjustment (WM8731 audio codec IC) :**     (*1) 
