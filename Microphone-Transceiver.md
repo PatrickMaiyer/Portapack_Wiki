@@ -82,7 +82,14 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 * **AMP:** 0dB or 14dB.Node 
 
-* **MOD:**  is the analogue modulation type .
+* **MOD:**  to set the selecteed  analogue modulation type : 
+
+Narrow band FM (NBFM) TX ,  and  supporting NFM-FM RX of the following BW: 8K5 (8K50F3E) , 11Khz (11M3F3E) ,and FM RX BW :16Khz (16K0F3E)
+,Wide band FM (WBFM) TX ,  and  supporting WFM RX of the following BW: 200kHz (Emissions Designator 200KF3E)
+,Amplitude Modulation (AM) TX ,supporting AM RX with BW : 6 kHZ (covering both simultaneous side lateral bands)  
+Upper Side Band (USB) TX , supporting USB RX with BW : 3kHZ 
+Low Side Band (LSB) TX, supporting USB RX with BW : 3kHZ 
+Double Side Band with suppressed carrier (DSB), supporting DSB RX with BW : 6 kHZ (covering both simultaneous side lateral bands)  
 
 * **TX Activation:**    Field can be selected for one of three settings. Off, PTT, AUTO. In the PTT setting, the PortaPack will transmit when the TX button and the bottom of the App screen is pressed on the touch screen.  In AUTO the Receiver section below is not active, but the triggering is set by the following 3 settings.
 
