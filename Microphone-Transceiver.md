@@ -34,10 +34,15 @@ If you wnat to know the audio codec IC of your device , you do not need to dissa
 
 **Automatic mic Level Control "ALC" (AK4951 sound codec IC)  or "Boost" pre-amplifier mic control adjustment (WM8731 audio codec IC) :**     (*1) 
 
-To avoid mic ADC saturation (and consequently spectrum harmonics radiation), we introduced ALC and  Boost options control.
-![image](https://user-images.githubusercontent.com/86470699/196547451-91bc4b30-ae66-4506-b8a8-490d280f79da.png)
+To minimize that mic ADC saturation (and consequently, audio distortion , and  spectrum harmonics radiation), we introduced ALC and Boost options control.
+* ![image](https://user-images.githubusercontent.com/86470699/196547451-91bc4b30-ae66-4506-b8a8-490d280f79da.png)
+![image](https://user-images.githubusercontent.com/86470699/196548467-50852c3b-e4e5-47c4-b047-6efb7b0d6dea.png)
+
 
 With proper adjustment , we can solve that mic ADC saturation, and adapt correctly to our  mic gain sensitivity , and the distance mic-mouth from the speaker , and the user voice loudness ... That proper settings , can be done, selecting the best ALC or Boost option (checking that the mic voice sound Vumeter (left mic volume peak bar indication)  is below 80-90%, in the green area, see annexed pictures )
+(example LSB with low modulation index)
+
+
 
 1.  * **ALC Automatic mic volume Level Control** (available in Portapack boards that uses AK4951 audio codec platform) : 
 With those "ALC" GUI options, user can adjust from +12 dB's to -12 dB's mic gain.
