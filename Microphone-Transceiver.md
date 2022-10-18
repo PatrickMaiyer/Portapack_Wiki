@@ -43,7 +43,7 @@ Ex. +12dB-6Khz , means activated ALC with maximum gain of 12dB’s and with digi
 With those "Boost· GUI options, user can adjust from +12 dB's to -08 dB's mic gain.
 We have added five user "**Boost**" options , activating on/off , the  mic-boost pre-amplifier (+20 dB's) and playing with internal captured data, to allow smaller steps. In order to avoid mic distortion,  We only  recommend to use the pre-amplifier boost on , when we are using low sensitivity mics or when we are keeping  some distance (example >15 cms) to the mic  :
  
-* ![image](https://user-images.githubusercontent.com/86470699/196058857-0d4f2695-fde1-40eb-aa6e-9d6d5b9110e1.png)
+* ![image](https://user-images.githubusercontent.com/86470699/196534083-4bdb19f8-4c8c-40e8-a587-d328b2d8c8c4.png)
 ![image](https://user-images.githubusercontent.com/86470699/196281105-12c56760-a1d9-4fe2-a775-6fefcc5fccbc.png)
 
 
