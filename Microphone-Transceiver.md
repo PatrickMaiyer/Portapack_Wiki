@@ -68,7 +68,7 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 * **F:**  This field set the Frequency for the transmission.	
 
-* **FM TXBW:** This field sets the FM Band Width of the transmission under normal conditions from 0-150 kHz. (In fact, it is the +/- FM deviation in Khz .
+* **FM TXBW:** This field sets the FM Band Width of the transmission under normal conditions from 0-150 kHz. (In fact, it is the +/- FM deviation in Khz.)
 
 * **GAIN:** Is set for LNA(IF) and (0-47) 
 
