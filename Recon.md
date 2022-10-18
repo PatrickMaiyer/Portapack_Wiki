@@ -241,7 +241,7 @@ The Recon app is using the old as the new format, taking informations when it ca
 
 `a=87000000,b=110000000,m=AM,bw=DSB,s=250KHz,d=AM radio search LSB`
 
-`a=87000000,b=110000000,m=WFM,bw=16k,s=50KHz,d=WFM radio search s=50KHz`
+`a=87000000,b=110000000,m=WFM,bw=200k,s=50KHz,d=WFM radio search s=50KHz`
 
 `r=430150000,t=430550000`
 
@@ -254,7 +254,7 @@ The Recon app is using the old as the new format, taking informations when it ca
 
 * AM  ( DSB , USB , LSB , CW )
 * NFM ( 8k5 , 11k , 16k )
-* WFM ( 16k )
+* WFM ( 200k )
 
 ## Possible values for Steps
 
