@@ -16,6 +16,9 @@ But thanks to many great contributors , currently we are supporting multi voice 
 
 
 * ![image](https://user-images.githubusercontent.com/86470699/196540348-cbee30a7-b4fb-4ba5-8242-b65fec585a9e.png)
+![image](https://user-images.githubusercontent.com/86470699/196541644-3fd9d7bd-7dfa-49c4-af0c-7be9ce7547d6.png)
+
+
 
 The sensitivity of the microphone is shown on the lefthand side and should be configured so the range is green for most of the audio and never hits red to limit over deviation of the signal. That mic gain  adjustment is in fact a post scaling by above factors (x0.5, x1.0, x1.5, x2.0) , of each captured mic voice data . Then ,that adjustment should be only used,to make mic gain fine tuning of the non distorted voice . But  if the captured data is already distorted ,  due to too much mic sensitivity , or to close mic-mouth distance, or too loud voice ,   the ADC  saturation , should be addressed by other means (ALC or Boost adjustment (*1) , or increasing mic-mounth cms distance , or reducing the voice loudness.)  
 If you go to the "debug" -> peripherals menu , you will see which peripheral devices you can explore. And in the audio block icon , you will see the audio codec IC name , mounted on your Portapack board : AK4951 or WM8731.
