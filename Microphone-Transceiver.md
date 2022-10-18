@@ -72,7 +72,9 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 * **GAIN:** Is set for LNA(IF) and (0-47) 
 
-* **AMP:** 0dB or 14dB.Node mode is set to FM only.
+* **AMP:** 0dB or 14dB.Node 
+
+* **MOD:**  is the analogue modulation type .
 
 * **TX Activation:**    Field can be selected for one of three settings. Off, PTT, AUTO. In the PTT setting, the PortaPack will transmit when the TX button and the bottom of the App screen is pressed on the touch screen.  In AUTO the Receiver section below is not active, but the triggering is set by the following 3 settings.
 
