@@ -84,7 +84,7 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 * **MOD:**  to set the selecteed  analogue modulation type : 
 
-Narrow band FM (NBFM) TX ,  and  supporting NFM-FM RX of the following BW: 8K5 (8K50F3E) , 11Khz (11M3F3E) ,and FM RX BW :16Khz (16K0F3E)
+Narrow band FM (NBFM) TX ,and supporting NFM-FM RX : BW: 8K5 (8K50F3E) , 11Khz (11M3F3E) ,and FM RX BW :16Khz (16K0F3E)
 ,Wide band FM (WBFM) TX ,  and  supporting WFM RX of the following BW: 200kHz (Emissions Designator 200KF3E)
 ,Amplitude Modulation (AM) TX ,supporting AM RX with BW : 6 kHZ (covering both simultaneous side lateral bands)  
 Upper Side Band (USB) TX , supporting USB RX with BW : 3kHZ 
