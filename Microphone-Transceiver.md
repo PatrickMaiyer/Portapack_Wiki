@@ -1,7 +1,7 @@
-In 2017 , Microphone App was created that excellent app by furrtek providing support to Narrow Band FM Transmitter + CTCSS  & Receiver in Half Duplex operation, like a walkie-talkie (two-way directional voice communication but one at a time). 
+In 2017 ,that excellent app :  Microphone App was created by furrtek providing support to Narrow Band FM Transmitter + CTCSS  & Receiver in Half Duplex operation, like a walkie-talkie (two-way directional voice communication but one at a time). 
 
-Later on , many great contributors  ,added a lot of nice functionalities , 
-and  currently we are supporting multi voice analogue Modulation types in half duplex TX / RX, highly appreciated in the World ham amateur radio , and also widely used in HF , VHF maritime communications , UHF PMR446,...  :
+Later on ,as far as we could see ,  many great sw developpers  contributed adding more nice functionalities , 
+and  currently we are supporting multi voice analogue Modulation types in half duplex TX / RX, highly appreciated in the World ham amateur radio , and also widely used in LF, HF , VHF, 2m band ,  maritime communications , UHF PMR446,...  :
  
 * Narrow band FM (NBFM), 
 * Wide band FM (WBFM), 
