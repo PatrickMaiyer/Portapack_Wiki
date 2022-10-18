@@ -115,6 +115,10 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 * **SQ:**  This can be set between 0 and 99 typically 50 is threshold.
 
-* **GAIN:** The gain setting of LNA(IF) (0-40) VGA(Baseband)(0-62) and AMP 0=0db or 1=14dB.
+* **GAIN:** The gain setting of LNA(IF) (0-40) 
+
+* **VGA:** (Baseband)(0-62) 
+
+* **AMP:**  0=0db or 1=14dB.
 
 Note this application while performing a transmit function  may well over deviate and generate unwanted harmonics.
