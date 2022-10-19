@@ -112,7 +112,11 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 * **Roger beep:**  This tick is activating and ending sequence of six consecutive digital synthesized audio tones , to indicate that the operator has concluded speaking. Note: that feature is not available in SSB modes (USB , LSB).
 
-* **FM RX BW:** The is the narrow band FM Receiver Bandwidth setting. It can be set to either 8k5kHz,11Khz or 16kHz.
+* **FM RX BW:** This GUI option , allows in NFM-FM mode to set up the receiver Bandwidth setting. It can be set to either 
+8k5kHz- NFM (delta FM deviation +/- 1,25 khz) , 
+11Khz-  NFM (delta FM deviation +/- 2,50 khz)
+16kHz-   FM (delta FM deviation +/- 5,0  khz).
+
 
 * **F:** The frequency can be set in the usual way with text pad when selected
 
