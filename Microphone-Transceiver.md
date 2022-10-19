@@ -41,7 +41,7 @@ If you want to know the audio codec IC of your Portapack board, you do not need 
 
 **Automatic mic Level Control "ALC" (AK4951 sound codec IC)  or "Boost" pre-amplifier mic control adjustment (WM8731 audio codec IC) :**     (*1) 
 
-To minimize that mic ADC saturation (and consequently, audio distortion , and  spectrum harmonics radiation), we introduced ALC and Boost options control.
+To minimize that mic ADC saturation (and consequently, audio distortion , and  spectrum harmonics radiation), we introduced ALC(AK4951)  and Boost(WM8731) options control.
 * ![image](https://user-images.githubusercontent.com/86470699/196547451-91bc4b30-ae66-4506-b8a8-490d280f79da.png)
 ![image](https://user-images.githubusercontent.com/86470699/196548467-50852c3b-e4e5-47c4-b047-6efb7b0d6dea.png)
 
