@@ -79,25 +79,25 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 * **FM TXBW:** This field sets the FM Band Width of the transmission under normal conditions from 0-150 kHz. (In fact, it is the +/- FM deviation in Khz.)
 
-* **GAIN:** Is set for LNA(IF) and (0-47) 
+* **GAIN:** Is set for TX LNA(IF) and (0-47) 
 
-* **AMP:** 0dB or 14dB.Node 
+* **AMP:** RF TX amplifier , 0dB or 14dB.Node 
 
-* **MOD:**  to set the selecteed  analogue modulation type :  NFM-FM // WFM // AM // USB // LSB // DSB 
+* **MOD:**  to set the selected  analogue TX & RX  modulation type :  NFM-FM // WFM // AM // USB // LSB // DSB 
 
 > * Narrow band FM (NFM-FM) TX ,and supporting NFM-FM RX : BW: 8K5 (8K50F3E) , 11Khz (11M3F3E) ,and FM RX BW :16Khz (16K0F3E)
 
 > * Wide band FM (WBFM) TX ,  and  supporting WFM RX of the following BW: 200kHz (Emissions Designator 200KF3E)
 
-> * Amplitude Modulation (AM) TX ,supporting AM RX with BW : 6 kHZ (covering both simultaneous side lateral bands) (AM6K00A3E)
+> * Amplitude Modulation (AM) TX ,supporting AM RX with BW : 6 kHZ (covering both side lateral bands) (AM-6K00A3E)
 >  
-> * Upper Side Band (USB) TX , supporting USB RX with BW : 3kHZ (SSB3K00J3E)
+> * Upper Side Band (USB) TX , supporting USB RX with BW : 3kHZ (SSB-3K00J3E)
 
-> * Low Side Band (LSB) TX, supporting USB RX with BW : 3kHZ (SSB3K00J3E)
+> * Low Side Band (LSB) TX, supporting USB RX with BW : 3kHZ (SSB-3K00J3E)
 
-> * Double Side Band with suppressed carrier (DSB), supporting DSB RX with BW : 6 kHZ (covering both simultaneous side lateral bands)  
+> * Double Side Band with suppressed carrier (DSB), supporting DSB RX with BW : 6 kHZ (covering both side lateral bands)  
 
-* **TX Activation:**    Field can be selected for one of three settings. Off, PTT, AUTO. In the PTT setting, the PortaPack will transmit when the TX button and the bottom of the App screen is pressed on the touch screen.  In AUTO the Receiver section below is not active, but the triggering is set by the following 3 settings.
+* **TX Activation:**    Field can be selected for one of three settings. Off, PTT, AUTO. In the PTT setting, the PortaPack will transmit when the TX button and the bottom of the App screen is pressed on the touch screen.  In AUTO the Receiver section below ("Rx audio listening")  is not available , but the triggering is set by the following 3 settings.
 
 > * **LVL:**  The level that triggers the transmission is set by the audio level going over the threshold value set (0-255). This can be seen as a grey dash marked next to the vu-meter and shows its current setting compared to the microphone level.
 
