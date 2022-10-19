@@ -119,14 +119,14 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 > * 16kHz -  FM (delta FM deviation +/- 5,0  khz)
 
 
-* **F:** The frequency can be set in the usual way with text pad when selected
+* **F:** The RX frequency can be set in the usual way with text pad when selected
 
 * **SQ:**  This can be set between 0 and 99 typically 50 is threshold.
 
-* **GAIN:** The gain setting of LNA(IF) (0-40) 
+* **GAIN:** The RX gain setting of LNA(IF) (0-40) 
 
-* **VGA:** (Baseband)(0-62) 
+* **VGA:** RX (Baseband)(0-62) 
 
-* **AMP:**  0=0db or 1=14dB.
+* **AMP:** RX LNA pre-amplifer  0=0db or 1=14dB.
 
 Note this application while performing a transmit function  may well over deviate and generate unwanted harmonics.
