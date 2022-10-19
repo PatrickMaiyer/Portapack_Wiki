@@ -14,17 +14,20 @@ And from Sept -2020, it was starting to support multi voice analogue Modulation 
 
 ## # Key Controls
 * **VU-meter:** Just launching that Mic App, the left side  peak audio  VU-meter is active, and you can con plug your head mic set and confirm its sensitivity and correct operation.
+The sensitivity of the microphone is shown on the lefthand side of the LCD screen,  and should be configured so the range is green for most of the audio and never hits red to limit over deviation of the signal.
 Note that feature is not working in RX, once we activate the below "Rx audio listen" - in TX mode, always works.
 
-* **MIC. GAIN:** Cursor selection and use rotary encoder is used to select a fixed gain of x0.5, x1.0, x1.5, x2.0. The setting needs to be selected based, on the Microphone used which is connected via the Headset/ Microphone socket (standard smartphone 4 segment 3.5mm connector). 
-
-
-* ![image](https://user-images.githubusercontent.com/86470699/196540348-cbee30a7-b4fb-4ba5-8242-b65fec585a9e.png)
+* ![image](https://user-images.githubusercontent.com/86470699/196791487-ac26671d-5e84-4374-8eef-5027f475ecdb.png)
+![image](https://user-images.githubusercontent.com/86470699/196540348-cbee30a7-b4fb-4ba5-8242-b65fec585a9e.png)
 ![image](https://user-images.githubusercontent.com/86470699/196541644-3fd9d7bd-7dfa-49c4-af0c-7be9ce7547d6.png)
 
 
 
-The sensitivity of the microphone is shown on the lefthand side of the LCD screen,  and should be configured so the range is green for most of the audio and never hits red to limit over deviation of the signal. That mic gain  adjustment is in fact a post scaling by above factors (x0.5, x1.0, x1.5, x2.0) , of each captured mic voice data . Then ,that adjustment should be only used,to make mic gain fine tuning of the non distorted voice . But  if the captured data is already distorted ,  due to too much mic sensitivity , or to close mic-mouth distance, or too loud voice ,   the ADC  saturation , should be addressed by other means (ALC or Boost adjustment (*1) , or increasing mic-mounth cms distance , or reducing the voice loudness.)  
+* **MIC. GAIN:** Cursor selection and use rotary encoder is used to select a fixed gain of x0.5, x1.0, x1.5, x2.0. The setting needs to be selected based, on the Microphone used which is connected via the Headset/ Microphone socket (standard smartphone 4 segment 3.5mm connector). 
+
+
+
+That mic gain  adjustment is in fact a post scaling by above factors (x0.5, x1.0, x1.5, x2.0) , of each captured mic voice data . Then ,that adjustment should be only used,to make mic gain fine tuning of the non distorted voice . But  if the captured data is already distorted ,  due to too much mic sensitivity , or to close mic-mouth distance, or too loud voice ,   the ADC  saturation , should be addressed by other means (ALC or Boost adjustment (*1) , or increasing mic-mounth cms distance , or reducing the voice loudness.)  
 
 If you want to know the audio codec IC of your device , you do not need to dissassembly the boards, just go to the  "debug" -> peripherals menu , and you will see which peripheral device, you can explore, looking its register map values. In the audio block icon , you will see the audio codec IC name , mounted on your Portapack board : AK4951 or WM8731.
 
