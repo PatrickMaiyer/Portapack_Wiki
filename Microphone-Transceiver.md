@@ -30,7 +30,7 @@ Note that feature is not working once we activate the below "Rx audio listen" ; 
 
 That mic gain  adjustment is in fact a post scaling by above factors (x0.5, x1.0, x1.5, x2.0) , of each captured mic voice data . Then ,that adjustment should be only used,to make mic gain fine tuning of the non distorted voice . But  if the captured data is already distorted ,  due to too much mic sensitivity , or to close mic-mouth distance, or too loud voice ,   the ADC  saturation , should be addressed by other means (ALC or Boost adjustment (*1) , or increasing mic-mounth cms distance , or reducing the voice loudness.)  
 
-If you want to know the audio codec IC of your device , you do not need to dissassembly the boards, just go to the  "debug" -> peripherals menu , and you will see which peripheral device, you can explore, looking its register map values. In the audio block icon , you will see the audio codec IC name , mounted on your Portapack board : AK4951 or WM8731. (see annexed photo of both two devices)
+If you want to know the audio codec IC of your Portapack board, you do not need to dissassembly the boards, just go to the  "debug" -> peripherals menu , and you will see which peripheral device, you can explore, looking its register map values. In the audio block icon , you will see the audio codec IC name , mounted on your Portapack board : AK4951 or WM8731. (see annexed photo of both two devices)
 
 * ![image](https://user-images.githubusercontent.com/86470699/196536085-5e024d25-74c9-4415-948b-64ca311183c8.png)
    ![image](https://user-images.githubusercontent.com/86470699/196536894-df0c02c9-8c0e-40f1-8ca3-ec31e0c99618.png)
