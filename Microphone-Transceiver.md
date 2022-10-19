@@ -13,6 +13,8 @@ And from Sept -2020, it was starting to support multi voice analogue Modulation 
 
 
 ## # Key Controls
+* **VU-meter:** Just launching that Mic App, the left side  peak audio  VU-meter is active, and you can con plug your head mic set and confirm its sensitivity and correct operation.
+Note that feature is not working in RX, once we activate the below "Rx audio listen" - in TX mode, always works.
 
 * **MIC. GAIN:** Cursor selection and use rotary encoder is used to select a fixed gain of x0.5, x1.0, x1.5, x2.0. The setting needs to be selected based, on the Microphone used which is connected via the Headset/ Microphone socket (standard smartphone 4 segment 3.5mm connector). 
 
