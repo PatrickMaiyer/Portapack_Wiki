@@ -110,7 +110,7 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 * **RX audio listening:** The Tick box to select this item is difficult to select with cursor having to go down and up though item, and with some luck you may enable the box. It is better to select from the touch screen. If this is enabled then it will turn on the Audio Receiver and with the following setting will allow you to listen to a receive channel when not transmitting. The TX-RX timing gap is not known. The frequency can be set separately to that of the transmitter section above. The following setting can be applied to the receiver.
 
-* **Roger beep:**  This tick is activating and ending sequence of six consecutive digital synthetise audio tones , to indicate that the operator has concluded speaking.
+* **Roger beep:**  This tick is activating and ending sequence of six consecutive digital synthesized audio tones , to indicate that the operator has concluded speaking.
 
 * **FM RX BW:** The is the narrow band FM Receiver Bandwidth setting. It can be set to either 8k5kHz,11Khz or 16kHz.
 
