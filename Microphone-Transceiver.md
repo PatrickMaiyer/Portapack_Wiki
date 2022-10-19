@@ -1,4 +1,4 @@
-Checking Portapack-Havoc repository , we can see , that this excellent app was initially developped by Furrtek in 2017 : 
+Checking Portapack-Havoc repository , we can see , that this excellent app was initially developped by Furrtek in 2017.
 * "**Microphone FM transmit with CTCSS**",   providing support to Narrow Band FM Transmitter + CTCSS  & Receiver in Half Duplex operation, like a walkie-talkie (two-way directional voice communication but one at a time). 
 
 Later on , thanks to many other great sw developpers , gradually it has been added many more nice functionalities (VOX control, Roger Beep,...) ,and improving it day by day ... 
