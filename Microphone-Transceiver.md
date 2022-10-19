@@ -2,8 +2,8 @@ Checking Portapack-Havoc repository , we can see , that this excellent app was d
 * "**Microphone FM transmit with CTCSS**",   providing support to Narrow Band FM Transmitter + CTCSS  & Receiver in Half Duplex operation, like a walkie-talkie (two-way directional voice communication but one at a time). 
 
 Later on , thanks to many other great sw developpers , gradually it has been added many more nice functionalities (VOX control, Roger Beep,...) ,and improving it day by day ... 
-And from Sept -2020, it was added the support of multi  analogue mic  Modulation types in half duplex TX / RX, highly appreciated in all ham amateur radio community ,  and widely used in LF, HF , VHF, 2m band ,  maritime communications , UHF PMR446,... 
-And since them we are currently supporting the followinng ones :
+And from Sept -2020, it was also added the support of multi  analogue mic  Modulation types in half duplex TX / RX, highly appreciated specially by all ham amateur radio community.  Those mod types are widely used in LF, HF , VHF, 2m band ,  maritime communications ,airport airband communications,  UHF PMR446,... 
+And since them we are currently supporting those following ones :
  
 * Narrow band FM (NBFM), 
 * Wide band FM (WBFM), 
