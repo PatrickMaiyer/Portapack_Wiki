@@ -1,4 +1,5 @@
-Checking Portapack-Havoc repository , we can see , that this excellent app was developped by Furrtek in 2017 , providing support to Narrow Band FM Transmitter + CTCSS  & Receiver in Half Duplex operation, like a walkie-talkie (two-way directional voice communication but one at a time). 
+Checking Portapack-Havoc repository , we can see , that this excellent app was developped by Furrtek in 2017 : 
+* "Microphone FM transmit with CTCSS",   providing support to Narrow Band FM Transmitter + CTCSS  & Receiver in Half Duplex operation, like a walkie-talkie (two-way directional voice communication but one at a time). 
 
 Later on , thanks to many other great sw developpers , gradually it has been added many more nice functionalities (VOX control, Roger Beep,...) ,and improving it day by day ... 
 And from Sept -2020, it was starting to support multi voice analogue Modulation types in half duplex TX / RX, highly appreciated in the ham amateur radio ,  and widely used in LF, HF , VHF, 2m band ,  maritime communications , UHF PMR446,... , and currently we are supporting the followinng ones :
@@ -23,7 +24,7 @@ And from Sept -2020, it was starting to support multi voice analogue Modulation 
 
 The sensitivity of the microphone is shown on the lefthand side of the LCD screen,  and should be configured so the range is green for most of the audio and never hits red to limit over deviation of the signal. That mic gain  adjustment is in fact a post scaling by above factors (x0.5, x1.0, x1.5, x2.0) , of each captured mic voice data . Then ,that adjustment should be only used,to make mic gain fine tuning of the non distorted voice . But  if the captured data is already distorted ,  due to too much mic sensitivity , or to close mic-mouth distance, or too loud voice ,   the ADC  saturation , should be addressed by other means (ALC or Boost adjustment (*1) , or increasing mic-mounth cms distance , or reducing the voice loudness.)  
 
-If you wnat to know the audio codec IC of your device , you do not need to dissassembly the boards, just go to the  "debug" -> peripherals menu , and you will see which peripheral device, you can explore, looking its register map values. In the audio block icon , you will see the audio codec IC name , mounted on your Portapack board : AK4951 or WM8731.
+If you want to know the audio codec IC of your device , you do not need to dissassembly the boards, just go to the  "debug" -> peripherals menu , and you will see which peripheral device, you can explore, looking its register map values. In the audio block icon , you will see the audio codec IC name , mounted on your Portapack board : AK4951 or WM8731.
 
 * ![image](https://user-images.githubusercontent.com/86470699/196536085-5e024d25-74c9-4415-948b-64ca311183c8.png)
    ![image](https://user-images.githubusercontent.com/86470699/196536894-df0c02c9-8c0e-40f1-8ca3-ec31e0c99618.png)
