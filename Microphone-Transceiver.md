@@ -81,7 +81,7 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 * **GAIN:** Is set for TX LNA(IF) and (0-47) 
 
-* **AMP:** RF TX amplifier , 0dB or 14dB.Node 
+* **AMP:** RF TX amplifier , 0dB or 14dB.
 
 * **MOD:**  to set the selected  analogue TX & RX  modulation type :  NFM-FM // WFM // AM // USB // LSB // DSB 
 
