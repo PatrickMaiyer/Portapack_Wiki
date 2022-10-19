@@ -103,7 +103,7 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 > * Double Side Band with suppressed carrier (DSB), supporting DSB RX with BW : 6 kHZ (covering both side lateral bands)  
 
-* **TX Activation:**    Field can be selected for one of three settings. Off, PTT, AUTO. In the PTT setting, the PortaPack will transmit when the TX button and the bottom of the App screen is pressed on the touch screen.  In AUTO the Receiver section below ("Rx audio listening")  is not available , but the triggering is set by the following 3 settings.
+* **TX Activation:**    Field can be selected for one of three settings. Off, PTT, AUTO. In the PTT setting, the PortaPack will transmit when the TX button and the bottom of the App screen is pressed on the touch screen. The AUTO is also known as a VOX control (automatic PTT transmission activated by voice). In AUTO the Receiver section below ("Rx audio listening")  is not available , but the triggering is set by the following 3 settings.
 
 > * **LVL:**  The level that triggers the transmission is set by the audio level going over the threshold value set (0-255). This can be seen as a grey dash marked next to the vu-meter and shows its current setting compared to the microphone level.
 
@@ -115,9 +115,11 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
  The Tick box next to “Roger Beep” can be selected with effort with cursor or better to select with touch screen. This will add a roger bleep if enabled. Note the level of the Tone % compared to the Microphone setting is set in Options >Audio.
 Note , that feature is only available in both FM modes (NFM-FM / WFM) .
 
+* **Roger beep:**  This tick is activating and ending sequence of six consecutive digital synthesized audio tones , to indicate that the operator has concluded speaking. Note: that feature is not available in SSB modes (USB , LSB)
+
 * **RX audio listening:** The Tick box to select this item is difficult to select with cursor having to go down and up though item, and with some luck you may enable the box. It is better to select from the touch screen. If this is enabled then it will turn on the Audio Receiver and with the following setting will allow you to listen to a receive channel when not transmitting. The TX-RX timing gap is not known. The frequency can be set separately to that of the transmitter section above. The following setting can be applied to the receiver.
 
-* **Roger beep:**  This tick is activating and ending sequence of six consecutive digital synthesized audio tones , to indicate that the operator has concluded speaking. Note: that feature is not available in SSB modes (USB , LSB).
+* **VOL :** Audio receiver volume control.
 
 * **FM RX BW:** This GUI option , allows in NFM-FM mode to set up the receiver Bandwidth setting. It can be set to either 
 
