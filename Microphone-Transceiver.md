@@ -15,7 +15,7 @@ And from Sept -2020, it was starting to support multi voice analogue Modulation 
 ## # Key Controls
 * **VU-meter:** Just launching that Mic App, the left side  peak audio  VU-meter is active, and you can con plug your head mic set and confirm its sensitivity and correct operation.
 The sensitivity of the microphone is shown on the lefthand side of the LCD screen,  and should be configured so the range is green for most of the audio and never hits red to limit over deviation of the signal.
-Note that feature is not working in RX, once we activate the below "Rx audio listen" - in TX mode, always works.
+Note that feature is not working once we activate the below "Rx audio listen" ; but when pressing PTT, in TX mode, always works.
 
 * ![image](https://user-images.githubusercontent.com/86470699/196791487-ac26671d-5e84-4374-8eef-5027f475ecdb.png)
 ![image](https://user-images.githubusercontent.com/86470699/196540348-cbee30a7-b4fb-4ba5-8242-b65fec585a9e.png)
