@@ -1,6 +1,6 @@
 Checking the commits history , in 2017 ,that excellent app :  Microphone App was created by furrtek, in his Portapack Havoc repository, providing support to Narrow Band FM Transmitter + CTCSS  & Receiver in Half Duplex operation, like a walkie-talkie (two-way directional voice communication but one at a time). 
 
-Later on ,thanks to many other great sw developpers ,it has been added many more nice functionalities ,and improving it day by day ... 
+Later on ,thanks to many other great sw developpers ,it has been added many more nice functionalities (VOX control, Roger Beep,...) ,and improving it day by day ... 
 And  currently we are supporting multi voice analogue Modulation types in half duplex TX / RX, highly appreciated in the ham amateur radio ,  and widely used in LF, HF , VHF, 2m band ,  maritime communications , UHF PMR446,...  :
  
 * Narrow band FM (NBFM), 
