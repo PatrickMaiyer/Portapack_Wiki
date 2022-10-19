@@ -46,7 +46,7 @@ To minimize that mic ADC saturation (and consequently, audio distortion , and  s
 ![image](https://user-images.githubusercontent.com/86470699/196548467-50852c3b-e4e5-47c4-b047-6efb7b0d6dea.png)
 
 
-With proper adjustment , we can almost solve that mic ADC saturation, and adapt correctly to our  mic gain sensitivity , and the distance mic-mouth from the speaker , and the user voice loudness ... That proper settings , can be done, selecting the best ALC or Boost option (checking that the mic voice sound Vumeter (left mic volume peak bar indication)  is below 80-90%, in the green area, see annexed pictures )
+With proper adjustment , we can solve that mic ADC saturation, and adapt correctly to our  mic gain sensitivity , and the distance mic-mouth from the speaker , and the user voice loudness ... That proper settings , can be done, selecting the best ALC or Boost option (checking that the mic voice sound Vumeter (left mic volume peak bar indication)  is below 80-90%, in the green area, see annexed pictures )
 (example LSB with low modulation index)
 
 
