@@ -123,9 +123,9 @@ Note , that feature is only available in both FM modes (NFM-FM / WFM) .
 
 * **FM RX BW:** This GUI option , allows in NFM-FM mode to set up the receiver Bandwidth setting. It can be set to either 
 
-> * 8k5kHz- NFM (delta FM deviation +/- 1,25 khz) 
-> * 11Khz - NFM (delta FM deviation +/- 2,50 khz)
-> * 16kHz -  FM (delta FM deviation +/- 5,0  khz)
+> * 8k5kHz- NFM (delta FM deviation +/- 1,25 khz, FM index modulation:0,4) 
+> * 11Khz - NFM (delta FM deviation +/- 2,50 khz, FM index modulation:0,75)
+> * 16kHz -  FM (delta FM deviation +/- 5,0  khz,  FM index modulation:5)
 
 
 * **F:** The RX frequency can be set in the usual way with text pad when selected
