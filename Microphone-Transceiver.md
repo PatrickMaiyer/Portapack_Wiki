@@ -112,7 +112,7 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 > * **DEC:** This is the decay time of the microphone audio signal falls below the threshold level be for the transmission is stopped (0 to 9999mS). Lower decay avoids silence at the end of the message but might cut you off in the middle of a sentence. Adjust levels depending on your speaking habits.
 
 * **TONE KEY (CTCSS) :** Continuous Tone-Coded Squelch System or CTCSS is one type of in-band signaling that is used to reduce the annoyance of listening to other users on a shared two-way radio communication channel, sometimes referred to as tone squelch.
- The Tick box next to “Roger Beep” can be selected with effort with cursor or better to select with touch screen. This will add a roger bleep if enabled. Note the level of the Tone % compared to the Microphone setting is set in Options >Audio.
+Note the level of the Tone % compared to the Microphone setting is set in Options >Audio.
 Note , that feature is only available in both FM modes (NFM-FM / WFM) .
 
 * **Roger beep:**  This tick is activating an ending sequence of six consecutive digital synthesized audio tones , to indicate that the operator has concluded speaking. Note: that feature is not available in SSB modes (USB , LSB)
