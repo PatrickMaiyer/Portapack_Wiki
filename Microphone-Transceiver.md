@@ -121,7 +121,8 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 * Note: that feature is not available in SSB modes (USB , LSB)
 
 * **RX audio listening:** The Tick box to select this item is difficult to select with cursor having to go down and up though item, and with some luck you may enable the box. It is better to select from the touch screen. If this is enabled then it will turn on the Audio Receiver and with the following setting will allow you to listen to a receive channel when not transmitting. The TX-RX timing gap is not known. The frequency can be set separately to that of the transmitter section above. The following setting can be applied to the receiver.
-Note : this feature is not available when we are in AUTO VOX control .
+
+* Note : this feature is not available when we are in AUTO VOX control .
 
 * **VOL :** Audio receiver volume control.
 
