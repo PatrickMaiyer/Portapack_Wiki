@@ -113,9 +113,9 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 * **TONE KEY (CTCSS) :** Continuous Tone-Coded Squelch System or CTCSS is one type of in-band signaling that is used to reduce the annoyance of listening to other users on a shared two-way radio communication channel, sometimes referred to as tone squelch.
 
-Note1 the level of the Tone % compared to the Microphone setting is set in Options >Audio.
+* Note1 the level of the Tone % compared to the Microphone setting is set in Options >Audio.
 
-Note2, that feature is only available in both FM modes (NFM-FM / WFM).
+* Note2, that feature is only available in both FM modes (NFM-FM / WFM).
 
 * **Roger beep:**  This tick is activating an ending sequence of six consecutive digital synthesized audio tones , to indicate that the operator has concluded speaking. Note: that feature is not available in SSB modes (USB , LSB)
 
