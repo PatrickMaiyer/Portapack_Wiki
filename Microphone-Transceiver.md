@@ -99,7 +99,7 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 >  
 > * Upper Side Band (USB) TX , supporting USB RX with BW : 3kHZ (SSB-3K00J3E)
 
-> * Low Side Band (LSB) TX, supporting USB RX with BW : 3kHZ (SSB-3K00J3E)
+> * Lower Side Band (LSB) TX, supporting LSB RX with BW : 3kHZ (SSB-3K00J3E)
 
 > * Double Side Band with suppressed carrier (DSB), supporting DSB RX with BW : 6 kHZ (covering both side lateral bands)  
 
