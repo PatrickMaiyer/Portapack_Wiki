@@ -14,7 +14,7 @@ And since them we are currently supporting those following ones  (valid from , [
 
 
 ## # Key Controls
-* **VU-meter:** Just launching that Mic App, the left side  peak audio  VU-meter is active, and you can con plug your head mic set and confirm its sensitivity and correct operation.
+* **VU-meter:** Just launching that Mic App, the left side  peak audio  VU-meter is active, and you can plug your head mic set and confirm its sensitivity and correct operation.
 The sensitivity of the microphone is shown on the lefthand side of the LCD screen,  and should be configured so the range is green for most of the audio and never hits red to limit over deviation of the signal.
 Note that feature is not working once we activate the below "Rx audio listen" ; but when pressing PTT, in TX mode, always works.
 
