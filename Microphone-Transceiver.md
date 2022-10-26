@@ -5,7 +5,7 @@ Later on , thanks to many other great sw developpers , gradually it has been add
 And from Sept -2020, it was also added the support of multi  analogue mic  Modulation types in half duplex TX / RX, highly appreciated specially by all ham amateur radio community.  Those mod types are widely used in LF, HF , VHF, 2m band ,  maritime communications ,airport airband communications,  UHF PMR446,... 
 And since them we are currently supporting those following ones  (valid from , [Nightly Release - 2022-10-17](https://github.com/eried/portapack-mayhem/releases/tag/nightly-tag-2022-10-17) onwards) :
  
-* Narrow band FM (NBFM), 
+* Narrow and normal band FM (NBFM/FM), 
 * Wide band FM (WBFM), 
 * Amplitude Modulation (AM), 
 * Upper Side Band (USB),
@@ -41,7 +41,7 @@ If you want to know the audio codec IC of your Portapack board, you do not need 
 
 **Automatic mic Level Control "ALC" (AK4951 sound codec IC)  or "Boost" pre-amplifier mic control adjustment (WM8731 audio codec IC) :**     (*1) 
 
-To minimize that mic ADC saturation (and consequently, audio distortion , and  spectrum harmonics radiation), we introduced ALC(AK4951)  and Boost(WM8731) options control.
+To minimize that mic ADC saturation (and consequently, audio distortion , and  spectrum harmonics radiation), we introduced ALC(AK4951)  and Boost(WM8731) control options.  
 * ![image](https://user-images.githubusercontent.com/86470699/196547451-91bc4b30-ae66-4506-b8a8-490d280f79da.png)
 ![image](https://user-images.githubusercontent.com/86470699/196548467-50852c3b-e4e5-47c4-b047-6efb7b0d6dea.png)
 
