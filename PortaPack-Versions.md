@@ -67,3 +67,9 @@ _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
 
 ## H3
 Uses custom close source firmware. **Not compatible with Mayhem. Do not buy or support as it's a scam**
+
+
+## H2 Plus (It is not "H2+" although they were made by same person)
+A clone of H3, Uses custom close source firmware([Ref.](https://user-images.githubusercontent.com/24917424/198536040-e573b98c-e327-4e69-9448-83cea52b02e3.jpg)). **Not compatible with Mayhem([Ref.](https://user-images.githubusercontent.com/24917424/198536040-e573b98c-e327-4e69-9448-83cea52b02e3.jpg)). Do not buy or support as it's a scam too.**
+![Ref.](https://user-images.githubusercontent.com/24917424/198536040-e573b98c-e327-4e69-9448-83cea52b02e3.jpg)
+
