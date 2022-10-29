@@ -10,7 +10,7 @@ And since them we are currently supporting those following ones  (valid from , [
 * Amplitude Modulation (AM), 
 * Upper Side Band (USB),
 * Low Side Band (LSB)
-* Double Side Band with suppressed carrier (DSB). 
+* Double Side Band with suppressed carrier (DSB-SC). 
 
 
 ## # Key Controls
