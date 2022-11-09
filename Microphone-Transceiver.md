@@ -141,6 +141,6 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 * **VGA:** RX (Baseband)(0-62) 
 
-* **AMP:** RX LNA pre-amplifer  0=0db or 1=14dB.
+* **AMP:** RX LNA pre-amplifer  0=0dB or 1=14dB.
 
 Note this application while performing a transmit function  may well over deviate and generate unwanted harmonics.
