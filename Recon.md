@@ -229,7 +229,7 @@ The Recon app is using the old as the new format, taking informations when it ca
 
 `f=468000000,m=WFM,d=Single Freq WFM`
 
-`f=468000000,m=AM,bw=DSB,d=Single Freq AM DSB`
+`f=468000000,m=AM,bw=DSB+9k,d=Single Freq AM DSB`
 
 `f=468000000,m=AM,bw=USB,d=Single Freq AM USB`
 
@@ -239,7 +239,7 @@ The Recon app is using the old as the new format, taking informations when it ca
 
 `a=87000000,b=110000000,m=AM,s=100KHz,d=AM radio search`
 
-`a=87000000,b=110000000,m=AM,bw=DSB,s=250KHz,d=AM radio search LSB`
+`a=87000000,b=110000000,m=AM,bw=DSB+9k,s=250KHz,d=AM radio search LSB`
 
 `a=87000000,b=110000000,m=WFM,bw=200k,s=50KHz,d=WFM radio search s=50KHz`
 
@@ -247,12 +247,12 @@ The Recon app is using the old as the new format, taking informations when it ca
 
 `r=430150000,t=430550000,d=HAM radio`
 
-`r=430150000,t=430550000,m=AM,bw=DSB,d=HAM radio`
+`r=430150000,t=430550000,m=AM,bw=DSB+9k,d=HAM radio`
 
 
 ## Possible values for modulation/bandwidth
 
-* AM  ( DSB , USB , LSB , CW )
+* AM  ( DSB+9k , DSB+6k , USB+3k , LSB-3k , CW )
 * NFM ( 8k5 , 11k , 16k )
 * WFM ( 200k )
 
@@ -297,4 +297,3 @@ A continuous search of 63H41M43S was run by user @vag3d, using the default anten
 Results: 8002 matching frequencies in the output list, and a consumption as following: 63:41:43 4.8659V 0.4191A 120.448Wh 24.796Ah
 
 The search results were having this form: f=14670000,d=R   10.0000>6000.0000 S  0.0050
-
