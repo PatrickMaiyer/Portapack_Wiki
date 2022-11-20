@@ -19,7 +19,7 @@ The application parses `FREQMAN\SCANNER.TXT`  by default. You can use the Freque
 Alternatively, you are able to manually input a scanning range "on the fly" by keying in START and END frequencies, while adjusting the STEP selector. 
 
 ### Modulation Mode
-You can select between **AM** (DSB+9k, DSB+6k, USB+3k, LSB-3k, CW), **NFM** and **WFM** modulation modes.
+You can select between **AM** (DSB 9k, DSB 6k, USB+3k, LSB-3k, CW), **NFM** and **WFM** modulation modes.
 
 ## Bottom Buttons
 
