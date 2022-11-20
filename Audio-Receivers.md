@@ -25,7 +25,7 @@ The Key Items on the App that can be seen or selected with the cursor and change
 
 * **Secondary Information:** This line provides associated information for the following items these are:
 
-    * **AM:** Bandwidth settings of DSB+9k, DSB+6, USB+3k, LSB-3k, CW. The Spectrum view is +/-20k.
+    * **AM:** Bandwidth settings of DSB 9k, DSB 6k, USB+3k, LSB-3k, CW. The Spectrum view is +/-20k.
     * **NFM:** Bandwidth Settings of 16k,11k,8k5. Note there is no setting for the more common 6k5 used in European Spectrum plans. Next item is SQ: which is shown in the format of 40/99 allow the noise squelch point to be set Between 0-99. Typically, around 40-50 is a good threshold.
     * **Gain:** The RF Amp settings. The Spectrum view is +/-20k.
     * **WFM:** There are no Secondary settings, The Spectrum view is +/-100k with a marker That may be changed (though seem the incorrect value).
