@@ -73,6 +73,6 @@ Uses custom close source firmware. **Not compatible with Mayhem. Do not buy or s
 A clone of H3, Uses custom close source firmware([Ref.](https://user-images.githubusercontent.com/24917424/198536040-e573b98c-e327-4e69-9448-83cea52b02e3.jpg)). **Not compatible with Mayhem([Ref.](https://user-images.githubusercontent.com/24917424/198536040-e573b98c-e327-4e69-9448-83cea52b02e3.jpg)). Do not buy or support as it's a scam too.**
 
 ## Maxgeek H2 
-Maxgeek H2 has an issue with a frozen application on their portapack. They have acknowledged that only their firmware works and open-source will not. **Not compatible with Mayhem![Ref.](https://user-images.githubusercontent.com/5009021/204222733-a82aa404-9949-4de3-b6b3-4265e7d81f32.jpg). Do not buy or support as it's a scam**
+Maxgeek H2 has an issue with a frozen application on their portapack. They have acknowledged that only their firmware works and open-source will not. **Not compatible with Mayhem!([Ref.](https://user-images.githubusercontent.com/5009021/204222733-a82aa404-9949-4de3-b6b3-4265e7d81f32.jpg)). Do not buy or support as it's a scam**
 
 
