@@ -4,14 +4,14 @@ There are many different versions of PortaPack, mainly due to Chinese’s Compan
 
  Version|Screen size|  AK4951 Codec|  WM8731 SSOP Codec|  WM8731L QFN Codec|  CPLD|  INS8002E Audio amp|  LTK8002D Audio amp|
 |----------|-------------|------|------|------|------|------|------|
-|[H1 R1](#H1(R1/R2))|2.4"||:heavy_check_mark:||QFP64|||
-|H1 R2|2.4"|:heavy_check_mark:|||QFP64|||
-|H2|3.2"|:heavy_check_mark:|||QFP64|||
-|H2 R1|3.2"|:heavy_check_mark:|||QFP64|||
-|H2 R2|3.2"||:heavy_check_mark:||QFP64|||
-|H2 R3|3.2"||:heavy_check_mark:||QFP100|:heavy_check_mark:||
-|H2 R4|3.2"|||:heavy_check_mark:|QFP100||:heavy_check_mark:|
-|H3|3.2"|:heavy_check_mark:|||QFP64|||
+|[H1 R1](#h1r1r2)|2.4"||:heavy_check_mark:||QFP64|||
+|[H1 R2](#h1r1r2)|2.4"|:heavy_check_mark:|||QFP64|||
+|[H2](#h2)|3.2"|:heavy_check_mark:|||QFP64|||
+|[H2 R1](#h2r1)|3.2"|:heavy_check_mark:|||QFP64|||
+|[H2 R2](#h2r2)|3.2"||:heavy_check_mark:||QFP64|||
+|[H2 R3](#h2r3)|3.2"||:heavy_check_mark:||QFP100|:heavy_check_mark:||
+|[H2 R4](#h2r4)|3.2"|||:heavy_check_mark:|QFP100||:heavy_check_mark:|
+|[H3](#h3)|3.2"|:heavy_check_mark:|||QFP64|||
 
 _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
  
