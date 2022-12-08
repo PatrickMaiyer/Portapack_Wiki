@@ -7,7 +7,7 @@ And since them we are currently supporting those following ones  (valid from , [
  
 * Narrow and normal band FM (NBFM/FM), 
 * Wide band FM (WBFM), 
-* Amplitude Modulation (AM), 
+* Double side band AM  with carrier,(DSB-C,AM), 
 * Upper Side Band (USB),
 * Low Side Band (LSB)
 * Double Side Band with suppressed carrier (DSB-SC). 
@@ -126,12 +126,24 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 * **VOL :** Audio receiver volume control.
 
-* **FM RX BW:** This GUI option , allows in NFM-FM mode to set up the receiver Bandwidth setting. It can be set to either 
+* **RX BW:** This GUI option , allows several analogue demodulation options :
+in NFM-FM mode to set up the receiver Bandwidth setting. It can be set to either 
 
 > * 8k5kHz- NFM (delta FM deviation +/- 1,25 khz, FM index modulation:0,4) 
 > * 11Khz - NFM (delta FM deviation +/- 2,50 khz, FM index modulation:0,75)
 > * 16kHz -  FM (delta FM deviation +/- 5,0  khz,  FM index modulation:1,6)
 
+In WFM
+* 200Khz FM bandwidth , for commercial FM stations.
+
+In AM 
+* DSB1 -9Khz, DSB2-6Khz bandwidth. 
+
+In USB , upper -3khz single side band.
+
+In LSB , lower +3khz single side band.
+
+In DSB-SC , we can select which SSB band to demodulate from both received (LSB, USB), in DSB-SC both side bands has the same modulated signal.
 
 * **F:** The RX frequency can be set in the usual way with text pad when selected
 
