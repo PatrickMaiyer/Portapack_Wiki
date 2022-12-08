@@ -140,9 +140,9 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 > In AM 
 > * DSB1 -9Khz, DSB2-6Khz bandwidth. 
 
-> In USB , upper -3khz single side band.
+> In USB , upper +3khz single side band.
 
-> In LSB , lower +3khz single side band.
+> In LSB , lower -3khz single side band.
 
 > In DSB-SC , we can select to demodulate any of both SSB bands (LSB, USB). In DSB-SC mod type , both side bands has exactly the same modulated content, but sometimes we may have more particular interference signals in one side than the other.  
 
