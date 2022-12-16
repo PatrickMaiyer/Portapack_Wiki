@@ -93,9 +93,3 @@ I also tried my best to make the code input variables self explanatory. But for 
 2. Enter your mapRightLon, which is your "Right Longitude"
 3. And enter your mapBottomLat, which is your "Bottom Latitude"
 These values are the ones you entered / KML uploaded at step 4 at section "Steps to create this custom map using Offline Map Maker". Also Note if your KML file has a lot of decimal points you should enter those exactly since I never tested a round off value but that doesn't mean you should too. 
-
-Hope this was/is helpful to those who was/is seeking for the guidance to create a large or clear map. BTW I used WSL 2 to compile this project, the how to can be found [here](https://github.com/eried/portapack-mayhem/wiki/How-to-compile-faster-with-WSL-2)
-
-Thanks to @eried for the assistance that he offered.
-
-Please note that these are steps that I used and worked for me on date of published, feel free to edit or PM @ TSpikX#8064 on Discord
