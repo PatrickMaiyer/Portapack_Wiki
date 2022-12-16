@@ -89,3 +89,8 @@ On my system it took 8 minutes, and 43 seconds to complete, this would vary base
 On the second compile, I made changes on the "ui_geomap.cpp" & "ui_geomap.hpp". These were no more that 25 lines of changes made collectively. And this was compiled in 3 seconds on my system.  
 
 ![image](https://user-images.githubusercontent.com/120348698/208150352-6bf5d73b-8329-4421-b783-796a2d36f359.png)
+
+## More Info on WSL 2? 
+Please refer to these official links form Microsoft:
+1. https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-3---enable-virtual-machine-feature
+2. https://learn.microsoft.com/en-us/windows/wsl/troubleshooting
