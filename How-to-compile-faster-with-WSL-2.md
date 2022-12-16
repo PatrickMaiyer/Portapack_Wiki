@@ -35,4 +35,57 @@ If it does not, then run: ```wsl --set-default-version 2``` followed by running 
 
 You can then set a network share up to your ```\\wsl$\Ubuntu\home\{username}\portapack-mayhem``` folder and continue to edit the files from within windows.
 
-_(This guide is a WIP, so I may have missed some steps that I will need to add. Let me know jLynx#7987)_
+## Errors While Compiling?
+If there were errors in the compiling aspect you can follow these steps.
+
+After Step 5 do this:
+
+**Step 5.1)** Open Ubuntu 
+
+![image](https://user-images.githubusercontent.com/120348698/208135792-cb7ce5a0-69d8-4f7f-badf-e85e23e7979b.png)
+
+**Step 5.2)**  Do a sudo git clone --recurse-submodules `sudo git clone --recurse-submodules https://github.com/eried/portapack-mayhem.git`
+
+![image](https://user-images.githubusercontent.com/120348698/208136532-cf06e226-adac-4f3e-a88a-fae287f82b7c.png)
+
+**Step 5.3)** Give permission for the portapack-mayhem directory to your user
+1. Run command `whoami`
+2. Run command `sudo chown -R my_user:my_usergroup /home/{username}/portapack-mayhem` (Note: Replace "my_user:my_usergroup" with the return from `"whoami"`)
+
+![image](https://user-images.githubusercontent.com/120348698/208140076-18e8fa05-e461-4e75-a41e-e49998cb0ee5.png)
+
+**Step 5.4)** Create "build" folder
+1. Run command `cd portapack-mayhem` 
+2. Run command `ls` (Note how there's no build folder)
+3. Run command `mkdir build`
+4. Run command `ls` (Note how a build folder is present)
+
+![image](https://user-images.githubusercontent.com/120348698/208140822-8b8885f0-4e5e-43e5-a58b-608a2748134f.png)
+
+## Prerequisites for Compiling 
+**Step 5.5)** Prevent `'python/r' not found` error
+1. Run command `git config --global core.autocrlf false`.
+
+Or omit the `false` to see it's status.
+
+![image](https://user-images.githubusercontent.com/120348698/208141889-dc6c3624-421d-46f3-83b4-30dffcd8c638.png)
+
+## Compile
+**Step 5.6)** 
+
+1. Run command `docker build -t portapack-dev -f dockerfile-nogit .`
+2. Run command `docker run -it -v ~/portapack-mayhem:/havoc portapack-dev`
+
+![image](https://user-images.githubusercontent.com/120348698/208147260-a4f1c98a-4881-493a-8f17-1942353bb826.png)
+
+![image](https://user-images.githubusercontent.com/120348698/208147358-85442b57-a2de-47e3-8d0e-23dd1df352f1.png)
+
+### Duration of the first compiling / building phase
+On my system it took 8 minutes, and 43 seconds to complete, this would vary based on your system's hardware and configurations 
+
+![image](https://user-images.githubusercontent.com/120348698/208148594-9014ef39-4afe-4b75-866d-24a448797802.png)
+
+### Duration of the second compiling / building phase
+On the second compile, I made changes on the "ui_geomap.cpp" & "ui_geomap.hpp". These were no more that 25 lines of changes made collectively. And this was compiled in 3 seconds on my system.  
+
+![image](https://user-images.githubusercontent.com/120348698/208150352-6bf5d73b-8329-4421-b783-796a2d36f359.png)
