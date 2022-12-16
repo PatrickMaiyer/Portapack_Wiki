@@ -95,6 +95,7 @@
    * [Using ARM on Debian host](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-arm-on-debian)
    * [All in one script for ARM on Debian host](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#all-in-one-script-for-arm-on-debian-host)
    * [How to compile faster with WSL 2](How-to-compile-faster-with-WSL-2)
+   * [Create a Custom Map with Offline Map Maker !](https://github.com/eried/portapack-mayhem/wiki/Create-a-Custom-Map-with-Offline-Map-Maker-!)
 * Description of the Structure
    * [At First Glance](At-first-glance)
    * [Boot Process](Boot-Process)
