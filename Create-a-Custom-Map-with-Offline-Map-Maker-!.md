@@ -3,6 +3,8 @@ This is guide to create a custom map for your PortaPack and NOT a custom map wit
 ## Who is this for?
 This may be useful to you if you find your area/region to be small or unclear.
 
+![image](https://user-images.githubusercontent.com/120348698/208253887-68d17bdc-1e5e-4f1f-9570-a0e78198b915.png)
+
 ## Steps to create this custom map using Offline Map Maker :
 1. Download Offline Map Maker via it's official website: https://www.allmapsoft.com/omm/index.html or by clicking this [link](https://www.allmapsoft.com/omm/download/omm_setup.exe)
 2. After running the install you would do the following:
