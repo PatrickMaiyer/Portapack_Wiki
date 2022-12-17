@@ -7,9 +7,9 @@ This may be useful to you if you find your area/region to be small or unclear.
 1. Download Offline Map Maker via it's official website: https://www.allmapsoft.com/omm/index.html or by clicking this [link](https://www.allmapsoft.com/omm/download/omm_setup.exe)
 2. After running the install you would do the following:
 
-![image](https://user-images.githubusercontent.com/120348698/207945316-083ba213-07fa-49a4-8ba5-7e9283fbb758.png)
+![image](https://user-images.githubusercontent.com/120348698/208249148-ae18960c-54fe-4f75-a1b2-42af54ce870e.png)
 
- 1. Select a Maps type in the left tree
+ 1. Select a Maps type in the left tree (Select maps with only 256 px, 256 px is the tile size. If you not seeing the 256 px, chances are that those without a px size is 256 by default. You can always check with [this site](https://www.allmapsoft.com/tilesample.html) if it's not shown on the GUI )
  2. Enter a task name, such like "newtask.omm".
  3. Define the zoom level scope. (Since we want the best clarity we would go with the highest zoom which is 13 in the free version, paid is 19. But 
     please note that higher zoom means bigger file size) 
