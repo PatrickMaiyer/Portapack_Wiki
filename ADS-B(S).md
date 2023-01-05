@@ -24,7 +24,7 @@ Transmit position: this is a tick box to enable the transmission of Alt. Lat. Lo
 
 ## Squawk Tab 
 * **Transmit squawk:** This is a tick box to turn on the transmission of the [Squawk](https://en.wikipedia.org/wiki/List_of_transponder_codes) code. 
-* **Squark:** This can be selected with rotary encoder and has specific meanings. The system identifies an aircraft through a four-digit octal number. (each digit number from 0-7), which provides up to 4.096 possilbe codes.  The squawk code is from 0-7777.   https://en.wikipedia.org/wiki/List_of_transponder_codes
+* **Squawk:** This can be selected with rotary encoder and has specific meanings. The system identifies an aircraft through a four-digit octal number. (each digit number from 0-7), which provides up to 4.096 possilbe codes.  The squawk code is from 0-7777.   https://en.wikipedia.org/wiki/List_of_transponder_codes
 
 ## Common to all Tabs 
 * **Frequency:** At the lower part of the App is the Frequency setting. This is stored in persistent memory 
