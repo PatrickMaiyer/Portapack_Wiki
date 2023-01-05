@@ -18,8 +18,9 @@ Transmit position: this is a tick box to enable the transmission of Alt. Lat. Lo
 
 ## Speed Tab
 * **Transmit speed:** This is a tick box to turn on the transmission of the speed. 
-* **Speed:** The value is selected and the rotary encoder is used to select the value 0-999km.
-* **Bearing:** The value is selected and the rotary encoder is used to select the value 0-999km. 0-359 Degrees.
+* **Speed:** The value is selected and the rotary encoder is used to select the value 0-999kn, unit: knots.
+* **Bearing:** The value is selected and the rotary encoder is used to select the value 0-999kn. 0-359 Degrees.
+* **Vertical Rate:** The value is selected and the rotary encoder is used to select the value -4096 to +4096 ft/min in steps of 64 (following the encoding standard). It indicates the vertical rate speed of the plane (+) climbing , (-) descending. In real plane ,that Vr source information can come from GNSS or Barometric altitude equipment. In mayhem fw , we are simulating a fix source from GNSS.
 
 ## Squark Tab 
 * **Transmit squark:** This is a tick box to turn on the transmission of the [Squark](https://en.wikipedia.org/wiki/List_of_transponder_codes) code. 
