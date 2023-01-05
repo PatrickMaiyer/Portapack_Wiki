@@ -20,11 +20,20 @@ Transmit position: this is a tick box to enable the transmission of Alt. Lat. Lo
 * **Transmit speed:** This is a tick box to turn on the transmission of the speed. 
 * **Speed:** The value is selected and the rotary encoder is used to select the value 0-999kn, unit: knots.
 * **Bearing:** The value is selected and the rotary encoder is used to select the value 0-999kn. 0-359 Degrees.
-* **Vertical Rate:** The value is selected and the rotary encoder is used to select the value -4096 to +4096 ft/min in steps of 64 (following the encoding standard). It indicates the vertical rate speed of the plane (+) climbing , (-) descending. In real plane ,that Vr source information can come from GNSS or Barometric altitude equipment. In mayhem fw , we are simulating a fix source from GNSS.
+* **Vertical Rate:** The value is selected and the rotary encoder is used to select the value -4096 to +4096 ft/min in steps of 64 (following the encoding standard). It indicates the vertical rate speed of the plane (+) climbing , (-) descending. In real plane ,that Vr source data information can come from GNSS or Barometric altitude equipment. In mayhem fw , we are simulating a fix source from GNSS.
 
 ## Squawk Tab 
 * **Transmit squawk:** This is a tick box to turn on the transmission of the [Squawk](https://en.wikipedia.org/wiki/List_of_transponder_codes) code. 
-* **Squawk:** This can be selected with rotary encoder and has specific meanings. The system identifies an aircraft through a four-digit octal number. (each digit number from 0-7), which provides up to 4.096 possilbe codes.  The squawk code is from 0-7777.   https://en.wikipedia.org/wiki/List_of_transponder_codes
+* **Squawk:** A discrete transponder code (often called a squawk code), can be selected with rotary encoder and has specific meanings. The system identifies an aircraft through a four-digit octal number. (each digit number from 0-7), which provides up to 4.096 possilbe codes.  The squawk code range is from 0-7777.  
+Squawk codes are usually random, but there are a handful of specialized squawk codes that are reserved for unique or specialized situations or aircraft.  https://en.wikipedia.org/wiki/List_of_transponder_codes
+
+Some pilot user interface equipments,
+
+ 
+![image](https://user-images.githubusercontent.com/86470699/210870176-ab71e12e-90ce-42a2-a90d-762e878aa835.png)
+![image](https://user-images.githubusercontent.com/86470699/210870689-397eed6d-dba5-4664-bbd6-ca0afbba5e92.png)
+
+
 
 ## Common to all Tabs 
 * **Frequency:** At the lower part of the App is the Frequency setting. This is stored in persistent memory 
