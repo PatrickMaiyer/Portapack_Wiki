@@ -27,7 +27,7 @@ Transmit position: this is a tick box to enable the transmission of Alt. Lat. Lo
 * **Squawk:** A discrete transponder code (often called a squawk code), can be selected with rotary encoder and has specific meanings. The system identifies an aircraft through a four-digit octal number. (each digit number from 0-7), which provides up to 4.096 possilbe codes.  The squawk code range is from 0-7777.  
 Squawk codes are usually random, but there are a handful of specialized squawk codes that are reserved for unique or specialized situations or aircraft.  https://en.wikipedia.org/wiki/List_of_transponder_codes
 
-Some pilot user interface equipments,
+Some public  pilot user interface equipment examples (from Wikipedia),
 
  
 ![image](https://user-images.githubusercontent.com/86470699/210870176-ab71e12e-90ce-42a2-a90d-762e878aa835.png)
