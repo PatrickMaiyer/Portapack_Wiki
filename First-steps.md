@@ -1,6 +1,6 @@
 # Identify your device
 
-There are basically six different versions of the PortaPack. It is important that you identify the correct version as this can affect how you install the firmware and device initial start-up. It is recommended you read the description of versions [here.](PortaPack-Versions). The H2 and H2+ versions are a slightly improved version, but the people making this copies never published the circuit diagrams or Code , hence breaking the license terms. 
+There are many different versions of the PortaPack. It is important that you identify the correct version as this can affect how you install the firmware and device initial start-up. It is recommended you read the description of versions [here](PortaPack-Versions). The H2 and H2+ versions are a slightly improved version, but the people making this copies never published the circuit diagrams or Code , hence breaking the license terms. 
 
 The main difference are the controls and the screen size  along with the codec and processor chip. The H2 / H2+ has extra circuitry to manage the battery charging and powering on/off. In this document, there is a brief description about the details. Check a more technical comparison [here](Differences-Between-H1-and-H2-models).
 
