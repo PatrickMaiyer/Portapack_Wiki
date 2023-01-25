@@ -7,7 +7,7 @@ There are many different versions of PortaPack, mainly due to Chinese’s Compan
 |[H1 R1](#h1r1r2)|:+1:|2.4"||:heavy_check_mark:||QFP64|||
 |[H1 R2](#h1r1r2)|:+1:|2.4"|:heavy_check_mark:|||QFP64|||
 |[H2](#h2)|:+1:|3.2"|:heavy_check_mark:|||QFP64|||
-|[H2 (maxgeek)](#maxgeek-h2)|:-1:|3.2"|:heavy_check_mark:|||QFP64|||
+|[H2 (maxgeek)](#maxgeek-h2)|:-1:|3.2"||||QFP64|||
 |[H2 R1](#h2r1)|:+1:|3.2"|:heavy_check_mark:|||QFP64|||
 |[H2 R2](#h2r2)|:+1:|3.2"||:heavy_check_mark:||QFP64|||
 |[H2 R3](#h2r3)|:+1:|3.2"||:heavy_check_mark:||QFP100|:heavy_check_mark:||
