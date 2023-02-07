@@ -1,7 +1,12 @@
 One of the main sources of problems while [updating the firmware](Update-firmware) is the quality of the USB cable. Try with several ones just to be sure before trying any other solution.
 
 ## Black or white screen?
+
 If you get a black or white screen after updating, please check the wiki here: [Won't boot](https://github.com/eried/portapack-mayhem/wiki/Won't-boot)
+
+## An application is not starting anymore?
+
+Maybe an update in the application settings broke the settings file for the app. Just go in the SETTINGS folder at the root of the SD card and delete the related settings file. As an example lets take the audio app: if we follow the previously mentioned method, then we just go and delete the rx_audio.ini file in SETTINGS directory. This will force a new settings file to be generated with all new needed parameters at the next attempt to launch the app.
 
 ## DFU
 
