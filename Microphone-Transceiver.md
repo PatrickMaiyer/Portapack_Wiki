@@ -95,7 +95,7 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 > * Wide band FM (WBFM) TX ,  and  supporting WFM RX of the following BW: 200kHz (Emissions Designator 200KF3E)
 
-> * Amplitude Modulation (AM) TX ,supporting AM RX with BW : 9 and 6kHz (covering both side lateral bands, AM DSB with carrier  AM-9K00A3E / AM-6K00A3E) 
+> * Amplitude Modulation (AM) TX fixed to the standard  AM-6K00A3E, but supporting AM RX with two selectable receiver bandwidth filters, BW : 9 and 6kHz (covering both side lateral bands, AM DSB with carrier  AM-9K00A3E / AM-6K00A3E) 
 >  
 > * Upper Side Band (USB) TX , supporting USB RX with BW : 3kHZ (SSB-3K00J3E)
 
