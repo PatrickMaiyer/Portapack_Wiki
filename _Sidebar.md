@@ -87,7 +87,8 @@
    * [HackRF Mode](HackRF)
 * Additional Information
    * [Updating the CPLD](Updating-the-CPLD)
-* [Developer Manual](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware)
+## Developer Manual
+   * [Compilation of the firmware](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware)
    * [Using Docker and Kitematic](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-docker-hub-and-kitematic)
    * [Docker command-line reference](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#docker---command-line-reference)
    * [Using Buddyworks and other CI platforms](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-buddyworks-and-other-ci-platforms)
