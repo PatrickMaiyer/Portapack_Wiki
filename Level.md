@@ -25,5 +25,5 @@ The level app is as simple as possible and allow you to monitor available level 
 
 # Graphs
 
-* RSSI min, average, max => blue, white and red lines
+* RSSI min, average, max => blue, white and red lines clipped between [ 31, 170 ] and scaled along the height of the RSSIGraph widget
 * POWER => green line, clipped between [ -100 , +20 ] and scaled along the height of the RSSIGraph widget
