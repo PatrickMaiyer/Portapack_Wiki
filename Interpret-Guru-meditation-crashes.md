@@ -1,14 +1,14 @@
 Sometimes your program is having a bad day, and it's simply crashing the whole machine. We added an error screen for developers who don't have a 
 [Black Magic Probe](https://hackrf.readthedocs.io/en/latest/LPC43XX_Debugging.html)
-sitting around and ready to use. You should still be able to narrow down the location where the error coming from.
+sitting around and ready to use. You should still be able to narrow down the location where the error is coming from.
 
 ![screen](https://user-images.githubusercontent.com/13151053/224955725-21e95915-3b9d-4e2e-9280-2b1d6a111376.jpg)
 
 ## Information On Screen
 
 * The first line already contains the first very important piece.
-  * M0: the crash occurerd in the application firmware
-  * M4: the crash occurerd in the baseband firmware
+  * M0: the crash occured in the application firmware
+  * M4: the crash occured in the baseband firmware
 * The Hint can be
   * Hard Fault: indicates an invalid operation. (eg. invalid memory access)
   * MemManage: indicates a memory fault
@@ -17,7 +17,7 @@ sitting around and ready to use. You should still be able to narrow down the loc
   * some other text like 'NoImg' or 'BBRunning' (see usages of 'chDbgPanic(const char *)')
 * Registers (only visible in case of a Hard Fault)
   * r0-r3 & r12: The values of the registers at the time of the fault.
-  * lr: The link register contains the return address of the calling method. Use this value only if the process counter is unuseable.
+  * lr: The link register contains the return address of the calling method. Use this value only if the process counter is unusable.
   * pc: The process counter is the location of the current instruction. Use this value in the next step.
 
 ## Determining the location in C/C++ source
