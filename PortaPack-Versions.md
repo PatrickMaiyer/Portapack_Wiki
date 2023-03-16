@@ -1,5 +1,3 @@
-**Portapack Versions**
-
 There are many different versions of PortaPack, mainly due to Chinese’s Companies putting their own take of the design such as adding a larger screen, adding charging or changing the main chip due to price and availability. The current list is:
 
  Version|Compatible|Screen size|  AK4951 Codec|  WM8731 SSOP Codec|  WM8731L QFN Codec|  CPLD|  INS8002E Audio amp|  LTK8002D Audio amp|
