@@ -163,7 +163,7 @@ Add this macro somewhere in firmware/baseband/proc_adsbrx.cpp
 } while (0)
 ```
 
-And place it inside a loop.
+And call it inside a loop.
 
 ![grafik](https://user-images.githubusercontent.com/13151053/225966194-53c3eb3f-f00f-458d-ba6f-0874165aba69.png)
 
