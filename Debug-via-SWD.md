@@ -93,6 +93,7 @@ You now have two options:
 
 Now that everything is set up you can connect gdb to the LPC4320.
 1.  Start arm-none-eabi-gdb
+    * > NOTE: you should now start the ADS-B RX app for this to work
 2.  depending on your system connect to the probe by running the command:
     * (gdb) target extended-remote \\.\COM4
       * (on windows check device manager for the right COM port)
@@ -105,11 +106,73 @@ Now that everything is set up you can connect gdb to the LPC4320.
 5.  attach to the device
     * (gdb) attach 1
 6.  load the symbols
-    * (gdb) file firmware/application/application.elf
+    * (gdb) file firmware/baseband/baseband_adsbrx.elf
 7.  look around
     * (gdb) info threads
     * (gdb) info registers
+    * (gdb) tui enable
+    * (gdb) continue
+
+## Limitations
+* M0 seems inaccesible
+* VSCode integration is rather buggy
 
 ## Integration into VSCode
-- tbd
+> NOTE: Using WSL on Windows has some issues forwarding the usb device to the linux host. I used vscode on Windows with 'Remote - SSH' extension to an old laptop running ubuntu where i could attach the jeff probe directly.
 
+First create your .vscode/launch.json
+
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "name": "(gdb) JTAG probe",
+        "type": "cppdbg",
+        "request": "launch",
+        "miDebuggerPath": "arm-none-eabi-gdb",
+        "targetArchitecture": "arm",
+        "program": "${workspaceRoot}/build/firmware/baseband/baseband_adsbrx.elf",
+        "cwd": "${workspaceRoot}",
+        "setupCommands": [
+            // use logging for troubleshooting
+            //{"text": "set logging file ${workspaceRoot}/build/arm-none-eabi-gdb.log"},
+            //{"text": "set logging on"},
+            {"text": "file '${workspaceRoot}/build/firmware/baseband/baseband_adsbrx.elf'"},
+            {"text": "target extended-remote /dev/ttyACM0"},
+            {"text": "monitor swdp_scan"},
+            {"text": "attach 1"},
+        ],
+        "launchCompleteCommand": "None",
+        "externalConsole": false,
+    }
+    ]
+}
+```
+
+Setting breakpoints and attaching without breakpoints does not work very well. So we have to do it by hand. In code.
+
+Add this macro somewhere in firmware/baseband/proc_adsbrx.cpp
+```c
+#define HALT_IF_DEBUGGING()                              \
+  do {                                                   \
+    if ((*(volatile uint32_t *)0xE000EDF0) & (1 << 0)) { \
+      __asm("bkpt 1");                                   \
+    }                                                    \
+} while (0)
+```
+
+And place it inside a loop.
+
+![grafik](https://user-images.githubusercontent.com/13151053/225966194-53c3eb3f-f00f-458d-ba6f-0874165aba69.png)
+
+Now:
+* make firmware
+* flash firmware to portapack
+* start the ADS-B RX app
+* attach the jeff probe to usb and portapack
+* start the debugging profile
+
+![grafik](https://user-images.githubusercontent.com/13151053/225966101-1b838b97-f845-40e2-b02e-44d9ecbb5770.png)
+
+It should stop at the breakpoint now. Press F10 to step through the code.
