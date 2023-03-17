@@ -60,9 +60,12 @@ Keep pairs of wires together. Insert them back but twist every pair.
 ![grafik](https://user-images.githubusercontent.com/13151053/225428006-1616377a-e60a-49c1-a84a-5fb2cebf10fb.png)
 ![grafik](https://user-images.githubusercontent.com/13151053/225428097-8afe5807-d2b5-458f-a0db-ac5ee855bd69.png)
 
-Now press it back together with a vice, but careful. Do a [continuity test](https://www.fluke.com/en-us/learn/blog/digital-multimeters/how-to-test-for-continuity) with a multimeter to check if they are all connected. You can use the 'not yet? soldered' pin header to help reach inside. The ends of the wire are easy reachable.
+Now press it back together with a vice, but careful.
 
 ![grafik](https://user-images.githubusercontent.com/13151053/225428176-a76d2a8d-6f77-42d1-9c2a-11eb0d0de095.png)
+
+Do a [continuity test](https://www.fluke.com/en-us/learn/blog/digital-multimeters/how-to-test-for-continuity) with a multimeter to check if they are all connected. You can use the 'not yet? soldered' pin header to help reach inside. The ends of the wire are easy reachable.
+
 ![grafik](https://user-images.githubusercontent.com/13151053/225428353-8a57f90f-d82f-45c8-a3e9-a6b6eb86ee8d.png)
 
 ## First test
