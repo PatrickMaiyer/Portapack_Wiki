@@ -113,9 +113,10 @@ Now that everything is set up you can connect gdb to the LPC4320.
     * (gdb) tui enable
     * (gdb) continue
 
-## Limitations
-* M0 seems inaccesible
+## Limitations and Issues
+* M0 seems inaccessible
 * VSCode integration is rather buggy
+* When you stop debugging you have to power down your jeff probe for it to work again.
 
 ## Integration into VSCode
 > NOTE: Using WSL on Windows has some issues forwarding the usb device to the linux host. I used vscode on Windows with 'Remote - SSH' extension to an old laptop running ubuntu where i could attach the jeff probe directly.
