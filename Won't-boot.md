@@ -33,13 +33,25 @@ If your device was working correctly before updating the fw , and now you just g
 (2) if you have an H1 device (without integrated battery)  that does not detect any USB communication,  (usually no need to be disassembled ), Just  try to set up it to DFU mode , And after,  Send from terminal that following command  (to put your  device in correct “Hackrf mode” (with green LED when connecting USB cable to the USB), then just follow the below process (I)
 
 (3) if you have an H2+ (With integrated battery) device that does not detect any USB communication  (in my case , there is no way to put it into DFU mode  without disassembling and separating Hackrf from Portapack  ) , 
-In that case,  Disassemble both boards .
+In that case, Dissassembly carefully both boards from the metal case box .
+Separate with maximum care to not bend / force so much the PCB's and the LCD Panel , both boards (Hackrf - Portapack) , It is a matter of patience , step by step from both connectors , trying to keep coplanarity of both boards ,
+![image](https://user-images.githubusercontent.com/86470699/227355755-a0213c19-31e9-42d1-beb4-f58e04bad355.png)
 
-(A) pick up your hackrf board , connect it to USB,
+
+(A) pick up your hackrf board ,
+![image](https://user-images.githubusercontent.com/86470699/227356035-3dd044f0-dfb1-4bfe-b780-6c05fa038770.png)
+
+ connect it to USB,
  If it's not bricked , you will have a green LED when plugging USB. 
  if it is bricked you will need to set up to DFU mode 
 
-And after,  Send from terminal that following command  (to put your  device in correct “Hackrf mode” (with green LED when connecting USB cable to the USB), then just follow the below process (I)
+And after,  Send from terminal that following command  (to put your  device in correct “Hackrf mode” (with green LED when connecting USB cable to the USB), 
+
+ Type dfu-util --device 1fc9:000c --alt 0 --download hackrf_one_usb.dfu 
+
+You will see from that point that the USB LED from the Hackrf becomes active. You can confirm it , with linux command lsub ==> we are in hackrf mode, now we can program SPI flash
+
+then just follow the below process (I)
 
 
 Special Process (I) to recover it
