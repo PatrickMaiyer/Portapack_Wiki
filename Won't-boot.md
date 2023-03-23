@@ -28,13 +28,15 @@ _This is valid from nightly version **n_220412** and stable release version: **v
 
 If your device was working correctly before updating the fw , and now you just got black screen after been reflashed and it is ignoring the keyboard of the above instructions and looks like bricked , you have several options , depending the case that you have : 
  
-(1) if your device  is still detecting correctly the USB plug to your USB PC (showing in the front of the HackRF board a green LED when plug in USB cable ) , You are lucky , it means that your device is in “hackrf mode” , with good USB communication ,then just follow the below process (I) 
+(1) if your device  is still detecting correctly the USB plug to your USB PC (showing in the front of the HackRF board a green LED when plug in USB cable ) , You are lucky , it means that your device is in “hackrf mode” , with good USB communication ,
+**then just follow the below process (I) **
 
 (2) if you have an H1 device (without integrated battery)  that does not detect any USB communication,  (usually no need to be disassembled ), Just  try to set up it to DFU mode , And after,  Send from terminal that following command 
 
 Type dfu-util --device 1fc9:000c --alt 0 --download hackrf_one_usb.dfu
 
-You will see from that point that the USB LED from the Hackrf becomes active. You can confirm it , with linux command lsub ==> we are in hackrf mode, with green LED when connecting USB cable to the USB), then just follow the below process (I)
+You will see from that point that the USB LED from the Hackrf becomes active. You can confirm it , with linux command lsub ==> we are in hackrf mode, with green LED when connecting USB cable to the USB), 
+**then just follow the below process (I)**
 
 (3) if you have an H2+ (With integrated battery) device that does not detect any USB communication  (in my case , there is no way to put it into DFU mode  without disassembling and separating Hackrf from Portapack  ) , 
 In that case, Dissassembly carefully both boards from the metal case box .
@@ -53,12 +55,12 @@ And after,  Send from terminal that following command  (to put your  device in c
 
  Type dfu-util --device 1fc9:000c --alt 0 --download hackrf_one_usb.dfu 
 
-You will see from that point that the USB LED from the Hackrf becomes active. You can confirm it , with linux command lsub ==> we are in hackrf mode, now we can program SPI flash
+You will see from that point that the USB LED from the Hackrf becomes active. You can confirm it , with linux command lsub ==> we are in hackrf mode,
+**then just follow the below process (I)**
 
-then just follow the below process (I)
 
 
-**Special Process (I) to recover it**
+**Special Step process (I) to recover it (usually only needs to be just once)  **
 
 Assuming that you are here, with already in correct Hackrf mode (with green LED when connecting USB cable to the USB),
 
