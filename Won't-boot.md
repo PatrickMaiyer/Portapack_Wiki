@@ -54,19 +54,20 @@ You will see from that point that the USB LED from the Hackrf becomes active. Yo
 then just follow the below process (I)
 
 
-Special Process (I) to recover it
+**Special Process (I) to recover it**
+
 Assuming that you are here, with already in correct Hackrf mode (with green LED when connecting USB cable to the USB),
+
 In case that you have H2+ Portapack with big CPLD QFP100, 
      flash it with special fw jumbo77 1.43 first 
 
 In case that you have H1/H2+ Portapack with standard small CPLD QFP64, 
       flash it with official  Mayhem fw  1.43 first 
- 
-If you came from (3) case , assemble both  boards again.
+      (If you came from (3) case , assemble both  boards again.)
 
 (a) Confirm correct power up of fw version 1.43 (jumbo for big CPLD or official for std CPLD QFP)  
 
-(b) From that 1.43 fw , put the device in “hackRF mode” and flash the latest Mayhem firmware.
+(b) From that 1.43 fw ,with correct boot,  put the device in “hackRF mode” and flash again, but now with latest Mayhem firmware.
 
 (c) At first power up, keep pressing the appropriate button for your unit for more than 2 secs, until getting correct LCD display, and it should work all correctly ! 
 
