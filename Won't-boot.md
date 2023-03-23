@@ -64,7 +64,7 @@ You will see from that point that the USB LED from the Hackrf becomes active. Yo
 
 
 
-## Special Step process (I) to recover it (usually only needs to be just once)
+## Special Step process (I) to recover it (usually only needs to be done just once)
 
 Assuming that you are here, with already in correct Hackrf mode (with green LED when connecting USB cable to the USB),
 
