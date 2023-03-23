@@ -73,11 +73,13 @@ In case that you have H2+ Portapack with big CPLD QFP100,
 
 In case that you have H1/H2+ Portapack with standard small CPLD QFP64, 
       flash it with official  Mayhem fw  1.43 first 
-      (If you came from (3) case , assemble both  boards again.)
+     
+If you came from (3) case , assemble both  boards again.
 
-(a) Confirm correct power up of fw version 1.43 (special jumbo 1.4.3 for big CPLD QFP100,  or official 1.4.3  for std CPLD QFP64)  
+Then , 
+(a) Confirm correct boot  power up of fw version 1.43 (special jumbo 1.4.3 for big CPLD QFP100,  or official 1.4.3  for std CPLD QFP64)  
 
-(b) From that 1.43 fw ,with correct boot,  put the device in “hackRF mode” and flash again, but now with latest Mayhem firmware.
+(b) From that 1.43 fw ,with correct boot,  put the device in “hackRF mode” and flash it again, but now with latest Mayhem firmware.
 
 (c) At first power up, keep pressing the appropriate button for your unit for more than 2 secs, until getting correct LCD display, and it should work all correctly ! 
 
