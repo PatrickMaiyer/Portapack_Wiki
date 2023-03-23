@@ -24,15 +24,40 @@ _**Note:** H2+ usually require you to hold the **UP key** on the first boot to c
 
 _This is valid from nightly version **n_220412** and stable release version: **v1.5.1**_
 
-# H2+ (and H1) not powering up , just black LCD:
+# H2+ (and H1) not powering up , just black LCD (after flashing new Mayhem fw):
 
-(1) disassemble both boards . (your mileage may vary: for an H2+ it is mandatory , because you can not activate DFU with both boards assembled, and in case of H1, no need to disassemble).
+If your device was working correctly before updating the fw , and now you just got black screen after been reflashed and it is ignoring the keyboard of the above instructions and looks like bricked , you have several options , depending the case that you have : 
+ 
+(1) if your device  is still detecting correctly the USB plug to your USB PC (showing in the front of the HackRF board a green LED when plug in USB cable ) , You are lucky , it means that your device is in “hackrf mode” , with good USB communication ,then just follow the below process (I) 
 
-(2) pick up your hackrf, connect it to USB, If it's not bricked and you have a green LED, if H2+ flash it with special fw jumbo77 1.43, if H1 use official fw 1.43. If it is bricked (no green LED), you will need to flash these via DFU.
+(2) if you have an H1 device (without integrated battery)  that does not detect any USB communication,  (usually no need to be disassembled ), Just  try to set up it to DFU mode , And after,  Send from terminal that following command  (to put your  device in correct “Hackrf mode” (with green LED when connecting USB cable to the USB), then just follow the below process (I)
 
-(3) assemble boards , confirm correct power up. At first power up, keep pressing the appropriate button for your unit for more than 2 secs, until getting correct LCD display.
+(3) if you have an H2+ (With integrated battery) device that does not detect any USB communication  (in my case , there is no way to put it into DFU mode  without disassembling and separating Hackrf from Portapack  ) , 
+In that case,  Disassemble both boards .
 
-(4) put the device in hackRF mode and flash latest Mayhem firmware.
+(A) pick up your hackrf board , connect it to USB,
+ If it's not bricked , you will have a green LED when plugging USB. 
+ if it is bricked you will need to set up to DFU mode 
+
+And after,  Send from terminal that following command  (to put your  device in correct “Hackrf mode” (with green LED when connecting USB cable to the USB), then just follow the below process (I)
+
+
+Special Process (I) to recover it
+Assuming that you are here, with already in correct Hackrf mode (with green LED when connecting USB cable to the USB),
+In case that you have H2+ Portapack with big CPLD QFP100, 
+     flash it with special fw jumbo77 1.43 first 
+
+In case that you have H1/H2+ Portapack with standard small CPLD QFP64, 
+      flash it with official  Mayhem fw  1.43 first 
+ 
+If you came from (3) case , assemble both  boards again.
+
+(a) Confirm correct power up of fw version 1.43 (jumbo for big CPLD or official for std CPLD QFP)  
+
+(b) From that 1.43 fw , put the device in “hackRF mode” and flash the latest Mayhem firmware.
+
+(c) At first power up, keep pressing the appropriate button for your unit for more than 2 secs, until getting correct LCD display, and it should work all correctly ! 
+
 
 ## Explanation
 Firmware starting at version 1.5.4 and onward contain the <a href="https://github.com/eried/portapack-mayhem/pull/662">Pull Request 662</a> that uses the persistent memory to test and store the hardware and LCD config settings . That memory uses the same back up voltage than the Real Time Clock calendar, both needs a healthy cell battery button voltage. Sometimes, in a re flashing process , although we got good battery cell button voltage, the unit seems to be badly initializing those persistent bytes and we got strange black screen. Doing those above steps probably reset the persistent memory. That's just a guess.
