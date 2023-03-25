@@ -24,7 +24,7 @@ _**Note:** H2+ usually require you to hold the **UP key** on the first boot to c
 
 _This is valid from nightly version **n_220412** and stable release version: **v1.5.1**_
 
-# H2+ (and H1) not powering up , just black LCD (after flashing new Mayhem fw):
+## H2+ (and H1) not powering up , just black LCD (after flashing new Mayhem fw):
 
 If your device was working correctly before updating the fw , and now you just got black screen after been reflashed and it is ignoring the keyboard of the above instructions and looks like bricked , you have several options , depending the case that you have : 
  
