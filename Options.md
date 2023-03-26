@@ -2,9 +2,10 @@ This section provides a set of utilities  that can be used to configure some asp
 ## Audio
 This allow the setting of the tone Key mixer setting as a % of the audio level.
 ## Radio
-In the radio section  there  are two options, 
+In the radio section  there  are three options, 
 1. One for turning on/off the External Clock.
-1. Second item is turning on or off the Antenna Bias Tee.
+2. Second item is turning on or off the Antenna Bias Tee.
+3. Third item is turning on or of the [[HamItUp/UpConversion]].
 ## Interface
 The UI interface  setting for the following can be Enabled (tick) or Disabled (x) or selected value for the backlight timeout:
 * Hide the speaker
