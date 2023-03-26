@@ -74,11 +74,10 @@
       * [Antenna length](antennas)
       * Wipe SD card
    * [Options](Options)
-      * Audio
-      * Radio
-      * Interface
-      * Date/Time
-      * Touchscreen
+      * [Audio](Options#Audio)
+      * [Radio](Options#radio)
+      * [Interface](Options#interface)
+      * [Touchscreen](Options#touchscreen)
    * [Debug](Debug)
       * Memory
       * SD Card
