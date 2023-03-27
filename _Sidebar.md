@@ -74,10 +74,14 @@
       * [Antenna length](antennas)
       * Wipe SD card
    * [Options](Options)
-      * [Audio](Options#Audio)
+      * [Audio](Options#audio)
       * [Radio](Options#radio)
-      * [Interface](Options#interface)
-      * [Touchscreen](Options#touchscreen)
+      * [User Interface](Options#user-interface)
+      * [Date/time](Options#datetime)
+      * [Calibration](Options#calibration)
+      * [App Settings](Options#app-settings)
+      * [Converter](Options#converter)
+      * [QR code](Options#qr-code)
    * [Debug](Debug)
       * Memory
       * SD Card
