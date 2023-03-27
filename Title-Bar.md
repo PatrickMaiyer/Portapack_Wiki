@@ -11,6 +11,7 @@ The sections of the title bar, along with their functionality, are (from left to
 |Back |Back arrow to previous screen/Return to menu| Yes |
 |Name|Application name| No |
 |![SpeakerIcon](https://github.com/eried/portapack-mayhem/blob/master/firmware/graphics/icon_speaker_mute.png)|Toggle speaker. Green if activated. Note: needs to be enabled in Options>Interface.| Yes |
+|![HamItUp](https://github.com/eried/portapack-mayhem/blob/master/firmware/graphics/icon_hamitup.png)|Toggle [Up convertion](HamItUp-UpConvertion). Green if activated. | Yes |
 |![StealthIcon](https://github.com/eried/portapack-mayhem/blob/master/firmware/graphics/icon_stealth.png)|Toggle [stealth mode](stealth-mode). Green if selected | Yes |
 |![CameraIcon](https://github.com/eried/portapack-mayhem/blob/master/firmware/graphics/icon_camera.png)|Take [screenshot](screenshots)  | Yes |
 |![MoonIcon](https://github.com/eried/portapack-mayhem/blob/master/firmware/graphics/icon_sleep.png)|Activate [sleep mode](sleep-mode) | Yes |
