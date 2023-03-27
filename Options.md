@@ -25,3 +25,6 @@ Set up convert or down convert mode. More detailed explanation on the [[Up-Down-
  * enable / disable converter
  * (+) or (-) set the offset sign
  * set the offset 
+## QR code
+Set the size of the displayed QR code
+ * show larger or not
