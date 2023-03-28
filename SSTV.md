@@ -4,6 +4,6 @@ The SSTV app allows you to send .bmp images that you have loaded onto the SD car
 To send an image, select the bitmap image with the jog wheel, the mode, and the frequency you'd like to transmit on. For amateur radio, 12kHz seems to produce a good image.
 
 ## Image requirements
-Only 24bit BMP files with a size of 256X320 pixels are supported
+Only 24bit BMP files with a size of 320x256 pixels are supported
 
 ![](https://imgur.com/a/sRqVuE4)
