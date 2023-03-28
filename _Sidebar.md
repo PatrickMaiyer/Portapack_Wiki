@@ -73,6 +73,7 @@
       * Wave viewer
       * [Antenna length](antennas)
       * Wipe SD card
+      * [Flash Utility](Flash-Utility)
    * [Options](Options)
       * [Audio](Options#audio)
       * [Radio](Options#radio)
