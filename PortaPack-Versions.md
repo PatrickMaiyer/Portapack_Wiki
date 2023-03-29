@@ -7,7 +7,7 @@ The current list is:
 |[H1 R1](#h1r1r2)|:+1:|2.4"||:heavy_check_mark:||QFP64|||
 |[H1 R2](#h1r1r2)|:+1:|2.4"|:heavy_check_mark:|||QFP64|||
 |[H2](#h2)|:+1:|3.2"|:heavy_check_mark:|||QFP64|||
-|[H2 (maxgeek)](#maxgeek-h2)|:-1:|3.2"||||QFP64|||
+|[H2 (maxgeek)](#maxgeek-h2)|:question:|3.2"||||QFP64|||
 |[H2 R1](#h2r1)|:+1:|3.2"|:heavy_check_mark:|||QFP64|||
 |[H2 R2](#h2r2)|:+1:|3.2"||:heavy_check_mark:||QFP64|||
 |[H2 R3](#h2r3)|:+1:|3.2"||:heavy_check_mark:||QFP100|:heavy_check_mark:||
@@ -81,10 +81,8 @@ Uses custom close source firmware. **Not compatible with Mayhem. Do not buy or s
 This also exists as H2 Plus. Uses custom close source firmware ([Ref.](https://user-images.githubusercontent.com/24917424/198536040-e573b98c-e327-4e69-9448-83cea52b02e3.jpg)). **Not compatible with Mayhem([Ref.](https://user-images.githubusercontent.com/24917424/198536040-e573b98c-e327-4e69-9448-83cea52b02e3.jpg)).
 
 ## Maxgeek H2 
-Maxgeek H2 has an issue with a frozen application on their portapack. Even when they show this firmware in their product description:
 
 <img src="https://user-images.githubusercontent.com/1091420/214588783-ed2f7efb-1897-416f-b42d-9cf66540de86.png" height="300">
 
-They have acknowledged that only their firmware works. **Not compatible with Mayhem!([Ref.](https://user-images.githubusercontent.com/5009021/204222733-a82aa404-9949-4de3-b6b3-4265e7d81f32.jpg)). Do not buy or support as it's a scam**
-
+The community received two positive reports ([ref.](https://discord.com/channels/719669764804444213/737376558754300081/1090614186184286318) & [ref.](https://discord.com/channels/719669764804444213/737376558754300081/1090614186184286318)) and one negative report ([Ref.](https://user-images.githubusercontent.com/5009021/204222733-a82aa404-9949-4de3-b6b3-4265e7d81f32.jpg)) about this seller.
 
