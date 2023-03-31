@@ -83,6 +83,7 @@
       * [App Settings](Options#app-settings)
       * [Converter](Options#converter)
       * [QR code](Options#qr-code)
+      * [P.MemMgmt](Options#pmemory-mgmt)
    * [Debug](Debug)
       * Memory
       * SD Card
