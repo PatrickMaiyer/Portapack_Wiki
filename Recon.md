@@ -53,7 +53,7 @@ Buttons and information description, from top to bottom, and left to right. [NAM
 
 * RSSI: XXX/XXX/XXX => Current min/med/max RSSI values in db
 
-* TIMER: elapsed timer for current frequency lock, 0 if no lock
+* TIMER, CTCSS: elapsed timer for current frequency lock (0 if no lock) , detected tone if NFM is selected
 
 * [MANUAL-S/SCANNER/RECON] currently used mode. Manual Search, Scanner, Recon/Search. 
 
