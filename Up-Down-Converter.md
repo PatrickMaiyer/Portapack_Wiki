@@ -1,5 +1,7 @@
 # Up / down converter
 
+![PortapackConverter](https://www.nilorea.net/wp-content/uploads/2023/03/PORTAPACK_CONVERTER.png)
+
 When using an upconverter it's common to use an offset to access the correct frequency. As an example, if you want to use a HamItUp which is designed to listen from 60KHz to 30MHz, you'll need to tune your portapack to 125 MHz (or any other frequency used in the upconverter local oscillator) + the frequency you need.
 
 Doing the calculation and tuning while adding the frequencies can be a bit tedious. Don't worry: just got into your portapack's settings, Radio menu, and set the shifting you need. You can set up conversion (+) or down conversion (-) in the Settings/Converter menu.
