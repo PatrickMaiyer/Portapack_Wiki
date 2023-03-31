@@ -1,9 +1,9 @@
 # Level App
-![Level App Menu Entry](https://www.nilorea.net/wp-content/uploads/2023/03/LEVEL_APP.png)
+![Level App Menu Entry](https://www.nilorea.net/wp-content/uploads/2023/03/PORTAPACK_LEVEL.png)
 
 # Introduction
 
-The level app is as simple as possible and allow you to monitor available level meters in a single view.
+The level app is as simple as possible and allow you to monitor available level meters in a single view. CTCSS tone showed if NFM is selected.
 
 # Buttons
 
@@ -11,6 +11,7 @@ The level app is as simple as possible and allow you to monitor available level 
 * [BW] , [Mode] , [STEP] => bandwidth, demodulation and step
 * [FREQ] , [AUDIO] => Frequency adjustement, audio on/off
 * [PEAK] => enable peak hold and timer, or disable it
+* [xXX] => set the number of columns in the live history
 
 # Informations on screen
 
