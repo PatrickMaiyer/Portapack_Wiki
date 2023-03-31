@@ -1,5 +1,5 @@
 # Recon App
-![Recon App Menu Entry](https://www.nilorea.net/wp-content/uploads/2022/10/MainScreen.png)
+![Recon App Menu Entry](https://www.nilorea.net/wp-content/uploads/2023/03/PORTAPACK_RECON.png)
 
 # Introduction
 The Recon app is full rework of the Scanner app, offering different possibilities and customisations.
@@ -47,7 +47,7 @@ Buttons and information description, from top to bottom, and left to right. [NAM
 
 * [BW] , [SQUELCH], [W],[L] => bandwidth for actual demod, squelch is the level of DB needed to start to lock on a signal, W (wait after match) is the time we will stay on the frequency if it's reaching nb_locks during lock_wait (continously or sparsely). If wait is a negative number, then it represent the time we are staying on a matched frequency waiting for new activity, and a new lock during the wait restart the counters (you keep staying on it until a full wait without a lock is reached). L (lock_wait) is the lock wait timer, representing the maximum time we stay on a freq waiting for a lock. The lock wait timer is adjusted to the smallest optimal value at app startup and after a OPT save. You may adjust it to fit your needs.
 
-* XXX / XXX , XX db, XX/XX value , [OPT] => index of the current frequency in the loaded list, number of frequencies in the list, actual DB value, number of locks / number of needed locks for a match, button to the settings page
+* [XXX] / XXX , XX db, XX/XX value , [OPT] => index of the current frequency in the loaded list (move with encoder, or set a value by clicking), number of frequencies in the list, actual DB value, number of locks / number of needed locks for a match, button to the settings page
 
 * FREQ: XXXX => Current frequency
 
