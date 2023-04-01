@@ -74,6 +74,7 @@
       * [Antenna length](antennas)
       * Wipe SD card
       * [Flash Utility](Flash-Utility)
+      * [SD over USB](SD-Over-USB)
    * [Options](Options)
       * [Audio](Options#audio)
       * [Radio](Options#radio)
