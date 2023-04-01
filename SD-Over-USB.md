@@ -10,4 +10,4 @@ While the USB Mass Storage Mode is active, a little USB icon will be displayed.
 
 ![Screenshot 2023-04-01 193341](https://user-images.githubusercontent.com/13151053/229307649-d243f926-20a4-4f12-aa40-cfdbf010d1ba.jpg)
 
-Now just use the Portapack as if is was an sd card reader.
+Now just use the Portapack as if it was an sd card reader.
