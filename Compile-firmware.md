@@ -157,7 +157,7 @@ some compiling errors to check it's better to call it without '-j 8')
 ## 1. Update a Debian based OS, install cmake, python, pyyaml
 
     sudo apt-get update
-    sudo apt-get install -y git tar wget dfu-util cmake python3 bzip2 curl hackrf python3-distutils python3-setuptools
+    sudo apt-get install -y git tar wget dfu-util cmake python3 bzip2 lz4 curl hackrf python3-distutils python3-setuptools
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py; python3 get-pip.py
     pip install pyyaml
 
