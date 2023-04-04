@@ -79,7 +79,7 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 * ![image](https://user-images.githubusercontent.com/86470699/196534083-4bdb19f8-4c8c-40e8-a587-d328b2d8c8c4.png)
 ![image](https://user-images.githubusercontent.com/86470699/196281105-12c56760-a1d9-4fe2-a775-6fefcc5fccbc.png)
 
-From [Nightly Release - 2023-04-05] onwards it has been added a new minor feature , a check box to the user to be able to select Separated (default) ) / Common freq. RX tuning control respect TX freq. (see attached new updated GUI pictures): 
+From [Nightly Release - 2023-04-05] onwards it has been added a new check box (next to Roger beep)  to the user to be able to select Separated (default) ) / Common freq. RX tuning control respect TX freq. (see attached new updated GUI pictures): 
 
 
 ![image](https://user-images.githubusercontent.com/86470699/229879017-6a2c1433-6d91-494a-ad08-0e4cc530c606.png)
