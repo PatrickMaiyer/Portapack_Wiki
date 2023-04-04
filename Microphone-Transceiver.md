@@ -79,6 +79,13 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 * ![image](https://user-images.githubusercontent.com/86470699/196534083-4bdb19f8-4c8c-40e8-a587-d328b2d8c8c4.png)
 ![image](https://user-images.githubusercontent.com/86470699/196281105-12c56760-a1d9-4fe2-a775-6fefcc5fccbc.png)
 
+From [Nightly Release - 2023-04-05] onwards it has been added a new minor feature , a check box to the user to be able to select Separated (default) ) / Common freq. RX tuning control respect TX freq. (see attached new updated GUI pictures): 
+
+
+![image](https://user-images.githubusercontent.com/86470699/229879017-6a2c1433-6d91-494a-ad08-0e4cc530c606.png)
+![image](https://user-images.githubusercontent.com/86470699/229879215-309ca797-c6cf-4082-b4d5-98438d2bc356.png)
+
+
 
 
 * **F:**  This field set the Frequency for the transmission.	
@@ -117,10 +124,14 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 * Note2, that feature is only available in both FM modes (NFM-FM / WFM).
 
-* **Roger beep:**  This tick is activating an ending sequence of six consecutive digital synthesized audio tones , to indicate that the operator has concluded speaking. 
+* **Check box Roger beep:**  This tick is activating an ending sequence of six consecutive digital synthesized audio tones , to indicate that the operator has concluded speaking. 
 * Note: that feature is not available in SSB modes (USB , LSB)
 
-* **RX audio listening:** The Tick box to select this item is difficult to select with cursor having to go down and up though item, and with some luck you may enable the box. It is better to select from the touch screen. If this is enabled then it will turn on the Audio Receiver and with the following setting will allow you to listen to a receive channel when not transmitting. The TX-RX timing gap is not known. The frequency can be set separately to that of the transmitter section above. The following setting can be applied to the receiver.
+* **Check box F = F_RX:**  (Added from [Nightly Release - 2023-04-05] It allows to the user to select Separated / Common  tuning frequency from Receiver(RX) to the Transmitter(TX).
+Once is marked , we have a common same frequency (F = F_TX) and therefore, to not confuse to the user , we hide the bottom independent F_RX field . (as you could see in the two above GUI pictures) 
+ 
+
+* **Check box RX audio listening:** The Tick box to select this item is difficult to select with cursor having to go down and up though item, and with some luck you may enable the box. It is better to select from the touch screen. If this is enabled then it will turn on the Audio Receiver and with the following setting will allow you to listen to a receive channel when not transmitting. The TX-RX timing gap is not known. The frequency can be set separately or Common  to that of the transmitter section above. The following setting can be applied to the receiver.
 
 * Note : this feature is not available when we are in AUTO VOX control .
 
