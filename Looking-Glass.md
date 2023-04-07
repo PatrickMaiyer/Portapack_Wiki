@@ -4,9 +4,17 @@ The frequency ranges are held in the SD card >LOOKINGGLASS>PRESETS.TXT. It shoul
 
 # Key Controls 
 * MIN / MAX: Place the cursor on the “MIN” or “MAX” fields and use the rotary encode to select the frequencies for the MIN and MAX frequencies in increments of 240mHz. The Label “RANGE” shows the scan range set.
+
 * Gain: Gain Setting:  Cursor can be used to select and adjust the LNS(IF) (0-40), VGA(0-62) and RF AMP “0” (off)  and 1 (14dB).
+
 * FILTER: Move the cursor to the FILTER field and select either OFF, MED, HIGH. These setting adjust the display  to show differing views ( that do change depending on the Speed of scan and  Gain settings.  Use the One that give the best contrast of the detected signals.
+
 * PRESET: Move the cursor to the “PRESET:” field to select one of the pre-set frequency ranges set in the SD Card.
+
 * MARKER: If you place cursor over the field and turn the rotary encoder a red marker arrow will appear on top of the cascade so you can see approximate idea of the frequency for each pixel. The interval of the marker that is changed by the encoder knob, is shown and is based on the scan range. If you press the encoder know or Button then it will take you to the Audio App for more detailed view of the signal with setting of 1mHz Steps and a 10mHz view. Unfortunately, on return to the LOOKINGGLASS App the display goes to default settings.
 
 * RESOLUTION: The field can be changed by the rotary encoder to select the resolution (FFT Trigger point) (2-128). The default setting is 32.  This allows the display to show better the Signals received and should be adjusted in conjunction with “Gain:” and “FILTER:” 
+
+* STEPS: This field can be changed by the rotary encoder to select the step size used when moving the tuned window.
+
+* SPECTR/LIVE-V: This field can be changed by the rotary encoder to select spectrum scrolling view (default) or the live frequency power level view.
