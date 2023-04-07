@@ -13,7 +13,7 @@ The frequency ranges are held in the SD card >LOOKINGGLASS>PRESETS.TXT. It shoul
 
 * MARKER: If you place cursor over the field and turn the rotary encoder a red marker arrow will appear on top of the cascade so you can see approximate idea of the frequency for each pixel. The interval of the marker that is changed by the encoder knob, is shown and is based on the scan range. If you press the encoder know or Button then it will take you to the Audio App for more detailed view of the signal with setting of 1mHz Steps and a 10mHz view. Unfortunately, on return to the LOOKINGGLASS App the display goes to default settings.
 
-* RESOLUTION: The field can be changed by the rotary encoder to select the resolution (FFT Trigger point) (2-128). The default setting is 32.  This allows the display to show better the Signals received and should be adjusted in conjunction with “Gain:” and “FILTER:” 
+* RES: The field can be changed by the rotary encoder to select the resolution (FFT Trigger point) (2-128). The default setting is 32.  This allows the display to show better the Signals received and should be adjusted in conjunction with “Gain:” and “FILTER:” 
 
 * STEPS: This field can be changed by the rotary encoder to select the step size used when moving the tuned window.
 
