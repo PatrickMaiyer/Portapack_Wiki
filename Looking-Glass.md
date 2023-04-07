@@ -18,3 +18,5 @@ The frequency ranges are held in the SD card >LOOKINGGLASS>PRESETS.TXT. It shoul
 * STEPS: This field can be changed by the rotary encoder to select the step size used when moving the tuned window.
 
 * SPECTR/LIVE-V: This field can be changed by the rotary encoder to select spectrum scrolling view (default) or the live frequency power level view.
+
+* 3x: integration multiplier field, only shown if LIVE-V is selected. Ranging from 1x, the quickest integration but with noises and spikes, to 9x, the slowest integration, but more clean and no spikes.
