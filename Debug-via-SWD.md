@@ -102,8 +102,17 @@ Now that everything is set up you can connect gdb to the LPC4320.
       * (on windows check device manager for the right COM port)
     * (gdb) target extended-remote /dev/ttyACM0
       * (on linux dmesg or lsusb will help)
-3.  now check the version of the probe
+      (example dmesg in linux, when attached Jeff Probe to the USB)
+
+       ![image](https://user-images.githubusercontent.com/86470699/232033188-ab87601f-2030-47dd-b075-5aca0258480f.png)
+
+
+3.  now check the fw version of the probe
     * (gdb) monitor version
+    (example of Jeff Probe answer)
+
+      ![image](https://user-images.githubusercontent.com/86470699/232032197-1fa0d819-4c88-47df-b47b-431213291029.png)
+
 4.  scan for devices
     * (gdb) monitor swdp_scan
 5.  attach to the device
