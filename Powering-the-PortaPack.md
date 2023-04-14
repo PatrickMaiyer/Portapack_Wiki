@@ -1,5 +1,3 @@
-# Powering the PortaPack
-
 The Portapack H1 or H2 are powered via the USB 2.0 connector on the HackRF One. In the case of the H2, it can have an internal LiPo battery that can be charged via the USB 2.0 socket. 
 
 The maximum size of battery that can be installed in a typical metal cases is 2500mAh, but 2100mAh would be a better fit.  
