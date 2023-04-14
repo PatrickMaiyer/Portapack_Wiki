@@ -40,7 +40,7 @@ _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
 <img src="https://user-images.githubusercontent.com/4393979/162888499-4d780cd0-2ddd-47f0-b465-2c29238af6ad.png" height="300">
 
 ### Differences:
-* Similar to  H2 in early versions except claim for better TXCO spec(quesionable) and board marked as H2+.
+* Similar to  H2 in early versions except claim for better TXCO spec(questionable) and board marked as H2+.
 * Battery state indicator with 4 leds under Encoder Knob for 25%,50%,75%,100%,flashing while charging, steady when that level full. 
 
 ## H2+R2
@@ -59,7 +59,7 @@ _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
 
 ### Differences
 * Similar to  H2+R2 except
-* This versions the standard CPLD 5M40ZE64CN5 was  replaced with EPM240T100C5N ( due to cost and supply issues by supplier "OpenSourceSDR Lab") which has caused some issues ( they issues their work around fixes in a version 1.4.3)  and resolved in version 1.5.x due to a lot of hard work.
+* This versions the standard CPLD 5M40ZE64CN5 was  replaced with EPM240T100C5N ( due to cost and supply issues by supplier "OpenSourceSDR Lab") which has caused some issues ( they issued their work around fixes in a version 1.4.3)  and resolved in version 1.5.x due to a lot of hard work.
 
 
 ## H2+R4
