@@ -14,7 +14,7 @@ The ADI defines a debug access port (DAP), made up of a debug port (DP) and acce
  Our specific LPC 4330 dual-core microcontroller supports JTAG and Serial Wire Debug (SWD), serial trace, eight breakpoints, and four watch points.
 
 
-  From his product datasheet:
+  From  [NXP LPC 43xx product datasheet](https://www.nxp.com/docs/en/data-sheet/LPC4350_30_20_10.pdf)  :
 
 ![image](https://user-images.githubusercontent.com/86470699/232248444-d91d9e18-1ea6-4d03-ada8-a7264d659d72.png)
 
