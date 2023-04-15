@@ -22,12 +22,12 @@ The ADI defines a debug access port (DAP), made up of a debug port (DP) and acce
 
 Following other additional documents form [NXP Community](https://community.nxp.com/pwmxy87654/attachments/pwmxy87654/lpc%40tkb/63/1/LPC_DualCore.pdf)
 
-![image](https://user-images.githubusercontent.com/86470699/232252541-4a79066a-4036-4919-ac77-f0612d7ed28b.png)
+![3A011E7D-4A5F-4062-9AF7-3244E47C159B](https://user-images.githubusercontent.com/86470699/232255540-69d8e392-f024-48a0-87e0-d04e4c5b3a62.jpeg)
+
 
 ![image](https://user-images.githubusercontent.com/86470699/232252556-9873053d-f03e-4533-b068-8b24c1f723fe.png)
 
-![image](https://user-images.githubusercontent.com/86470699/232252572-a15e929a-0872-4877-b570-d43f3a03b855.png)
-
+![2A6D5C59-E021-41EB-9565-7212B0A63D1B](https://user-images.githubusercontent.com/86470699/232255570-6380f4c3-6543-4751-85fd-5df0f2f1258e.jpeg)
 
 
 ## Hackrf debugging references
