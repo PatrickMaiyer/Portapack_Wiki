@@ -1,7 +1,25 @@
 Coding without the possibility of debugging can be quite time consuming because you are mostly blind. The portapack is an embedded system and requires some work for the comfort.
 
-## NXP ARM Cortex-M4/M0 dual-core microcontroller  LPC 4330 Debug Configuration
-  It supports JTAG and Serial Wire Debug (SWD), serial trace, eight breakpoints, and four watch points.
+## Introduction to the Arm Debug Interface (ADI)
+ The Arm Debug Interface (ADI) is a specification of both the hardware interface and the logical interface for debugging between a host and one or more devices. Currently, most processors are implementing ADIv5.
+The ADI defines a debug access port (DAP), made up of a debug port (DP) and access ports (APs). The DAP is the primary “unit” of the debug interface. A given device will have one debug port, which handles the physical connection with a debugger, as well as a number of access ports that provide access to system resources such as debug registers, trace port registers, a ROM table, or system memory. Thus the DP includes the physical connection (JTAG, SWD) as well as some built-in registers, and each AP has its connections to the system, and a number of its own registers.
+
+![image](https://user-images.githubusercontent.com/86470699/232249222-a22a7124-1e2f-40a7-9569-58b921414f96.png)
+
+![image](https://user-images.githubusercontent.com/86470699/232249414-38c50e17-c031-49bd-b0a4-1bb0c8029b35.png)
+
+ 
+ ## NXP ARM Cortex-M4/M0 dual-core microcontroller  LPC 4330 Debug Configuration
+
+ Our specific LPC 4330 dual-core microcontroller supports JTAG and Serial Wire Debug (SWD), serial trace, eight breakpoints, and four watch points.
+
+
+  From his product datasheet:
+
+![image](https://user-images.githubusercontent.com/86470699/232248444-d91d9e18-1ea6-4d03-ada8-a7264d659d72.png)
+
+![image](https://user-images.githubusercontent.com/86470699/232248466-be75ee18-f60a-482b-b16b-16cf391c7faf.png)
+
 
 ## What you need
 * Black Magic Probe
