@@ -38,9 +38,9 @@ It introduces the following ones in chapter 19 (also good source to check),we ju
 ![image](https://user-images.githubusercontent.com/86470699/232251597-e0fdf8b4-180d-4077-b6f9-29e6b299392c.png)
 
 
-Talking about Black Magic Probe , the author mentions , 
+Talking about Black Magic Probe , the author mentioned  , 
 
-"It is possible to attach to the M0 instead of the M4 if you use jtag_scan instead of swdp_scan, but the Black Magic
+"It is possible to attach to the M0 instead of the M4 if you use **jtag_scan** instead of **swdp_scan** , but the Black Magic
 Probe had some bugs when trying to work with the M0 the last time I tried it."
 
 ## What you need
