@@ -177,7 +177,7 @@ Now that everything is set up you can connect gdb to the LPC4320.
     * (gdb) continue
 
 ## Limitations and Issues
-* M0 seems inaccessible
+* M0 seems inaccessible through SWD , (as it is indicated on top , to debug M0 only can be done using JTAG, pending to check).
 * VSCode integration is rather buggy
 * When you stop debugging you have to power down your jeff probe for it to work again.
 
