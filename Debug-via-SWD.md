@@ -21,6 +21,19 @@ The ADI defines a debug access port (DAP), made up of a debug port (DP) and acce
 ![image](https://user-images.githubusercontent.com/86470699/232248466-be75ee18-f60a-482b-b16b-16cf391c7faf.png)
 
 
+## Hackrf debugging references
+Based on latest [Hackrf User's guide](https://hackrf.readthedocs.io/_/downloads/en/latest/pdf/)
+There are various debugger options for the LPC43xx.
+It introduces the following ones in chapter 19 (also good source to check),we just attach here the index picture,
+
+![image](https://user-images.githubusercontent.com/86470699/232251597-e0fdf8b4-180d-4077-b6f9-29e6b299392c.png)
+
+
+Talking about Black Magic Probe , the author mentions , 
+
+"It is possible to attach to the M0 instead of the M4 if you use jtag_scan instead of swdp_scan, but the Black Magic
+Probe had some bugs when trying to work with the M0 the last time I tried it."
+
 ## What you need
 * Black Magic Probe
   * Or something similar. [HackRF](https://hackrf.readthedocs.io/en/latest/LPC43XX_Debugging.html) has a list of hardware that should work. In this example we will be using the [Jeff Probe](https://flirc.tv/products/flirc-jeffprobe?variant=43085036585192) with the portapack H2+ in an aluminium case.
