@@ -4,6 +4,14 @@ Coding without the possibility of debugging can be quite time consuming because 
 * Black Magic Probe
   * Or something similar. [HackRF](https://hackrf.readthedocs.io/en/latest/LPC43XX_Debugging.html) has a list of hardware that should work. In this example we will be using the [Jeff Probe](https://flirc.tv/products/flirc-jeffprobe?variant=43085036585192) with the portapack H2+ in an aluminium case.
 
+The “Black Magic Probe” or the derivative cost down version “Jeff Probe” are both a combined hardware & software projects. 
+
+(1) At the hardware level, they implement both, **JTAG and SWD interfaces for ARM Cortex A- series and M-series** microcontrollers.
+
+(2) At the software level, they provide a “**gdb- server**” implementation and **Flash programmer** support for ranges of micro- controllers of various brands.
+
+The embedded software of the “Black Magic Probe” and “Jeff Probe” are both an open-source project, and both has its own GitHub project development.
+
 ![grafik](https://user-images.githubusercontent.com/13151053/225426657-845d777d-f991-43db-9939-9276f3e97c46.png)
 
 * Tools. Lots of tools. I think I used all tools there are:
