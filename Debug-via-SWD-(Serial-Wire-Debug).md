@@ -1,5 +1,8 @@
 Coding without the possibility of debugging can be quite time consuming because you are mostly blind. The portapack is an embedded system and requires some work for the comfort.
 
+## NXP ARM Cortex-M4/M0 dual-core microcontroller  LPC 4330 Debug Configuration
+  It supports JTAG and Serial Wire Debug (SWD), serial trace, eight breakpoints, and four watch points.
+
 ## What you need
 * Black Magic Probe
   * Or something similar. [HackRF](https://hackrf.readthedocs.io/en/latest/LPC43XX_Debugging.html) has a list of hardware that should work. In this example we will be using the [Jeff Probe](https://flirc.tv/products/flirc-jeffprobe?variant=43085036585192) with the portapack H2+ in an aluminium case.
