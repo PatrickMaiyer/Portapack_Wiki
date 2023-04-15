@@ -240,3 +240,26 @@ Now:
 ![grafik](https://user-images.githubusercontent.com/13151053/225966101-1b838b97-f845-40e2-b02e-44d9ecbb5770.png)
 
 It should stop at the breakpoint now. Press F10 to step through the code.
+
+
+## Some notes about unified JTAG / Serial Wire Debug (SWD) interface.
+ ARM provides SWJ-DP (serial wire/jtag debug port) via its CoreSight technology which maps SWD pins onto JTAG's clock and reset lines. SWJ-DP therefore allows using both protocols on the same physical connection though not necessarily at the same time or with the same programmers as JTAG and SWD would have to be multiplexed in time.
+
+
+
+**JTAG requires 4 signal lines**
+
+![image](https://user-images.githubusercontent.com/86470699/232254292-1cc21bfd-a703-4554-bfb3-a9b6d7c6fde5.png)
+
+Following this [Serial Wire Debug (SWD) link ](https://www.allaboutcircuits.com/technical-articles/jtag-implementation-arm-core-devices/)
+While the JTAG-DP is a common and familiar example of a debugging interface, most relevant to our discussion is the JTAG alternative defined for Arm devices, the Arm Serial Wire Debug (SWD). **SWD was developed as a two-wire interface** for Arm-core devices with limited pin counts. As microcontrollers tend to be quite dense in peripherals, most Cortex-M devices will implement SWD in place of full JTAG to save pin real-estate. So how does this protocol work? 
+
+SWD is specified in the ADIv5 specification (chapter B4). The TDI and TDO pins from JTAG are replaced by a single bidirectional pin called SWDIO; the test mode select (TMS) pin is removed entirely; and the clock (TCK) remains the same (relabeled CLK or SWCLK). Thus SWD uses only two pins compared to the four pins used in JTAG. To make this work, SWD relies on the repetitive nature of JTAG operations: the state machine is manipulated, data is shifted in or out, and the process repeats. The difference with SWD is there is no state machine. Instead, commands are issued serially over SWDIO, and then that same pin is used for reading or writing data.
+
+There are three phases to SWD communication: packet request, acknowledgment, and data transfer. During packet request, the host platform issues a request to the DP, and this must be followed by an acknowledge response. If the packet request was a data read or data write request, and there was a valid acknowledgement, the system enters the data transfer phase, where data is clocked in (write) or clocked out (read) through SWDIO. After a data transfer, the host is responsible for either starting a packet request, or driving the SWD interface with idle cycles (clocking SWDIO LOW). A parity check is applied to packet requests and data transfer phases. 
+
+The particulars of SWD are best understood by seeing a timing diagram, shown in Figure 2. 
+
+![image](https://user-images.githubusercontent.com/86470699/232254350-5d33790a-42fb-4f1c-bc3f-0e9806b198f1.png)
+Figure 2. Timing diagrams showing read and write operations for Serial Wire Debug. 
+
