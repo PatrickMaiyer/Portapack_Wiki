@@ -9,7 +9,7 @@ The ADI defines a debug access port (DAP), made up of a debug port (DP) and acce
 ![image](https://user-images.githubusercontent.com/86470699/232249414-38c50e17-c031-49bd-b0a4-1bb0c8029b35.png)
 
  
- ## NXP ARM Cortex-M4/M0 dual-core microcontroller  LPC 4330 Debug Configuration
+ ## NXP ARM Cortex-M4/M0 dual-core microcontroller  LPC 43xx Debug Configuration
 
  Our specific LPC 4330 dual-core microcontroller supports JTAG and Serial Wire Debug (SWD), serial trace, eight breakpoints, and four watch points.
 
