@@ -242,8 +242,11 @@ Now:
 It should stop at the breakpoint now. Press F10 to step through the code.
 
 
+
+
 ## Some notes about unified JTAG / Serial Wire Debug (SWD) interface.
- ARM provides SWJ-DP (serial wire/jtag debug port) via its CoreSight technology which maps SWD pins onto JTAG's clock and reset lines. SWJ-DP therefore allows using both protocols on the same physical connection though not necessarily at the same time or with the same programmers as JTAG and SWD would have to be multiplexed in time.
+ ARM provides SWJ-DP (serial wire/jtag debug port) via its CoreSight technology which maps SWD pins onto JTAG's clock and reset lines. 
+ SWJ-DP therefore **allows using both protocols on the same physical connection** though not necessarily at the same time or with the same programmers as JTAG and SWD would have to be multiplexed in time.
 
 
 
