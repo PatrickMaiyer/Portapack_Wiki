@@ -20,7 +20,7 @@ The ADI defines a debug access port (DAP), made up of a debug port (DP) and acce
 
 ![image](https://user-images.githubusercontent.com/86470699/232248466-be75ee18-f60a-482b-b16b-16cf391c7faf.png)
 
-Following other additional documents form [NXP Community](https://community.nxp.com/pwmxy87654/attachments/pwmxy87654/lpc%40tkb/63/1/LPC_DualCore.pdf)
+Following other additional documents from [NXP Community](https://community.nxp.com/pwmxy87654/attachments/pwmxy87654/lpc%40tkb/63/1/LPC_DualCore.pdf)
 
 ![3A011E7D-4A5F-4062-9AF7-3244E47C159B](https://user-images.githubusercontent.com/86470699/232255540-69d8e392-f024-48a0-87e0-d04e4c5b3a62.jpeg)
 
