@@ -248,6 +248,9 @@ It should stop at the breakpoint now. Press F10 to step through the code.
  ARM provides SWJ-DP (serial wire/jtag debug port) via its CoreSight technology which maps SWD pins onto JTAG's clock and reset lines. 
  SWJ-DP therefore **allows using both protocols on the same physical connection** though not necessarily at the same time or with the same programmers as JTAG and SWD would have to be multiplexed in time.
 
+The Serial Wire Debug protocol (SWD) is designed as an alternative to the JTAG protocol, for microcontrollers with a low pin count. It is part of the ARM Debug Interface specification version 5, abbreviated as ADI5. At the physical layer, it needs two lines at the minimum (plus ground), as opposed to five for JTAG. These two lines are the clock (SWCLK, driven by the debug probe) and a bidirectional data line (SWDIO). Tracing output goes over a third (optional) line: TRACESWO, but using an unrelated protocol (independent of SWCLK)
+
+![D3A45F32-884D-485D-99CF-018FDCEFEEC3](https://user-images.githubusercontent.com/86470699/232283539-65d1515d-847a-4e02-98dc-26a0dc6d18f1.jpeg)
 
 
 **JTAG requires 4 signal lines**
@@ -265,4 +268,6 @@ The particulars of SWD are best understood by seeing a timing diagram, shown in 
 
 ![image](https://user-images.githubusercontent.com/86470699/232254350-5d33790a-42fb-4f1c-bc3f-0e9806b198f1.png)
 Figure 2. Timing diagrams showing read and write operations for Serial Wire Debug. 
+
+Before a microcontroller’s SWD port is serviceable, an initialization sequence must be performed, part of which is to switch the protocol from JTAG to SWD. Some ARM Cortex microcontrollers do not support JTAG, but the protocol requires that the JTAG-to-SWD switch is still performed.
 
