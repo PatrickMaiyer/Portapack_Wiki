@@ -157,6 +157,11 @@ Now that everything is set up you can connect gdb to the LPC4320.
 
        ![image](https://user-images.githubusercontent.com/86470699/232033188-ab87601f-2030-47dd-b075-5aca0258480f.png)
 
+     * > (After connecting the Black Magic or Jeff Probe to a USB port, two virtual serial ports appear. One of these is for gdbserver and the other for the generic TTL‐level UART. Since the Black Magic/ Jeff Probe implements the CDC class, and Linux has drivers for CDC class devices built-in, no drivers need to be set up. 
+     * > The device paths for the serial ports are /dev/ttyACM* where the “*” stands for a sequence number. For example, if the Black Magic or Jeff Probe is the only virtual serial port connected to the workstation, the assigned device names will be /dev/ttyACM0 and /dev/ttyACM1.)
+
+
+
 
 3.  now check the fw version of the probe
     * (gdb) monitor version
