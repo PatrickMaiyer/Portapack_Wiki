@@ -143,7 +143,10 @@ You now have two options:
 
 > Congratulation. The value of your portapack has now increased by whatever you spend on tools and hardware and of course by the time you spend ;)
 
-## Use gdb
+## Use gdb 
+![image](https://user-images.githubusercontent.com/86470699/232610948-67277b92-6727-4228-82b6-f3a51069b928.jpeg)
+
+
 
 Now that everything is set up you can connect gdb to the LPC4320.
 1.  Start arm-none-eabi-gdb
