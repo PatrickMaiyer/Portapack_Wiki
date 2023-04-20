@@ -293,6 +293,10 @@ Now:
 
 ![grafik](https://user-images.githubusercontent.com/13151053/225966101-1b838b97-f845-40e2-b02e-44d9ecbb5770.png)
 
+You can control the debug steps by the following top button debug control GUI .
+
+![image](https://user-images.githubusercontent.com/86470699/233490768-58fe628b-45fa-40d4-80d6-5d9ab3bd5544.png)
+
 It should stop at the breakpoint now. Press F10 to step through the code.
 
 
