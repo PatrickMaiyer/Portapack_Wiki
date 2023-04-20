@@ -202,6 +202,27 @@ Now that everything is set up you can connect gdb to the LPC4320.
 
 First create your .vscode/launch.json
 
+At the end , it will appear here ,  (/opt/portapack-mayhem/.vscode/launch.json)
+
+![image](https://user-images.githubusercontent.com/86470699/233483100-73e7f903-e5d7-4040-a68c-5e2e58fd90c3.png)
+
+But if you never set up that debug probe before, it will be empty , as that picture, 
+
+![image](https://user-images.githubusercontent.com/86470699/233483580-2ebd79c5-ad0f-4199-876c-73b27867eba0.png)
+
+Therefore we need to create it ,selecting in left side "Debug" ,and then "create a launch.json file
+
+![image](https://user-images.githubusercontent.com/86470699/233486149-ffbb3996-afab-4a31-860c-a250b4360e1e.png)
+
+It will generate a default template
+ 
+![image](https://user-images.githubusercontent.com/86470699/233485340-d9f3fed7-2f75-43d8-9ae4-aaff63b29516.png)
+
+
+that we need to replace by below example contents ,
+
+
+
 ```json
 {
     "version": "0.2.0",
@@ -229,6 +250,23 @@ First create your .vscode/launch.json
     ]
 }
 ```
+
+(Note : if you are using linux, you may start to get that permission error, If that is the case, you will need to find out the user and group of that file :
+
+ "ls -la /dev/ttyA*" ,  and  later add your user into the group of that file , by "sudo gpasswd -a your_user_name dialout"  )
+
+
+![image](https://user-images.githubusercontent.com/86470699/233488410-814bdab9-8976-42c8-acc5-70fea1c535a1.png)
+
+
+
+ 
+ 
+
+
+
+
+
 
 Setting breakpoints and attaching without breakpoints does not work very well. So we have to do it by hand. In code.
 
