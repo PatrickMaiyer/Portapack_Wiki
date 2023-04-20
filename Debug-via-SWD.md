@@ -81,8 +81,12 @@ First we need to disassemble the portapack. Lots of screws. You probably already
 > Note: The arrow points to PIN 1. Always ensure that you connect your cable correctly, typically by matching PIN 1 marked on the board to the red stripe on the cable.
 
 If you have a Portapack without battery, you can solder the 10 x pin header JTAG connector in the designed A-side ,
+and leave the flat FFC 10 x pin cable inside.
  
 ![image](https://user-images.githubusercontent.com/86470699/233478841-1c32a107-addb-428a-ba1d-6a0096ca4333.png)
+![image](https://user-images.githubusercontent.com/86470699/233480971-ae6fa754-4381-4225-814f-8d22f4db1b3e.png)
+
+
 
 But if your device has integrated battery , there is no space, and you now have two options:
 1. Solder the pin header and never be able to close the portapack again.
