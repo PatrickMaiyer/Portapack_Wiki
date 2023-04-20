@@ -84,6 +84,7 @@ If you have a Portapack without battery, you can solder the 10 x pin header JTAG
 and leave the flat FFC 10 x pin cable inside.
  
 ![image](https://user-images.githubusercontent.com/86470699/233478841-1c32a107-addb-428a-ba1d-6a0096ca4333.png)
+![image](https://user-images.githubusercontent.com/86470699/233492888-470dbcd8-1d67-476b-a42e-528cb63e4577.png)
 ![image](https://user-images.githubusercontent.com/86470699/233480971-ae6fa754-4381-4225-814f-8d22f4db1b3e.png)
 
 
