@@ -80,12 +80,16 @@ First we need to disassemble the portapack. Lots of screws. You probably already
 
 > Note: The arrow points to PIN 1. Always ensure that you connect your cable correctly, typically by matching PIN 1 marked on the board to the red stripe on the cable.
 
-You now have two options:
+If you have a Portapack without battery, you can solder the 10 x pin header JTAG connector in the designed A-side ,
+ 
+![image](https://user-images.githubusercontent.com/86470699/233478841-1c32a107-addb-428a-ba1d-6a0096ca4333.png)
+
+But if your device has integrated battery , there is no space, and you now have two options:
 1. Solder the pin header and never be able to close the portapack again.
 
 ![grafik](https://user-images.githubusercontent.com/13151053/225426821-15d2f240-1560-4179-a5a9-fd442e16cf5b.png)
 
-2. Solder it to the backside.
+2. Solder it to the backside (B-side).
 
 ![grafik](https://user-images.githubusercontent.com/13151053/225426994-9ecda5d9-8e90-4b1e-a534-3e16a5478b30.png)
 ![grafik](https://user-images.githubusercontent.com/13151053/225428630-870981a6-6057-4458-a0b0-2522c46ea8b0.png)
@@ -143,7 +147,7 @@ You now have two options:
 
 > Congratulation. The value of your portapack has now increased by whatever you spend on tools and hardware and of course by the time you spend ;)
 
-## Use gdb 
+## Use gdb (client)
 ![image](https://user-images.githubusercontent.com/86470699/232610948-67277b92-6727-4228-82b6-f3a51069b928.jpeg)
 
 
