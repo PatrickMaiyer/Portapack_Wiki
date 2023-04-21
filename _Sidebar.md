@@ -11,6 +11,8 @@
    * [3d printed enclosure](H2-Enclosure)
    * [Internal speaker](Internal-speaker)
    * [SMD buttons and caps](Push-buttons-and-button-caps)
+   * [Encoder knob](Encoder)
+   * [SMA Antenna connector](SMA Antenna)
 * [User interface](User-interface)
    * [Splash screen](Create-a-custom-splash-screen)
    * [Title bar](title-bar)
