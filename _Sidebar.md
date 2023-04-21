@@ -12,7 +12,7 @@
    * [Internal speaker](Internal-speaker)
    * [SMD buttons and caps](Push-buttons-and-button-caps)
    * [Encoder knob](Encoder)
-   * [SMA Antenna connector](SMA Antenna)
+   * [SMA Antenna connector](SMA-Antenna-connector)
 * [User interface](User-interface)
    * [Splash screen](Create-a-custom-splash-screen)
    * [Title bar](title-bar)
