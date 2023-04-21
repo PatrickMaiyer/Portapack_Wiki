@@ -24,7 +24,6 @@
    * [Receive Quality Issues](Help!-Im-not-receiving-anything!---Receive-Quality-Issues)
    * [Preamplifier IC replacement](preamplifier-ic-replacement)
    * [H2+ speaker modifications](H2-Plus-speaker-modifications)
-* [Care of PortaPack/HackRF](Care)
 * [Applications](Applications)
    * [Receivers](Receivers)
       * [ADS-B](Automatic-dependent-surveillance–broadcast-(ADS-B))
