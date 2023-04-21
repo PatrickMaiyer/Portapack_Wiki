@@ -6,7 +6,7 @@ Notice that you _could_ fit the `SMA-KE 18.5mm` variant, but it will be not the 
 
 # Replacing a broken connector
 
-1. Desolder the original, use enough flux (i.e. [this "self cleaning" variant](https://s.click.aliexpress.com/e/_DEfOQ85)) and add solder. If there is parts of the SMA connector still there, it might be more difficult to remove because the thermal mass. 
+1. Desolder the original, use enough flux (i.e. [this "self cleaning" variant](https://s.click.aliexpress.com/e/_DEfOQ85)) and fresh solder. If there is parts of the SMA connector still there, it might be more difficult to remove because the thermal mass. 
 
 ![image](https://user-images.githubusercontent.com/1091420/233613342-dfb284ee-b9ea-4851-8bed-b1313042632f.png)
 
