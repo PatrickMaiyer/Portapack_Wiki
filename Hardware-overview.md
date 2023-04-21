@@ -18,6 +18,8 @@
 11. 3.3V rail status led
 12. Reset button
 
+Check [care of PortaPack/HackRF](Care) for general guidelines of how to take care of your device.
+
 # PortaPack internals
 
 <img src="img/hw_overview_h2_inside.png" height="500">
