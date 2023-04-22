@@ -69,7 +69,7 @@
    * [Looking Glass](Looking-Glass)
    * [Tools](Tools)
       * Freq manager
-      * File manager
+      * [File manager](File-manager)
       * [Signal gen](Signal-Generator)
       * Wave viewer
       * [Antenna length](antennas)
