@@ -3,6 +3,8 @@ In theory, it is impossible to brick the device, since you can always try the DF
 # Normal procedure
 
 ## Firmware
+If you have a HackRF-One R9, you will need to follow the instructions in this link.
+https://hackerwarehouse.tv/product-knowledgebase/portapack-h2/hackrf-one-r9-and-portapack-compatibility/
 
 Get the latest firmware from the [![GitHub release (latest by date)](https://img.shields.io/github/v/release/eried/portapack-mayhem?label=Releases&style=social)](https://github.com/eried/portapack-mayhem/releases/latest) page. Please check the [FAQ](https://github.com/eried/portapack-mayhem#frequently-asked-questions) if you have any additional question.
 
