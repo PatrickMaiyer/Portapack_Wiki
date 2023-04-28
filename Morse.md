@@ -15,3 +15,7 @@ The Key Items on the App that can be selected with the cursor and changed with t
 * **Gain:** The gain setting are below the frequency and marked (0-47) LNA(IF) and AMP 0=0db or 1=14dB.
 * **Transmission Progress bar:** This bar indicated the progress of the transmission. Above it is shown the transmission time based on the message length.
 * **Start:** This button starts the transmission and if pressed again can stop the transmission.
+
+# Important note
+Due to the way it is designed, the first 2 characters are somewhat not sent. If you encounter the problem, try prefixing your message with two characters, like 'E' and space. Example: "E MyMessageStartsHere"  (see issue [!303](https://github.com/eried/portapack-mayhem/issues/303) if you think you can help)
+
