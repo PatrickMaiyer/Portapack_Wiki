@@ -1,6 +1,7 @@
 # Radio Types + Values Implemented
 
 https://radiosondy.info/
+https://sondehub.org/
 
 ### MeteoModem M10 
 * Latitude
@@ -8,6 +9,10 @@ https://radiosondy.info/
 * Altitude
 * Battery Voltage
 * Serial Number
+
+### MeteoModem M20 
+* Latitude
+* Longitude
 
 ### MeteoModem M2K2
 * Latitude
