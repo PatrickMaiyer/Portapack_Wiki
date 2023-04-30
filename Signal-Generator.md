@@ -32,7 +32,7 @@ We are generating simulated White Noise ,using pseudo random noise generator, 8 
 * noise n x 10khz   (taps: 7 6; feedback polynomial: x^7 + x^6 + 1 , Periode 127 = 2^n-1,it generates harmonincs aprox every n x 10Khz 
 * noise n x  5khz   (taps:8,6,5,4;feedback polynomial: x^8 + x^6 + x^5 + x^4 + 1,Periode 255= 2^n-1, harmonics aprox every n x 5khz
 
-Those GUI title, is indicating that the contents of the FFT spectrum , has harmonics of n x 20khz,  or n x 15khz, or n x 10khz.
+Those GUI title, is indicating that the contents of the FFT spectrum , has harmonics of n x 20khz,  or n x 10khz, or n x 5khz.
 (so user can select the granularity of the noise harmonics, ideally White noise should have all infinite harmonics) .
 
 
