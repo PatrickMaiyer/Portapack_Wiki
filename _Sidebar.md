@@ -19,7 +19,7 @@
    * [Main menu](main-menu)
    * [Main Controls](Main-Controls)
    * [SD Card content and modification](SD-Card-Content)
-   * [Text Entry](Text Entry)
+   * [Text Entry](Text-Entry)
 * [Powering the PortaPack](Powering-the-PortaPack)
 * Troubleshooting
    * [Won't boot](Won't-boot)
