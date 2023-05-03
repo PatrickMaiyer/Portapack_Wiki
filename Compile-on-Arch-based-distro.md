@@ -46,7 +46,7 @@ cd build
 cmake ..
 make firmware
 ```  
-There should be no more bugs anymore. 
+There should be no more errors anymore. 
 
 # Notes
 1. You cannot directly install `gcc-arm-none-eabi` from AUR using yay or others tool, otherwise the version would be not match.  
