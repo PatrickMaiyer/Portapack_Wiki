@@ -18,7 +18,7 @@ Check the output and make sure are the packages listed above were installed corr
 8. `tar -xvf aur-11b618acbed084c37cdf1568a1bc2b05152af7e1.tar.gz`  
 9. `cd aur-11b618acbed084c37cdf1568a1bc2b05152af7e1`
 10. `makepkg`   
->Note that since the SSL certificate of the file this ``makepkg`` pointed to already expired, the `curl` wouldn't install it correctly, thus, you have to add `-k` argument to your `makepkg.conf`:  
+>Note that since the SSL certificate of the file this ``makepkg`` pointed to already expired, the `curl` wouldn't download it correctly, thus, you have to add `-k` argument to your `makepkg.conf`:  
 `sudo vim /etc/makepkg.conf`  
 Edit the line   
 `'https::/usr/bin/curl -qgb "" -fLC - --retry 3 --retry-delay 3 -o %o %u'`  
