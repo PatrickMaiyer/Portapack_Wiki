@@ -18,7 +18,15 @@ A search/recon is when using one or ranges of frequencies with step. In our case
 
 You can check some demo videos at https://youtube.com/playlist?list=PL-tahIjVksD3rLlhhtemp6wvddnsYAVzv (warning: some features in the video may have been upgraded since filming)
 
-## TODO first
+
+## Limitations
+The portapack hardware is limited, and so is the list of elements that you can load. 
+
+A maximum number of 115 elements is allowed. One more element is allowed to detect that the file was truncated.
+
+If a file was loaded and truncated, the displayed list name and current entry description are in yellow instead of white.
+
+# TODO first
 If you are launching the Recon app for the first time, chances are high that you do not have the wanted options selected by default.
 
 We highly encourage you to go and check what's under the [OPT](https://github.com/GullCode/portapack-mayhem/wiki/Recon/_edit#opt-settings) button and get yourself used to the 'Main' and 'More' pages under it.
