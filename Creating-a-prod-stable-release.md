@@ -11,5 +11,7 @@ Once that is done then you need to create the draft stable release. You can do t
 
 This then create a draft release that you should be able to see in releases at the top https://github.com/eried/portapack-mayhem/releases
 
+Next, make sure you test it on your own device before going any further. This is to ensure it created it correctly and that there are no last minute bugs
+
 ## Finishing off
 Once all is done, create a PR to merge the `next` branch into the `master` branch
