@@ -9,7 +9,7 @@ To create a prod/stable release, first go to https://github.com/eried/portapack-
 ## Running the pipeline
 Once that is done then you need to create the draft stable release. You can do this by running the stable release pipeline on `next` branch https://github.com/eried/portapack-mayhem/actions/workflows/create_stable_release.yml
 
-This should take around 7-10 minutes.
+This should take around 7-15 minutes.
 
 ## Editing the draft release
 This then create a draft release that you should be able to see in releases at the top https://github.com/eried/portapack-mayhem/releases
