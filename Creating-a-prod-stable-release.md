@@ -20,9 +20,9 @@ Once tested, you then need to manually update the files in the `mayhem_nightly_X
 
 Once that is done, make sure to upload that to the new draft release replacing the old zip folder (Which you need to delete first).
 
-Take a quick look over the draft release and make sure everything looks good, If it does go ahead an publish it!
-
 ## Finishing off
 Once all is done, create a PR to merge the `next` branch into the `master` branch.
+
+Take a quick look over the draft release and make sure everything looks good, If it does go ahead an publish it!
 
 Then make sure to create an announcement on Discord that vx.x.x has just been released and post a link to it.
