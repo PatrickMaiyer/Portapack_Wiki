@@ -13,6 +13,7 @@ https://sondehub.org/
 ### MeteoModem M20 
 * Latitude
 * Longitude
+* Altitude
 
 ### MeteoModem M2K2
 * Latitude
