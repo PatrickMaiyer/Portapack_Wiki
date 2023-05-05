@@ -7,3 +7,6 @@ To create a prod/stable release, first go to https://github.com/eried/portapack-
 
 
 Once that is done then you need to create the draft stable release. You can do this by running the stable release pipeline https://github.com/eried/portapack-mayhem/actions/workflows/create_stable_release.yml
+
+
+Once all is done, create a PR to merge the `next` branch into the `master` branch
