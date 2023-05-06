@@ -36,9 +36,12 @@ Those GUI title, is indicating that the contents of the FFT spectrum , has harmo
 
 ![image](https://user-images.githubusercontent.com/86470699/235372877-9eecb03d-ac05-46d5-be43-858fb8d4d15a.png)
 
+We have  introduced  only one user option, about Noise generator , using the best LFSR that we tested : 16 bit polynomial feedback LFSR , that has longer random sequence period and produces more continuous spectrum.Using noise generator, we can hear in any FM receiver the random noise (and we can also see the random demodulated signal, as it is attached below ) and the peak radiated spectrum power is now just -10 dB's compared to the triangle or saw signal , that is fine (acceptable) . (not -40 or -50 dB's as it was before, really too small) .
+
 
 ![7E6861D9-77CA-43EA-A67E-10EB8C8AA59F](https://user-images.githubusercontent.com/86470699/236649462-4b835635-a3cb-4f27-aea3-bed659d2d8df.png)
 
+See on top right corner the pseudo random noise demodulated sinal
 
 ![56259E88-BC41-419F-9BBC-B5C3AF1557F2](https://user-images.githubusercontent.com/86470699/236649465-7fa28ded-d79c-4d4e-9504-05ce04c48a47.png)
 
