@@ -26,9 +26,7 @@ Stop after 1s limits carrier duration to 1 second
 From nightly 1st of May 23 fw onwards, we have added 3 White Noise simulation options.
 We are generating simulated White Noise ,using pseudo random noise generator, 8 bits  linear-feedback shift register (LFSR) algorithm, variant Fibonacci.  (Following this wiki [link](https://en.wikipedia.org/wiki/Linear-feedback_shift_register)) 
 
-* noise n x 20khz,  (taps: 6 5; feedback polynomial: x^6 + x^5 + 1 , Periode  63 = 2^n-1,it generates harmonincs aprox every n x 20Khz
-* noise n x 10khz   (taps: 7 6; feedback polynomial: x^7 + x^6 + 1 , Periode 127 = 2^n-1,it generates harmonincs aprox every n x 10Khz 
-* noise n x  5khz   (taps:8,6,5,4;feedback polynomial: x^8 + x^6 + x^5 + x^4 + 1,Periode 255= 2^n-1, harmonics aprox every n x 5khz
+* noise signal
 
 Those GUI title, is indicating that the contents of the FFT spectrum , has harmonics of n x 20khz,  or n x 10khz, or n x 5khz.
 (so user can select the granularity of the noise harmonics, ideally White noise should have all infinite harmonics) .
