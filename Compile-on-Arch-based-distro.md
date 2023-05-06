@@ -18,16 +18,17 @@ Check the output and make sure are the packages listed above were installed corr
 8. `tar -xvf aur-11b618acbed084c37cdf1568a1bc2b05152af7e1.tar.gz`  
 9. `cd aur-11b618acbed084c37cdf1568a1bc2b05152af7e1`
 10. `makepkg`   
->Note that since the SSL certificate of the file this ``makepkg`` pointed to already expired, the `curl` wouldn't download it correctly, thus, you have to add `-k` argument to your `makepkg.conf`:  
-`sudo vim /etc/makepkg.conf`  
-Edit the line   
-`'https::/usr/bin/curl -qgb "" -fLC - --retry 3 --retry-delay 3 -o %o %u'`  
-to  
-`'https::/usr/bin/curl -qgb "" -fLC - --retry 3 --retry-delay 3 -k -o %o %u'`  
-(You may change it back after installing, if you needed)  
-Then `makepkg`, waiting it finished.  
+>(ARM already fixed this but in case of it happend again we'll leave it here.)    
+~~Note that since the SSL certificate of the file this ``makepkg`` pointed to already expired, the `curl` wouldn't download it correctly, thus, you have to add `-k` argument to your `makepkg.conf`:~~  
+~~`sudo vim /etc/makepkg.conf`~~    
+~~Edit the line~~     
+~~`'https::/usr/bin/curl -qgb "" -fLC - --retry 3 --retry-delay 3 -o %o %u'`~~    
+~~to~~    
+~~`'https::/usr/bin/curl -qgb "" -fLC - --retry 3 --retry-delay 3 -k -o %o %u'`~~    
+~~(You may change it back after installing, if you needed)~~    
+~~Then `makepkg`, waiting it finished.~~    
 11. Install the package with `pacman`:  
-`sudo pacman -U gcc-arm-none-eabi-bin-9_2020_q2_update-1-x86_64.pkg.tar.zst`  
+`sudo pacman -U gcc-arm-none-eabi-bin-9_2020_q2_update-1-x86_64.pkg.tar.zst` ~~
 
 # 3. Clone your repo to local and satisfying the sub-module
 ```
