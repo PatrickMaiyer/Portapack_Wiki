@@ -183,7 +183,7 @@ some compiling errors to check it's better to call it without '-j 8')
 
     sudo chown -R my_user:my_usergroup /opt/portapack-mayhem
 
-## 6. Check the python version in libopencm3 and use python3 if not already here 
+## ~~6. Check the python version in libopencm3 and use python3 if not already here~~ 
 
     sed -i 's/env python$/env python3/g' /opt/portapack-mayhem/hackrf/firmware/libopencm3/scripts/irq2nvic_h
     
