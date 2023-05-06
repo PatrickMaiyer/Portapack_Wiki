@@ -1,13 +1,11 @@
 The signal generator found under Utilities can be used to generate a carrier which can be FM modulated with the following waveforms as defined by the Shape function.
 * CW : unmodulated carrier
-* Sine 
-* triangle
-* sawtooth up
-* sawtooth down
-* square
-* noise n x 20khz
-* noise n x 10khz
-* noise n x  5khz
+* Sine signal
+* triangle signal 
+* sawtooth up signal
+* sawtooth down signal 
+* square signal
+* noise signal
 
 ## * Sine / Triangle / Sawtooth up / Sawtooth down / Square
 We can select the periodic signal to modulate the carrier , in FM .(and we can adjust below the delta FM deviation) 
