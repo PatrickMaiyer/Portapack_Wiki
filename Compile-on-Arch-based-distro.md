@@ -50,13 +50,16 @@ make firmware
 There should be no more errors anymore. 
 
 # Notes
-1. You cannot directly install `gcc-arm-none-eabi` from AUR using yay or others tool, otherwise the version would be not match.  
-2. After installing `gcc-arm-none-eabi` you may change the `makepkg.conf` back:
->`sudo vim /etc/makepkg.conf`  
-Edit the line   
-`'https::/usr/bin/curl -qgb "" -fLC - --retry 3 --retry-delay 3 -k -o %o %u'`  
-to  
-`'https::/usr/bin/curl -qgb "" -fLC - --retry 3 --retry-delay 3 -o %o %u'`  
+1. You cannot directly install `gcc-arm-none-eabi` from AUR using yay or others tool, otherwise the version would be not match.    
+
+
+2. (ARM already fixed this but in case of it happend again we'll leave it here.)    
+ ~~After installing `gcc-arm-none-eabi` you may change the `makepkg.conf` back:~~  
+>~~`sudo vim /etc/makepkg.conf`~~    
+~~Edit the line~~     
+~~`'https::/usr/bin/curl -qgb "" -fLC - --retry 3 --retry-delay 3 -k -o %o %u'`~~    
+~~to~~    
+~~`'https::/usr/bin/curl -qgb "" -fLC - --retry 3 --retry-delay 3 -o %o %u'`~~    
 
 
 
