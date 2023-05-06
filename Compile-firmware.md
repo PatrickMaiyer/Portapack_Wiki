@@ -183,12 +183,12 @@ some compiling errors to check it's better to call it without '-j 8')
 
     sudo chown -R my_user:my_usergroup /opt/portapack-mayhem
 
-## 6. Check the python version in libopencm3 and use python3 if not already here 
+## ~~6. Check the python version in libopencm3 and use python3 if not already here~~   
 
-    sed -i 's/env python$/env python3/g' /opt/portapack-mayhem/hackrf/firmware/libopencm3/scripts/irq2nvic_h
+    sed -i 's/env python$/env python3/g' /opt/portapack-mayhem/hackrf/firmware/libopencm3/scripts/irq2nvic_h  
     
-    (from  Sep 26, 2022 Hackrf submodule, already modified that script, changing "python" -> "python3" interpreter. 
-     Be carefull, in current repo conditions, no need to send that command , otherwise you will have "python33" , that is not correct) 
+    (from  Sep 26, 2022 Hackrf submodule, already modified that script, changing "python" -> "python3" interpreter.   
+     Be carefull, in current repo conditions, no need to send that command , otherwise you will have "python33" , that is not correct)   
 
 ## 7. Create makefile through cmake and compile (it's important to call the PATH cmd in step 3 just before making the cmake)
     
