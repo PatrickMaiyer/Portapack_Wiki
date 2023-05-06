@@ -36,8 +36,11 @@ Those GUI title, is indicating that the contents of the FFT spectrum , has harmo
 
 ![image](https://user-images.githubusercontent.com/86470699/235372877-9eecb03d-ac05-46d5-be43-858fb8d4d15a.png)
 
-![image](https://user-images.githubusercontent.com/86470699/235373167-f7d886da-e383-4a55-8a0f-514c32ae4891.png)
 
+![7E6861D9-77CA-43EA-A67E-10EB8C8AA59F](https://user-images.githubusercontent.com/86470699/236649462-4b835635-a3cb-4f27-aea3-bed659d2d8df.png)
+
+
+![56259E88-BC41-419F-9BBC-B5C3AF1557F2](https://user-images.githubusercontent.com/86470699/236649465-7fa28ded-d79c-4d4e-9504-05ce04c48a47.png)
 
 
 Update when unchecked requires the user to drop carrier, then re-start carrier in order for a change of modulation Shape or Tone frequency to take effect. When checked, values will update on the fly.
