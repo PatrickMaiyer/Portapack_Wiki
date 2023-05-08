@@ -23,16 +23,10 @@ Update when unchecked requires the user to drop carrier, then re-start carrier i
 Stop after 1s limits carrier duration to 1 second
 
 ## * White Noise generator options:
-From nightly 1st of May 23 fw onwards, we have added 3 White Noise simulation options.
 We are generating simulated White Noise ,using pseudo random noise generator, 8 bits  linear-feedback shift register (LFSR) algorithm, variant Fibonacci.  (Following this wiki [link](https://en.wikipedia.org/wiki/Linear-feedback_shift_register)) 
 
-* noise signal
 
-Those GUI title, is indicating that the contents of the FFT spectrum , has harmonics of n x 20khz,  or n x 10khz, or n x 5khz.
-(so user can select the granularity of the noise harmonics, ideally White noise should have all infinite harmonics) .
-
-
- Example of the implementation of the first Noise option , n x 20 Khz aprox.
+ Example of the implementation of a 8 bite  Noise option 
 
 ![image](https://user-images.githubusercontent.com/86470699/235372877-9eecb03d-ac05-46d5-be43-858fb8d4d15a.png)
 
