@@ -28,7 +28,14 @@ The Key Items on the App that can be seen or selected with the cursor and change
     * **AM:** Bandwidth settings of DSB 9k, DSB 6k, USB+3k, LSB-3k, CW. The Spectrum view is +/-20k.
     * **NFM:** Bandwidth Settings of 16k,11k,8k5. Note there is no setting for the more common 6k5 used in European Spectrum plans. Next item is SQ: which is shown in the format of 40/99 allow the noise squelch point to be set Between 0-99. Typically, around 40-50 is a good threshold.
     * **Gain:** The RF Amp settings. The Spectrum view is +/-20k.
-    * **WFM:** There are no Secondary settings, The Spectrum view is +/-100k with a marker That may be changed (though seem the incorrect value).
+    * **WFM:** There are three option filters in that Secondary settings : 
+
+     * (1) 200k ,the original filter for commercial FM stations with soft transition, 
+
+     * (2) 180k with sharp transition, for also commercial FM broadcast station, specially useful to improve demodulated S/N in around 6 to 8 dB‘s in weak signals . 
+
+     * (3) 40k with also sharp transition, for supporting NOAA APT weather satellite reception in 137 MHz . (that filter is too narrow for WFM with 75khz delta deviation and can produce audio distortion in the demodulated sound). The Spectrum view is +/-100k with a marker That may be changed (though seem the incorrect value).
+
     * **SPEC.** The spectrum Secondary Items allows the view of the RF spectrum with different setting for maximum bandwidth shown:
             
             20M with markers at +/- 5M
