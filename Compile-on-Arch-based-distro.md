@@ -28,7 +28,7 @@ Check the output and make sure are the packages listed above were installed corr
 ~~(You may change it back after installing, if you needed)~~    
 ~~Then `makepkg`, waiting it finished.~~    
 11. Install the package with `pacman`:  
-`sudo pacman -U gcc-arm-none-eabi-bin-9_2020_q2_update-1-x86_64.pkg.tar.zst` ~~
+`sudo pacman -U gcc-arm-none-eabi-bin-9_2020_q2_update-1-x86_64.pkg.tar.zst` 
 
 # 3. Clone your repo to local and satisfying the sub-module
 ```
