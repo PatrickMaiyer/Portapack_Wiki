@@ -1,6 +1,6 @@
 # 1. Install dependence
 ``
-sudo pacman -S git tar wget dfu-util cmake python3 bzip2 lz4 curl hackrf python-distutils-extra python-setuptools python-pip python-yaml
+sudo pacman -S git tar wget dfu-util cmake python3 bzip2 lz4 curl hackrf python-distutils-extra python-setuptools python-pip python-yaml libopencm3
 ``
 
 Check the output and make sure are the packages listed above were installed correctly.
