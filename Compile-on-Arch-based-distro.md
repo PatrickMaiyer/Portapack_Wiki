@@ -1,4 +1,4 @@
-_Debian based is more recommended since the dependency chain is clearer and more independently. So if you are just planning pickup a Linux to play with this project, use Debian based, instead of Arch based. But if you already decided to use Arch, please prevent breaking dependencies chain by doing `pacman -Syu`_
+_Debian based is more recommended since the dependency chain is clearer and more independently. So if you are just planning pickup a Linux to play with this project, use Debian based, instead of Arch based. But if you already decided to use Arch, please prevent breaking dependencies chain with doing `pacman -Syu`_
 # 1. Install dependence
 ``
 sudo pacman -S git tar wget dfu-util cmake python3 bzip2 lz4 curl hackrf python-distutils-extra python-setuptools python-pip python-yaml libopencm3
