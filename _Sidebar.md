@@ -107,7 +107,7 @@
       * [All in one script for ARM on Debian host](Compile-firmware#all-in-one-script-for-arm-on-debian-host)
       * [How to compile faster with WSL 2](How-to-compile-faster-with-WSL-2)
       * [Compile on Arch based distro](Compile-on-Arch-based-distro)
-   * [Create a custom map](Create-a-Custom-Map-with-Offline-Map-Maker-!)
+   * [Create a custom map](Create-a-Custom-Map-with-Offline-Map-Maker)
 * Description of the Structure
    * [At First Glance](At-first-glance)
    * [Boot Process](Boot-Process)
