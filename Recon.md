@@ -245,11 +245,11 @@ The Recon app is using the old as the new format, taking informations when it ca
 
 `a=87000000,b=110000000`
 
-`a=87000000,b=110000000,m=AM,s=100KHz,d=AM radio search`
+`a=87000000,b=110000000,m=AM,s=100kHz,d=AM radio search`
 
-`a=87000000,b=110000000,m=AM,bw=DSB 9k,s=250KHz,d=AM radio search LSB`
+`a=87000000,b=110000000,m=AM,bw=DSB 9k,s=250kHz,d=AM radio search LSB`
 
-`a=87000000,b=110000000,m=WFM,bw=200k,s=50KHz,d=WFM radio search s=50KHz`
+`a=87000000,b=110000000,m=WFM,bw=200k,s=50kHz,d=WFM radio search s=50kHz`
 
 `r=430150000,t=430550000`
 
@@ -262,11 +262,11 @@ The Recon app is using the old as the new format, taking informations when it ca
 
 * AM  ( DSB 9k , DSB 6k , USB+3k , LSB-3k , CW )
 * NFM ( 8k5 , 11k , 16k )
-* WFM ( 200k )
+* WFM ( 200k , 180k , 40k )
 
 ## Possible values for Steps
 
-* 5KHz , 6.25KHz , 8.33KHz , 9KHz , 10KHz , 12.5KHz , 15KHz , 25KHz , 50KHz , 100KHz , 250KHz , 500KHz , 1MHz
+* 5kHz , 6.25kHz , 8.33kHz , 9kHz , 10kHz , 12.kHz , 15kHz , 25kHz , 50kHz , 100kHz , 250kHz , 500kHz , 1MHz
 
 # Workflow and tips
 Workflow:
@@ -300,7 +300,7 @@ If you're not having your frequencies searched in both direction, maybe you misw
 Using the same input and output file is not going to pause a problem until you forgot to uncheck 'clear output at start'. Yeah, you've just clear what you wanted to scan
 
 # Power consumption
-A continuous search of 63H41M43S was run by user @vag3d, using the default antenna. Settings were a range from 10MHz to 6MHz, WFM, 5KHz steps, 1s wait
+A continuous search of 63H41M43S was run by user @vag3d, using the default antenna. Settings were a range from 10MHz to 6MHz, WFM, 5kHz steps, 1s wait
 
 Results: 8002 matching frequencies in the output list, and a consumption as following: 63:41:43 4.8659V 0.4191A 120.448Wh 24.796Ah
 
