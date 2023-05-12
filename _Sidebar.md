@@ -70,7 +70,7 @@
    * [Microphone Transceiver](Microphone-Transceiver)
    * [Looking Glass](Looking-Glass)
    * [Tools](Tools)
-      * Freq manager
+      * [Freq manager](Freq-manager)
       * [File manager](File-manager)
       * [Signal gen](Signal-Generator)
       * Wave viewer
