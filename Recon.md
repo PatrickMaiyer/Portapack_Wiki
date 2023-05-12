@@ -55,7 +55,7 @@ Buttons and information description, from top to bottom, and left to right. [NAM
 
 * [BW] , [SQUELCH], [W],[L] => bandwidth for actual demod, squelch is the level of DB needed to start to lock on a signal, W (wait after match) is the time we will stay on the frequency if it's reaching nb_locks during lock_wait (continously or sparsely). If wait is a negative number, then it represent the time we are staying on a matched frequency waiting for new activity, and a new lock during the wait restart the counters (you keep staying on it until a full wait without a lock is reached). L (lock_wait) is the lock wait timer, representing the maximum time we stay on a freq waiting for a lock. The lock wait timer is adjusted to the smallest optimal value at app startup and after a OPT save. You may adjust it to fit your needs.
 
-* [XXX] / XXX , XX db, XX/XX value , [OPT] => index of the current frequency in the loaded list (move with encoder, or set a value by clicking), number of frequencies in the list, actual DB value, number of locks / number of needed locks for a match, button to the settings page
+* [XXX] / XXX , XX db, XX/XX value , [OPT] => index of the current frequency in the loaded list (move with encoder, or set a value by clicking), number of frequencies in the list, actual DB value, number of locks / number of needed locks for a match, button to the settings page. Will be in red if file contain too much lines or if an error description is shown.
 
 * FREQ: XXXX => Current frequency
 
@@ -63,7 +63,7 @@ Buttons and information description, from top to bottom, and left to right. [NAM
 
 * TIMER, CTCSS => elapsed timer for current frequency lock (0 if no lock) , detected tone if NFM is selected
 
-* Current input name (in red if too long or error), [MANUAL-S/SCANNER/RECON] => currently used mode. Manual Search, Scanner, Recon/Search. 
+* Current input name (Will be in red if file contain too much lines or if an error description is shown), [MANUAL-S/SCANNER/RECON] => currently used mode. Manual Search, Scanner, Recon/Search. 
 
 * [START], [END], [SEARCH] => set the manual start and end of a range and launch a search on it. These values will be updated by the search if auto update m-ranges is checked. If highlighted, you can use the rotary encoder to adjust start or end
 
