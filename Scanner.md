@@ -31,3 +31,7 @@ There are six buttons at the bottom of the screen, useful for the following task
 * Jump into the RX->AUDIO app (for further analysis)
 * Delete the current frequency on display from the (temporary) scanning memory
 * Add the current frequency into the SCANNER.TXT file
+
+# Freqman file format
+See [Freqman Manager](Freqman-manager) page
+
