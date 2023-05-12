@@ -61,9 +61,9 @@ Buttons and information description, from top to bottom, and left to right. [NAM
 
 * RSSI: XXX/XXX/XXX => Current min/med/max RSSI values in db
 
-* TIMER, CTCSS: elapsed timer for current frequency lock (0 if no lock) , detected tone if NFM is selected
+* TIMER, CTCSS => elapsed timer for current frequency lock (0 if no lock) , detected tone if NFM is selected
 
-* [MANUAL-S/SCANNER/RECON] currently used mode. Manual Search, Scanner, Recon/Search. 
+* Current input name (in red if too long or error), [MANUAL-S/SCANNER/RECON] => currently used mode. Manual Search, Scanner, Recon/Search. 
 
 * [START], [END], [SEARCH] => set the manual start and end of a range and launch a search on it. These values will be updated by the search if auto update m-ranges is checked. If highlighted, you can use the rotary encoder to adjust start or end
 
