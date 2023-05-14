@@ -46,6 +46,8 @@ After Step 5 do this:
 
 **Step 5.2)**  Do a sudo git clone --recurse-submodules `sudo git clone --recurse-submodules https://github.com/eried/portapack-mayhem.git`
 
+_(Note if it still doesn't compile, you might need to run ```git submodule update --init --recursive```)_
+
 ![image](https://user-images.githubusercontent.com/120348698/208136532-cf06e226-adac-4f3e-a88a-fae287f82b7c.png)
 
 **Step 5.3)** Give permission for the portapack-mayhem directory to your user
