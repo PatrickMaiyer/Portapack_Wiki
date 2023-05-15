@@ -52,4 +52,5 @@ Some enthusiasts managed to MOD their H1's by adding a standard usb powerbank ma
 
 ## H2
 
-H2 includes an internal Li-Ion battery, standard battery charging / management IC (located at the side of the speakerphone connector) and power switch.
+H2 includes an internal Li-Ion battery, standard battery charging / management IC (located at the side of the speakerphone connector) and power switch.  
+The power switch / battery level feature were provided by ``IP5306`` or similar module.  
