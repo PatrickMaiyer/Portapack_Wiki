@@ -25,7 +25,7 @@
    * [Won't boot](Won't-boot)
    * [Firmware upgrade](Update-firmware-troubleshooting)
    * [Receive Quality Issues](Help!-Im-not-receiving-anything!---Receive-Quality-Issues)
-   * [Preamplifier IC replacement](preamplifier-ic-replacement)
+   * [No TX/RX](preamplifier-ic-replacement)
    * [H2+ speaker modifications](H2-Plus-speaker-modifications)
    * [Factory Defaults](Factory-Defaults)
 * [Applications](Applications)
