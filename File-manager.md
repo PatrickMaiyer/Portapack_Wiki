@@ -25,8 +25,9 @@ When an item has been selected, the following commands are available in the tool
 - Capture files (.C16) will have a "partner" .TXT file containing metadata. Renaming or deleting one of the pair will prompt the same action to be applied to the other.
 
 ## Known folders
-- AUDIO - holds captures from the Audio app
-- CAPTURES - holds captures from the Capture app
+- APRS - holds captures from the APRS app.
+- AUDIO - holds captures from the Audio app.
+- CAPTURES - holds captures from the Capture app.
 - LOGS - holds logs from various apps like Pocsag and Radiosnde.
 
 ## Known Issues
