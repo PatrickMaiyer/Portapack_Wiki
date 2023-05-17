@@ -29,6 +29,7 @@ When an item has been selected, the following commands are available in the tool
 - AUDIO - holds captures from the Audio app.
 - CAPTURES - holds captures from the Capture app.
 - LOGS - holds logs from various apps like Pocsag and Radiosnde.
+- SCREENSHOTS - holds screenshots.
 
 ## Known Issues
 - Only the first 100 items in a directory can be shown.
