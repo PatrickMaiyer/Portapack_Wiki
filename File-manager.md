@@ -7,6 +7,8 @@ Used to manage files on the SD Card.
 - Use the right button to select a folder to take an action on (e.g. rename a folder).
 - Use the left button or select the ".." folder to go up a directory.
 
+A small, blinking arrow on the right indicates that there are more items if you scroll down.
+
 ## Buttons
 
 ![Tools_File manager](https://github.com/eried/portapack-mayhem/assets/3761006/9a138517-c66b-4a4f-8456-b48b84f9ec85)
