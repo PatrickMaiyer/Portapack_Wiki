@@ -1,81 +1,61 @@
-How to Collaborate on Portapack Mayhem:
+There ain't no such thing as a [free lunch](https://en.wikipedia.org/wiki/There_ain%27t_no_such_thing_as_a_free_lunch). If you want a better portapack, there is no better way to get it than collaborating.
 
-Portapack Mayhem is a community-driven project that welcomes contributions from everyone. If you're interested in collaborating on the project, here's a guide on how to get started:`
+# Write documentation
 
-Write Documentation:
+There is a lot of missing documentation about all the features, so it is really important to write clean and detailed instructions for them. In this current wiki, you can modify or add new content with a normal Github account. 
 
-Comprehensive Documentation:
-Ensure clear and detailed instructions for all features by modifying or adding content to the existing wiki on GitHub using a regular GitHub account.
+1. Select a topic you think you can master. It can be an specific app, function of an app or feature or procedure related with your PortaPack
+2. Check the following sources:
+    * https://github.com/mossmann/hackrf/wiki
+    * https://github.com/furrtek/portapack-havoc/wiki
+    * https://github.com/sharebrained/portapack-hackrf/wiki
+3. To create a new section, you have to edit the sidebar and then edit the page. To modify any actual section, just do it directly. Try to follow the same language and style used in the other articles of the Wiki.
 
-Select a Topic to Master:
-Choose a specific application, app function, feature, or procedure related to your PortaPack that you feel confident in mastering.
+For learning about the text formatting, check the [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-Consult Reliable Sources:
-Enhance your knowledge by referring to reliable sources such as:
-[HackRF Wiki](https://github.com/mossmann/hackrf/wiki)
-[PortaPack-Havoc Wiki](https://github.com/furrtek/portapack-havoc/wiki)
-[PortaPack-HackRF Wiki](https://github.com/sharebrained/portapack-hackrf/wiki)
+# Coding new stuff or fixing bugs
 
-Adding or Modifying Content:
-Edit the sidebar to create a new section or make direct modifications to existing sections while maintaining consistency with the language and style used in the Wiki.
+I know what are you thinking: "I am not an expert, I do not know C++, I am not capable, etc", but nobody really is until they do. The easiest way to get a bug fixed or a new feature is to code it yourself.
 
-Formatting the Documentation:
-Familiarize yourself with Markdown syntax using the [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to effectively format the content.
+So, setup the environment and compile the code as instructed below. Modify something dumb: the title bar of an app, some button, ... compile again and test. Try to understand how things works; this is exactly how everyone gets involved. 
 
-Coding New Features or Fixing Bugs:
+> While you learn, you can add comments and rename variables if you think it will help others to understand the code. **This is also a very appreciated contribution.**
 
-Overcoming Coding Challenges:
-Don't be discouraged by doubts or lack of expertise in C++. Start by taking action and coding the new feature or fixing the bug yourself. It is a learning process that anyone can undertake.
+## Environment setup
 
-Setting Up the Environment:
-Follow these steps to set up your coding environment:
+### Fork the repository
+1. Download and install [Github desktop](https://desktop.github.com/)
+2. Log to Github, open the [repository](https://github.com/eried/portapack-mayhem) and click **Fork** on the top right
+3. In your Fork, Click **Clone** and **Open in Desktop**
+4. Follow the rest of instructions in Github desktop
 
-Fork the repository.
-Download and install [GitHub Desktop](https://desktop.github.com/).
-Log in to GitHub, open the [repository](https://github.com/eried/portapack-mayhem), and click "Fork" in the top right corner.
-In your forked repository, click "Clone" and select "Open in Desktop."
-Complete the remaining instructions in GitHub Desktop.
+### Prepare for compilation
+1. [Compile your fork](Compile-firmware)
+2. As noted in the details on the previous step, the first time _it might_ take a long time to finish. The result will be left on the `build` folder, on the root of your fork
 
-Preparing for Compilation:
-[Compile your forked repository](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware), which may take some time initially, but the resulting build folder will be located in the root of your forked repository.
+## Start coding
 
-Commence Coding:
-Refer to a concise video tutorial for the following steps:
+You can check the following [brief video](https://youtu.be/cYLzmMFe7-E) that shows the most of the steps described below.
 
-[Install Visual Studio Code](https://code.visualstudio.com/download).
-Open the root directory of your local copy of the forked repository.
-Make the desired code changes.
-Compile the code by running the image from Kitematic.
-Repeat the code modification and compilation process until finished.
+### Work on the code
+1. Install [Visual Studio Code](https://code.visualstudio.com/download)
+2. Open the root directory of your local copy of the Fork
+3. Change something
+4. Run the image from Kitematic to compile
+5. Go to step 3 until finished
 
+It is recommended to work in [branches](https://help.github.com/en/desktop/contributing-to-projects/creating-a-branch-for-your-work), but as a beginner, it is ok to work on your master branch. 
 
-It is acceptable to work on your master branch as a beginner, but working on [branches](https://help.github.com/en/desktop/contributing-to-projects/creating-a-branch-for-your-work) is generally recommended.
+Create [commits](https://help.github.com/en/desktop/contributing-to-projects/committing-and-reviewing-changes-to-your-project) with your changes after you complete them. 
 
-After completing changes, create [commits](https://help.github.com/en/desktop/contributing-to-projects/committing-and-reviewing-changes-to-your-project) to track modifications:
-Keep commits simple, aiming for fewer affected files and lines.
-Use descriptive commit names and include the URL of the specific issue if applicable.
-Ensure successful compilation after each commit.
-Submitting Your Changes:
-When your new feature or bug fix is ready, follow these steps to submit your changes:
+Just keep in mind:
+* Keep it simple, the fewer commits, affected files and lines, the better
+* Use a descriptive name for the commits, add the URL of the issue if you were fixing something specific
+* The project needs to compile successfully after each commit
 
-Publish the branch (if necessary) and push all commits.
-Initiate a [pull request](https://help.github.com/en/desktop/contributing-to-projects/creating-an-issue-or-pull-request) (PR) with a descriptive title and, if necessary, a detailed description.
-Follow the subsequent interaction on GitHub.
+### Submit your changes
+This is the last stage. Your new feature or fix is ready and this is how you submit the changes:
 
-
-Collaboration Tips:
-
-Join the [Portapack Mayhem Discord](https://discord.gg/HMeXGKVw) server to engage with the community and discuss the project.
-Read the documentation thoroughly to gain a better understanding of the project and how to contribute.
-
-Utilize the Portapack Mayhem issue tracker to find specific tasks or issues to work on. Filter the issues by labels to match your interests.
-
-Open a pull request on GitHub when you have chosen an issue to work on. This allows you to propose changes to the project's code.
-
-Be receptive to feedback from other community members during the review process. It's an essential part of collaboration.
-
-Iterate on your changes based on the feedback received until they are ready to be merged into the project.
-
-Celebrate your success once your changes have been merged into the project, knowing that you have contributed to making Portapack Mayhem even better.
-
-Remember to be respectful, patient, and have fun while collaborating on Portapack Mayhem. It's an excellent opportunity to learn and contribute to a community project.
+1. Publish the branch (if necessary) and push all the commits
+2. Do a [pull request](https://help.github.com/en/desktop/contributing-to-projects/creating-an-issue-or-pull-request). Use a descriptive title and description if you think is necessary
+3. Just follow the interaction on Github now
