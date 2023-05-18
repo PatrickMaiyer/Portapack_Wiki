@@ -109,6 +109,7 @@
       * [All in one script for ARM on Debian host](Compile-firmware#all-in-one-script-for-arm-on-debian-host)
       * [Compile on Arch based distro](Compile-on-Arch-based-distro)
    * [Create a custom map](Create-a-Custom-Map-with-Offline-Map-Maker)
+   * [Code formatting](Code-formatting)
 * Description of the Structure
    * [At First Glance](At-first-glance)
    * [Boot Process](Boot-Process)
