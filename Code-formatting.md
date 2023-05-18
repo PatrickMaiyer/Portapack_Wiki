@@ -15,6 +15,10 @@ sudo apt install clang-format-13
 
 Then you can run
 ```
+find firmware/common firmware/baseband firmware/application -iname '*.h' -o -iname '*.hpp' -o -iname '*.cpp' -o -iname '*.c' | xargs clang-format-13 -style=file -i
+```
+or individually:
+```
 find firmware/common -iname '*.h' -o -iname '*.hpp' -o -iname '*.cpp' -o -iname '*.c' | xargs clang-format-13 -style=file -i
 find firmware/baseband -iname '*.h' -o -iname '*.hpp' -o -iname '*.cpp' -o -iname '*.c' | xargs clang-format-13 -style=file -i
 find firmware/application -iname '*.h' -o -iname '*.hpp' -o -iname '*.cpp' -o -iname '*.c' | xargs clang-format-13 -style=file -i
