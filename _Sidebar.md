@@ -111,6 +111,7 @@
       * [Compile on Arch based distro](Compile-on-Arch-based-distro)
    * [Create a custom map](Create-a-Custom-Map-with-Offline-Map-Maker)
    * [Code formatting](Code-formatting)
+   * [PR process](PR-process) 
 * Description of the Structure
    * [At First Glance](At-first-glance)
    * [Boot Process](Boot-Process)
