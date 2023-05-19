@@ -1,37 +1,60 @@
 The scanner should be able to scan about 20 frequencies per second, as it requires about 50ms to stabilize after re-tuning. 
 
-The scanner will stop into any frequency carrying a signal strong enough. You can adjust the signal power threshold with the SQUELCH.
+The scanner will stop on any frequency carrying a signal strong enough. You can adjust the signal threshold with SQUELCH.
 
 For better scanning precision, once a frequency with a powerful enough signal is found, the scanner will analyze it for some extra milliseconds, in order to confirm that the signal is still present (and not a spurious peak).
 
 ## Big Numbers Frequency
-The big numbers display will show the frequency value currently being scanned, using the following color code criteria:
+The big numbers display will show the frequency currently being scanned, using the following color code criteria:
 
-* GREY scanning
-* YELLOW analyzing possible signal
-* GREEN found a strong enough signal
+* GREY: Scanning
+* YELLOW: Analyzing possible signal
+* GREEN: Found a strong enough signal
 
+## Scan vs Search Modes
 
-### Frequencies to scan
+The scanner can either *Scan* frequencies from a frequency list in memory, or *Search* all frequencies sequentially between a starting and ending frequency range.  The `SRCH`/`SCAN` button toggles between those two operating modes of the scanner app (button indicates the mode that will be switched to when pressed).
 
-The application parses `FREQMAN\SCANNER.TXT`  by default. You can use the Frequency manager app (Tools -> **Freq managern**) to add more entries to that list. 
+## Frequency List
 
-Alternatively, you are able to manually input a scanning range "on the fly" by keying in START and END frequencies, while adjusting the STEP selector. 
+The application loads a list of frequencies (f=) and/or a search range from `FREQMAN\SCANNER.TXT` by default, or you can use the `LOAD` button to load from a different file. You can use the Frequency manager app (Tools -> **Freq manager**) to create or edit frequency list files.
 
-### Modulation Mode
-You can select between **AM** (DSB 9k, DSB 6k, USB+3k, LSB-3k, CW), **NFM** and **WFM** modulation modes.
+If the application finds a frequency _range_ (a=,b=,s=) in the frequency file, it is loaded into the SEARCH START and END and STEP fields.  Alternatively, you are able to manually input a search range "on the fly" by keying in SEARCH START and END frequencies and the STEP selector.
 
-## Bottom Buttons
+### Rotary Encoder
 
-There are six buttons at the bottom of the screen, useful for the following tasks:
+Whenever the `<PAUSE>`/`<RESUME>` button is highlighted, the rotary encoder may be used to scroll through the frequencies in the Scan list, or through the Search range (regardless whether *Pause* is active).
 
-* Manually Pause / Resume the scanning
-* Change scanning direction
-* Jump into the MIC TX RX app (2-WAY Radio)
-* Jump into the RX->AUDIO app (for further analysis)
-* Delete the current frequency on display from the (temporary) scanning memory
-* Add the current frequency into the SCANNER.TXT file
+## Radio Settings
 
-# Freqman file format
+* **Gain:** Setting are shown in order of **AMP** 0=0db or 1=14dB, **LNA**(IF) (0-40) and **VGA** (Baseband Gain) (0-62).
+* **VOL:** Audio volume.
+* **SQ:** Squelch level. When *Pause* is not active, the squelch level determines the minimum signal level that will cause the scanner to pause on a strong signal while scanning or searching (until the **Wsa** Wait timer expires). When paused for any reason, the squelch level also determines whether audio output is enabled or *squelched*.
+* **MODE:** Modulation mode; **AM** (DSB 9k, DSB 6k, USB+3k, LSB-3k, CW), **NFM** or **WFM**.
+* **BW:** Select signal bandwidth (available values depend on modulation **MODE** setting).
+* **STEP:** Selects frequency step increment when performing a sequential **SEARCH**.
+
+## Buttons
+
+The purpose of each of the buttons on the screen is as follows:
+
+* `LOAD`: Loads scan frequency lists and/or search ranges from a file (in **Freq Manager** format).
+* `MCLR`: Clear list of scan frequencies in the temporary scanning memory (frequencies may subsequently be added to the scan list using `ADD FQ` or `LOAD`).
+* `<PAUSE>`/`<RESUME`: Manually Pause / Resume the scanning. The **Rotary Encoder** is enabled to manually scroll through frequencies when this button is highlighted.  When paused, the *Squelch* setting may need to be lowered to hear weak signals.
+* `FORWARD`/`REVERSE`: Change scanning direction (button shows direction that will be switched to if pressed).
+* `MIC TX`: Jump into the MIC TX/RX app (2-WAY Radio)
+* `AUDIO`: Jump into the RX->AUDIO app (for further analysis)
+* `DEL FQ`: Delete the current frequency on display from the (temporary) scanning memory
+* `ADD FQ`: Add the current frequency into the SCANNER.TXT file
+
+## Delay Settings
+There are two user-adjustable wait settings while scanning:
+* **Wsa:** Wait time while Signal Active, in seconds. When this wait time expires, scanner will skip to the next frequency automatically, even if there is a strong signal present. A value of 0 disables this timer, resulting in the scanner remaining on a strong signal forever, or until changed by the **Rotary Encoder**. A non-zero value of **Wsa** is also known as "Browse" mode.
+* **Wsl:** Wait time after Signal Loss, in seconds. When a strong signal drops below the squelch threshold, scanner will remain on this frequency for the specified number of seconds before skipping to the next frequencies.
+
+## Other Fields
+When scanning, the current frequency index is shown on the screen, along with the count of number of frequencies in the scan list. If a description is found in a loaded frequency file, the description will also be displayed on the screen above the Big Numbers Frequency (otherwise the loaded file name will appear, or "SEARCHING..." in Search mode).
+
+## Freqman File Format
 See [Freqman Manager](Freqman-manager) page
 
