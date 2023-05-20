@@ -26,4 +26,5 @@ Try boot into DFU mode by:
 
 ### Unknown device
 If you see **Unknown device** then you will need to install your device drivers.
-![image](https://github.com/eried/portapack-mayhem/assets/4393979/30a0e224-2d29-4602-ab1c-f656ce2d505c)
+
+![image](https://github.com/eried/portapack-mayhem/assets/4393979/4fe9686f-3769-4469-b532-42ee7acb1554)
