@@ -7,7 +7,7 @@ Try boot into DFU mode by:
 
 ![image](https://github.com/eried/portapack-mayhem/assets/4393979/a5d7dccf-ebde-4514-b937-d4e3bd111fa2)
 
-4. If it shows up then make sure you download the latest version from GitHub here https://github.com/eried/portapack-mayhem/releases/latest. You can then run "dfu_hackrf_one.bat". Now double check the file name as they look quite similar.
+4. If it shows up then make sure you download the latest version of **mayhem_vx.x.x_FIRMWARE.zip** from GitHub here https://github.com/eried/portapack-mayhem/releases/latest. You can then run "dfu_hackrf_one.bat". Now double check the file name as they look quite similar.
 5. Once it opens, press enter on your keyboard and you should see the following:
 
 ![image](https://github.com/eried/portapack-mayhem/assets/4393979/a1779ad3-b502-4d4b-ba26-4cbec7cd2b76)
