@@ -24,6 +24,7 @@
 * Troubleshooting
    * [Won't boot](Won't-boot)
    * [Firmware upgrade](Update-firmware-troubleshooting)
+   * [Diagnose firmware update in Windows](Diagnose-firmware-update-in-Windows)
    * [Receive Quality Issues](Help!-Im-not-receiving-anything!---Receive-Quality-Issues)
    * [No TX/RX](preamplifier-ic-replacement)
    * [H2+ speaker modifications](H2-Plus-speaker-modifications)
