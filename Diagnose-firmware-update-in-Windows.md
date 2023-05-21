@@ -4,7 +4,7 @@ Try boot into DFU mode by:
 1. Plug device into computer
 2. Press and HOLD the DFU button, While still holding the DFU button, press and release the reset button (WHILE STILL HOLDING THE DFU BUTTON).
 
-> Note : in some particular H2 (ex H2R4 with battery ), reset button does not  make a proper reset , it just freeze the screen , and do not allow you to enter in DFU . In that case, unplug it from the computer, switch off the unit with two short pushes to the big encoder button (power off). And then keep pressing DFU button , a short push button to the encoder (power on) leads you into a proper DFU Mode. And now you can plug it through USB cable to the computer, and continue with process.
+> Note : in some particular H2 (ex H2R4 with battery ), reset button does not  make a proper reset , it just freeze the screen , and do not allow you to enter in DFU . In that case, unplug it from the computer, switch off the unit with two short pushes to the big encoder knob button (power off). And then keep pressing DFU button , a short push button to the encoder knob button (power on) leads you into a proper DFU Mode. And now you can plug it through USB cable to the computer, and continue with process.
 
 
 3. Check Windows device manager and see if you have LPC showing up 
