@@ -233,7 +233,7 @@ If not you will not be able to load a file from FREQMAN directory / save setting
 
 if no frequencies are loading, check that by default the 'input: load X' fields in 'Recon app -> CONFIG -> More' are all checked. And yes, you HAVE to click save in ordre to save the settings
 
-If by some magic you somewhat trashed the configuration and the app isn't starting anymore, try to delete the RECON/RECON.CFG file using the tools/file manager app
+If by some magic you somewhat trashed the configuration and the app isn't starting anymore, try to delete the SETTINGS/recon.ini and SETTINGS/recon.cfg and SETTINGS/recon.ini files using the tools/file manager app
 
 If you're not having your frequencies searched in both direction, maybe you miswrote 'a=' for a single frequency entry
 
