@@ -19,8 +19,6 @@ A search/recon is when using one or ranges of frequencies with step. In our case
 
 A scan is when using a defined list. You know you're in scanner mode when the button in the middle right of the screen is showing 'SCANNER' in red.
 
-You can check some demo videos at https://youtube.com/playlist?list=PL-tahIjVksD3rLlhhtemp6wvddnsYAVzv (warning: some features in the video may have been upgraded since filming)
-
 ## Limitations
 The portapack hardware is limited, and so is the list of elements that you can load. 
 
