@@ -139,9 +139,9 @@ In that mode you have a single range as an input list, and an output file.
 
 ## Wait/lock Coloring conditions:
 
-Lock duration coloration (only usefull in SPARSE matching mode):
+Lock duration coloration (only in SPARSE matching mode):
 
-* if lock duration is lower or equal to (min_lock_duration x nb_locks) => value is in yellow to indicate that there is not enough time to match nb_locks. Coloration can be ignored in CONTINUOUS as the timer is disarmed unless there is a gap between two locks.
+* if lock duration is lower or equal to (min_lock_duration x nb_locks) => value is in yellow to indicate that there is not enough time to match nb_locks. Coloration are not used in CONTINUOUS as lock timer is disarmed at first lock count.
 
 Wait duration coloration: 
 
