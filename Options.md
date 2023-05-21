@@ -42,6 +42,7 @@ Note:  This has the same effect as using the top bar 'Freq' icon. While in the r
 ## QR code
 Set the size of the displayed QR code
  * show larger or not
+
 ## P.Memory Mgmt
 ![PORTAPACK_PMEMTOSDCARD](https://www.nilorea.net/wp-content/uploads/2023/03/PORTAPACK_PMEMTOSD.png)
 
@@ -50,3 +51,15 @@ Set persistent memory from/to sd card options. It's particularly useful to keep 
  * save p.mem to sdcard : save actual persistent memory onto the sdcard  
  * load p.mem from sdcard : manually load persistent memory from sdcard
 
+## FreqCorrect
+![PORTAPACK_FREQCORRECTION](https://github.com/eried/portapack-mayhem/assets/3157857/4c313bb6-1125-4b43-8b1b-c3721f3041b1)
+
+Set TX and or RX Frequency correction in Hz. 
+
+A value between [-4,+4] MHz of correction is accepted, else it's truncated due to the variable used in persistent memory.
+
+Use the '+' or '-' filed to change to correction mode (addition or soustraction ).
+
+Use the MHz RX and MHz TX field to set the correction in each mode.
+
+Settings are automatically saved in persistent memory.
