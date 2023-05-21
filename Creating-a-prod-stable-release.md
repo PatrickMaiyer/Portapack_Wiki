@@ -16,9 +16,12 @@ This then create a draft release that you should be able to see in releases at t
 
 Next, make sure you test it on your own device before going any further. This is to ensure it created it correctly and that there are no last minute bugs.
 
-Once tested, you then need to manually update the files in the `mayhem_nightly_X_COPY_TO_SDCARD.zip` folder. This is because there are some files (like the world map) that are too big to host on the GitHub repo, so they need to be manually added into the zip folder. So to do this, download `mayhem_nightly_X_COPY_TO_SDCARD.zip` from the draft release and then download `mayhem_nightly_PREVIOUS_RELEASE_X_COPY_TO_SDCARD.zip` from the previous stable release. Copy the files from the previous to the new release making sure to not overwrite any files (As we are just wanting to add the ones missing).
 
-Once that is done, make sure to upload that to the new draft release replacing the old zip folder (Which you need to delete first).
+**Below is no longer needed after https://github.com/eried/portapack-mayhem/pull/1022**
+
+~~Once tested, you then need to manually update the files in the `mayhem_nightly_X_COPY_TO_SDCARD.zip` folder. This is because there are some files (like the world map) that are too big to host on the GitHub repo, so they need to be manually added into the zip folder. So to do this, download `mayhem_nightly_X_COPY_TO_SDCARD.zip` from the draft release and then download `mayhem_nightly_PREVIOUS_RELEASE_X_COPY_TO_SDCARD.zip` from the previous stable release. Copy the files from the previous to the new release making sure to not overwrite any files (As we are just wanting to add the ones missing).~~
+
+~~Once that is done, make sure to upload that to the new draft release replacing the old zip folder (Which you need to delete first).~~
 
 ## Finishing off
 Once all is done, create a PR to merge the `next` branch into the `master` branch.
