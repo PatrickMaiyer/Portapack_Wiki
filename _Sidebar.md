@@ -91,6 +91,7 @@
       * [Converter](Options#converter)
       * [QR code](Options#qr-code)
       * [P.MemMgmt](Options#pmemory-mgmt)
+      * [FreqCorrect](Options#freqcorrect)
    * [Debug](Debug)
       * Memory
       * SD Card
