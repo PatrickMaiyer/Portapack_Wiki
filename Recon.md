@@ -1,5 +1,6 @@
 # Recon App
-![Recon App Menu Entry](https://www.nilorea.net/wp-content/uploads/2023/03/PORTAPACK_RECON.png)
+
+![Recon App Menu Entry](https://github.com/eried/portapack-mayhem/assets/3157857/3e8e91ba-b107-4b7e-8b3e-ae9de5b92750)
 
 # Introduction
 The Recon app is full rework of the Scanner app, offering different possibilities and customisations.
@@ -30,10 +31,11 @@ If a file was loaded and truncated, the displayed list name and current entry de
 # TODO first
 If you are launching the Recon app for the first time, chances are high that you do not have the wanted options selected by default.
 
-We highly encourage you to go and check what's under the [OPT](https://github.com/GullCode/portapack-mayhem/wiki/Recon/_edit#opt-settings) button and get yourself used to the 'Main' and 'More' pages under it.
+We highly encourage you to go and check what's under the "CONFIG" button and get yourself used to the 'Main' and 'More' pages under it.
 
 ## Common defaults options to set
-Go into [OPT](https://github.com/GullCode/portapack-mayhem/wiki/Recon/_edit#opt-settings)
+
+Go into "CONFIG"
 
 Main:
 
@@ -46,9 +48,9 @@ More:
 * Check that 'input: load freqs' and 'input: load ranges' are checked
 
 # Main Screen
-![Recon App MANUAL-SEARCH Main Screen](https://www.nilorea.net/wp-content/uploads/2022/10/MainScreen.png)
-![Recon App RECON Main Screen](https://www.nilorea.net/wp-content/uploads/2022/10/MAIN_SCREEN_RECON.png)
-![Recon App RECON Main Screen](https://www.nilorea.net/wp-content/uploads/2022/10/MAIN_SCREEN_SCANNER.png)
+![Recon App RECON Main Screen](https://github.com/eried/portapack-mayhem/assets/3157857/3e8e91ba-b107-4b7e-8b3e-ae9de5b92750)
+![Recon App SCANNER Main Screen](https://github.com/eried/portapack-mayhem/assets/3157857/a32f49ea-d824-4ca6-bc5e-9e57f921524a)
+![Recon App MANUAL-SEARCH Main Screen](https://github.com/eried/portapack-mayhem/assets/3157857/02135626-363c-4dba-bd72-c5d5337e7279)
 
 Buttons and information description, from top to bottom, and left to right. [NAME] is used to mark a button / gui element that the user can change, else it's a description of an onscreen information.
 
@@ -56,7 +58,7 @@ Buttons and information description, from top to bottom, and left to right. [NAM
 
 * [BW] , [SQUELCH], [W],[L] => bandwidth for actual demod, squelch is the level of DB needed to start to lock on a signal, W (wait after match) is the time we will stay on the frequency if it's reaching nb_locks during lock_wait (continously or sparsely). If wait is a negative number, then it represent the time we are staying on a matched frequency waiting for new activity, and a new lock during the wait restart the counters (you keep staying on it until a full wait without a lock is reached). L (lock duration) is the maximum time we stay on a freq waiting for all locks in SPARSE match mode, and the time we are waiting for the first lock in CONTINUOUS match mode.
 
-* [XXX] / XXX , XX db, XX/XX value , [OPT] => index of the current frequency in the loaded list (move with encoder, or set a value by clicking), number of frequencies in the list, actual DB value, number of locks / number of needed locks for a match, button to the settings page. Will be in red if file contain too much lines or if an error description is shown.
+* [XXX] / XXX , XX db, XX/XX value , [CONFIG] => index of the current frequency in the loaded list (move with encoder, or set a value by clicking), number of frequencies in the list, actual DB value, number of locks / number of needed locks for a match, button to the settings page. Will be in red if file contain too much lines or if an error description is shown.
 
 * FREQ: XXXX => Current frequency
 
@@ -74,20 +76,20 @@ Buttons and information description, from top to bottom, and left to right. [NAM
 
 * [FW], [RST], [MIC TX] , [REMOVE] => forward/reverse , reset search (it's restarting from the beginning of input file), jump to Mic app, remove a frequency from output file
 
-# OPT (Settings)
+# CONFIG 
 ## Main RECON settings page
-![Recon App Main OPT page](https://www.nilorea.net/wp-content/uploads/2022/05/PORTAPACK_SEARCH_APP_SETUP_MAIN.png)
+![Recon App Main CONFIG page](https://github.com/eried/portapack-mayhem/assets/3157857/3414842e-8ec7-47c0-8eb1-f8aba66ee0e8)
 
 * input file => File from which we will load frequencies or ranges to search (default FREQMAN/RECON.TXT)
 * output file => File into which we will save frequency using STORE button or autosave mode (default FREQMAN/RECON_RESULTS.TXT)
 * output file name => The name of the current output file. Can be edited when clicking on it so you can set a new filename
 * autosave freqs => During the search, matching frequencies will be saved without clicking on STORE. No duplicates will be made
-* auto start search => Search will start when entering the app, or when going in and out of OPT
+* auto start search => Search will start when entering the app, or when going in and out of CONFIG
 * continuous => If checked then the search will loop when reaching boundaries of the loaded input file or the manual range search
 * clear output at start => If checked then the output file is blanked at app start. If you're using that feature and want to keep one of your search results, do not forgot to go into filemanager to rename the file before starting the Recon app one more time
 
-## More OPT settings page
-![Recon App More OPT page](https://www.nilorea.net/wp-content/uploads/2022/05/PORTAPACK_SEARCH_APP_SETUP_MORE.png)
+## More CONFIG settings page
+![Recon App More CONFIG page](https://github.com/eried/portapack-mayhem/assets/3157857/796a57a1-a4f1-4ce1-a581-e088243fb23e)
 
 One of the first two options have to be checked else nothing will be loaded at all and only manual range search will be available
 * input: load freqs  => allow load of frequencies
@@ -106,29 +108,29 @@ You can switch from RECON to SEARCH using the GUI button, and to Manual search u
 ## RECON mode
 Mode button is in blue, and the label is 'RECON'. 
 
-In that mode it takes what you choose in "OPT/select input file" and use it as the list to search. The matched frequencies (if autosave is checked or 'add' is used) are put in what you choose in "OPT/select output file".
+In that mode it takes what you choose in "CONFIG/select input file" and use it as the list to search. The matched frequencies (if autosave is checked or 'add' is used) are put in what you choose in "CONFIG/select output file".
 
-STORE and REMOVE are working on what you selected in "OPT/select output file" but changes are not reflected in the used list. 
+STORE and REMOVE are working on what you selected in "CONFIG/select output file" but changes are not reflected in the used list. 
 
 In that mode you have an input search/recon list, and an output file.
 
 ## SEARCH mode
 Mode button is in red, and the label is 'SCANNER'. 
 
-In that mode it takes what you choose in "OPT/select output file" and use it as the list to search.
+In that mode it takes what you choose in "CONFIG/select output file" and use it as the list to search.
 
-The matched frequencies (if autosave is checked or 'add' is used) are put in what you choose in "OPT/select output file".
+The matched frequencies (if autosave is checked or 'add' is used) are put in what you choose in "CONFIG/select output file".
 
-STORE and REMOVE are working on what you selected in "OPT/select output file" and changes are 'live' in the list. reflected in the used list. 
+STORE and REMOVE are working on what you selected in "CONFIG/select output file" and changes are 'live' in the list. reflected in the used list. 
 
 In that mode you have the same file used as an input list and an output file.
 
 ## MANUAL-S
 In that mode RECON or SEARCH mode are invalidated. Values in GUI are used as a single range entry.
 
-The matched frequencies (if autosave is checked or 'add' is used) are put in what you choose in "OPT/select output file".
+The matched frequencies (if autosave is checked or 'add' is used) are put in what you choose in "CONFIG/select output file".
 
-STORE and REMOVE are working on what you selected in "OPT/select output file" but changes are not reflected in the used list. 
+STORE and REMOVE are working on what you selected in "CONFIG/select output file" but changes are not reflected in the used list. 
 
 In that mode you have a single range as an input list, and an output file.
 
@@ -148,7 +150,7 @@ Wait duration coloration:
 * if wait is between [-500,500] ms and not 0, it's red because the audio will have hard time start and stop that quick during consecutive matches  
 * if wait it > 500 it's the time we are staying on a matching freq before skipping => wait value is in white
 * if wait < -500 it's the time we are waiting for new activity before skipping. Any new activity (db>squelch) is resetting the timer to 'abs(wait)' => wait value is in green
-* if wait == 0 it's recon mode. No wait after match. No audio start/stop. Matching freqs are auto saved according to the option in OPT => wait value is in blue
+* if wait == 0 it's recon mode. No wait after match. No audio start/stop. Matching freqs are auto saved according to the option in CONFIG=> wait value is in blue
 
 # Color meaning for main freq
 * white => pause / reading signal
@@ -166,7 +168,7 @@ Lock count is reset to 0 after using one of the following buttons:
 
 * PAUSE 
 * FW,RW
-* OPT
+* CONFIG
 * SQUELCH
 
 # Matching modes
@@ -184,7 +186,7 @@ Lock count is reset to 0 after using one of the following buttons:
 * the lock duration timer can be yellow colored to indicate that you're not leaving enough time for a SPARSE match of nb_locks to happen
 
 # Frequencies to scan
-The application parses `FREQMAN\RECON.TXT`  by default. If you set something else in the OPT menu under input, then the specified file will be used
+The application parses `FREQMAN\RECON.TXT`  by default. If you set something else in the CONFIG menu under input, then the specified file will be used
 You can use the Frequency manager app (Tools -> **Freq manager**) to add more entries to that list
 
 Alternatively, you are able to manually input a search range "on the fly" by keying in START and END frequencies. It will uses the selected step on screen
@@ -201,7 +203,7 @@ Step can also be changed, and is only used in range search (manual or not)
 If a custom modulation/bandwidth/step is set on the actual freqman entry (from freqman file), it's used as new defaults for next entries
 
 # Persistant settings 
-In the idea to be more user friendly the Recon app is keeping some settings in memory and on the sd card. All the settings that you can set in OPT menus will be saved and restored upon poweroff/on or app restart
+In the idea to be more user friendly the Recon app is keeping some settings in memory and on the sd card. All the settings that you can set in CONFIG menus will be saved and restored upon poweroff/on or app restart
 
 Squelch is saved between runs / updates
 
@@ -210,7 +212,7 @@ See [Freqman Manager](Freqman-manager) page
 
 # Workflow and tips
 Workflow:
-* Select an input an output file, adjust the settings in OPT while you're at it 
+* Select an input an output file, adjust the settings in CONFIG while you're at it 
 * Start the RECON, match frequencies, add them to your output file using autosave or STORE button
 * Switch to SCANNER mode to refine your results
 
@@ -231,7 +233,7 @@ Most of the time if the Recon app is not working as you expected it's coming fro
 
 If not you will not be able to load a file from FREQMAN directory / save settings
 
-if no frequencies are loading, check that by default the 'input: load X' fields in 'Recon app -> OPT -> More' are all checked. And yes, you HAVE to click save in ordre to save the settings
+if no frequencies are loading, check that by default the 'input: load X' fields in 'Recon app -> CONFIG -> More' are all checked. And yes, you HAVE to click save in ordre to save the settings
 
 If by some magic you somewhat trashed the configuration and the app isn't starting anymore, try to delete the RECON/RECON.CFG file using the tools/file manager app
 
