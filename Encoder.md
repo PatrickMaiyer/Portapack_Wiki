@@ -1,3 +1,3 @@
-Encoder/knob for H2/H2+ uses a 20 bit ec11 encoder. It may have weird performance if you install a 24 bit ec11.
+Encoder/knob for H2/H2+ uses a 30-step EC11 encoder with push button.
 
-Ref. https://discord.com/channels/719669764804444213/737376558754300081/951522295069962300
+If the rotary encoder seems to be malfunctioning, first make sure that the Portapack firmware is upgraded to version 1.7.1. or later, which improves handling of glitchy switch contacts.
