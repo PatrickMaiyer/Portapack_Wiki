@@ -33,7 +33,7 @@ We highly encourage you to go and check what's under the "CONFIG" button and get
 
 ## Common defaults options to set
 
-Go into "CONFIG"
+Go into "CONFIG":
 
 Main:
 
@@ -64,7 +64,7 @@ Buttons and information description, from top to bottom, and left to right. [NAM
 
 * TIMER, CTCSS => elapsed timer for current frequency lock (0 if no lock) , detected tone if NFM is selected
 
-* Current input name (Will be in red if file contain too much lines or if an error description is shown), [MANUAL-S/SCANNER/RECON] => currently used mode. Manual Search, Scanner, Recon/Search. 
+* Current input name (Will be in red if file contain too much lines or if an error description is shown), [MANUAL-S/SCANNER/RECON] => currently used mode. Manual Search, Scanner, Recon/Search
 
 * [START], [END], [SEARCH] => set the manual start and end of a range and launch a search on it. These values will be updated by the search if auto update m-ranges is checked. If highlighted, you can use the rotary encoder to adjust start or end
 
@@ -72,7 +72,7 @@ Buttons and information description, from top to bottom, and left to right. [NAM
 
 * [PAUSE] , [AUDIO] , [STORE] => pause or resume the search. If highlighted, you can use the rotary encoder to manually step in the frequencies/ranges, jump to Audio App, store actual frequency in output file
 
-* [FW], [RST], [MIC TX] , [REMOVE] => forward/reverse , reset search (it's restarting from the beginning of input file), jump to Mic app, remove a frequency from output file
+* [FW], [RST], [MIC TX] , [REMOVE/DELETE] => forward/reverse , reset search (it's restarting from the beginning of input file), jump to Mic app, Remove a frequency from active/loaded list in RECON mode or Delete from both active/loaded list and output file in SCANNER mode
 
 # CONFIG 
 ## Main RECON settings page
@@ -101,16 +101,19 @@ One of the first two options have to be checked else nothing will be loaded at a
 # Recon/Search/Manual
 When using the Recon app, 3 modes are accessibles. 
 
-You can switch from RECON to SEARCH using the GUI button, and to Manual search using the Manual-S button (just under the RECON/SEARCH button)
+You can switch from RECON to SEARCH using the GUI button, and to Manual search using the Manual-S button (just under the RECON/SEARCH button).
 
 ## RECON mode
-Mode button is in blue, and the label is 'RECON'. 
+Mode button is in blue, and the label is 'RECON'.
 
 In that mode it takes what you choose in "CONFIG/select input file" and use it as the list to search. The matched frequencies (if autosave is checked or 'add' is used) are put in what you choose in "CONFIG/select output file".
 
-STORE and REMOVE are working on what you selected in "CONFIG/select output file" but changes are not reflected in the used list. 
+REMOVE is removing current entry from active/loaded list. No files are touched.
 
-In that mode you have an input search/recon list, and an output file.
+STORE is adding current entry to output file.
+
+In that mode you have an input search/recon list, and an output file. You can temporary 'disable' some entries by a hit on REMOVE.
+Clicking on RST is reloading the fully populated list.
 
 ## SEARCH mode
 Mode button is in red, and the label is 'SCANNER'. 
@@ -119,7 +122,9 @@ In that mode it takes what you choose in "CONFIG/select output file" and use it 
 
 The matched frequencies (if autosave is checked or 'add' is used) are put in what you choose in "CONFIG/select output file".
 
-STORE and REMOVE are working on what you selected in "CONFIG/select output file" and changes are 'live' in the list. reflected in the used list. 
+DELETE is removing current entry from active/loaded list and from output file.
+
+STORE is adding current entry to output file.
 
 In that mode you have the same file used as an input list and an output file.
 
@@ -128,7 +133,7 @@ In that mode RECON or SEARCH mode are invalidated. Values in GUI are used as a s
 
 The matched frequencies (if autosave is checked or 'add' is used) are put in what you choose in "CONFIG/select output file".
 
-STORE and REMOVE are working on what you selected in "CONFIG/select output file" but changes are not reflected in the used list. 
+STORE and REMOVE are working on the output file but changes are not reflected in the used list since it's a loaded range. 
 
 In that mode you have a single range as an input list, and an output file.
 
