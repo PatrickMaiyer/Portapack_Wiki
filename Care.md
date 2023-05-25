@@ -9,3 +9,5 @@
 * Do not overtighten RF cables to the HackRF SMA connectors. If you tighten too much, the [SMA connector](SMA-Antenna-connector) can snap off the HackRF board.
 
 * Disconnect all cables and connectors before storing your PortaPack. Sideways force on plugs can loosen and damage PortaPack and HackRF [connectors](SMA-Antenna-connector).
+
+* Do not change antennas with your HackRF powered up. 
