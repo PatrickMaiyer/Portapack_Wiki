@@ -3,6 +3,8 @@
 As a start a warning: the freqman GUI have not been improved and may show partial results.
 Starting from nightly 12/05/2023 the freqman file support empty lines, comment lines, anything which is not matching one of the described fields is ignored.
 
+Maximum number on entries is 60 at the moment. 
+
 ## Description of the fields
 `'f=freq' for one SINGLE frequency entry`
 
