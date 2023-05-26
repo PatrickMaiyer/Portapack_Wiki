@@ -15,6 +15,8 @@ The UI interface  setting for the following can be Enabled (tick) or Disabled (x
 Set the date and time.
 ## Calibration
 This provides an app for the calibration of the screen and alignment by following on screen instruction. 
+
+You have to keep pressed for at least a second on each target for the app to guess the touch area correctly and show next target on release.
 ## App Settings
 Allow to specify if you want to load / save application settings at app start/end:
  * Load app settings 
