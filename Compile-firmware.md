@@ -43,6 +43,8 @@ _Note: You need to make sure you have also cloned the hackrf folder. to do that 
 
 Open up a terminal in the root of the cloned git repo and run: ```docker build -t portapack-dev -f dockerfile-nogit . ```
 
+_(the image only works on x86 systems, if you are running docker on an arm system, as a workaround, you can get it build and run an amd64 image but it will run in x86 emulation and will be slow. To make the amd64 image use: ```docker build --platform linux/amd64 -t portapack-dev -f dockerfile-nogit . ```)_
+
 After its built the docker image, go back to docker and you should see this screen under images
 ![image](https://user-images.githubusercontent.com/4393979/159808543-bac63e5f-8fe3-48af-a469-f940e4690767.png)
 
