@@ -5,6 +5,8 @@ Starting from nightly 12/05/2023 the freqman file support empty lines, comment l
 
 Maximum number on entries is 60 at the moment. 
 
+Truncated files list are displayed in yellow.
+
 ## Description of the fields
 `'f=freq' for one SINGLE frequency entry`
 
