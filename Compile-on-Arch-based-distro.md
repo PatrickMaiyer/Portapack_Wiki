@@ -50,7 +50,7 @@ cd build
 cmake ..
 make firmware
 ```  
-If you want, use `-j` argument to increase the compile speed, for example `make -j firimware` to auto decide the number of threads to compile, or manually set the thread numbers, for example `make -j4 firmware`
+If you want, use `-j` argument to increase the compile speed, for example `make -j firmware` to auto decide the number of threads to compile, or manually set the thread numbers, for example `make -j4 firmware`
 
 # Notes
 1. You cannot directly install `gcc-arm-none-eabi` from AUR using yay or others tool, otherwise the version would be not match.    
