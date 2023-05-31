@@ -5,7 +5,7 @@ There are many different versions of the PortaPack. It is important that you ide
 The main difference are the controls and the screen size  along with the codec and processor chip. The H2 / H2+ has extra circuitry to manage the battery charging and powering on/off. In this document, there is a brief description about the details. Check a more technical comparison [here](Differences-Between-H1-and-H2-models).
 
 # Up to date information
-There is a DiSCORD Channel "HackRF PortaPack Mayhem". This has all the current talk and information.
+There is a Discord server ["HackRF PortaPack Mayhem"](https://discord.gg/tuwVMv3). This has all the current talk and information.
 
 # Power on/off
 The original H1 powers instantly when you plug a power supply to the USB port. To turn it off, just unplug it. Similar to the issues with some USB cables while [upgrading the firmware](Update-firmware), the quality of your cable might affect the performance. 
