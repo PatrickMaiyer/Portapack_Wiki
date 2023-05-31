@@ -200,6 +200,8 @@ some compiling errors to check it's better to call it without '-j 8')
     cmake ..
     make firmware
 
+If you want, use -j argument to increase the compile speed, for example `make -j firimware` to auto decide the number of threads to compile, or manually set the thread numbers, for example `make -j4 firmware`
+
 ## 8. Flash the firmware to HackRF
 
     hackrf_spiflash -w /opt/portapack-mayhem/build/firmware/portapack-h1_h2-mayhem.bin
