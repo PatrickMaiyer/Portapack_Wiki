@@ -75,6 +75,7 @@
    * [Tools](Tools)
       * [Freq manager](Freq-manager)
       * [File manager](File-manager)
+      * [Notepad](Notepad)
       * [Signal gen](Signal-Generator)
       * Wave viewer
       * [Antenna length](antennas)
