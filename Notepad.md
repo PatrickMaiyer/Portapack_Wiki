@@ -2,6 +2,8 @@ Views text files and supports very basic editing.
 
 ## The interface
 
+<img width="240" alt="Notepad" src="https://github.com/eried/portapack-mayhem/assets/21130052/f7591165-9965-441f-b8cf-1e4f2dc04566">
+
 The menu button on the bottom right opens and closes the main menu. On start, this button will immediately show the file picker.
 
 The file can be navigated with the direction buttons. Additionally, the encoder can be used to scroll. The encoder direction is set by the last direction button that was pressed. If you want scroll horizontally, first press the left or right button.
