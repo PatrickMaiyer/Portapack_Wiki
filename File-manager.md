@@ -21,6 +21,7 @@ When an item has been selected, the following commands are available in the tool
 - Paste - move/copy the content of the clipboard into the current folder.
 - New Dir - create a new folder in the current folder.
 - New File - create an empty file in the current folder.
+- Open in Notepad - (not shown) open the file in the text editor.
 - Exit - exit the file manager.
 
 ## Partner files
