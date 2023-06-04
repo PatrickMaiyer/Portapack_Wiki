@@ -49,9 +49,10 @@ Set the size of the displayed QR code
 ![PORTAPACK_PMEMTOSDCARD](https://www.nilorea.net/wp-content/uploads/2023/03/PORTAPACK_PMEMTOSD.png)
 
 Set persistent memory from/to sd card options. It's particularly useful to keep different default settings than those configured by the firmware if there is no/dead coin battery. Information messages will be displayed at each widget trigger. If loading at startup is failing, it will not show any message, the boot may continue like nothing happened. Widgets:
- * load at startup: if checked the firmware will try to load last saved settings at startup. The checkbox is configuring a flag file under SETTINGS for it to work without coin battery
+ * use sdcard for pmem: if checked the firmware will try to load last saved settings at startup. The checkbox is configuring a flag file under SETTINGS for it to work without coin battery. Each time you correctly exit an app using the back button, it's persistent settings, if any, are saved to the sdcard.
  * save p.mem to sdcard : save actual persistent memory onto the sdcard  
  * load p.mem from sdcard : manually load persistent memory from sdcard
+ * !reset p.mem, load defaults! : reset the persistent memory to defaults
 
 ## FreqCorrect
 ![PORTAPACK_FREQCORRECTION](https://github.com/eried/portapack-mayhem/assets/3157857/4c313bb6-1125-4b43-8b1b-c3721f3041b1)
