@@ -3,9 +3,13 @@ Used to manage files on the SD Card.
 ## Controls
 
 - Use the encoder or up and down buttons to move between items.
-- Use the select key enter a folder or to select an item to take an action on.
+- Use the select (center) key enter a folder or to select an item to take an action on.
 - Use the right button to select a folder to take an action on (e.g. rename a folder).
 - Use the left button or select the ".." folder to go up a directory.
+
+Selecting a TXT or PPL file will open Notepad so the file can be viewed. Selecting a PNG file will open the Screenshot viewer (this can only view screenshots generated on the device). Use the right button to enter the toolbar for these file types. Exiting Notepad or the Screenshot viewer when launched this way will return back to Fileman.
+
+When viewing a screenshot, press any key to return back to Fileman.
 
 A small, blinking arrow on the right indicates that there are more items if you scroll down.
 
