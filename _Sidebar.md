@@ -111,7 +111,7 @@
       * [Notes for Buddy.Works (and other CI platforms)](Compile-firmware#notes-for-buddyworks-and-other-ci-platforms)
       * [Using ARM on Debian host](Compile-firmware#using-arm-on-debian)
       * [All in one script for ARM on Debian host](Compile-firmware#all-in-one-script-for-arm-on-debian-host)
-      * [Compile on Arch based distro](Compile-on-Arch-based-distro)
+      * [Compile on Arch based distro (exclude Asahi)](Compile-on-Arch-based-distro)
    * [Create a custom map](Create-a-Custom-Map-with-Offline-Map-Maker)
    * [Code formatting](Code-formatting)
    * [PR process](PR-process) 
