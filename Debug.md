@@ -16,8 +16,8 @@ This shows when either the buttons are pressed, the encode knob is turned or the
 ### Pmem
 Displays the contents of the persitent memory area. (256 bytes)
 
-It is split into three pages, pages can be changes with the encoder and the current offset from the start of pmem area is displayed on the top: "XX+"
+It is split into three pages, pages can be changes with the encoder and the current offset from the start of p.mem area is displayed on the top: "XX+" Also on the last page theres some padding with FFs displayed after the p.mem area ends.
 
-At the bottom it displays also the current size of the data_t struct (this is what we persist into pmem) and the currently stored checksum (it is calculated from the first 252 bytes of the pmem area when changes are made to the settings and then written to the last 4 bytes of pmem)
+At the bottom it displays also the current size of the data_t struct (this is what we persist into p.mem) and the currently stored checksum (it is calculated from the first 252 bytes of the p.mem area when changes are made to the settings and then written to the last 4 bytes of p.mem)
 
-The version of the stored config isnt displayed separately but it can be seen as the first 4 bytes of the pmem area.
+The version of the stored config isnt displayed separately but it can be seen as the first 4 bytes of the p.mem area.
