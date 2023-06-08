@@ -14,6 +14,10 @@ Data is provided by the MAX 2837 on chip digital temperature sensor. The accurac
 This shows when either the buttons are pressed, the encode knob is turned or the screen is touched. It can also show if the encoder when turned is cleanly stepping the states as it is turned. Note on cheep portapack clones of the encode that is 24 step version can be over sensitive and miss steps. It can be changed with a better-quality version.
 ![SCR_0013](https://github.com/eried/portapack-mayhem/assets/125336/1415257f-e322-428c-801d-71977603640e)
 ### Pmem
-Displays the contents of the persitent memory area (256 bytes)
-It is split into three pages, pages can be changes with the encoder and the current offset from the start of pmem area is displayed on the top "XX+"
-At the bottom also the current size of the data_t struct is displayed (this is what we persist into pmem) and the currently stored checksum (it is calculated from the first 252 bytes of the pmem area when changes are made to the settings and then written to the last 4 bytes of pmem)
+Displays the contents of the persitent memory area. (256 bytes)
+
+It is split into three pages, pages can be changes with the encoder and the current offset from the start of pmem area is displayed on the top: "XX+"
+
+At the bottom it displays also the current size of the data_t struct (this is what we persist into pmem) and the currently stored checksum (it is calculated from the first 252 bytes of the pmem area when changes are made to the settings and then written to the last 4 bytes of pmem)
+
+The version of the stored config isnt displayed separately but it can be seen as the first 4 bytes of the pmem area.
