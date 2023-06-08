@@ -7,7 +7,7 @@ Gives information on the peripherals:
 * RFFC5072
 * MAX2837
 * SI5351C
-* WN8731
+* WM8731 or Ak4951 (depending on the IC audio codec detected in your PP brd)
 ## Temperature 
 Data is provided by the MAX 2837 on chip digital temperature sensor. The accuracy is quoted as 4.33°C per value.
 ## Buttons Test
