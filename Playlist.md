@@ -7,7 +7,7 @@ The file with PPL extension is just text file, you could edit it with any of the
 Playlist files are comma delimited and have the following structure:
 
 FREQ,File_PATH,SAMPLE_RATE,PULSE_TIME   
-The unit of PULSE is `ms`, and it's for the pulse before the file at same line.
+The unit/dimension of PULSE is `ms`, and it's for to give a pulse/delay before the C16 file which is at same line, were played.
 
 For example, a valid playlist file could contain:
 ```
