@@ -7,7 +7,7 @@ The file with PPL extension is just text file, you could edit it with any of the
 Playlist files are comma delimited and have the following structure:
 
 FREQ,File_PATH,SAMPLE_RATE,PULSE_TIME   
-The unit/dimension of PULSE is `ms`, and it's for to give a pulse/delay before the C16 file which is at same line, were played.
+The unit/dimension of PULSE is `ms`, and it's for to give a pause/delay before the C16 file which is at same line, were played.
 
 For example, a valid playlist file could contain:
 ```
@@ -25,7 +25,7 @@ It will do:
 The LOOP check box is for the entire PPL file. 
 Once you interrupted the replay, it would start over since the beginning of the list.  
 
-We apologize that we changed the grammar of PPL probably several times, even though we did some compatibility work, for example you actually don't need to specify the delay/pulse timing if you don't need that, still, pls try to use the standard grammar, because it would be hard to take care of all the possible case in limited  code in a very old CPLD. And limited storage.    
+We apologize that we changed the grammar of PPL probably several times, even though we did some compatibility work, for example you actually don't need to specify the delay/pause timing if you don't need that, still, pls try to use the standard grammar, because it would be hard to take care of all the possible case in limited  code in a very old CPLD. And limited storage.    
 
 [Video demonstration of playlist app](https://user-images.githubusercontent.com/164560/191515258-36621648-3827-4eed-b77b-e8dbaf9be63e.mov)
 
