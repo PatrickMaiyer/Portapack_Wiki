@@ -31,7 +31,7 @@ Thanks to the Portapack Mayhem Debug menu tool, you can also easily detect that 
 
 
 ## Temperature 
-Data is provided by the MAX 2837 on chip digital temperature sensor. The accuracy is quoted as 4.33°C per value.
+Data is provided by the MAX 2837 (or MAX 2839)  on chip digital temperature sensor. The accuracy is quoted as 4.33°C per value.
 ## Buttons Test
 This shows when either the buttons are pressed, the encode knob is turned or the screen is touched. It can also show if the encoder when turned is cleanly stepping the states as it is turned. Note on cheep portapack clones of the encode that is 24 step version can be over sensitive and miss steps. It can be changed with a better-quality version.
 
