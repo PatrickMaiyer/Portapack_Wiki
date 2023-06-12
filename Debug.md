@@ -13,7 +13,9 @@ Gives information on the peripherals:
 
 ![00403D10-E202-4014-A4C5-B36A216AC548](https://github.com/eried/portapack-mayhem/assets/86470699/a3d9529f-d379-46d0-b326-7cbc020a62a4)
 
-Note : Recently GSG introduced the new r9 Hackrf board version (already compatible with Hackrf and Portapack-Mayhem fw's). 
+Note : 
+
+Recently GSG introduced the new r9 Hackrf board version (already compatible with Hackrf and Portapack-Mayhem fw's).
 
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/7a1c98ce-8f88-4305-bb51-620a2e8add93)
 
@@ -21,9 +23,11 @@ Note : Recently GSG introduced the new r9 Hackrf board version (already compatib
 
 That new Hackrf board revision r9  has two 2 IC’s changes: 
 * MAX2837 was replaced by MAX2839. 
-* Si5351C was replaced by Si5351A . 
+* Si5351C was replaced by Si5351A with additional clock distribution. A series diode was added to the antenna port power supply. (Manufacturing year: 2023)
 
-Thanks to the Portapack Mayhem Debug menu tool, you can easily detect that r9 version without disassembling  the boards :
+Starting with HackRF One r6, hardware revisions are detected by firmware and reported by hackrf_info.
+
+Thanks to the Portapack Mayhem Debug menu tool, you can also easily detect that r9 version without disassembling  the boards :
  
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/49b1d3f2-d7c7-4940-8d18-c49293f2b8ab)
 
