@@ -6,7 +6,7 @@ Views text files and supports very basic editing.
 
 The menu button on the bottom right opens and closes the main menu. On start, this button will immediately show the file picker.
 
-The file can be navigated with the direction buttons. Additionally, the encoder can be used to scroll. The encoder direction is set by the last direction button that was pressed. If you want scroll horizontally, first press the left or right button.
+The file can be navigated with the direction buttons. Additionally, the encoder can be used to scroll. The encoder direction is set by the last direction button that was pressed. If you want scroll horizontally, first press the left or right button. When scrolling vertically, the encoder moves 16 lines per step in order to make scrolling through large files easier.
 
 The center (select) button will show the main menu. To close the menu again, click the menu button on the bottom right.
 
