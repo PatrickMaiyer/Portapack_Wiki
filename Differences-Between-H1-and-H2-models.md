@@ -40,7 +40,7 @@ This is a non trivial difference, compared against H1 design where the speaker o
 
 Since the firmware is shared between H1 and H2, on PortaPack H2 you end up powering TWO speaker amplifiers: The one inside AK4951 CODEC IC, and the extra 3W speaker amplifier.
 
-## H2+ Variations
+## H2+ [Variations](https://github.com/eried/portapack-mayhem/wiki/PortaPack-Versions)
 At least some of the PortaPack "H2+" variations have the following audio differences:
 
 A **WM8731** audio CODEC may be installed in place of the **AK4951**.  The WM8731 IC has no speaker amplifier, for one difference.
