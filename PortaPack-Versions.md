@@ -49,8 +49,7 @@ _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
 
 
 ### Differences:
-* Similar to  H2+R1 except using the WM8731 Codec and  has an added audio power amp INS8002E. The front face of the board is marked as H2+ as in H2+R1 above.  Speaker [volume level is low](https://github.com/eried/portapack-mayhem/wiki/H2-Plus-speaker-modifications).
-* Battery state indicator with 4 leds under Encoder Knob for 25%,50%,75%,100%,flashing while charging, steady when that level full. 
+* Similar to  H2+R1 except using the WM8731 Codec and  has an added audio power amp INS8002E. The front face of the board is marked as H2+ as in H2+R1 above.  Speaker [volume level is low](https://github.com/eried/portapack-mayhem/wiki/H2-Plus-speaker-modifications) (H2+ R2/R3/R4).
 
 ## H2+ R3
 
