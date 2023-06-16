@@ -9,10 +9,10 @@ The current list is:
 |[H2](#h2)|:+1:|3.2"|:heavy_check_mark:|||QFP64|||
 |[H2 (maxgeek)](#maxgeek-h2)|:question:|3.2"||||QFP64|||
 |[H2 R1](#h2r1)|:+1:|3.2"|:heavy_check_mark:|||QFP64|||
-|[H2 R2](#h2r2)|:+1:|3.2"||:heavy_check_mark:||QFP64|||
-|[H2 R3](#h2r3)|:+1:|3.2"||:heavy_check_mark:||QFP100|:heavy_check_mark:||
-|[H2 R4](#h2r4)|:+1:|3.2"|||:heavy_check_mark:|QFP100||:heavy_check_mark:|
-|[H3/H2 Plus](#h3)|:shit:|3.2"|:heavy_check_mark:|||QFP64|||
+|[H2+ R2](#h2r2)|:+1:|3.2"||:heavy_check_mark:||QFP64|||
+|[H2+ R3](#h2r3)|:+1:|3.2"||:heavy_check_mark:||QFP100|:heavy_check_mark:||
+|[H2+ R4](#h2r4)|:+1:|3.2"|||:heavy_check_mark:|QFP100||:heavy_check_mark:|
+|[H3](#h3)|:shit:|3.2"|:heavy_check_mark:|||QFP64|||
 
 _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
  
@@ -35,7 +35,7 @@ _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
 * Different control/button layout
 * Built in battery
 
-## H2+R1
+## H2+ R1
 
 <img src="https://user-images.githubusercontent.com/4393979/162888499-4d780cd0-2ddd-47f0-b465-2c29238af6ad.png" height="300">
 
@@ -43,16 +43,16 @@ _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
 * Similar to  H2 in early versions except claim for better TXCO spec(questionable) and board marked as H2+.
 * Battery state indicator with 4 leds under Encoder Knob for 25%,50%,75%,100%,flashing while charging, steady when that level full. 
 
-## H2+R2
+## H2+ R2
 
 <img src="https://user-images.githubusercontent.com/32274981/163668781-3f9beec7-b670-43dd-aa97-b01a63343157.JPG" height="300">
 
 
 ### Differences:
-* Similar to  H2+R1 except using the WM8731 Codec and  has an added audio power amp INS8002E. The front face of the board is marked as H2+ as in H2+R1 above.
+* Similar to  H2+R1 except using the WM8731 Codec and  has an added audio power amp INS8002E. The front face of the board is marked as H2+ as in H2+R1 above.  Speaker [volume level is low](https://github.com/eried/portapack-mayhem/wiki/H2-Plus-speaker-modifications).
 * Battery state indicator with 4 leds under Encoder Knob for 25%,50%,75%,100%,flashing while charging, steady when that level full. 
 
-## H2+R3
+## H2+ R3
 
 <img src="https://user-images.githubusercontent.com/32274981/163668864-cfddc191-cdf5-418c-b8fd-7d7b16937c02.jpg" height="300">
 
@@ -62,7 +62,7 @@ _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
 * This versions the standard CPLD 5M40ZE64CN5 was  replaced with EPM240T100C5N ( due to cost and supply issues by supplier "OpenSourceSDR Lab") which has caused some issues ( they issued their work around fixes in a version 1.4.3)  and resolved in version 1.5.x due to a lot of hard work.
 
 
-## H2+R4
+## H2+ R4
 
 <img src="https://user-images.githubusercontent.com/4393979/170891015-6c9517bf-ee0b-49b9-b7bf-8d9f4049c721.png" height="300">
 
@@ -72,6 +72,7 @@ _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
 * Similar to the H2+R3 except it now uses the AG256SL100 IC as well as the 28 pin QFN WM8731L instead of the 38 pin QFN AK4951. Marked as "PCB v3.6 mmdvm.club". 
 * 3W LTK8002D SOP8 Class D amplifier for the speaker (INS8002e clone?).
 * Power IC IP5306 SOP8.
+* Inserting headphone plug doesn't [disable the speaker](https://github.com/eried/portapack-mayhem/wiki/H2-Plus-speaker-modifications).
 
 ## H3
 Uses custom close source firmware. **Not compatible with Mayhem. Do not buy or support as it's a scam**
