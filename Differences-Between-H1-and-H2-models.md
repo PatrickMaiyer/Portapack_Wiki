@@ -47,7 +47,7 @@ A **WM8731** audio CODEC may be installed in place of the **AK4951**.  The WM873
 
 An **LTK8002D** audio amplifier may be installed in place of the **CS8122S**.
 
-On at least some H2+ variations, inserting a headphone plug does not electrically disable the speaker output.  Note that a 4-conductor plug is supported for microphone input in addition to right/left headphone audio outputs.
+On at least some H2+ [variations](https://github.com/eried/portapack-mayhem/wiki/H2-Plus-speaker-modifications), audio volume is low, and inserting a headphone plug does not electrically disable the speaker output.
 
 # Power Supply
 
