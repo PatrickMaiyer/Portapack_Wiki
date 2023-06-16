@@ -12,7 +12,7 @@ The current list is:
 |[H2+ R2](#h2r2)|:+1:|3.2"||:heavy_check_mark:||QFP64|||
 |[H2+ R3](#h2r3)|:+1:|3.2"||:heavy_check_mark:||QFP100|:heavy_check_mark:||
 |[H2+ R4](#h2r4)|:+1:|3.2"|||:heavy_check_mark:|QFP100||:heavy_check_mark:|
-|[H3](#h3)|:shit:|3.2"|:heavy_check_mark:|||QFP64|||
+|[H3/H2 Plus](#h3)|:shit:|3.2"|:heavy_check_mark:|||QFP64|||
 
 _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
  
