@@ -38,16 +38,16 @@ The speaker audio header is switched on/off by the headphone female connector, w
 
 This is a non trivial difference, compared against H1 design where the speaker out pads are routed to the actual speaker out pins on the AK4951. On H2, the audio comes from the Headphones output pins of that IC.
 
-Since the firmware is shared between H1 and H2, on PortaPack H2 you end up powering TWO speaker amplifiers: The one inside AK4951/WM8731 CODEC IC, and the extra 3W CS8122S/LTK8002D speaker amplifier.
+Since the firmware is shared between H1 and H2, on PortaPack H2 you end up powering TWO speaker amplifiers: The one inside AK4951 CODEC IC, and the extra 3W speaker amplifier.
 
 ## H2+ Variations
 At least some of the PortaPack "H2+" variations have the following audio differences:
 
 A **WM8731** audio CODEC may be installed in place of the **AK4951**.  The WM8731 IC has no speaker amplifier, for one difference.
 
-An **LTK8002D** audio amplifier may be installed in place of the **CS8122S**.
+An **INS8002E** or **LTK8002D** audio amplifier may be installed in place of the **CS8122S**.
 
-On at least some H2+ [variations](https://github.com/eried/portapack-mayhem/wiki/H2-Plus-speaker-modifications), audio volume is low, and inserting a headphone plug does not electrically disable the speaker output.
+On some H2+ variations, audio volume is low, and inserting a headphone plug does not electrically disable the speaker output (without [additional hardware modifications](https://github.com/eried/portapack-mayhem/wiki/H2-Plus-speaker-modifications)).
 
 # Power Supply
 
