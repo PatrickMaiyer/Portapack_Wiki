@@ -25,7 +25,7 @@ That new Hackrf board revision r9  has two 2 IC’s changes:
 
 Starting with HackRF One r6, hardware revisions are detected by firmware and reported by hackrf_info.
 
-Thanks to the Portapack Mayhem Debug menu tool, you can also easily detect that r9 version without disassembling  the boards :
+Thanks to GSG developers and our Mayhem git admin , we merged their commit about all those r9 hw support in our Portapack Mayhem Debug menu tool. And now  you can also easily detect that r9 version without disassembling  the boards :
  
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/49b1d3f2-d7c7-4940-8d18-c49293f2b8ab)
 
