@@ -22,6 +22,7 @@ Note, this feature is not working once we activate below "Rx audio listen" ; but
 ![image](https://user-images.githubusercontent.com/86470699/196540348-cbee30a7-b4fb-4ba5-8242-b65fec585a9e.png)
 ![image](https://user-images.githubusercontent.com/86470699/196541644-3fd9d7bd-7dfa-49c4-af0c-7be9ce7547d6.png)
 
+![IMG_4376](https://github.com/eried/portapack-mayhem/assets/86470699/7cd3ac45-d43d-454e-9ff0-4369414881cf)
 
 
 * **MIC. GAIN:** Cursor selection and use rotary encoder is used to select a fixed gain of x0.5, x1.0, x1.5, x2.0. The setting needs to be selected based, on the Microphone used which is connected via the Headset/ Microphone socket (standard smartphone 4 segment 3.5mm connector). 
