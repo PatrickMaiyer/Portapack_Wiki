@@ -88,7 +88,8 @@ From [Nightly Release - 2023-04-05] onwards it has been added a new check box (n
 
 
 
-* **F:**  This field set the Frequency for the transmission.	
+* **F:**  This field set the TX Frequency for the trasmitter.	
+* **F_RX:**  This field set the RX Frequency for the receiver.
 
 * **FM TXBW:** This field sets the FM Band Width of the transmission under normal conditions from 0-150 kHz. (In fact, it is the +/- FM deviation in Khz.)
 
