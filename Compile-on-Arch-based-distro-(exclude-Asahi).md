@@ -4,7 +4,7 @@ _This tutour not works on Asahi, please make sure you are on x86_64 platform_
 
 # 1. Install dependence
 ``
-sudo pacman -S git tar wget dfu-util cmake make python3 bzip2 lz4 curl hackrf python-distutils-extra python-setuptools python-pip python-yaml libopencm3
+sudo pacman -S yay git tar wget dfu-util cmake make python3 bzip2 lz4 curl hackrf python-distutils-extra python-setuptools python-pip python-yaml libopencm3
 ``
 
 Check the output and make sure are the packages listed above were installed correctly.
