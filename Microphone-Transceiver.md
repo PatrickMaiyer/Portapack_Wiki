@@ -82,10 +82,9 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 
 From [Nightly Release - 2023-04-05] onwards it has been added a new check box (next to Roger beep)  to the user to be able to select Separated (default) ) / Common freq. RX tuning control respect TX freq. (see attached new updated GUI pictures): 
 
+![IMG_4379](https://github.com/eried/portapack-mayhem/assets/86470699/8796a489-36e0-46b3-8eaa-027a9738229d)
 
-![image](https://user-images.githubusercontent.com/86470699/229879017-6a2c1433-6d91-494a-ad08-0e4cc530c606.png)
-![image](https://user-images.githubusercontent.com/86470699/229879215-309ca797-c6cf-4082-b4d5-98438d2bc356.png)
-
+![IMG_4377](https://github.com/eried/portapack-mayhem/assets/86470699/1029d2c6-f998-4dbc-ad60-69d00b3408b7)
 
 
 
