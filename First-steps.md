@@ -24,7 +24,8 @@ An internal battery between 1000 and 2500 mAh should last several hours of use, 
 # About firmwares
 If you bought a standalone HackRF, it probably came with the GSG firmware flashed onto it. This enables usage over USB from a computer.
 
-When buying pre-assembled HackRF + PortaPack bundles, they typically come with some version of the Mayhem firmware, but one important thing to understand is : the firmware is always flashed on the HackRF board, PortaPack has no flash nor CPU, is basically an interface module that enables standalone usage without a computer. It provides LCD screen, buttons,audio codec IC, SD card slot,a coin cell to preserve settings and time between usages, some versions a high precision clock signal and a battery.
+When buying pre-assembled HackRF + PortaPack bundles, they typically come with some version of the Mayhem firmware, but one important thing to understand is : the firmware is always flashed on the HackRF board, PortaPack has no flash nor CPU, is basically an interface module that enables standalone usage without a computer. It provides LCD screen, buttons,audio codec IC, SD card slot, a coin cell battery 
+to preserve settings and time calendar between usages, some versions a high precision clock signal and a battery.
 
 Although the Mayhem firmware gives you the possibility to directly use a lot of functions on the field standalone , without a computer, it also provides a “HackRF mode” which enables the user to start a version of the original GSG firmware and use your HackRF via USB, controlled by a computer. However if you separate the two boards, you wont be able to use the menu GUI and enable “HackRF mode”, so if you want to use your HackRF board alone (detached), that way you'll need to flash it with the GSG firmware.
 
