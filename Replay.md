@@ -1,4 +1,4 @@
-This enables the replay of a previouly recorded files that has been recorded from a capture or generated to simulate the transmission.
+This app allows users to replay single play C16 file, or create playlists of previously captured signals and replay them in a specific order.
 
 The Key Items on the App that can be selected with the cursor and changed with the encoder knob are:
 
@@ -8,13 +8,37 @@ The Key Items on the App that can be selected with the cursor and changed with t
 * **File progress bar:** To the righthand side of the “Open file” Button is the progress bar this show the progress of the file being transmitted 
 * **Frequency:** Which is the first item on the third line below the title bar. This brings up the normal frequency keypad.The information is keep in persistant memory and is avalable from the settings in the Capture App.
 * **Gain:** Next in the second line is the LNA (IF) (0-47) and Amp gain A: 0dB or 14dB.
-* **Loop:** A tick box that selects that when the file reaches the end of the transmission that it will start the file again.
+* **Loop:** A tick box that selects that when the file reaches the end of the transmission that it will start the file again. (or entire list if you opened a PPL file)
 
-For OOK Transmissions, a [DeBruijn](https://en.wikipedia.org/wiki/De_Bruijn_sequence) attack can be used. This can be used on non-Cyclic code key system such as garage doors, gates and some old cars.
+# Replay Single File
 
-Two set of files have been prepared for the portapack in the link below. One is for binary and other for trinary for different key code lengths. Information can be found in the link. The files need to be place in a folder on the SD card but note the trinary ones are very large. 
-[DeBruijn files and information for PortPack.](https://github.com/HackingIntoYourHeart/HackRF-Portapack-DeBruijn)
+Select a C16 file, it will replay your C16 file referring the freq and rate config of it's partner file.
 
+# Playlist
 
- A video tutorial on the general use of the App is shown here: https://www.youtube.com/watch?v=Pe30Jvyhmzk
+A sample PLAYLIST.PPL file is included in the SD card.
+
+The file with PPL extension is just text file, you could edit it with any of the text editor.  
+
+Playlist files are comma delimited and have the following structure:
+
+ABSOLUTE_PATH_TO_C16_FILE,DELAY
+#COMMENTS
+
+For example, a valid playlist file could contain:
+```
+# Playlist file example
+# capture path, pre-delay milliseconds (optional)
+/SAMPLES/TeslaChargePort_US.C16
+/SAMPLES/TeslaChargePort_EU_AU.C16,100
+```
+
+It will do:  
+1. Play SAMPLES/TeslaChargePort_US.C16 referring the freq and rate config of it's partner file 
+2. pause 100 ms  
+3. Play SAMPLES/TeslaChargePort_EU_AU.C16 referring the freq and rate config of it's partner file  
+4. over.  
+  
+The LOOP check box is for the entire PPL file. 
+Once you interrupted the replay, it would start over since the beginning of the list.  
 
