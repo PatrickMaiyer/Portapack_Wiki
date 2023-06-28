@@ -1,4 +1,4 @@
-This app allows users to replay single play C16 file, or create playlists of previously captured signals and replay them in a specific order.
+This app allows users to replay single C16 file, or create playlists of previously captured signals and replay them in a specific order.
 
 The Key Items on the App that can be selected with the cursor and changed with the encoder knob are:
 
