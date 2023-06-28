@@ -11,7 +11,7 @@ Check the output and make sure are the packages listed above were installed corr
 
 # 2. Install ARM `gcc-arm-none-eabi` package from `AUR`
 
-_This will automatically add the path of arm toolchain to the ``PATH`` of your default shell (for example: ``bash``, ``zsh``, ``fish``, and ``nushell``). Thus, you would have a problem (cross) compiling with ``gcc`` for other platform (for example. ``x86`` or ``ESP``), if your other project just calls the ``as`` in your PATH. You can either remove the `PATH` then call correct ``as`` when compiling this project, or call the correct ``as`` when you're compiling other project for other platform, it depends on you, or off to use Debian based tutorial._
+_This will automatically add the path of arm toolchain to the ``PATH`` of your default shell (for example: ``bash``, ``zsh``, ``fish``, and ``nushell``)._
 
 1. Go to [the page of `gcc-arm-none-eabi` package in AUR](https://aur.archlinux.org/packages/gcc-arm-none-eabi-bin).  
 2. Click `View Changes` to check the commit history of this AUR package.  
