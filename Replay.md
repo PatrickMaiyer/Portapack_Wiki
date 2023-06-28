@@ -22,8 +22,10 @@ The file with PPL extension is just text file, you could edit it with any of the
 
 Playlist files are comma delimited and have the following structure:
 
-ABSOLUTE_PATH_TO_C16_FILE,DELAY
+```
+ABSOLUTE_PATH_TO_C16_FILE,DELAY  
 #COMMENTS
+```
 
 For example, a valid playlist file could contain:
 ```
