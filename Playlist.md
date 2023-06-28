@@ -1,1 +1,1 @@
-This app were combined to [Replay app](https://github.com/eried/portapack-mayhem/wiki/Replay).
+This app was combined with the [Replay app](https://github.com/eried/portapack-mayhem/wiki/Replay) after 1.7.2.
