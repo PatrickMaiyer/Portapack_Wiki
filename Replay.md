@@ -11,7 +11,7 @@ This app allows captured signals to be replayed.
 * The fourth line indicates the current playlist path.
 
 * Left/Right buttons allow you to change the currently selected track.
-* + File button will open the file picker to select a new C16 (capture) file to add at the *END* of the playlist.
+* "+ File" button will open the file picker to select a new C16 (capture) file to add at the *END* of the playlist.
 * X button will delete the currently selected item from the playlist.
 * Open button will open the file picker to select a new PPL (playlist) file. This will overwrite the current playlist.
 * Save button will save the modification to the current playlist.
