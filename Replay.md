@@ -27,12 +27,10 @@ Tips and Quirks
 - You can also browse to a Capture (C16) or Playlist (PPL) file in the FileMan and select it to open it in Replay.
 - NB: Delay (see below) hangs the UI thread and will appear to freeze the device. You have to restart to interrupt the delay.
 
-When the app starts, you have an empty playlist and the "+ File" button is focused. If you just want to play back a single item, press the "+ File" button and select a C16 file.
-The play button will be automatically focused once you've made a selection. This allows for fast, 2-click, playback.
-
 # Replay Single File
 
-Select a C16 file, it will replay your C16 file referring the freq and rate config of its partner file.
+When the app starts, you have an empty playlist and the "+ File" button is focused. If you just want to play back a single item, press the "+ File" button and select a C16 file with the file picker.
+The play button will be automatically focused once you've made a selection. This allows for fast, 2-click, playback.
 
 # Playlist
 
