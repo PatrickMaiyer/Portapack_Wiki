@@ -1,10 +1,10 @@
-_Debian based is more recommended since the dependency chain is clearer and more independently. So if you are just planning pickup a Linux to play with this project, use Debian based, instead of Arch based. But if you already decided to use Arch, please prevent breaking dependencies chain with `pacman -Syu`_
+_Debian based is more recommended so if you are just planning to pick up a Linux to play with this project, use Debian based, instead of Arch based. But if you already decided to use Arch, please prevent breaking dependencies with pacman or yay_
 
 _This tutour not works on Asahi, please make sure you are on x86_64 platform_
 
 # 1. Install dependence
 ``
-sudo pacman -S yay git tar wget dfu-util cmake make python3 bzip2 lz4 curl hackrf python-distutils-extra python-setuptools python-pip python-yaml libopencm3
+sudo pacman -S git tar wget dfu-util cmake make python3 bzip2 lz4 curl hackrf python-distutils-extra python-setuptools python-pip python-yaml libopencm3
 ``
 
 Check the output and make sure are the packages listed above were installed correctly.
