@@ -36,6 +36,9 @@ Map View
 
 ![Map View](https://i.ibb.co/SrD1gbv/SCR-0007.png)
 
+Beginning in firmware version 1.7.3, the map can be zoomed by moving the cursor down to the map region and turning the encoder dial (resolution is still limited by the map file, but this feature helps to separate overlapping plane icons).  The map position can also be changed by modifying the latitude and longitude values.
+
+
 A/C Details
 
 ![A/C Details](https://i.ibb.co/SRq38gJ/SCR-0008.png)
