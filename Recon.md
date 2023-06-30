@@ -101,9 +101,9 @@ One of the first two options have to be checked else nothing will be loaded at a
 * input: load ranges => allow load of ranges
 * input: load hamradios => allow load of ham radios
 * auto update m-ranges => if checked then the manual range start and stop values are updated using the actual searched range values. If it's actually searching a frequency, manual ranges are untouched
-* Lock duration => define lock duration in msec. Same as 'L' in main screen top right corner. It represent the maximum time we are waiting for all locks in SPARSE match mode or the maximum time we are waiting for the first lock in CONTINUOUS match mode
-* Lock number => define number of consecutive locks needed to have a frequency match
-* Match mode => Choose between CONTINUOUS and SPARSE. If continuous, all locks are to be consecutive and the first match must happen during lock_wait, if it's sparse then you have to reach nb_locks during lock_wait but not consecutively.
+* auto record locked period=> activate auto record during locked wait (green) state. In audio modes, a wav file with actual time of capture as filename is created in AUDIO directory. In SPEC mode, a raw c16 with actual time of capture as filename is created in CAPTURES directory. 
+
+**!!BE CAREFUL WITH 'auto record locked period' OPTION. DON'T FORGET CLEANING UP FROM TIMES TO TIMES, TOO MUCH FILES WILL CRASH THINGS!!**
 
 # Recon/Search/Manual
 When using the Recon app, 3 modes are accessibles. 
@@ -144,18 +144,13 @@ STORE and REMOVE are working on the output file but changes are not reflected in
 
 In that mode you have a single range as an input list, and an output file.
 
-# Color meaning for wait/lock_wait values
-* white => okay
-* yellow => may experience trouble on some situations 
-* red => nearly unusable
-
 ## Wait/lock Coloring conditions:
 
-Lock duration coloration (only in SPARSE matching mode):
+Lock coloration (only in SPARSE matching mode):
 
 * if lock duration is lower or equal to (min_lock_duration x nb_locks) => value is in yellow to indicate that there is not enough time to match nb_locks. Coloration are not used in CONTINUOUS as lock timer is disarmed at first lock count.
 
-Wait duration coloration: 
+Wait coloration: 
 
 * if wait is between [-500,500] ms and not 0, it's red because the audio will have hard time start and stop that quick during consecutive matches  
 * if wait it > 500 it's the time we are staying on a matching freq before skipping => wait value is in white
@@ -239,7 +234,7 @@ Tips:
 * Both STORE and autosave will save frequency with current searched frequency or range description, or "ADD FQ" if no description
 
 # Troubleshooting
-Most of the time if the Recon app is not working as you expected it's coming from a SDCARD problem. You need a SDCARD for the Recon app to save settings between runs and between settings menu / main gui, and you need a RECON folder at the root of it
+Most of the time if the Recon app is not working as you expected it's coming from a SDCARD problem. You need a SDCARD for the Recon app to save settings between runs and between settings menu / main gui
 
 If not you will not be able to load a file from FREQMAN directory / save settings
 
