@@ -88,7 +88,7 @@ Buttons and information description, from top to bottom, and left to right. [NAM
 * clear output at start => If checked then the output file is blanked at app start. If you're using that feature and want to keep one of your search results, do not forgot to go into filemanager to rename the file before starting the Recon app one more time
 
 ## More CONFIG settings page
-![Recon App More CONFIG page](https://github.com/eried/portapack-mayhem/assets/3157857/796a57a1-a4f1-4ce1-a581-e088243fb23e)
+![Recon App More CONFIG page](https://github.com/eried/portapack-mayhem/assets/3157857/09deebfc-8511-4007-856b-36577ced4c50)
 
 One of the first two options have to be checked else nothing will be loaded at all and only manual range search will be available
 * input: load freqs  => allow load of frequencies
