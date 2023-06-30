@@ -25,7 +25,7 @@ The portapack hardware is limited, and so is the list of elements that you can l
 
 A maximum number of 115 elements is allowed. One more element is allowed to detect that the file was truncated.
 
-If a file was loaded and truncated, the displayed list name and current entry description are in yellow instead of white.
+If a file was loaded and truncated, the displayed list name and current entry description are in yellow instead of other colors.
 
 # TODO first
 If you are launching the Recon app for the first time, chances are high that you do not have the wanted options selected by default.
@@ -55,23 +55,29 @@ Buttons and information description, from top to bottom, and left to right. [NAM
 
 * [LNA] , [VGA] , [AMP] , [VOL] => gains, amplification on/off , volume
 
-* [BW] , [SQUELCH], [W],[L] => bandwidth for actual demod, squelch is the level of DB needed to start to lock on a signal, W (wait after match) is the time we will stay on the frequency if it's reaching nb_locks during lock_wait (continously or sparsely). If wait is a negative number, then it represent the time we are staying on a matched frequency waiting for new activity, and a new lock during the wait restart the counters (you keep staying on it until a full wait without a lock is reached). L (lock duration) is the maximum time we stay on a freq waiting for all locks in SPARSE match mode, and the time we are waiting for the first lock in CONTINUOUS match mode.
+* Current input file name =>  will be in yellow if file contain too much lines or red if an error description is shown, or follow mode colors
 
-* [XXX] / XXX , XX db, XX/XX value , [CONFIG] => index of the current frequency in the loaded list (move with encoder, or set a value by clicking), number of frequencies in the list, actual DB value, number of locks / number of needed locks for a match, button to the settings page. Will be in red if file contain too much lines or if an error description is shown.
+* Current entry description => input name, will be in yellow if file contain too much lines or red if an error description is shown, or follow mode colors 
 
-* FREQ: XXXX => Current frequency
+* [RssiGraph], [MODE] => radio levels indication, jump to level app on click. Mode is one of [RECON/SCANNER/MANUAL-S] and show actual mode, and switch to next mode on click
+
+* [XXX] / XXX , XX db, XX/XX value => index of the current frequency in the loaded list (move with encoder, or set a value by clicking), number of frequencies in the list, actual DB value, number of locks / number of needed locks for a match, button to the settings page. Will be in red if file contain too much lines or if an error description is shown
+
+* FREQ: XXXX , [LOOP] => Current frequency , [LOOP] button to control continuous mode or not (green is on, white is off)
 
 * RSSI: XXX/XXX/XXX => Current min/med/max RSSI values in db
 
-* TIMER, CTCSS => elapsed timer for current frequency lock (0 if no lock) , detected tone if NFM is selected
-
-* Current input name (Will be in red if file contain too much lines or if an error description is shown), [MANUAL-S/SCANNER/RECON] => currently used mode. Manual Search, Scanner, Recon/Search
+* TIMER, CTCSS, [CONFIG] => elapsed timer for current frequency lock (0 if no lock) , detected tone if NFM is selected, and CONFIG button to set things like input/output files 
 
 * [START], [END], [SEARCH] => set the manual start and end of a range and launch a search on it. These values will be updated by the search if auto update m-ranges is checked. If highlighted, you can use the rotary encoder to adjust start or end
 
-* [Mode] , [STEP] => demodulation and step
+* [MatchMode] , [STEP] => Matching mode, manual range steps
 
-* [PAUSE] , [AUDIO] , [STORE] => pause or resume the search. If highlighted, you can use the rotary encoder to manually step in the frequencies/ranges, jump to Audio App, store actual frequency in output file
+* [NBLocks] , [W] , [L] => NBLocks is the numbers of locks we need to have a match. [W] (wait after match) is the time we will stay on the frequency if it's reaching nb_locks during lock_wait (continuously or sparsely). If wait is a negative number, then it represent the time we are staying on a matched frequency waiting for new activity, and a new lock during the wait restart the counters (you keep staying on it until a full wait without a lock is reached). [L] (lock duration) is the maximum time we stay on a freq waiting for all locks in SPARSE match mode, and the time we are waiting for the first lock in CONTINUOUS match mode.
+
+* [MODULATION] , [BW] , [SQUELCH] => actual modulation and bandwidth ,squelch is the level of DB needed to start to lock on a signal 
+
+* [PAUSE] , [AUDIO] , [STORE] => pause or resume the search. If highlighted, you can use the rotary encoder to manually step in the frequencies/ranges, jump to Audio App, store actual frequency in output file. Audio button is becoming red in auto record modes to indicate that a record in ongoing
 
 * [FW], [RST], [MIC TX] , [REMOVE/DELETE] => forward/reverse , reset search (it's restarting from the beginning of input file), jump to Mic app, Remove a frequency from active/loaded list in RECON mode or Delete from both active/loaded list and output file in SCANNER mode
 
