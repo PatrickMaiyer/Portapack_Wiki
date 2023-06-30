@@ -213,7 +213,7 @@ In the idea to be more user friendly the Recon app is keeping some settings in m
 Squelch is saved between runs / updates
 
 # Freqman file format
-See [Freqman Manager](Freqman-manager) page
+See [Freqman Manager](Freq-manager) page
 
 # Workflow and tips
 Workflow:
