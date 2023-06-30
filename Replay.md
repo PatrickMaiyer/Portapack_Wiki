@@ -5,11 +5,11 @@ This app allows captured signals to be replayed.
 ![Playlist](https://github.com/eried/portapack-mayhem/assets/3761006/8e494c6a-bed6-43f8-8af0-aca58f7958ff)
 
 Top controls
-* The top line is the name of the currently selected capture file to play.
+* The top line is the name of the currently selected capture file to play (*.C16) .
 * The second line has the Frequency (which can be modified) and the capure's sample rate.
 * At the end of the second line, there are two progress bars. The top indicates the progress in playlist, and the bottom indicates the transmit progress of the current item.
-* The third line indicates the length of the current item. You can set the TX gain (0-47), TX amp (0|14), loop mode, and toggle playback.
-* The fourth line indicates the current playlist path.
+* The third line indicates the length in seconds of the current item. You can set the TX gain (0-47), TX amp (0|14), loop mode, and toggle playback.
+* The fourth line indicates in the left part , the current item number / from total items in that list , (example 1/2) , and in the right ,  the current playlist file name (could be new if we want to save later , or existing one if we are pre-loading it ).
 
 Buttons
 * Left/Right buttons allow you to change the currently selected track.
