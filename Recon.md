@@ -1,6 +1,7 @@
 # Recon App
 
-![Recon App Menu Entry](https://github.com/eried/portapack-mayhem/assets/3157857/3e8e91ba-b107-4b7e-8b3e-ae9de5b92750)
+![Recon main](https://github.com/eried/portapack-mayhem/assets/3157857/bdd92d23-e8e0-4079-a0dc-ce638787123a)
+
 
 # Introduction
 The Recon app is full rework of the Scanner app, offering different possibilities and customisations.
@@ -45,10 +46,10 @@ More:
 
 * Check that 'input: load freqs' and 'input: load ranges' are checked
 
-# Main Screen
-![Recon App RECON Main Screen](https://github.com/eried/portapack-mayhem/assets/3157857/3e8e91ba-b107-4b7e-8b3e-ae9de5b92750)
-![Recon App SCANNER Main Screen](https://github.com/eried/portapack-mayhem/assets/3157857/a32f49ea-d824-4ca6-bc5e-9e57f921524a)
-![Recon App MANUAL-SEARCH Main Screen](https://github.com/eried/portapack-mayhem/assets/3157857/02135626-363c-4dba-bd72-c5d5337e7279)
+# Main Screens
+![Recon Mode](https://github.com/eried/portapack-mayhem/assets/3157857/bc8e4fc4-2638-4ae9-b3e1-e0528dd7d722)
+![Scanner Mode](https://github.com/eried/portapack-mayhem/assets/3157857/fc554fe9-ea1c-4dec-8018-cd6f320e2916)
+![Manual Range mode](https://github.com/eried/portapack-mayhem/assets/3157857/4af58a51-f163-435d-ac74-8070e069fcb4)
 
 Buttons and information description, from top to bottom, and left to right. [NAME] is used to mark a button / gui element that the user can change, else it's a description of an onscreen information.
 
