@@ -8,6 +8,10 @@ If you get a black or white screen after updating, please check the wiki here: [
 
 Maybe an update in the application settings broke the settings file for the app. Just go in the SETTINGS folder at the root of the SD card and delete the related settings file. As an example lets take the audio app: if we follow the previously mentioned method, then we just go and delete the rx_audio.ini file in SETTINGS directory. This will force a new settings file to be generated with all new needed parameters at the next attempt to launch the app.
 
+## Update failed on Ubuntu/Mint/Ubuntu based distro?
+For Ubuntu and Mint user: Ubuntu based distro never maintains their repo for hackrf package. You’ll face a lot of weird problems if your hackrf is R9.  
+To resolve these, please compile hackrf package yourself, or use other distro.
+
 ## DFU
 
 This is a special mode to update the firmware in case of problems. To enable this, you should reset your device holding the RESET and DFU buttons at the same time, while doing this, release RESET, and then release DFU. The leds should be ON and the screen wont show anything.
@@ -38,10 +42,6 @@ _DFU Utils CLI tools for Linux available in standard repositories_
 3. Switch to DFU mode as per the section above: *DFU*
 4. Upload the firmware with `dfu-util --device 1fc9:000c --download hackrf_one_usb.dfu --reset` 
 5. Reboot the device
-
-### Update failed on Ubuntu/Mint/Ubuntu based?
-For Ubuntu and Mint user: Ubuntu based distro never maintains their repo for hackrf package. You’ll face a lot of weird problems if your hackrf is R9.  
-To resolve these, please compile hackrf package yourself, or use other distro.
 
 ### Alternative environment
 
