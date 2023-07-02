@@ -17,6 +17,9 @@ Get the latest firmware from the [![GitHub release (latest by date)](https://img
 
 ### Linux
 
+**For Ubuntu and Mint user: Ubuntu based distro never maintains their repo for hackrf package. You’ll face a lot of weird problems if your hackrf is R9.**
+**To resolve these, please compile hackrf package yourself, or use other distro.**
+
 1. Connect the device via USB
 2. Switch to HackRF mode via the on-screen option (in the PortaPack)
 3. Upload the firmware with `hackrf_spiflash -w new_firmware_file.bin` (eg. portapack-h1_h2-mayhem.bin for mayhem firmware or hackrf_one_usb.bin for stock hackrf firmware)
