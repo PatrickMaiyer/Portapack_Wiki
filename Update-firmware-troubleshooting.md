@@ -39,6 +39,10 @@ _DFU Utils CLI tools for Linux available in standard repositories_
 4. Upload the firmware with `dfu-util --device 1fc9:000c --download hackrf_one_usb.dfu --reset` 
 5. Reboot the device
 
+### Update failed on Ubuntu/Mint/Ubuntu based?
+For Ubuntu and Mint user: Ubuntu based distro never maintains their repo for hackrf package. You’ll face a lot of weird problems if your hackrf is R9.  
+To resolve these, please compile hackrf package yourself, or use other distro.
+
 ### Alternative environment
 
 You may be able to try in a virtual environment, completely isolated from your current OS:
