@@ -1,4 +1,4 @@
-This section provides a set of utilities  that can be used to configure some aspects of the PortaPack and are described below:
+This section provides a set of utilities that can be used to configure some aspects of the PortaPack and are described below.  Settings are saved in persistent memory.
 ## Audio
 This allow the setting of the tone Key mixer setting as a % of the audio level.
 ## Radio
@@ -7,10 +7,11 @@ In the radio section  there  are two options,
 2. Second item is turning on or off the Antenna Bias Tee.
 ## User Interface
 The UI interface  setting for the following can be Enabled (tick) or Disabled (x) or selected value for the backlight timeout:
-* Hide the speaker
-* Backlight off after 5 seconds( default) or can be set to 5,15,30 seconds or 1,3,5,10 minutes , the value is held in persistent memory.
-* Show the Splash screen
-* Show the clock - This allows the date and time to be updated by moving the cursor to the select item and use the rotary knob to adjust the value. 
+* Backlight off after 5 seconds( default) or can be set to 5,15,30 seconds or 1,3,5,10 minutes.
+* Show the Splash screen at power-up.
+* Show the clock - This allows the date and time to be updated by moving the cursor to the select item and use the rotary knob to adjust the value.
+* Back button in menu - Enables a "Back" button on all menu screens.
+* Show/Hide Status Icons - Select which status bar icons are visible or hidden.
 ## Date/Time
 Set the date and time.
 ## Calibration
@@ -18,7 +19,7 @@ This provides an app for the calibration of the screen and alignment by followin
 
 You have to keep pressed for at least a second on each target for the app to guess the touch area correctly and show next target on release.
 ## App Settings
-Allow to specify if you want to load / save application settings at app start/end:
+Allow to specify if you want to load / save application settings at app start/end.  App settings are saved in the /SETTINGS folder.
  * Load app settings 
  * Save app settings
 ## Converter
@@ -66,3 +67,6 @@ Use the '+' or '-' filed to change to correction mode (addition or soustraction 
 Use the MHz RX and MHz TX field to set the correction in each mode.
 
 Settings are automatically saved in persistent memory.
+
+## Encoder Dial
+Allows the sensitivity of the encoder dial to be adjusted between Low, Normal, and High.
