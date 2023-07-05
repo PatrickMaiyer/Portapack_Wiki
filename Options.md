@@ -62,7 +62,7 @@ Set TX and or RX Frequency correction in Hz.
 
 A value between [-4,+4] MHz of correction is accepted, else it's truncated due to the variable used in persistent memory.
 
-Use the '+' or '-' filed to change to correction mode (addition or soustraction ).
+Use the '+' or '-' filed to change to correction mode (addition or subtraction ).
 
 Use the MHz RX and MHz TX field to set the correction in each mode.
 
