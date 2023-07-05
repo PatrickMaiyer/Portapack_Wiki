@@ -11,14 +11,23 @@ Both are using all the frequencies in their hand and pause on a frequency when m
 The Recon is using a different approach than the Scanner app it is originated from: it does not use a thread for frequency shifting and else rely on the statistics update event message to do the work. 
 
 This allow perfect matching between 'shifting to a new frequency' and 'waiting for the first statistic update of that frequency'.
+The Recon app will stop into any frequency carrying a signal strong enough. You can adjust the signal power threshold with the SQUELCH
 
-As the statistics only update once each 100ms, the minimum lock waiting time is also 100 ms, and the quickest frequency scanned rate is 10/s.
+### In AM/NFM/WFM mode
+The statistics only update once each 100ms, the minimum lock waiting time is also 100 ms, and the quickest frequency scanned rate is 10/s.
 
-The Recon will stop into any frequency carrying a signal strong enough. You can adjust the signal power threshold with the SQUELCH
+### In SPEC mode
+The statistics are updated differently in regard of the bandwidth used. 
 
-A search/recon is when using one or ranges of frequencies with step. In our case it can be a list of fixed frequencies, a list of ranges, or a mix between both ranges and fixed frequencies. You know you're in search/recon mode when the button in the middle right of the screen is showing 'RECON' in blue.
-
-A scan is when using a defined list. You know you're in scanner mode when the button in the middle right of the screen is showing 'SCANNER' in red.
+The average locking time / scanned rate are following the table:
+ 
+* 8k5 : 10ms    => max 100/s
+* 11k : 7-10ms  => max 100/s
+* 16k : 2-5s !! => max 333/s 
+* 25k : 17ms    => max 58/s
+* 50k : 30ms    => max 33/s
+* 100k: 50ms    => max 20/s
+* 250k and upper: 100ms => max 10/s
 
 ## Limitations
 The portapack hardware is limited, and so is the list of elements that you can load. 
@@ -48,8 +57,8 @@ More:
 
 # Main Screens
 ![Recon Mode](https://github.com/eried/portapack-mayhem/assets/3157857/bc8e4fc4-2638-4ae9-b3e1-e0528dd7d722)
-![Scanner Mode](https://github.com/eried/portapack-mayhem/assets/3157857/fc554fe9-ea1c-4dec-8018-cd6f320e2916)
-![Manual Range mode](https://github.com/eried/portapack-mayhem/assets/3157857/4af58a51-f163-435d-ac74-8070e069fcb4)
+![Scan Mode](https://github.com/eried/portapack-mayhem/assets/3157857/fc554fe9-ea1c-4dec-8018-cd6f320e2916)
+![Manual mode](https://github.com/eried/portapack-mayhem/assets/3157857/4af58a51-f163-435d-ac74-8070e069fcb4)
 
 Buttons and information description, from top to bottom, and left to right. [NAME] is used to mark a button / gui element that the user can change, else it's a description of an onscreen information.
 
@@ -59,7 +68,7 @@ Buttons and information description, from top to bottom, and left to right. [NAM
 
 * Current entry description => input name, will be in yellow if file contain too much lines or red if an error description is shown, or follow mode colors 
 
-* [RssiGraph], [MODE] => radio levels indication, jump to level app on click. Mode is one of [RECON/SCANNER/MANUAL-S] and show actual mode, and switch to next mode on click
+* [RssiGraph], [MODE] => radio levels indication, jump to level app on click. Mode is one of [RECON/SCAN/MANUAL] and show actual mode, and switch to next mode on click
 
 * [XXX] / XXX , XX db, XX/XX value => index of the current frequency in the loaded list (move with encoder, or set a value by clicking), number of frequencies in the list, actual DB value, number of locks / number of needed locks for a match, button to the settings page. Will be in red if file contain too much lines or if an error description is shown
 
@@ -79,7 +88,7 @@ Buttons and information description, from top to bottom, and left to right. [NAM
 
 * [PAUSE] , [AUDIO] , [STORE] => pause or resume the search. If highlighted, you can use the rotary encoder to manually step in the frequencies/ranges, jump to Audio App, store actual frequency in output file. Audio button is becoming red in auto record modes to indicate that a record in ongoing
 
-* [FW], [RST], [MIC TX] , [REMOVE/DELETE] => forward/reverse , reset search (it's restarting from the beginning of input file), jump to Mic app, Remove a frequency from active/loaded list in RECON mode or Delete from both active/loaded list and output file in SCANNER mode
+* [FW], [RST], [MIC TX] , [REMOVE/DELETE] => forward/reverse , reset search (it's restarting from the beginning of input file), jump to Mic app, Remove a frequency from active/loaded list in RECON mode or Delete from both active/loaded list and output file in SCAN mode
 
 # CONFIG 
 ## Main RECON settings page
@@ -122,8 +131,8 @@ STORE is adding current entry to output file.
 In that mode you have an input search/recon list, and an output file. You can temporary 'disable' some entries by a hit on REMOVE.
 Clicking on RST is reloading the fully populated list.
 
-## SEARCH mode
-Mode button is in red, and the label is 'SCANNER'. 
+## SCAN mode
+Mode button is in red, and the label is 'SCAN'. 
 
 In that mode it takes what you choose in "CONFIG/select output file" and use it as the list to search.
 
@@ -219,7 +228,7 @@ See [Freqman Manager](Freq-manager) page
 Workflow:
 * Select an input an output file, adjust the settings in CONFIG while you're at it 
 * Start the RECON, match frequencies, add them to your output file using autosave or STORE button
-* Switch to SCANNER mode to refine your results
+* Switch to SCAN mode to refine your results
 
 Tips:
 * When a file is loaded and checkbox 'autostart searching' have been checked, the search is starting as soon as the apps open up, using last launch settings
