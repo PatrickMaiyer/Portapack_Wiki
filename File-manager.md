@@ -60,9 +60,3 @@ When an item has been selected, the following commands are available in the tool
 - Folders must be empty in order to be deleted.
 - Cut/Copy/Paste does not work with "partner" files.
 
-
-## Known Issues
-- Only the first 100 items in a directory can be shown.
-- Cut/Copy/Paste does not work on folders.
-- Folders must be empty in order to be deleted.
-- Cut/Copy/Paste does not work with "partner" files.
