@@ -7,11 +7,14 @@ Used to manage files on the SD Card.
 - Use the right button to select a folder to take an action on (e.g. rename a folder).
 - Use the left button or select the ".." folder to go up a directory.
 
-Selecting a TXT or PPL file will open Notepad so the file can be viewed. Selecting a PNG file will open the Screenshot viewer (this can only view screenshots generated on the device). Use the right button to enter the toolbar for these file types. Exiting Notepad or the Screenshot viewer when launched this way will return back to Fileman.
-
-When viewing a screenshot, press any key to return back to Fileman.
-
 A small, blinking arrow on the right indicates that there are more items if you scroll down.
+
+### File type handlers
+Selecting certain types of files launch a viewer for the content. Use the right button to enter the toolbar for these file types. Exiting  the viewer when launched this way will return back to Fileman.
+- BMP files will open in the Splash viewer. If the file is of the correct size and type, it can be set as the splash screen.
+- TXT files will open in Notepad
+- PPL and C16 files will open in Replay in the correct mode.
+- PNG file will open the Screenshot viewer (this can only view screenshots generated on the device). When viewing a screenshot, press any key to return back to Fileman.
 
 ## Buttons
 
