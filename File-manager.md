@@ -48,7 +48,7 @@ When an item has been selected, the following commands are available in the tool
 - SETTINGS - holds saved App Settings.
 - SPLASH - (You can create  that folder to store all your favorite splash.bmp files ,and you can just navigate with FileMan 
             and when you open any picture , it will be overlay an Os Screen Display  message on top , with indications
-            about how to select it as your default boot splash.bmp) 
+            about how to select it as your next boot default splash.bmp) 
 
    ![image](https://github.com/eried/portapack-mayhem/assets/86470699/bf09723e-3922-4b76-8d6f-f950f76f8b05) 
    ![image](https://github.com/eried/portapack-mayhem/assets/86470699/15320f59-f8fb-4dcc-89f9-9b3faac50870)
