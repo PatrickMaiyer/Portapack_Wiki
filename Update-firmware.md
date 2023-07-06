@@ -35,6 +35,10 @@ _HackRF CLI tools for MacOS available through MacPorts or Homebrew_
 4. Upload the firmware with `hackrf_spiflash -w new_firmware_file.bin` 
 5. Reboot the device
 
+### Flash Utility
+
+The [Flash Utility](https://github.com/eried/portapack-mayhem/wiki/Flash-Utility) can also be used to program new firmware from a bin file stored on a MicroSD card, mentioned below.
+
 ## MicroSD card files
 
 Your PortaPack has a slot for a memory card. You need to provide a MicroSD with enough space (16GB is recommended, over 32GB will be omitted due the limits of the FAT32). This is necessary for certain functionality, like the world map, GPS simulator, and others. 
