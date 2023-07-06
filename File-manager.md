@@ -31,12 +31,21 @@ When an item has been selected, the following commands are available in the tool
 ## Partner files
 - Capture files (.C16) will have a "partner" .TXT file containing metadata. Renaming or deleting one of the pair will prompt the same action to be applied to the other.
 
-## Known folders
+## Known folders include
+- ADSB - holds map and airline data for the ADSB RX app.
+- AIS - holds data for the AIS app.
 - APRS - holds captures from the APRS app.
 - AUDIO - holds captures from the Audio app.
 - CAPTURES - holds captures from the Capture app.
-- LOGS - holds logs from various apps like Pocsag and Radiosnde.
+- DEBUG - holds debug dump files created from the Debug Dump app.
+- FIRMWARE - recommended directory to store alternate Mayhem firmware images.
+- FREQMAN - holds frequency list files for the Freqman, Scanner, Recon, and Looking Glass apps.
+- GPS - holds data for the GPS Sim app.
+- LOGS - holds logs from various apps like ADSB-RX, ERT, TPMS, Pocsag and Radiosnde.
+- LOOKING GLASS - holds preset frequency ranges for Looking Glass app.
+- PLAYLIST - holds play list files for the Playlist app.
 - SCREENSHOTS - holds screenshots.
+- SETTINGS - holds saved App Settings.
 
 ## Known Issues
 - Only the first 100 items in a directory can be shown.
