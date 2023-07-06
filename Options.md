@@ -1,8 +1,8 @@
 This section provides a set of utilities that can be used to configure some aspects of the PortaPack and are described below.  Settings are saved in persistent memory.
 ## Audio
-This allow the setting of the tone Key mixer setting as a % of the audio level.
+This allow the setting of the tone Key mixer setting as a percent of the audio level.
 ## Radio
-In the radio section  there  are two options, 
+In the radio section there are two options, 
 1. One for turning on/off the External Clock.
 2. Second item is turning on or off the Antenna Bias Tee.
 ## User Interface
