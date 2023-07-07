@@ -6,3 +6,5 @@ Save a 240x304 24-bit BMP file named `splash.bmp` in the root of the SD card. Yo
 
 If you don't see any (custom) splash screen, make sure you've switched this on by ticking the box in Options - Interface - Show Splash.
 
+### Issues
+- If you're having problems with 240x304, try 240x300 instead.
