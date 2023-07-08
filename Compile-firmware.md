@@ -185,14 +185,7 @@ some compiling errors to check it's better to call it without '-j 8')
 
     sudo chown -R my_user:my_usergroup /opt/portapack-mayhem
 
-## ~~6. Check the python version in libopencm3 and use python3 if not already here~~ 
-
-    sed -i 's/env python$/env python3/g' /opt/portapack-mayhem/hackrf/firmware/libopencm3/scripts/irq2nvic_h
-    
-    (from  Sep 26, 2022 Hackrf submodule, already modified that script, changing "python" -> "python3" interpreter. 
-     Be carefull, in current repo conditions, no need to send that command , otherwise you will have "python33" , that is not correct) 
-
-## 7. Create makefile through cmake and compile (it's important to call the PATH cmd in step 3 just before making the cmake)
+## 6. Create makefile through cmake and compile (it's important to call the PATH cmd in step 3 just before making the cmake)
     
     cd /opt/portapack-mayhem
     mkdir build
@@ -202,7 +195,7 @@ some compiling errors to check it's better to call it without '-j 8')
 
 If you want, use -j argument to increase the compile speed, for example `make -j` to auto decide the numbers of threads to compile, or manually set the thread numbers, for example `make -j4`
 
-## 8. Flash the firmware to HackRF
+## 7. Flash the firmware to HackRF
 
     hackrf_spiflash -w /opt/portapack-mayhem/build/firmware/portapack-h1_h2-mayhem.bin
 
