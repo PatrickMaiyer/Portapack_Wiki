@@ -145,9 +145,8 @@ If you decide to [ignore this guide](https://github.com/eried/portapack-mayhem/i
 3. Link ARM compiler to your bash environment
 4. Clone Mayhem repository from GitHub (if not done before)
 5. Giver user permission to the Mayhem repository
-6. Check the python version in libopencm3 and use python3 if not already here
-7. Create makefile through cmake and compile
-8. Flash the firmware
+6. Create makefile through cmake and compile
+7. Flash the firmware
 
 * Once done you only need to call 'make' in the /opt/portapack-mayhem/firmware/build directory
 
