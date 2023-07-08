@@ -149,9 +149,9 @@ If you decide to [ignore this guide](https://github.com/eried/portapack-mayhem/i
 7. Create makefile through cmake and compile
 8. Flash the firmware
 
-* Once done you only need to call 'make firmware' in the /opt/portapack-mayhem/firmware/build directory
+* Once done you only need to call 'make' in the /opt/portapack-mayhem/firmware/build directory
 
-* You can speed up the building process by calling 'make -j 8 firmware' instead, where 8 is the number of physical CPU cores (if you have 
+* You can speed up the building process by calling 'make -j 8' instead, where 8 is the number of physical CPU cores (if you have 
 some compiling errors to check it's better to call it without '-j 8')
 
 * **Use the following commands while logged into your every day user profile. :)**
@@ -198,9 +198,9 @@ some compiling errors to check it's better to call it without '-j 8')
     mkdir build
     cd build
     cmake ..
-    make firmware
+    make
 
-If you want, use -j argument to increase the compile speed, for example `make -j firmware` to auto decide the numbers of threads to compile, or manually set the thread numbers, for example `make -j4 firmware`
+If you want, use -j argument to increase the compile speed, for example `make -j` to auto decide the numbers of threads to compile, or manually set the thread numbers, for example `make -j4`
 
 ## 8. Flash the firmware to HackRF
 
