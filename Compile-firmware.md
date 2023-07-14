@@ -194,6 +194,8 @@ some compiling errors to check it's better to call it without '-j 8')
 
 If you want, use -j argument to increase the compile speed, for example `make -j` to auto decide the numbers of threads to compile, or manually set the thread numbers, for example `make -j4`
 
+Developers wishing to test selected functions in the firmware code by running them on their linux PC can also use the command `make build_tests` and then `ctest --output-on-failure` to run the tests.
+
 ## 7. Flash the firmware to HackRF
 
     hackrf_spiflash -w /opt/portapack-mayhem/build/firmware/portapack-h1_h2-mayhem.bin
