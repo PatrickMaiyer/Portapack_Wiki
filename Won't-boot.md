@@ -86,3 +86,6 @@ Then ,
 
 ## Explanation
 Firmware starting at version 1.5.4 and onward contain the <a href="https://github.com/eried/portapack-mayhem/pull/662">Pull Request 662</a> that uses the persistent memory to test and store the hardware and LCD config settings . That memory uses the same back up voltage than the Real Time Clock calendar, both needs a healthy cell battery button voltage. Sometimes, in a re flashing process , although we got good battery cell button voltage, the unit seems to be badly initializing those persistent bytes and we got strange black screen. Doing those above steps probably reset the persistent memory. That's just a guess.
+
+### Additional notes : 
+I used to have many frequent “black LCD boot brick” when exchanging binaries compiled with different gcc-arm… version , from 9.4 to 10.3 or 12 . But thanks to @u–foka‘s PR fix pmem -> make backup_ram_t data members volatile #1135, all those problems are gone , and now I do not have any persistent memory boot problems , so I do not need to go back to any old version 1.4.3 anymore. 
