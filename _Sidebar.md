@@ -82,7 +82,7 @@
       * Wipe SD card
       * [Flash Utility](Flash-Utility)
       * [SD over USB](SD-Over-USB)
-   * [Settings](Options)
+   * [Settings](Settings)
       * [Audio](Options#audio)
       * [Radio](Options#radio)
       * [User Interface](Options#user-interface)
