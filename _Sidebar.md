@@ -93,7 +93,7 @@
       * [QR code](Settings#qr-code)
       * [P.MemMgmt](Settings#pmemory-mgmt)
       * [FreqCorrect](Settings#freqcorrect)
-      * [Encoder Dial](Settings#encoderdial)
+      * [Encoder Dial](Settings#encoder-dial)
    * [Debug](Debug)
       * Memory
       * SD Card
