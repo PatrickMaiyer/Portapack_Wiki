@@ -82,7 +82,7 @@
       * Wipe SD card
       * [Flash Utility](Flash-Utility)
       * [SD over USB](SD-Over-USB)
-   * [Options](Options)
+   * [Settings](Options)
       * [Audio](Options#audio)
       * [Radio](Options#radio)
       * [User Interface](Options#user-interface)
@@ -93,6 +93,7 @@
       * [QR code](Options#qr-code)
       * [P.MemMgmt](Options#pmemory-mgmt)
       * [FreqCorrect](Options#freqcorrect)
+      * [Encoder Dial](Options#encoderdial)
    * [Debug](Debug)
       * Memory
       * SD Card
