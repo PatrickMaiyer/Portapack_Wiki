@@ -101,7 +101,7 @@ From [Nightly Release - 2023-04-05] onwards it has been added a new check box (n
 
 > * Narrow band FM (NFM-FM) TX ,and supporting NFM-FM RX : BW: 8K5 (8K50F3E) , 11Khz (11K0F3E) ,and FM RX BW :16Khz (16K0F3E)
 
-> * Wide band FM (WBFM) TX ,  and  supporting WFM RX of the following BW: 200kHz (Emissions Designator 200KF3E)
+> * Wide band FM (WBFM) TX ,  and  supporting WFM RX of the following BW: 200kHz (Emissions Designator 200KF3E).
 
 > * Amplitude Modulation (AM) TX fixed to the standard  AM-6K00A3E, but supporting AM RX with two selectable receiver bandwidth filters, BW : 9 and 6kHz (covering both side lateral bands, AM DSB with carrier  AM-9K00A3E / AM-6K00A3E) 
 >  
@@ -146,8 +146,8 @@ Once is marked , we have a common same frequency (F = F_TX) and therefore, to no
 > * 11Khz - NFM (delta FM deviation +/- 2,50 khz, FM index modulation:0,75)
 > * 16kHz -  FM (delta FM deviation +/- 5,0  khz,  FM index modulation:1,6)
 
-> In WFM
-> * 200Khz FM bandwidth , for commercial FM stations.
+> In WFM mode 
+> * 200Khz FM bandwidth , for commercial FM stations with soft band pass  transition.  And recently also added the bandwiths BW: 180khz and 40khz (that last one, mainly for NOAA analog FM APT - 137 Mhz reception), both  with sharp stop band transition.
 
 > In AM 
 > * DSB1 -9Khz, DSB2-6Khz bandwidth. 
