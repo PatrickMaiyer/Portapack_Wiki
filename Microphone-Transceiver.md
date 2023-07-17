@@ -101,7 +101,7 @@ From [Nightly Release - 2023-04-05] onwards it has been added a new check box (n
 
 > * Narrow band FM (NFM-FM) TX ,and supporting NFM-FM RX : BW: 8K5 (8K50F3E) , 11Khz (11K0F3E) ,and FM RX BW :16Khz (16K0F3E)
 
-> * Wide band FM (WBFM) TX ,  and  supporting WFM RX of the following BW: 200kHz (Emissions Designator 200KF3E).
+> * Wide band FM (WBFM) TX ,  and  supporting WFM RX of the following BW: 200kHz (Emissions Designator 200KF3E), 180khz and 40khz (see more details below)
 
 > * Amplitude Modulation (AM) TX fixed to the standard  AM-6K00A3E, but supporting AM RX with two selectable receiver bandwidth filters, BW : 9 and 6kHz (covering both side lateral bands, AM DSB with carrier  AM-9K00A3E / AM-6K00A3E) 
 >  
