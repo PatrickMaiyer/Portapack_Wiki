@@ -203,3 +203,6 @@ Developers wishing to test selected functions in the firmware code by running th
 # All in one script for ARM on Debian host
 
 If you want to have all these commands in one go, go to https://github.com/GullCode/compile-flash-mayhem and download compile-flash-mayhem.sh  and adjust it to fit your needs 
+
+# AArch64 Host Toolset
+[gcc-arm-none-eabi-9-2020-q2-update-aarch64-linux.tar.bz2](https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2020q2/gcc-arm-none-eabi-9-2020-q2-update-aarch64-linux.tar.bz2?revision=7166404a-b4f5-4598-ac75-e5f8b90abb09&rev=7166404ab4f54598ac75e5f8b90abb09&hash=07EE5CACCCE77E97A1A8C049179D77EACA5AD4E5)
