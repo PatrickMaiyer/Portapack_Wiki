@@ -47,7 +47,8 @@ The Key Items on the App that can be seen or selected with the cursor and change
 
 The next item is the setting of the bin sizes used for the waterfall (0-63) with “0” being the minimum information being the fastest display and “63” the maximum information collected the slowest display. Adjust to give a balance of speed and information seen. 
 
-* **CTCSS:** This Continuous Tone Coded Squelch System is a display at the end of the secondary information line. It is used by many systems and standardised by EIA/TIA, with a description [here.](https://en.wikipedia.org/wiki/Continuous_Tone-Coded_Squelch_System ) The display of the CTCSS shows the tone decoded as a Number and Letter code not the actual tone code itself. See the Annex to this document below. It should be noted that most of the time the display is jumping around and only clearly displays the received tone when there is a gap in the voice and the Signal is of good quality. 
+* **CTCSS:** This Continuous Tone Coded Squelch System is a display at the end of the secondary information line. It is used by many systems and standardised by EIA/TIA, with a description [here.](https://en.wikipedia.org/wiki/Continuous_Tone-Coded_Squelch_System ) In the NFM mode in Audio app, the tone field is increased from 11 to 14 characters.
+Now , the CTCSS tone frequency and CTCSS code numbers are displayed at once (if a matching freq was found in the tone_key table). See the Annex to this document below. It should be noted that most of the time the display is jumping around and only clearly displays the received tone when there is a gap in the voice and the Signal is of good quality. 
 
 * **Record:** The record button if selected will show the record file name, % of the SD Card used, and at the end of the line is the total recording time available left on the SD card and this decrements when recording. 
 
