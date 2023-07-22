@@ -32,10 +32,21 @@ Thanks to GSG developers and our Mayhem git admin , we merged their commit about
 
 ## Temperature 
 Data is provided by the MAX 2837 (or MAX 2839)  on chip digital temperature sensor. The accuracy is quoted as 4.33°C per value.
+
 ## Buttons Test
-This shows when either the buttons are pressed, the encode knob is turned or the screen is touched. It can also show if the encoder when turned is cleanly stepping the states as it is turned. Note on cheep portapack clones of the encode that is 24 step version can be over sensitive and miss steps. It can be changed with a better-quality version.
+This shows when either the buttons are pressed, the encode knob is turned or the screen is touched. It can also show if the encoder when turned is cleanly stepping the states as it is turned. Encoder sensitivity is now adjustable in Settings, and the encoder can be desoldered and replaced with a better-quality version if it has issues.  The test screen also has an option for testing the "long press" feature which is applicable to the directional keys and the DFU switch only.
 
 ![SCR_0013](https://github.com/eried/portapack-mayhem/assets/125336/1415257f-e322-428c-801d-71977603640e)
+
+### Touch Test
+Allows testing the Touch Screen calibration (and your artistic skill) by drawing on the screen using a stylus. The following controls are available:
+* Select key returns to Debug menu.
+* Left key changes the pen to a random color.
+* Down key clears the screen to a random color (like shaking your Etch-a-Sketch).
+* Encoder dial changes the pen size.
+
+Note that the screen-shot icon is still active but hidden (it will become visible if that spot of the Touch Screen is pressed).
+
 ### P. Memory
 Displays the contents of the persistent memory area. (256 bytes)
 
@@ -43,7 +54,10 @@ It is split into three pages, pages can be changes with the encoder and the curr
 
 At the bottom it displays also the current size of the data_t struct (this is what we persist into p.mem) and the currently stored checksum (it is calculated from the first 252 bytes of the p.mem area when changes are made to the settings and then written to the last 4 bytes of p.mem)
 
-The version of the stored config isnt displayed separately but it can be seen as the first 4 bytes of the p.mem area.
+The version of the stored config isn't displayed separately but it can be seen as the first 4 bytes of the p.mem area.
 
 ### Debug Dump
 Writes a file containing debug information to the DEBUG folder.
+
+### Fonts Viewer
+Displays the 5x8 and 8x16 font character set.
