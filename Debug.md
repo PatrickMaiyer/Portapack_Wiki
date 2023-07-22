@@ -38,7 +38,7 @@ This shows when either the buttons are pressed, the encode knob is turned or the
 
 ![SCR_0013](https://github.com/eried/portapack-mayhem/assets/125336/1415257f-e322-428c-801d-71977603640e)
 
-### Touch Test
+## Touch Test
 Allows testing the Touch Screen calibration (and your artistic skill) by drawing on the screen using a stylus. The following controls are available:
 * Select key returns to Debug menu.
 * Left key changes the pen to a random color.
@@ -47,7 +47,7 @@ Allows testing the Touch Screen calibration (and your artistic skill) by drawing
 
 Note that the screen-shot icon is still active but hidden (it will become visible if that spot of the Touch Screen is pressed).
 
-### P. Memory
+## P. Memory
 Displays the contents of the persistent memory area. (256 bytes)
 
 It is split into three pages, pages can be changes with the encoder and the current offset from the start of p.mem area is displayed on the top: "XX+" Also on the last page theres some padding with FFs displayed after the p.mem area ends.
@@ -56,8 +56,8 @@ At the bottom it displays also the current size of the data_t struct (this is wh
 
 The version of the stored config isn't displayed separately but it can be seen as the first 4 bytes of the p.mem area.
 
-### Debug Dump
+## Debug Dump
 Writes a file containing debug information to the DEBUG folder.
 
-### Fonts Viewer
+## Fonts Viewer
 Displays the 5x8 and 8x16 font character set.
