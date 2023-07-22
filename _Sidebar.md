@@ -95,11 +95,15 @@
       * [FreqCorrect](Settings#freqcorrect)
       * [Encoder Dial](Settings#encoder-dial)
    * [Debug](Debug)
-      * Memory
-      * SD Card
-      * Peripherals
-      * Temperature
-      * Buttons Test
+      * [Memory](Debug#memory)
+      * [SD Card](Debug#sd-card)
+      * [Peripherals](Debug#peripherals)
+      * [Temperature](Debug#temperature)
+      * [Buttons Test](Debug#buttons-test)
+      * [Touch Test](Debug#touch-test)
+      * [P.Memory](Debug#p-memory)
+      * [Debug Dump](Debug#debug-dump)
+      * [Fonts Viewer](Debug#fonts-viewer)
    * [HackRF Mode](HackRF)
 * Additional Information
    * [Updating the CPLD](Updating-the-CPLD)
