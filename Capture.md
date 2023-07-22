@@ -1,4 +1,4 @@
-Capture App is designed to capture I/Q data. This is  is stored as pairs of 16-bit signed values in a .C16 file (Complex 16 bit) and are stored in little-endian format.The Metadata (“Center frequency” and Bandwidth) is stored in a .TXT file with the same name.In GRC, the "file source" and "ishort to complex" blocks can be used to process the data.
+Capture App is designed to capture I/Q data to a file on the SD card. Captured data is stored as pairs of 16-bit signed values in a .C16 file (complex 16 bit), or optionally 8-bit signed values in a .C8 file (complex 8 bit). C16 values are stored in little-endian format. The Metadata (“Center frequency” and Bandwidth) is stored in a .TXT file with the same name.In GRC, the "file source" and "ishort to complex" blocks can be used to process the data.
 
 The Sampling rate used may not be supported by some MicroSD cards, it is best to use high speed class SD cards. The HackRF PortaPack Capture/Replay functionality is  based on Havoc firmware version.
 
