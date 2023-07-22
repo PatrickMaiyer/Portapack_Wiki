@@ -41,9 +41,9 @@ This shows when either the buttons are pressed, the encode knob is turned or the
 ## Touch Test
 Allows testing the Touch Screen calibration (and your artistic skill) by drawing on the screen using a stylus. The following controls are available:
 * Select key returns to Debug menu.
-* Left key changes the pen to a random color.
+* Left key changes the pen to a random color (hold in the button to rotate through them faster); this can also be done while drawing.
 * Down key clears the screen to a random color (like shaking your Etch-a-Sketch).
-* Encoder dial changes the pen size.
+* Turning the Encoder dial changes the pen size.
 
 Note that the screen-shot icon is still active but hidden (it will become visible if that spot of the Touch Screen is pressed).
 
