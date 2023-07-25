@@ -1,6 +1,6 @@
 _The man who wrote this page is a noob, this wiki works, but maybe there are many unnecessary things. feel free to edit it for me._  
 ---
-_Debian based is more recommended so if you are just planning to pick up a Linux to play with this project, use Debian based, instead of Arch based. But if you already decided to use Arch, please prevent breaking dependencies with pacman or yay_
+_Debian based is more recommended so if you are just planning to pick up a Linux to play with this project, use Debian based, instead of Arch based. But if you already decided to use Arch, please prevent breaking dependencies with `pacman -Syu` or `yay -Syu`_
 ---
 _This page not works on Asahi, please make sure you are on x86_64 platform_
 ---
