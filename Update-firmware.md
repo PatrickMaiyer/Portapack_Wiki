@@ -8,6 +8,10 @@ https://hackerwarehouse.tv/product-knowledgebase/portapack-h2/hackrf-one-r9-and-
 
 Get the latest firmware from the [![GitHub release (latest by date)](https://img.shields.io/github/v/release/eried/portapack-mayhem?label=Releases&style=social)](https://github.com/eried/portapack-mayhem/releases/latest) page. Please check the [FAQ](https://github.com/eried/portapack-mayhem#frequently-asked-questions) if you have any additional question.
 
+### HackRF/PortaPack itself via Flash Utility
+
+The [Flash Utility](https://github.com/eried/portapack-mayhem/wiki/Flash-Utility) can also be used to program new firmware from a bin file stored on a MicroSD card, mentioned below.
+
 ### Windows
 
 1. Connect the device via USB
@@ -34,10 +38,6 @@ _HackRF CLI tools for MacOS available through MacPorts or Homebrew_
 3. Switch to HackRF mode via the on-screen option (in the PortaPack)
 4. Upload the firmware with `hackrf_spiflash -w new_firmware_file.bin` 
 5. Reboot the device
-
-### Flash Utility
-
-The [Flash Utility](https://github.com/eried/portapack-mayhem/wiki/Flash-Utility) can also be used to program new firmware from a bin file stored on a MicroSD card, mentioned below.
 
 ## MicroSD card files
 
