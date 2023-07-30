@@ -44,7 +44,7 @@ Get the latest files from the [![GitHub release (latest by date)](https://img.sh
 
 # Troubleshooting
 
-If you have a HackRF-One R9 and the instruction here do not seem to work, you may need to follow the instructions in this link.
-https://hackerwarehouse.tv/product-knowledgebase/portapack-h2/hackrf-one-r9-and-portapack-compatibility/
-
 Please check [this guide](Update-firmware-troubleshooting).
+
+Otherwise if you have a HackRF-One R9 and the instruction here do not seem to work, you may need to follow the instructions in this link.
+https://hackerwarehouse.tv/product-knowledgebase/portapack-h2/hackrf-one-r9-and-portapack-compatibility/
