@@ -24,8 +24,9 @@ In future versions, it is pending to investigate and try to apply a correct .C16
 * **Record Button:** The red button shows as Rec or Stop. If record is selected then it will record the I/Q file. To the side of the Record Button is additional information that is shown for the recording file. (As we mentioned above, for correct Replay operatons, please make sure to select a proper Capture bandwith option  , with normal black background "REC" icon , not the yellow one.)
   
      * File Name
-     * % of the Storge capacity available
-     * Total time left 
+     * Percentage of Missed Samples (recording error rate, due to SD card write latency)
+     * Total recording time remaining (based on available SD card capacity)
 
+Please check the video below for HackRF PortaPack Capture/Replay functionality.
 
-Please check the video below for HackRF PortaPack Capture/Replay functionality.  [![HackRF PortaPack Capture/Replay functionality](http://img.youtube.com/vi/Pe30Jvyhmzk/0.jpg)](http://www.youtube.com/watch?v=Pe30Jvyhmzk "HackRF PortaPack Capture/Replay functionality")
+  [![HackRF PortaPack Capture/Replay functionality](http://img.youtube.com/vi/Pe30Jvyhmzk/0.jpg)](http://www.youtube.com/watch?v=Pe30Jvyhmzk "HackRF PortaPack Capture/Replay functionality")
