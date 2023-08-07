@@ -9,7 +9,7 @@ The Key Items on the App that can be selected with the cursor and changed with t
 * **Step Size:** The selected step size of frequency adjustment carried out by the Rotary encoder. 
 * **Gain:**  Amp  (0dB or 14dB), LNA(IF) (0-40),VGA(Baseband)(0-62)
 * **Rate:** The sample rate, which by its nature set the set bandwidth of capture. This is shown in the markers around the centre line of the waterfall display. The sample rate is variable from 12kk5 to 2750K (*)  in 16 steps. You need to ensure that the sample rate is more than twice the bandwidth of the signal  you want to capture see [(Nyquist Principle / also called Shannon’s Law)  ](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem)
-* **Format:** The user can select the file format , of the recorded IQ data 16 / 8 bits :  C16 (complex 16)  or C8 (complex 8), and its related file extension ".C16" or "C8".  
+* **Format:** The user can select two file formats, of the recorded IQ data 16 / 8 bits :  C16 (complex 16)  or C8 (complex 8), and its related file extension ".C16" or "C8".   (By default we are preselecting C16).
 
 Note (*)  : Currently , **for correct Replay application ,you should ONLY use Capture App selecting any Bandwith capture <= 1Mhz  (but 500Khz recommended for majority micro SD cards compatibility)**. From 600khz till 1Mhz , you may need fast and good quality micro SD Card , and with not so high random latency . (In the GUI , those correct bandwidth capture options appear with the Normal usual "REC" icon Background colour, as user recomended BW capture options)
 
