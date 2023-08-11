@@ -58,3 +58,6 @@ When scanning, the current frequency index is shown on the screen, along with th
 ## Freqman File Format
 See [Freqman Manager](Freqman-manager) page
 
+## Also see:  Recon app
+Advanced users may want to try the [Recon](https://github.com/eried/portapack-mayhem/wiki/Recon) app, which is a more fully-featured Scanner application.
+
