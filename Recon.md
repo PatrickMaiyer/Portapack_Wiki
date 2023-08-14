@@ -255,6 +255,32 @@ If you're not having your frequencies searched in both direction, maybe you misw
 
 Using the same input and output file is not going to pause a problem until you forgot to uncheck 'clear output at start'. Yeah, you've just clear what you wanted to scan
 
+# Scan speed vs Chosen modulation mode
+
+Detection of power level to match against the given squelch value is made at each firmware statistic updates. This determine how long we are staying on a frequency to have a corresponding squelch value.
+
+In all AM/NFM/WFM modes, it's an average of 100ms per statistic update.
+
+In SPEC mode, depending on the selected bandwidth, rounded to average upper nice looking value:
+
+* 12k5 = 65 ms
+* 16k = 30 ms
+* 25k = 170 ms
+* 50k = 300 ms
+* 100k = 790 ms
+* 150k = 375 ms
+* 250k = 800 ms
+* 500k = 800 ms
+* 600k = 800 ms
+* 650k = 800 ms
+* 750k = 800 ms 
+* 1000k = 800 ms 
+* 1500k = 800 ms
+* 2750k = 800 ms
+* 2000k = 800 ms
+* 2500k = 800 ms
+* 2750k = 800 ms
+
 # Power consumption
 A continuous search of 63H41M43S was run by user @vag3d, using the default antenna. Settings were a range from 10MHz to 6GHz, WFM, 5kHz steps, 1s wait
 
