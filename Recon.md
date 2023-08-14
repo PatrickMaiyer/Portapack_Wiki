@@ -255,8 +255,7 @@ If you're not having your frequencies searched in both direction, maybe you misw
 
 Using the same input and output file is not going to pause a problem until you forgot to uncheck 'clear output at start'. Yeah, you've just clear what you wanted to scan
 
-# Scan speed vs Chosen modulation mode
-
+# Scan speed vs Chosen modulation mode
 Detection of power level to match against the given squelch value is made at each firmware statistic updates. This determine how long we are staying on a frequency to have a corresponding squelch value.
 
 In all AM/NFM/WFM modes, it's an average of 100ms per statistic update.
