@@ -1,4 +1,4 @@
-> NOTE: The wiki is fairly incomplete. **Please feel free to add content and [collaborate](How-to-collaborate)**.
+> NOTE: The wiki is yet to be completed. **Please feel free to add content and [collaborate](How-to-collaborate)**.
 
 Thanks for buying your HackRF+PortaPack device. _That_ is what I would say if I was actually the one selling them as the intro line for the documentation, but I am not. I am just trying to document the great work of a lot of people involved in this project, listed [here](https://github.com/eried/portapack-havoc/blob/master/firmware/application/apps/ui_about.hpp#L77).
 
