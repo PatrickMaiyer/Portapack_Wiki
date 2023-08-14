@@ -20,14 +20,14 @@ The statistics only update once each 100ms, the minimum lock waiting time is als
 The statistics are updated differently in regard of the bandwidth used. 
 
 The average locking time / scanned rate are following the table:
- 
-* 8k5 : 10ms    => max 100/s
-* 11k : 7-10ms  => max 100/s
-* 16k : 2-5s !! => max 333/s 
-* 25k : 17ms    => max 58/s
-* 50k : 30ms    => max 33/s
-* 100k: 50ms    => max 20/s
-* 250k and upper: 100ms => max 10/s
+
+* 12k5 = 15/s
+* 16k = 33/s
+* 25k = 5.8/s
+* 50k = 3.3/s
+* 100k = 1.2/s
+* 150k = 2.6/s
+* from 250k to 2750k = 1.25/s
 
 ## Limitations
 The portapack hardware is limited, and so is the list of elements that you can load. 
