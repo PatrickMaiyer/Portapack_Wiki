@@ -20,7 +20,7 @@ If you device won't boot and leaves you on a black screen, then you will need to
 * LEFT key = LCD driver 2 QFP100 chip
 * RIGHT key = LCD driver 1 QFP100 chip
 
-> If you are having trouble understanding these procedures, here are clearer step-by-step instructions:  
+> If you are having trouble understanding these procedures, here is a step-by-step instruction:  
 >1. power off your device
 >2. press and holding one of the buttons listed above. （**DO NOT RELEASE IT YET**）
 >3. power on
