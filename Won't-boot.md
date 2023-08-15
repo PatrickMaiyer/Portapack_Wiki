@@ -1,7 +1,7 @@
 # My device wont start up
 
 ## White screen
-If you device won't boot and leaves you on white screen, then you will need to power off the device and then hold down the **UP** button while you power it on. This could take up to 10 seconds.
+If you device won't boot and leaves you on white screen, then you will need to power off the device and then holding the **UP** button while you power it on. This could take up to 10 seconds.
 
 If this does not work, then try the same thing but this time holding the **DOWN** button (Remembering to wait up to 10 seconds).
 
@@ -19,6 +19,20 @@ If you device won't boot and leaves you on a black screen, then you will need to
 * OK/SELECT key = Reset/Automatic detection
 * LEFT key = LCD driver 2 QFP100 chip
 * RIGHT key = LCD driver 1 QFP100 chip
+
+> If you are having trouble understanding these procedures, here are clearer step-by-step instructions:  
+>1. power off your device
+>2. press and holding one of the buttons listed above. （**DO NOT RELEASE IT YET**）
+>3. power on
+>4. Wait for at least 10 seconds.
+>5. if : you see the screen displaying any valid content*, release the button you have chosen.   
+>else if : you still not seeing any valid content* displayed, choose another button and start again from step 1.
+>6. power off, wait 5s, power on again **without** holding any buttons listed above, check if it boot successfully.  
+>if : you see the screen display any valid content* : we are done.  
+>else if : it boots successfully last round, but fail again this time : check the coin battery.
+
+>p.s. ^valid content : either a splash screen or any of the interface
+
 
 _**Note:** H2+ usually require you to hold the **UP key** on the first boot to configure them._
 
