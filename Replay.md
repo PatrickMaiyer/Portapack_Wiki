@@ -34,7 +34,7 @@ The play button will be automatically focused once you've made a selection. This
 
 # Playlist
 
-A sample PLAYLIST.PPL file is included in the SD card.
+A sample TESLA.PPL file is included in the SD card.
 
 The file with PPL extension is just text file, you could edit it with any of the text editor.
 
