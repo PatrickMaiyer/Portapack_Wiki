@@ -16,7 +16,7 @@ To resolve these, please compile hackrf package yourself, or use other distro.
 
 This is a special mode to update the firmware in case of problems. To enable this, you should reset your device holding the RESET and DFU buttons at the same time, while doing this, release RESET, and then release DFU. The leds should be ON and the screen wont show anything.
 
-> Sometimes it’s tricky to entering DFU mode, here is some way to entering it if you have no luck with the method above:  
+> Sometimes it’s tricky to entering DFU mode, here are some ways to entering it if you have no luck with the method above:  
 >W1. Press and holding DFU button, then plug the USB cable, then release the DFU button.  
 >W2. Press and holding DFU button, then single press the knob, then release the DFU button, then plug the USB cable.
 >W3. Plug in USB. Press and hold DFU button and unplug USB. Release DFU button and plug USB back in.
