@@ -59,5 +59,5 @@ It will do:
 3. Play SAMPLES/TeslaChargePort_EU_AU.C16 referring the freq and rate config of its partner file  
 4. over.  
 
-When "Loop" is checked, the playlist will be repeated until stopped.
+When "Loop" is checked, the playlist will be repeated until you manually stop it by press the "stop" button.
 Once stopped, playback will start over from the beginning of the list.  
