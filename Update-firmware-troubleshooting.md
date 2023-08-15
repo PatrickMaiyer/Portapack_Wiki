@@ -18,7 +18,7 @@ This is a special mode to update the firmware in case of problems. To enable thi
 
 > Sometimes it’s tricky to entering DFU mode, here are some ways to entering it if you have no luck with the method above:  
 >W1. Press and holding DFU button, then plug the USB cable, then release the DFU button.  
->W2. Press and holding DFU button, then single press the knob, then release the DFU button, then plug the USB cable.
+>W2. Press and holding DFU button, then single press the knob, then release the DFU button, then plug the USB cable.  
 >W3. Plug in USB. Press and hold DFU button and unplug USB. Release DFU button and plug USB back in.
 
 
