@@ -43,7 +43,7 @@ You can turn it on and off using the checkbox while in Radio menu, or using the 
 Note:  This has the same effect as using the top bar 'Freq' icon. While in the radio menu, the synchronisation of the top bar 'Freq' status and the checkbox is not implemented when toggling the top bar 'up' icon. The status is saved, and the last to talk is setting the status.
 
 ## QR code
-Set the size of the displayed QR code
+Set the size of the displayed QR code in the RadioSonde app.
  * show larger or not
 
 ## P.Memory Mgmt
