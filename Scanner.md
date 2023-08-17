@@ -58,6 +58,15 @@ When scanning, the current frequency index is shown on the screen, along with th
 ## Freqman File Format
 See [Freqman Manager](Freqman-manager) page
 
+## Example: Using Scanner as a Broadcast FM Radio Tuner
+Follow the instructions below to use Scanner as a Broadcast FM Radio Tuner:
+1. Press `LOAD`, use dial to select FM_STANDARD_BAND.TXT frequency file, and click Select.  (This will load the Search frequency range, frequency step, mode [WFM], and default bandwidth.)
+2. Optionally adjust the Volume (VOL), Squelch (SQ), LNA/VGA/AMP RF gain, and Wsa delay settings.
+3. Press `<PAUSE>` to stop the automatic searching.
+4. Press arrow keys to move focus to the `<PAUSE>`/`<RESUME>` button.  When the `<PAUSE>`/`<RESUME>` button is highlighted, the manual dial can be used to tune to an FM radio station.
+5. Press `ADD FQ` to add the current frequency to the selected frequency file.  Repeat tuning & adding to store additional frequencies.
+6. In future listening sessions, just load the same file (step 1) and Scanner will loop through the saved frequencies, spending "Wsa" delay time on each saved station.  To stay on a saved station indefinitely, press `<PAUSE>`.  To manually change stations, move focus to the `<PAUSE>`/`<RESUME>` button and use the tuning dial.  Additional stations may be added in the future by pressing `SRCH`, then `ADD FQ` as desired (step 5).  Consider renaming the frequency file to SCANNER.TXT if you wish it to be loaded automatically whenever the app is started.
+
 ## Also see:  Recon app
 Advanced users may want to try the [Recon](https://github.com/eried/portapack-mayhem/wiki/Recon) app, which is a more fully-featured Scanner application.
 
