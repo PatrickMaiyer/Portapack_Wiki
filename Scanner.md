@@ -19,7 +19,7 @@ The scanner can either *Scan* frequencies from a frequency list in memory, or *S
 
 The application loads a list of frequencies (f=) and/or a search range from `FREQMAN\SCANNER.TXT` by default, or you can use the `LOAD` button to load from a different file. You can use the Frequency manager app (Tools -> **Freq manager**) to create or edit frequency list files.
 
-If the application finds a frequency _range_ (a=,b=,s=) in the frequency file, it is loaded into the SEARCH START and END and STEP fields.  Alternatively, you are able to manually input a search range "on the fly" by keying in SEARCH START and END frequencies and the STEP selector.
+If the application finds a frequency _range_ (a=,b=,s=) in the frequency file, it is loaded into the SEARCH START and END and STEP fields (the Scanner app only supports one search range per file).  Alternatively, you are able to manually input a search range "on the fly" by keying in SEARCH START and END frequencies and the STEP selector.
 
 ### Rotary Encoder
 
@@ -41,7 +41,7 @@ The purpose of each of the buttons on the screen is as follows:
 * `LOAD`: Loads scan frequency lists and/or search ranges from a file (in **Freq Manager** format).
 * `MCLR`: Clear list of scan frequencies in the temporary scanning memory (frequencies may subsequently be added to the scan list using `ADD FQ` or `LOAD`).
 * `SRCH`/`SCAN`: Switches between Search mode (using the search frequency range) and Scan mode (going through the list of saved frequencies), as described above.
-* `<PAUSE>`/`<RESUME`: Manually Pause / Resume the scanning. The **Rotary Encoder** is enabled to manually scroll through frequencies when this button is highlighted.  In SCAN mode, manually scrolling will go through the list of saved frequencies.  In SEARCH mode, manually scrolling will go through the search range.  When paused, the *Squelch* setting may need to be lowered to hear weak signals.
+* `<PAUSE>`/`<RESUME`: Manually Pause / Resume the scanning. The **Rotary Encoder** is enabled to manually scroll through frequencies when this button is highlighted.  In SCAN mode, turning the dial will go through the list of saved frequencies.  In SEARCH mode, turning the dial will go through the search range.  When paused or not, the *Squelch* setting may need to be lowered to hear weak signals.
 * `FORWARD`/`REVERSE`: Change scanning direction (button shows direction that will be switched to if pressed).
 * `MIC TX`: Jump into the MIC TX/RX app (2-WAY Radio)
 * `AUDIO`: Jump into the RX->AUDIO app (for further analysis)
