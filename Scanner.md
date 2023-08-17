@@ -27,7 +27,7 @@ Whenever the `<PAUSE>`/`<RESUME>` button is highlighted, the rotary encoder may 
 
 ## Radio Settings
 
-* **Gain:** Setting are shown in order of **AMP** 0=0db or 1=14dB, **LNA**(IF) (0-40) and **VGA** (Baseband Gain) (0-62).
+* **Gain:** Setting are shown in order of **AMP** 0=0db or 1=14dB, **LNA**(IF) (0-40) and **VGA** (Baseband Gain) (0-62).  (These settings are preserved per App if "App Settings" is enabled in Setup)
 * **VOL:** Audio volume.
 * **SQ:** Squelch level. When *Pause* is not active, the squelch level determines the minimum signal level that will cause the scanner to pause on a strong signal while scanning or searching (until the **Wsa** Wait timer expires). When paused for any reason, the squelch level also determines whether audio output is enabled or *squelched*.
 * **MODE:** Modulation mode; **AM** (DSB 9k, DSB 6k, USB+3k, LSB-3k, CW), **NFM** or **WFM**.
@@ -40,7 +40,8 @@ The purpose of each of the buttons on the screen is as follows:
 
 * `LOAD`: Loads scan frequency lists and/or search ranges from a file (in **Freq Manager** format).
 * `MCLR`: Clear list of scan frequencies in the temporary scanning memory (frequencies may subsequently be added to the scan list using `ADD FQ` or `LOAD`).
-* `<PAUSE>`/`<RESUME`: Manually Pause / Resume the scanning. The **Rotary Encoder** is enabled to manually scroll through frequencies when this button is highlighted.  When paused, the *Squelch* setting may need to be lowered to hear weak signals.
+* `SRCH`/`SCAN`: Switches between Search mode (using the search frequency range) and Scan mode (going through the list of saved frequencies), as described above.
+* `<PAUSE>`/`<RESUME`: Manually Pause / Resume the scanning. The **Rotary Encoder** is enabled to manually scroll through frequencies when this button is highlighted.  In SCAN mode, manually scrolling will go through the list of saved frequencies.  In SEARCH mode, manually scrolling will go through the search range.  When paused, the *Squelch* setting may need to be lowered to hear weak signals.
 * `FORWARD`/`REVERSE`: Change scanning direction (button shows direction that will be switched to if pressed).
 * `MIC TX`: Jump into the MIC TX/RX app (2-WAY Radio)
 * `AUDIO`: Jump into the RX->AUDIO app (for further analysis)
