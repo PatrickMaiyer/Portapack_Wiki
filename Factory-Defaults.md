@@ -32,7 +32,7 @@ In case you think it's not booting because of a bad saved detection, delete the 
 
 ## PERSISTENT MEMORY
 
-Get into 'Settings' , 'P.Memory Mgmt' and click on the '! reset p.mem, load defaults !'. This reset various settings in apps like i.e Recon app.
+Get into 'Settings' , 'P.Memory Mgmt' and click on the '! reset p.mem, load defaults !'. This resets all configuration settings that are stored in persistent memory.  Note that persistent memory settings are sometimes reset automatically following a firmware upgrade or downgrade, specifically if there is a firmware change that affects the persistent memory data format, or if the coin cell battery is discharged.  For a complete list of settings stored in persistent memory, the "Debug Dump" app can be used to create a file listing all persistent memory settings.
 
 In case the p.mem contents somehow block the startup (the screen stays black and the RX led blinks rapidly that typically happen after flashing a different build) the p.mem can be ignored during startup by holding down the left and right buttons while starting up the device.
 
