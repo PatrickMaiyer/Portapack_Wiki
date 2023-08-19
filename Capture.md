@@ -36,7 +36,7 @@ Pls. find attached some examples , capturing the same tuned AM broadcasting , us
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/3c9c851f-a311-4411-a2a3-09920ce34797)
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/d4aa10f5-1155-4924-a35b-c44dd12dc8bc)
 
-Depending on the tuned frequency, (mainly most visible in  25khz, but also less visible in  others BW <100k )  we may got a random strange left picture effect -on the screen -   with “vertical stripes” , this can be easily corrected, just readjusting the center frequency  some Hz up or down ,  till trying to have full convergence of all red carriers to the central unique one , with +-10Hz steps. (It is pending to check and investigate different decimation filters or channel filters , to solve it and achieve a good performance as we have in the low bit rates 12k5 , 16k )  
+Depending on the tuned frequency, (mainly most visible in  25khz, but also slightly visible in other BW's <100k )  we may got a random strange left picture effect -on the screen -   with “vertical stripes” , this can be easily corrected, just readjusting the center frequency  some Hz up or down ,  till trying to have full convergence of all red carriers to the central unique one , with +-10Hz steps. (It is pending to check and investigate different decimation filters or channel filters , to solve it and achieve a good performance as we have in the low bit rates 12k5 , 16k )  
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/89786a12-850c-465b-9fb3-5321d47503dd)
  
 
