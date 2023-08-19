@@ -32,7 +32,7 @@ In future versions, it is pending to investigate and try to apply a correct .C16
 
 From nightly 23-08-19 onwards, we revised and  extended a good functionality of  all low bit rate bandwith REC options 
 If you adjust correctly the GAIN and LNA  and center freq. it is possible to capture good bit streams in C16 / C8 format , 
-Pls. find attached some screenshot examples , capturing the same AM broadcasting with a BW aprox of 16Khz tuned broadcasting , using MF upconverter ,
+Pls. find attached some screenshot examples , capturing the same tuned AM MF band broadcasting with a BW aprox of 16Khz , using an upconverter ,
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/3c9c851f-a311-4411-a2a3-09920ce34797)
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/d4aa10f5-1155-4924-a35b-c44dd12dc8bc)
 
