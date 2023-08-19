@@ -30,6 +30,17 @@ In future versions, it is pending to investigate and try to apply a correct .C16
      * % of Dropped Samples (recording error rate, due to SD card write latency, above sample 0%)
      * Total Recording Time Remaining (based on available SD card capacity , above example 0h: 13min: 42 secs)
 
+From nightly 23-08-19 onwards, we revised and  extended a good functionality of  all low bit rate bandwith REC options 
+If you adjust correctly the GAIN and LNA  and center freq. it is possible to capture good bit streams in C16 / C8 format , 
+Pls. find attached some examples , capturing the same tuned AM broadcasting , using MF upconverter ,
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/3c9c851f-a311-4411-a2a3-09920ce34797)
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/d4aa10f5-1155-4924-a35b-c44dd12dc8bc)
+
+Depending on the tuned frequency, (mainly most visible in  25khz, but also less visible in  others BW <100k )  we may got a random strange left picture effect -on the screen -   with “vertical stripes” , this can be easily corrected, just readjusting the center frequency  some Hz up or down ,  till trying to have full convergence of all red carriers to the central unique one , with +-10Hz steps. (It is pending to check and investigate different decimation filters or channel filters , to solve it and achieve a good performance as we have in the low bit rates 12k5 , 16k )  
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/89786a12-850c-465b-9fb3-5321d47503dd)
+ 
+
+
 Please check the video below for HackRF PortaPack Capture/Replay functionality.
 
   [![HackRF PortaPack Capture/Replay functionality](http://img.youtube.com/vi/Pe30Jvyhmzk/0.jpg)](http://www.youtube.com/watch?v=Pe30Jvyhmzk "HackRF PortaPack Capture/Replay functionality")
