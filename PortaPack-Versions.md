@@ -2,7 +2,7 @@ There are many different versions of PortaPack, mainly due to Chinese’s Compan
 
 The current list is:
 
- Version|Compatible|Screen size| AK4951 Codec| WM8731 SSOP Codec| WM8731L QFN Codec| CPLD| INS8002E Audio amp| LTK8002D Audio amp| CS8122S Audio amp|
+ Version|Compatible|Screen size| AK4951 Codec| WM8731 SSOP Codec| WM8731L QFN Codec| CPLD| INS 8002E Audio amp| LTK 8002D Audio amp| CS 8122S Audio amp|
 |-------|---|-------------|------|------|------|------|------|------|----|
 |[H1 R1](#h1r1r2)|:+1:|2.4"||:heavy_check_mark:||QFP64||||
 |[H1 R2](#h1r1r2)|:+1:|2.4"|:heavy_check_mark:|||QFP64||||
