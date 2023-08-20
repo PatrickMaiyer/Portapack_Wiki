@@ -35,12 +35,13 @@ _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
 * Different control/button layout
 * Built in battery
 
-## H2 (OpenSourceSDRLab)
-"Porta Pack H2" lettering in cursive font with "HACK RF ONE" below
-(images coming soon)
+## H2 (OpenSourceSDRLab version)
+![261866889-6a4c7de5-15f2-4119-9329-db76917f9466-b](https://github.com/eried/portapack-mayhem/assets/129641948/7078c63c-cc35-4636-946c-6f944171d455)
+![261866887-e3d853ec-9cc2-4884-aecd-d6697331839f-b](https://github.com/eried/portapack-mayhem/assets/129641948/316283e6-6696-499b-9da7-54c6cb06c214)
+
 
 ### Differences:
-* AK4951 with CS8122S Amplifier chip -- speaker shuts off automatically when headphones plugged in
+* AK4951 with 3W CS8122S Amplifier chip (INS8002e clone) -- speaker shuts off automatically when headphones plugged in
 * NOTE:  Do not enable AK4951 Speaker Output icon on title bar on this model or the AK4951 IC may overheat (speaker output may be shorted on PCB)
 
 
@@ -74,11 +75,11 @@ _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
 
 <img src="https://user-images.githubusercontent.com/4393979/170891015-6c9517bf-ee0b-49b9-b7bf-8d9f4049c721.png" height="300">
 
-
+![IMG_0100](https://github.com/eried/portapack-mayhem/assets/129641948/86ba5a3c-ecdd-485b-b230-16ca1f3ac1cc)
 
 ### Differences
 * Similar to the H2+R3 except it now uses the AG256SL100 IC as well as the 28 pin QFN WM8731L instead of the 38 pin QFN AK4951. Marked as "PCB v3.6 mmdvm.club". 
-* 3W LTK8002D SOP8 Class D amplifier for the speaker (INS8002e clone?).
+* 3W LTK8002D SOP8 Class D amplifier for the speaker (INS8002e clone).
 * Power IC IP5306 SOP8.
 * Inserting headphone plug doesn't [disable the speaker](https://github.com/eried/portapack-mayhem/wiki/H2-Plus-speaker-modifications).
 
