@@ -2,16 +2,17 @@ There are many different versions of PortaPack, mainly due to Chinese’s Compan
 
 The current list is:
 
- Version|Compatible|Screen size|  AK4951 Codec|  WM8731 SSOP Codec|  WM8731L QFN Codec|  CPLD|  INS8002E Audio amp|  LTK8002D Audio amp|
-|-------|---|-------------|------|------|------|------|------|------|
-|[H1 R1](#h1r1r2)|:+1:|2.4"||:heavy_check_mark:||QFP64|||
-|[H1 R2](#h1r1r2)|:+1:|2.4"|:heavy_check_mark:|||QFP64|||
-|[H2 (H2 R1)](#h2)|:+1:|3.2"|:heavy_check_mark:|||QFP64|||
-|[H2 (maxgeek)](#maxgeek-h2)|:question:|3.2"||||QFP64|||
-|[H2+ R2](#h2r2)|:+1:|3.2"||:heavy_check_mark:||QFP64|||
-|[H2+ R3](#h2r3)|:+1:|3.2"||:heavy_check_mark:||QFP100|:heavy_check_mark:||
-|[H2+ R4](#h2r4)|:+1:|3.2"|||:heavy_check_mark:|QFP100||:heavy_check_mark:|
-|[H3 / H2 Plus](#h3)|:shit:|3.2"|:heavy_check_mark:|||QFP64|||
+ Version|Compatible|Screen size| AK4951 Codec| WM8731 SSOP Codec| WM8731L QFN Codec| CPLD| INS8002E Audio amp| LTK8002D Audio amp| CS8122S Audio amp|
+|-------|---|-------------|------|------|------|------|------|------|----|
+|[H1 R1](#h1r1r2)|:+1:|2.4"||:heavy_check_mark:||QFP64||||
+|[H1 R2](#h1r1r2)|:+1:|2.4"|:heavy_check_mark:|||QFP64||||
+|[H2 (H2 R1)](#h2)|:+1:|3.2"|:heavy_check_mark:|||QFP64||||
+|[H2 (maxgeek)](#maxgeek-h2)|:question:|3.2"||||QFP64||||
+|[H2 (OpenSource SDRLab)](#h2)|:+1:|3.2"|:heavy_check_mark:|||QFP64|||:heavy_check_mark:|
+|[H2+ R2](#h2r2)|:+1:|3.2"||:heavy_check_mark:||QFP64||||
+|[H2+ R3](#h2r3)|:+1:|3.2"||:heavy_check_mark:||QFP100|:heavy_check_mark:|||
+|[H2+ R4](#h2r4)|:+1:|3.2"|||:heavy_check_mark:|QFP100||:heavy_check_mark:||
+|[H3 / H2 Plus](#h3)|:shit:|3.2"|:heavy_check_mark:|||QFP64||||
 
 _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
  
@@ -33,6 +34,15 @@ _(Note: The H3 is Incompatible, do not buy it as it's a scam)_
 * Bigger touch screen
 * Different control/button layout
 * Built in battery
+
+## H2 (OpenSourceSDRLab)
+"Porta Pack H2" lettering in cursive font with "HACK RF ONE" below
+(images coming soon)
+
+### Differences:
+* AK4951 with CS8122S Amplifier chip -- speaker shuts off automatically when headphones plugged in
+* NOTE:  Do not enable AK4951 Speaker Output icon on title bar on this model or the AK4951 IC may overheat (speaker output may be shorted on PCB)
+
 
 ## H2+ R1
 
