@@ -21,9 +21,13 @@ The application loads a list of frequencies (f=) and/or a search range from `FRE
 
 If the application finds a frequency _range_ (a=,b=,s=) in the frequency file, it is loaded into the SEARCH START and END and STEP fields (the Scanner app only supports one search range per file).  Alternatively, you are able to manually input a search range "on the fly" by keying in SEARCH START and END frequencies and the STEP selector.
 
+If app settings are enabled, the last used frequency list will be used on startup.
+
 ### Manually Selecting Entries or Frequencies
 
 Whenever the `<PAUSE>`/`<RESUME>` button is highlighted, the rotary encoder may be used to scroll through the frequencies in the Scan list, or through the Search range (regardless whether *Pause* is active).
+
+The current item field "X / Y" can also be focused and the rotary encoder may be used to scroll through as well.
 
 ## Radio Settings
 
