@@ -6,7 +6,7 @@ The app only shows black and white images (color images are received but are dis
 
 It is important to manually adjust the amplification settings for improved picture contrast, since this is an amplitude-modulated signal and an automatic gain control is not yet implemented in software.
 
-This app does not yet support SSTV.
+This app does not yet support NTSC, or SSTV.
 
 ## References:
 
