@@ -1,0 +1,2 @@
+The Hackrf versions/revisions list is in [Hackrf documents](https://hackrf.readthedocs.io/en/latest/list_of_hardware_revisions.html), which is maintaining by GSG.  
+At now stage the Mayhem firmware supports all the hackrf revisions **if** you have a [supported version of PortaPack](https://github.com/eried/portapack-mayhem/wiki/PortaPack-Versions).  
