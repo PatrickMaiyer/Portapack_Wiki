@@ -14,9 +14,13 @@ The current list is:
 |[H2+ R2](#h2r2)|:+1:|3.2"||:heavy_check_mark:||QFP64||||
 |[H2+ R3](#h2r3)|:+1:|3.2"||:heavy_check_mark:||QFP100|:heavy_check_mark:|||
 |[H2+ R4](#h2r4)|:+1:|3.2"|||:heavy_check_mark:|QFP100||:heavy_check_mark:||
-|[H3 / H2 Plus](#h3)|:shit:|3.2"|:heavy_check_mark:|||QFP64||||
+|[H3](#h3)|:shit:|2.4"|:heavy_check_mark:|||QFP64||||
+|[H3 mini/ H2 Plus](#h3)|:shit:|3.2"|:heavy_check_mark:|||QFP100||||
 
-_(Note: The H3 is Incompatible, do not buy it as it's a scam)_
+_(Note:
+**Any** version of H3 is **incompatible**, do not buy it as it's a scam.  
+"H2+" and "H2 Plus" is different devices, even if their names sounds similar.)_
+
  
 ## H1(R1/R2)
 <img src="https://user-images.githubusercontent.com/4393979/162888735-083d4fb5-dfd5-499c-94b1-c0fbbec0fda2.png" height="300">
