@@ -6,6 +6,7 @@
 * [Intended use and Legality](Intended-Use-and-Legality)
 * [Features](Features)
 * [PortaPack Versions](PortaPack-Versions)
+* [Hackrf Versions](Hackrf-versions)
 * [Firmware update procedure](Update-firmware)
 * [Description of the hardware](Hardware-overview)
    * [3d printed enclosure](H2-Enclosure)
