@@ -1,4 +1,6 @@
 # Push-buttons
+Current PortaPack models have five push buttons on the front (Up, Down, Left, Right, and Select) and two on the top (DFU and Reset).
+
 If the push-buttons are intermittently unresponsive, first make sure that the Portapack firmware is upgraded to version 1.7.1. or later, which improves handling of glitchy switch contacts.  The type of push-buttons used on the Portapack is SMD tactile switches of 6 mm per side and 7 mm of height. You can buy replacements here: https://a.aliexpress.com/_dZqx4vv 
 
 The easiest way to remove them is to clip the legs off, clean the pads carefully with solder wick and solder the new buttons. 
