@@ -1,0 +1,1 @@
+While Mayhem firmware is running, a short press of the DFU button will cause an overlay to be displayed with information about the two CPUs and memory.  A second press of the DFU button will display Receiver settings.  A third press will hide the overlay.
