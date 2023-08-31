@@ -1,3 +1,6 @@
+## Frequency
+When a Frequency field is selected, the frequency can be updated in several ways: Turning the encoder dial will adjust the frequency by the Step size. A short press of the select button will bring up a screen where the frequency can be entered directly. A long press of the Select button allows enters a mode where individual digits may be adjusted using the dial (press Select again to exit this tuning mode).
+
 ## Step size
 The step size when changing frequency can be changed as a secondary function when the frequency is selected. The range of settings are: 10M,1M,500k,250(N2),100k(FM2),50k(FM1),25k(EU NFM),12k5(EU NFM),10k(US AM),9k(EU AM),8.33k(AIR),6k3 (EU DIG),5k(SA AM),3k,1k, and 100Hz.
 
@@ -25,6 +28,6 @@ HackRF has two RF amplifiers close to the antenna port, one for TX and one for R
  
 It should be noted in the PortaPack, **the RF settings are called either “Amp” or not labelled**, and may be shown next to the IF / Baseband setting as a “0” or “1”  for RX or in the case of Audio App it appears when you select either IF/ Baseband gain as "Amp" on the line below. For the TX then its shown as “0” or “14" this adds 14dB of gain to the output signal. 
 
-A good default setting for RX is to start with is RF (Amp=1) i.e. RF amp is off, IF=16, Baseband=16. Increase or decrease the IF and baseband gain controls roughly equally to find the best settings for your situation. Turn on the RF amp if you need help picking up weak signals. If your gain settings are too low, your signal may be buried in the noise. If one or more of your gain settings is too high, you may see distortion (look for unexpected frequencies that pop up when you increase the gain) or the noise floor may be amplified more than your signal.
+A good default setting for RX is to start with is RF (Amp=0) i.e. RF amp is off, IF=16, Baseband=16. Increase or decrease the IF and baseband gain controls roughly equally to find the best settings for your situation. Turn on the RF amp if you need help picking up weak signals. If your gain settings are too low, your signal may be buried in the noise. If one or more of your gain settings is too high, you may see distortion (look for unexpected frequencies that pop up when you increase the gain) or the noise floor may be amplified more than your signal.
 
 
