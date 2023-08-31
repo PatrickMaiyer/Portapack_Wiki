@@ -31,6 +31,7 @@
    * [H2+ speaker modifications](H2-Plus-speaker-modifications)
    * [Factory Defaults](Factory-Defaults)
    * [SD card not recognized by PC with the SD-card over USB selected](SD-card-not-recognized-by-PC-with-the-SD-card-over-USB-selected)
+   * [DFU overlay](DFU-overlay)
 * [Applications](Applications)
    * [Receivers](Receivers)
       * [ADS-B](Automatic-dependent-surveillance–broadcast-(ADS-B))
