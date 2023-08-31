@@ -1,7 +1,7 @@
 Checking Portapack-Havoc repository , we can see , that this excellent app was initially developped by Furrtek in 2017.
 * "**Microphone FM transmit with CTCSS**",   providing support to Narrow Band FM Transmitter + CTCSS  & Receiver in Half Duplex operation, like a walkie-talkie (two-way directional voice communication but one at a time). 
 
-Later on , thanks to many other great sw developpers , gradually it has been added many more nice functionalities (VOX control, Roger Beep,...) ,and improving it day by day ... 
+Later on , thanks to many other great sw developers , gradually it has been added many more nice functionalities (VOX control, Roger Beep,...) ,and improving it day by day ... 
 And from Sept -2020, it was also added the support of multi  analogue mic  Modulation types in half duplex TX / RX, highly appreciated specially by all ham amateur radio community.  Those mod types are widely used in LF, HF , VHF, 2m band ,  maritime communications ,airport airband communications,  UHF PMR446,... 
 And since them we are currently supporting those following ones  (valid from , [Nightly Release - 2022-10-17](https://github.com/eried/portapack-mayhem/releases/tag/nightly-tag-2022-10-17) onwards) :
  
@@ -88,7 +88,8 @@ From [Nightly Release - 2023-04-05] onwards it has been added a new check box (n
 
 
 
-* **F:**  This field set the TX Frequency for the transmitter .	
+* **F:**  This field set the TX Frequency for the transmitter.	Use encoder dial to adjust by Step value (uses a default step value, or step value saved in SETTINGS\tx_mic.ini file if "Load App Settings" is enabled).  A long press of the Select button allows adjusting frequency digits individually.
+
 * **F_RX:**  This field set the RX Frequency for the receiver.
 
 * **FM TXBW:** This field sets the FM Band Width of the transmission under normal conditions from 0-150 kHz. (In fact, it is the +/- FM deviation in Khz.)
