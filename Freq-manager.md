@@ -66,7 +66,7 @@ The Recon app is using the old as the new format, taking informations in account
 * AM  ( DSB 9k , DSB 6k , USB+3k , LSB-3k , CW )
 * NFM ( 8k5 , 11k , 16k )
 * WFM ( 200k , 180k , 40k )
-* SPEC ( 12k5 , 16k , 25k , 32k, 50k , 75k,  100k , 150k , 250k , 500k , 600k , 650k , 750k , 1000k , 1500k , 1750k , 2000k , 2500k , 2750k )
+* SPEC ( 12k5 , 16k , 25k , 32k, 50k , 75k,  100k , 150k , 250k , 500k , 600k , 750k , 1000k , 1250k, 1500k , 1750k , 2000k , 2250k, 2500k , 3000k, 3500k, 4000k, 4500k, 5000k, 5500k )
 
 ## Possible values for Steps
 
