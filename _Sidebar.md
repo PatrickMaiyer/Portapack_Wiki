@@ -24,6 +24,7 @@
 * [Powering the PortaPack](Powering-the-PortaPack)
 * Troubleshooting
    * [Won't boot](Won't-boot)
+   * [Config Menu](Config-Menu)
    * [Firmware upgrade](Update-firmware-troubleshooting)
    * [Diagnose firmware update in Windows](Diagnose-firmware-update-in-Windows)
    * [Receive Quality Issues](Help!-Im-not-receiving-anything!---Receive-Quality-Issues)
