@@ -43,7 +43,7 @@ Pls. find attached some screenshot examples , capturing the same tuned AM MF ban
 
 Depending on the tuned frequency, (mainly visible in 25k, 32k, 50k and 75k)  we may got a random strange left picture effect -on the screen, it seems not affecting to the recorded files.C16 or .C8 -   with “vertical stripes” , this can be easily corrected, just readjusting the center frequency  some Hz up or down ,  till trying to have full convergence of these vertical red carriers to the central unique one , with +-10Hz steps.
 
-![IMG_4636](https://github.com/eried/portapack-mayhem/assets/86470699/d11b4380-7654-4812-a431-790d14ff6fad)
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/50cc3ae2-d49e-4700-b6a4-f0f9ef49985e)
 
 
 Please check the video below for HackRF PortaPack Capture/Replay functionality.
