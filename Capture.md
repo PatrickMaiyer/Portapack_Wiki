@@ -5,7 +5,10 @@ The Sampling rate used may not be supported by some MicroSD cards, it is best to
 The Key Items on the App that can be selected with the cursor and changed with the encoder knob are:
 
 * **Title bar:** The usual Items may be changed and displayed.
-* **Frequency:** The setting of the frequency using the keypad can be completed and is stored in persistant memory so can be returned to when the App is used again.
+* **Frequency:** The setting of the frequency using the keypad can be completed and is stored in persistant memory so can be returned to when the App is used again. But if you have load/save App Settings enabled from SD card, it will continue to use what it was last set at. And you can always edit the file in the SD card, /SETTINGS/rx_capture.ini and edit those related default parameters, according to your needs in that App.
+
+   * Note : Additionally , to be more user friendly , from version 1.7.4+ holding in the Select button on the Frequency field for a second until a digit turns blue, then you can use Left/Right select which digit you'd like to adjust, and then you can use the Encoder Dial to adjust any digit up/down by 1 to tune more precisely. (Press Select again to exit this tuning mode.
+
 * **Step Size:** The selected step size of frequency adjustment carried out by the Rotary encoder. 
 * **Gain:**  Amp  (0dB or 14dB), LNA(IF) (0-40),VGA(Baseband)(0-62)
 * **Rate:** The sample rate, which by its nature set the set bandwidth of capture. This is shown in the markers around the centre line of the waterfall display. The sample rate is variable from 12k5 to 2750K (*)  in many steps. You need to ensure that the sample rate is more than twice the bandwidth of the signal  you want to capture see [(Nyquist Principle / also called Shannon’s Law)  ](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem)
