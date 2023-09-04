@@ -15,7 +15,14 @@ The Key Items on the App that can be seen or selected with the cursor and change
 
 * **Mode:** On the line below title bar is the demodulation mode AM, NFM, WFM, SPEC. When either of these are selected it will bring up a secondary set of relevant items on the line below. These are discussed in secondary items below.
 
-* **Frequency:** The Centre frequency of the demodulation band. 
+* **Frequency:** The Centre frequency of the demodulation band.
+
+   > Note 1 : From Frequency field, you can move down to the below Step field , to adjust your best suitable Freq-step, according to your
+ needs.
+
+   > Note 2 : If you have load/save App Settings enabled, it will continue to use what it was last set at. And you can always edit the file in the SD  card, /SETTINGS/tx_mic.ini and edit the step size there, according to your needs in that App.
+
+   > Note 3 : Additionally , to be more user friendly ,  from version 1.7.4+ holding  in the Select button on the Frequency field for a second until a digit turns blue, then you can use Left/Right select which digit you'd like to adjust, and then you can use the Encoder Dial to adjust any digit up/down by 1 to tune more precisely. (Press Select again to exit this tuning mode. 
   
 * **Gain:** Settings are shown in order of LNA(IF) (0-40) and VGA (Baseband Gain) (0-62). When either of these are selected in the secondary line the AMP setting is shown and can be as either set to  0=0db or 1=14dB.
 
