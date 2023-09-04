@@ -2,7 +2,7 @@
 When a Frequency field is selected, the frequency can be updated in several ways: Turning the encoder dial will adjust the frequency by the Step size. A short press of the select button will bring up a screen where the frequency can be entered directly. A long press of the Select button allows enters a mode where individual digits may be adjusted using the dial (press Select again to exit this tuning mode).
 
 ## Step size
-The step size when changing frequency can be changed as a secondary function when the frequency is selected. The range of settings are: 10M,1M,500k,250(N2),100k(FM2),50k(FM1),25k(EU NFM),12k5(EU NFM),10k(US AM),9k(EU AM),8.33k(AIR),6k3 (EU DIG),5k(SA AM),3k,1k, and 100Hz.
+The step size when changing frequency can be changed as a secondary function when the frequency is selected. The range of settings are: 10M,1M,500k,250(N2),100k(FM2),50k(FM1),25k(EU NFM),12k5(EU NFM),10k(US AM),9k(EU AM),8.33k(AIR),6k3 (EU DIG),5k(SA AM),3k,1k,100Hz, 50Hz and 10Hz.
 
 ## Bandwidth
 It is often the case that the PortaPack user does not know the filter bandwidth to use or what they have selected. The system uses: Finite  Impulse Response (FIR) Filters and the settings are held in the dsp_fir_tap_hpp file, and are selected from the use interface.  They can be selected for different modulation modes.
