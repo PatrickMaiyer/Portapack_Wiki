@@ -14,6 +14,7 @@ It is often the case that the PortaPack user does not know the filter bandwidth 
 
 * **AM:**  The AM emission types supported are:
 
+* _9K00A3E for AM double sideband 9kHz._
 * _6K00A3E for AM double sideband 6kHz._
 * _2K80J3E for AM Lower Side Band LSB -3 - 0kHz._
 * _2K80J3E for AM Lower Side Band USB 0 - 3kHz._
