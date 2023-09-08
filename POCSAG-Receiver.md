@@ -14,6 +14,7 @@ More technical details can be found by following the links in the References sec
 - **RF amplifier** (0 or 1): Enables/disables the internal RF amplifier.
 - **LNA gain** (0, 8, 16, 24, 32, 40): Sets the LNA gain. Further information: [Description of the gain settings](Help!-Im-not-receiving-anything!---Receive-Quality-Issues#description-of-the-gain-settings)
 - **VGA gain** (0 to 62): Sets the VGA gain. Further information: [Description of the gain settings](Help!-Im-not-receiving-anything!---Receive-Quality-Issues#description-of-the-gain-settings)
+- **RSSI/Audio**: Top bar indicates signal strength. Bottom bar indicates the audio level. The audio bar can be useful for tuning settings without headphones/speaker to hear the tone.
 - **Squelch** (0-99): Sets the signal to noise threshold. 0 disables squelch. Higher values allow more noise. Should be set so that strong signals are clearly received without any dropped audio.
 - **Volume**: Output volume for the received audio. Can be used to monitor received signal quality.
 
