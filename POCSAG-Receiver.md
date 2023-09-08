@@ -1,43 +1,50 @@
-With this app you can receive pager messages using the POCSAG protocol.
+Receives pager messages using the POCSAG protocol.
 
-This protocol operates in the VHF/UHF bands using FSK modulation. More technical details can be found by following the links in the References section.
+This protocol operates in the VHF/UHF bands using FSK modulation.
+More technical details can be found by following the links in the References section.
 
-# Display summary
+# UI Overview
 
-[[img/screenshots/Receive_POCSAG.png]]
+![POCSAG_UI](https://github.com/eried/portapack-mayhem/assets/3761006/bb4795e7-1b1f-4b31-8663-ddc71d1535d4)
 
-Description of displayed information, starting from top-left:
+![POCSAG_UI_Detail](https://github.com/eried/portapack-mayhem/assets/3761006/1c0faccf-aec3-4a44-b183-8731d24642f1)
 
-- Receiver frequency, RF amplifier, LNA, VGA, RSSI and Channel indicators
-- Phase, Bit/baud rate, Log checkbox
-- Ignore address checkbox and address
-- The lower area of the display will show the latest received messages.
-
-## Settings
-
+### Settings
 - **Frequency**: Sets the frequency to receive pager messages on. Can be adjusted with the [encoder thumb wheel](Hardware-overview), on-screen numpad, or loaded from frequencies saved on an SD card. 439.9875 MHz is the most popular worldwide frequency used by Amateur radio for POCSAG. Amateur radio POCSAG uses 1200bps.
-- **RF amplifier**: (0 or 1): Enables/disables the internal RF amplifier.
+- **RF amplifier** (0 or 1): Enables/disables the internal RF amplifier.
 - **LNA gain** (0, 8, 16, 24, 32, 40): Sets the LNA gain. Further information: [Description of the gain settings](Help!-Im-not-receiving-anything!---Receive-Quality-Issues#description-of-the-gain-settings)
 - **VGA gain** (0 to 62): Sets the VGA gain. Further information: [Description of the gain settings](Help!-Im-not-receiving-anything!---Receive-Quality-Issues#description-of-the-gain-settings)
-- **Phase** (Positive or Negative): Usually set to positive. Typically the FSK lower frequency designates a high bit. Setting the phase polarity to negative will invert this, so the FSK lower frequency now designates a low bit.
-- **Data rate** (512pbs, 1200bps, 2400bps): Sets the baud rate (bits per second) of the received data. Typically older paging systems use 512bps, while newer systems use 1200bps or 2400bps.
-- **Log checkbox**: Enable/disable logging of received messages to an SD card. This log can be found on the SD card root directory, filename: `pocsag.txt`.
-- **Ignore address checkbox**: Used to ignore messages sent to the address set.
+- **Squelch** (0-99): Sets the signal to noise threshold. 0 disables squelch. Higher values allow more noise. Should be set so that strong signals are clearly received without any dropped audio.
+- **Volume**: Output volume for the received audio. Can be used to monitor received signal quality.
 
-## Message display
+### Infomation
+- **Decoder Status**: Indicates the status of the decoder state machine. White: Idle, Cyan: Clear, Yellow: Waiting for message start, Green: Waiting for rest of message.
+- **Batch Count**: Number of message batches that have been received. A batch has 16 codewords.
+- **Bits**: Displays the bits that are being decoded into codewords.
+- **Sync**: Green when the frame decoder has received a "sync" frame. Messages are not decoded unless a sync frame is found.
+- **Codewords**: Shows the number of codewords in the current batch. When the bar fills, the batch is complete and is processed.
+- **Baud Rate**: The detected rate of the current message. 05: 512bps, 12: 1200bps, 24: 2400bps.
 
-Typical received message:
+### Buttons
+- **Ignore Last**: Enables "Ignore" mode for the last received address.
+- **Config**: Enters the settings page to configure options.
 
+## Config
+*TODO*
+
+## Message Display
+
+Typical message:
 ```plaintext
-12:34 1200bps ADDR:432123 F2
+12:34 1200 #432123 F2
 This is a test message
 ```
 
 Description (from top-left):
 
 - `12:34` - **Time**: The time that the message was received (time from PortaPack).
-- `1200bps` - **Data rate**: The data rate used to receive the message.
-- `ADDR:432123` - **Address**: The address of the intended pager recipient.
+- `1200` - **Data rate**: The data rate used to receive the message.
+- `#432123` - **Address**: The address of the intended pager recipient.
 - `F2` - **Function**: (0 to 3) Indicates the type or source of message sent (can be used to provide a category of sorts).
 - `This is a test message` - **Message**: The message data displayed as ASCII.
 
