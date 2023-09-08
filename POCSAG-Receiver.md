@@ -17,7 +17,7 @@ More technical details can be found by following the links in the References sec
 - **Squelch** (0-99): Sets the signal to noise threshold. 0 disables squelch. Higher values allow more noise. Should be set so that strong signals are clearly received without any dropped audio.
 - **Volume**: Output volume for the received audio. Can be used to monitor received signal quality.
 
-### Infomation
+### Information
 - **Decoder Status**: Indicates the status of the decoder state machine. White: Idle, Cyan: Clear, Yellow: Waiting for message start, Green: Waiting for rest of message.
 - **Batch Count**: Number of message batches that have been received. A batch has 16 codewords.
 - **Bits**: Displays the bits that are being decoded into codewords.
