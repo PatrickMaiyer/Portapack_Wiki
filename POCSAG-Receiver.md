@@ -31,7 +31,17 @@ More technical details can be found by following the links in the References sec
 - **Config**: Enters the settings page to configure options.
 
 ## Config
-*TODO*
+
+![POCSAG_Config](https://github.com/eried/portapack-mayhem/assets/3761006/96ca160b-5672-4169-b90d-85a433cbb39d)
+
+- **Enable Log**: Logs messages to the SD Card at "LOGS/POCSAG.TXT"
+- **Log Raw Data**: Logs the batch codewords as hexadecimal. Useful for debugging decoder bugs.
+- **Use Small Font**: Uses the 5x8 font in the UI to show more messages on the screen.
+- **Hide Bad Data**: Don't show (or log) codewords that fails checksum validation.
+- **Hide Addr Only**: Don't show (or log) codewords that don't contain a message.
+- **Enable Ignored Address**: Don't show (or log) codewords sent to the specified address.
+- **Beta**: Enable the new POCSAG baseband processor. The app *must* be restarted for this to take effect.
+- **Save**: Save any settings changes.
 
 ## Message Display
 
