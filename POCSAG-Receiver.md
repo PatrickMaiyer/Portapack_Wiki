@@ -43,6 +43,8 @@ More technical details can be found by following the links in the References sec
 - **Beta**: Enable the new POCSAG baseband processor. The app *must* be restarted for this to take effect.
 - **Save**: Save any settings changes.
 
+**NOTE: App Settings must be enabled for settings to be saved.**
+
 ## Message Display
 
 Typical message:
