@@ -17,9 +17,9 @@ The current list is:
 |[H3](#h3)|:shit:|2.4"|:heavy_check_mark:|||QFP64||||
 |[H3 mini/ H2 Plus](#h3)|:shit:|3.2"|:heavy_check_mark:|||QFP100||||
 
-_(Note:
-**Any** version of H3 is **incompatible**, do not buy it as it's a scam.  
-"H2+" and "H2 Plus" is different devices, even if their names sounds similar.)_
+Note:  
+* **Any** versions of H3 are **incompatible**, do not buy them as they're scam.  
+* "H2+" and "H2 Plus" are different devices, even if their names sounds similar.
 
  
 ## H1(R1/R2)
