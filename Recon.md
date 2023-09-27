@@ -19,15 +19,11 @@ The statistics only update once each 100ms, the minimum lock waiting time is als
 ### In SPEC mode
 The statistics are updated differently in regard of the bandwidth used. 
 
-The average locking time / scanned rate are following the table:
+The average locking times / scan rates are in the following the table (they may change when there are baseband or record process modifications)
 
-* 12k5 = 15/s
-* 16k = 33/s
-* 25k = 5.8/s
-* 50k = 3.3/s
-* 100k = 1.2/s
-* 150k = 2.6/s
-* from 250k to 2750k = 1.25/s
+* average of 10/s from 12.5k to 1500k
+* average of 5/s from 1750k to 3000k 
+* average of 3/s from 3000k to 5000k 
 
 ## Limitations
 The portapack hardware is limited, and so is the list of elements that you can load. 
