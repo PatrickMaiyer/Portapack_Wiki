@@ -5,7 +5,7 @@ IQ Trim allows you to trim "radio silence" from the beginning and end of a C16 o
 ## UI Components
 
 * **Capture path** - select to pick the capture file to open.
-* **IQ Display** - shows the IQ file power in 240 buckets.
+* **IQ Display** - shows the IQ file power in 240 buckets. Green/Red lines indicate the Start/End positions.
 * **Start** - Starting sample of the trim region. Can be modified.
 * **End** - Ending sample of the trim region. Can be modified.
 * **Samples** - Number of samples int the capture file.
