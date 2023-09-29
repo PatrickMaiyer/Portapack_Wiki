@@ -62,14 +62,11 @@
       * [OOK](OOK)
       * POCSAG
       * [RDS](RDS)
+      * [Soundboard](Soundboard)
+      * [Spectrum Painter](Spectrum-Painter)
       * [SSTV](SSTV)
       * [TEDI/LCR](LCR)
       * [TouchTunes](TouchTunes)
-
-
-      * [Soundboard](Soundboard)
-      * [Playlist](Playlist)
-      * [Spectrum Painter](Spectrum-Painter)
    * [Capture](Capture)
       * [C16 Format](C16-format)
    * [Replay](Replay)
