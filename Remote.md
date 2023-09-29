@@ -15,6 +15,19 @@ The remote app allows you to create a custom remote UI and bind buttons to captu
 * **New Remote** - Start editing a new, empty remote.
 * **Open Remote** - Open an existing remote file (REM) from the SD card.
 
+## Button Edit UI
+
+* **Name** - The button's text.
+* **Path** - Select to pick a capture file.
+* **Freq** - The center frequency to send on. Will default to the capture file's metadata if found.
+* **Rate** - The sample rate of the capture file. Uses the capture file's metadata or defaults to 500K. Cannot be set in the UI.
+* **Icon** - The icon to show on the button.
+* **FG Color** - The button's foreground color.
+* **BG Color** - The button's background color.
+* **Preview** - Shows what the button will look like.
+* **Trash** - Deletes this button and returns to the main screen.
+* **Done** - Save this button and returns to the main screen.
+
 ## Tips
 * Remotes are automatically saved on exit.
 * Use the IQ Trim tool to trim silence from captures so they start instantly.
@@ -24,6 +37,7 @@ Remote files can be edited in a text editor.
 Empty lines and lines starting with `#` are ignored.
 The first non-ignored line is the remote "Title".
 The remaining lines (up to 12) are read as remote buttons. They have the following format.
+
 `capture path,button text,icon index,fg color index,bg color index,center frequency,samplerate`
 
 
