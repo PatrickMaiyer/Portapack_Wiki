@@ -18,3 +18,12 @@ The remote app allows you to create a custom remote UI and bind buttons to captu
 ## Tips
 * Remotes are automatically saved on exit.
 * Use the IQ Trim tool to trim silence from captures so they start instantly.
+
+## REM Files
+Remote files can be edited in a text editor.
+Empty lines and lines starting with `#` are ignored.
+The first non-ignored line is the remote "Title".
+The remaining lines (up to 12) are read as remote buttons. They have the following format.
+`capture path,button text,icon index,fg color index,bg color index,center frequency,samplerate`
+
+
