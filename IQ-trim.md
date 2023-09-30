@@ -14,6 +14,6 @@ IQ Trim allows you to trim "radio silence" from the beginning and end of a C16 o
 
 ## Trimming Files
 1. Open a capture file. You should hopefully see a trimmable region in the IQ Display control.
-  - If you don't see a block in the IQ Display, the capture signal was too weak for the tool.
+   - If you don't see a block in the IQ Display, the capture signal was too weak for the tool.
 2. Manually set Start/End or use the Cutoff % to automatically trim.
 3. Press "Trim" - the file will be edited. It does not make a backup so be careful with your favorite sample files. Maybe use FileMan to make a backup first.
