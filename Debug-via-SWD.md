@@ -45,7 +45,7 @@ Probe had some bugs when trying to work with the M0 the last time I tried it."
 
 ## What you need
 * Black Magic Probe
-  * Or something similar. [HackRF](https://hackrf.readthedocs.io/en/latest/LPC43XX_Debugging.html) has a list of hardware that should work. In this example we will be using the [Jeff Probe](https://flirc.tv/products/flirc-jeffprobe?variant=43085036585192) with the portapack H2+ in an aluminium case.
+  * Or something similar (bluepill (STM32F103C8T6) works as well, just add `BLUEPILL=1` when you compiling the blackmagic). [HackRF](https://hackrf.readthedocs.io/en/latest/LPC43XX_Debugging.html) has a list of hardware that should work. In this example we will be using the [Jeff Probe](https://flirc.tv/products/flirc-jeffprobe?variant=43085036585192) with the portapack H2+ in an aluminium case.
 
 The “Black Magic Probe” or the derivative cost down version “Jeff Probe” are both a combined hardware & software projects. 
 
