@@ -3,8 +3,8 @@ This section provides a set of utilities that can be used to configure some aspe
 This allow the setting of the tone Key mixer setting as a percent of the audio level.
 ## Radio
 In the radio section there are two options, 
-1. One for turning on/off the Clock Output. Note that you can change the CLKOUT frequency between 10 kHz to 60000 kHz; press OK when the frequency is highlighted to select which digit position to modify and then use the encoder to scroll through the digit values.
-2. Second item is turning on or off the Antenna Bias Tee.
+1. Enable/disable the Clock Output. Note that you can change the CLKOUT frequency between 10 kHz to 60000 kHz; press OK when the frequency is highlighted to select which digit position to modify and then use the encoder to scroll through the digit values.
+2. Enable/disable the Antenna Bias voltage.
 ## User Interface
 The UI interface  setting for the following can be Enabled (tick) or Disabled (x) or selected value for the backlight timeout:
 * Backlight off after 5 seconds( default) or can be set to 5,15,30 seconds or 1,3,5,10 minutes.
