@@ -8,8 +8,8 @@ IQ Trim allows you to trim "radio silence" from the beginning and end of a C16 o
 * **IQ Display** - shows the IQ file power in 240 buckets. Green/Red lines indicate the Start/End positions.
 * **Start** - Starting sample of the trim region. Can be modified.
 * **End** - Ending sample of the trim region. Can be modified.
-* **Samples** - Number of samples int the capture file.
-* **Max Pwr** - Power (complex magnitude) of the "strongest" samplein the capture file.
+* **Samples** - Number of samples in the capture file.
+* **Max Pwr** - Power (complex magnitude) of the "strongest" sample in the capture file.
 * **Cutoff** - Signal to Noise cutoff as a percentage of the Max Pwr. Can be modified.
 
 ## Trimming Capture Files
