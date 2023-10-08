@@ -37,6 +37,7 @@ When an item has been selected, the following commands are available in the tool
 ## Known folders include
 - ADSB - holds map and airline data for the ADSB RX app.
 - AIS - holds data for the AIS app.
+- APPS - holds external apps such as PacMan and Calculator (app version on SD card must exactly match firmware version or it cannot be executed).
 - APRS - holds captures from the APRS app.
 - AUDIO - holds captures from the Audio app.
 - CAPTURES - holds captures from the Capture app.
@@ -63,3 +64,4 @@ When an item has been selected, the following commands are available in the tool
 - Folders must be empty in order to be deleted.
 - Cut/Copy/Paste does not work with "partner" files.
 
+Tip: Use the SD-over-USB utility for more advanced file and folder editing via an attached computer.
