@@ -12,8 +12,11 @@ IQ Trim allows you to trim "radio silence" from the beginning and end of a C16 o
 * **Max Pwr** - Power (complex magnitude) of the "strongest" samplein the capture file.
 * **Cutoff** - Signal to Noise cutoff as a percentage of the Max Pwr. Can be modified.
 
-## Trimming Files
+## Trimming Capture Files
 1. Open a capture file. You should hopefully see a trimmable region in the IQ Display control.
    - If you don't see a block in the IQ Display, the capture signal was too weak for the tool.
 2. Manually set Start/End or use the Cutoff % to automatically trim.
 3. Press "Trim" - the file will be edited. It does not make a backup so be careful with your favorite sample files. Maybe use FileMan to make a backup first.
+
+## Splitting Capture Files
+Capture files can be split into multiple files using FileMan and Trim. Use FileMan to make copies of the original capture file, then trim each copy using manually specified Start/End positions.
