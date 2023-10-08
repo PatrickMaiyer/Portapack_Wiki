@@ -19,4 +19,4 @@ IQ Trim allows you to trim "radio silence" from the beginning and end of a C16 o
 3. Press "Trim" - the file will be edited. It does not make a backup so be careful with your favorite sample files. Maybe use FileMan to make a backup first.
 
 ## Splitting Capture Files
-Capture files can be split into multiple files using FileMan and Trim. Use FileMan to make copies of the original capture file, then trim each copy using manually specified Start/End positions.
+Capture files can be split into multiple files using FileMan and Trim. Use FileMan to make copies of the original capture file, then trim each copy using manually specified Start/End positions.  (After Splitting, the resulting files can be Trimmed too, if needed.)
