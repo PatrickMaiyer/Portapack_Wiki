@@ -32,7 +32,7 @@ When an item has been selected, the following commands are available in the tool
 - Exit - exit the file manager.
 
 ## Partner files
-- Capture files (.C16) will have a "partner" .TXT file containing metadata. Renaming or deleting one of the pair will prompt the same action to be applied to the other.
+- Capture files (.C8 or .C16) will have a "partner" .TXT file containing metadata. Renaming or deleting one of the pair will prompt the same action to be applied to the other.
 
 ## Known folders include
 - ADSB - holds map and airline data for the ADSB RX app.
