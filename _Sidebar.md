@@ -100,7 +100,8 @@
   * [Debug](Debug)
     * [Buttons Test](Debug#buttons-test)
     * [Debug Dump](Debug#debug-dump)
-    * M0 Stack Dump
+    * [Fonts Viewer](Debug#fonts-viewer)
+    * [M0 Stack Dump](Debug#m0-stack-dump)
     * [Memory](Debug#memory)
     * [P.Memory](Debug#p-memory)
     * [Peripherals](Debug#peripherals)
