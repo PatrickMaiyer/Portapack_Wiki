@@ -40,4 +40,5 @@ The remaining lines (up to 12) are read as remote buttons. They have the followi
 
 `capture path,button text,icon index,fg color index,bg color index,center frequency,samplerate`
 
+The position of buttons on the screen can be changed by reordering lines in the REM file.
 
