@@ -59,5 +59,8 @@ The version of the stored config isn't displayed separately but it can be seen a
 ## Debug Dump
 Writes a file containing debug information to the DEBUG folder.
 
+## M0 Stack Dump
+Writes a file containing M0 stack contents to the DEBUG folder.
+
 ## Fonts Viewer
-Displays the 5x8 and 8x16 font character set.
+Displays the 5x8 and 8x16 font character set.  (Firmware version 1.7.4 only)
