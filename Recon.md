@@ -158,9 +158,9 @@ Lock coloration (only in SPARSE matching mode):
 Wait coloration: 
 
 * if wait is between [-500,500] ms and not 0, it's red because the audio will have hard time start and stop that quick during consecutive matches  
-* if wait it > 500 it's the time we are staying on a matching freq before skipping => wait value is in white
-* if wait < -500 it's the time we are waiting for new activity before skipping. Any new activity (db>squelch) is resetting the timer to 'abs(wait)' => wait value is in green
-* if wait == 0 it's recon mode. No wait after match. No audio start/stop. Matching freqs are auto saved according to the option in CONFIG=> wait value is in blue
+* if wait it > 500 it's the time we are staying on a matching freq before skipping, wait value is in white
+* if wait < -500 it's the time we are waiting for new activity before skipping. Any new activity (db>squelch) is resetting the timer to 'abs(wait)', wait value is in green
+* if wait == 0 it's recon mode. No wait after match. No audio start/stop. Matching freqs are auto saved according to the options in CONFIG, wait value is in blue
 
 # Color meaning for main freq
 * white => pause / reading signal
@@ -256,25 +256,7 @@ Detection of power level to match against the given squelch value is made at eac
 
 In all AM/NFM/WFM modes, it's an average of 100ms per statistic update.
 
-In SPEC mode, depending on the selected bandwidth, rounded to average upper nice looking value:
-
-* 12k5 = 65 ms
-* 16k = 30 ms
-* 25k = 170 ms
-* 50k = 300 ms
-* 100k = 790 ms
-* 150k = 375 ms
-* 250k = 800 ms
-* 500k = 800 ms
-* 600k = 800 ms
-* 650k = 800 ms
-* 750k = 800 ms 
-* 1000k = 800 ms 
-* 1500k = 800 ms
-* 2750k = 800 ms
-* 2000k = 800 ms
-* 2500k = 800 ms
-* 2750k = 800 ms
+In SPEC mode it's somewhat consistent around 100ms from 12.5k up to 1500k included, from which the statistics updates are taking longer, from 300ms to a bit under 5000ms the wider the bandwidth
 
 # Power consumption
 A continuous search of 63H41M43S was run by user @vag3d, using the default antenna. Settings were a range from 10MHz to 6GHz, WFM, 5kHz steps, 1s wait
