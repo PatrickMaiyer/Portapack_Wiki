@@ -20,7 +20,8 @@ This provides an app for the calibration of the screen and alignment by followin
 You have to keep pressed for at least a second on each target for the app to guess the touch area correctly and show next target on release.
 ## App Settings
 Settings for each app are saved in corresponding .ini files in the /SETTINGS folder to maintain persistence.  An updated .ini file is saved whenever the app is closed.  To reset an app to default settings, the corresponding .ini file may be safely deleted and a new file will be created automatically when the app is subsequently executed.  For debug purposes, note that some additional configuration settings may be found in the .ini file that are not configurable in the app itself.
-Note: In firmware versions prior to 1.8.0, apps only use the .ini settings file if the following configuration settings are enabled (in 1.8.0+ this is the default behavior and this settings screen will not appear):
+
+Note: In firmware versions prior to 1.8.0, apps only use the .ini settings file if the following configuration settings are enabled (in 1.8.0+ this is the default behavior and the Settings->AppSettings screen will not appear):
  * Load app settings 
  * Save app settings
 ## Converter
