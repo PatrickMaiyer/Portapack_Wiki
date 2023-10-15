@@ -35,6 +35,7 @@ When an item has been selected, the following commands are available in the tool
 - Capture files (.C8 or .C16) will have a "partner" .TXT file containing metadata. Renaming or deleting one of the pair will prompt the same action to be applied to the other.
 
 ## Known folders include
+- / (root) folder - holds current splash screen file (splash.bmp), and the folders below.
 - ADSB - holds map and airline data for the ADSB RX app.
 - AIS - holds data for the AIS app.
 - APPS - holds external apps such as PacMan and Calculator (app version on SD card must exactly match firmware version or it cannot be executed).
@@ -49,7 +50,7 @@ When an item has been selected, the following commands are available in the tool
 - LOOKING GLASS - holds preset frequency ranges for Looking Glass app.
 - PLAYLIST - holds play list files for the Playlist app.
 - SCREENSHOTS - holds screenshots.
-- SETTINGS - holds saved App Settings.
+- SETTINGS - holds saved App Settings (.ini files), PMEM_FILEFLAG and pmem_settings (only if persistent memory is being saved on the SD card), DATE_FILEFLAG (for incrementing pseudo-date only when coin cell battery is dead), and blacklist (list of apps to be disabled [1.8.0 firmware])
 - SPLASH - holds example splash screen files.  To select a new splash screen, open a BMP file with FileMan and press the Right button to copy it to the root directory as your new splash.bmp file ("Show Splash" also needs to be enabled on the Settings->User Interface page).
 
    ![image](https://github.com/eried/portapack-mayhem/assets/86470699/bf09723e-3922-4b76-8d6f-f950f76f8b05) 
