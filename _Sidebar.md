@@ -84,7 +84,7 @@
     * [Signal gen](Signal-Generator)
     * Wave viewer
     * [Flash Utility](Flash-Utility)
-    * Wipe SD card
+    * [Wipe SD card](Wipe-SD-Card)  
   * [Settings](Settings)
     * [App Settings](Settings#app-settings)
     * [Audio](Settings#audio)
