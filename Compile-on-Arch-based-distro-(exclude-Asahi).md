@@ -12,7 +12,7 @@ Check the output and make sure the packages listed above were installed correctl
 
 # 2. Install ARM `gcc-arm-none-eabi` package from `AUR`
 
-_you can follow the instructions in [Debian based distro page in this wiki](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-arm-on-debian) as well. This doesn’t work before and it turns out that its nushell caused the bug. If you don’t use nushell, you are all good with that set up._
+_you can follow the instructions in [Debian based distro page in this wiki](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-arm-on-debian) as well. This doesn’t work before and it turns out that it’s nushell caused the bug. If you don’t use nushell, you are all good with that set up._
 
 _This will automatically add the path of arm toolchain to the ``PATH`` of your default shell (for example: ``bash``, ``zsh``, ``fish``, and ``nushell``)._
 
