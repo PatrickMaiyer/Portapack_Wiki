@@ -1,7 +1,3 @@
-_The man who wrote this page is a noob, this wiki works, but maybe there are many unnecessary things. feel free to edit it for me._  
----
-_Debian based is more recommended so if you are just planning to pick up a Linux to play with this project, use Debian based, instead of Arch based. But if you already decided to use Arch, please prevent breaking dependencies with `pacman -Syu` or `yay -Syu`_
----
 _This page not works on Asahi, please make sure you are on x86_64 platform_
 ---
 
@@ -10,11 +6,13 @@ _This page not works on Asahi, please make sure you are on x86_64 platform_
 sudo pacman -S git tar wget dfu-util cmake make python3 bzip2 lz4 curl hackrf python-distutils-extra python-setuptools python-pip python-yaml
 ``  
 
-_I have no idea why, but if you use nushell as your default shell, you need to install `libopencm3`package, otherwise it would call it fail._    
+_If you use nushell as your default shell, you need to install `libopencm3`package, otherwise it would call it fail. The best solution is don’t use nushell_    
 
 Check the output and make sure the packages listed above were installed correctly.  
 
 # 2. Install ARM `gcc-arm-none-eabi` package from `AUR`
+
+_you can follow the instructions in [Debian based distro page in this wiki](https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-arm-on-debian) as well. This doesn’t work before and it turns out that its nushell caused the bug. If you don’t use nushell, you are all good with that set up._
 
 _This will automatically add the path of arm toolchain to the ``PATH`` of your default shell (for example: ``bash``, ``zsh``, ``fish``, and ``nushell``)._
 
