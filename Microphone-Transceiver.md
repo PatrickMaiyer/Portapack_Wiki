@@ -80,12 +80,9 @@ We have added five user "**Boost**" options , activating on/off , the  mic-boost
 * ![image](https://user-images.githubusercontent.com/86470699/196534083-4bdb19f8-4c8c-40e8-a587-d328b2d8c8c4.png)
 ![image](https://user-images.githubusercontent.com/86470699/196281105-12c56760-a1d9-4fe2-a775-6fefcc5fccbc.png)
 
-From [Nightly Release - 2023-04-05] onwards it has been added a new check box (next to Roger beep)  to the user to be able to select Separated (default) ) / Common freq. RX tuning control respect TX freq. (see attached new updated GUI pictures): 
+From latest [Nightly Release - 2023-10-21] onwards it has been added a new check box (next to Roger beep)  to the user to be able to select Separated (default) ) / Common freq. RX tuning control respect TX freq., and also another one "Hear Mic" (see attached new updated GUI pictures): 
 
-![IMG_4379](https://github.com/eried/portapack-mayhem/assets/86470699/8796a489-36e0-46b3-8eaa-027a9738229d)
-
-![IMG_4377](https://github.com/eried/portapack-mayhem/assets/86470699/1029d2c6-f998-4dbc-ad60-69d00b3408b7)
-
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/d9f5fdc9-45fb-47d6-838a-b3789132dd0c)
 
 
 * **F:**  This field set the TX Frequency for the transmitter.	Use encoder dial to adjust by Step value (uses a default step value, or step value saved in SETTINGS\tx_mic.ini file if "Load App Settings" is enabled).  A long press of the Select button allows adjusting frequency digits individually.
