@@ -126,7 +126,7 @@ From latest [Nightly Release - 2023-10-21] onwards it has been added a new check
 * **Check box Roger beep:**  This tick is activating an ending sequence of six consecutive digital synthesized audio tones , to indicate that the operator has concluded speaking. 
 * Note: that feature is not available in SSB modes (USB , LSB)
 
-* **Check box Hear Mic:**  This feature will allow to the user to check his Mic through the combined headphone and mic headset , without the need to use an additional receiver.It works for both Portapack audio codec platforms : AK4951  / WM8731 .
+* **Check box Hear Mic:**  This feature will allow to the user to check his Mic through the combined headphone and mic headset , without the need to use an additional receiver.It works for both Portapack audio codec platforms : AK4951  / WM8731 . You can adjust the Mic sound volume with the same below receiver VOL .
 * Notes: to avoid user confusions, that audio sound feature is disabled when  user selects to hear the receiver demodulated sound  .
 In both audio codec platforms, when clicking that “Hear Mic” ,  we are changing the default pre-setting   ALC or BOOST option to the best  that has maximum audio codec volum sound …
  
