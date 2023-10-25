@@ -54,6 +54,9 @@ int luaD_protectedparser (lua_State *L, ZIO *z, const char *name) {
     d446:	6883      	ldr	r3, [r0, #8]
 [...]
 ```
+## M0 Stack Dump
+
+After a crash, pressing the DFU button will display the M0 core's stack contents, which can be paged up & down.  All stack words are shown beginning with the first stack word that has been used since powering up the PortaPack (which may not correspond with the current stack pointer).  If the LR value is known, stack words containing the value matching the LR where the fault occurred will be highlighted in yellow.  Stack words containing values that might possibly be addresses in the code region are highlighted in white.
 
 ## More useful Information
 
