@@ -23,7 +23,18 @@ Note:
 * **Any** versions of H3 are **incompatible**, do not buy them as they're scam.  
 * "H2+" and "H2 Plus" are different devices, even if their names sounds similar.
 
- 
+# FAQ
+Q: which one should I buy?  
+A: Please refer to the table above.  
+  
+Q: Should I buy pre-assembled one or buy separately and assemble myself?  
+A: It depends on your skills, since if it’s the first time you assemble a device there might be something out of control. However, if you want an original/genuine Hackrf, buying them separately is your only choice.  
+  
+Q: If the device from xxx works? If the device from xxx compatible? How do I know if the product in/from specific link/store/seller works/compatible?  
+A: Check the hints on the top of this page.   
+
+
+
 ## H1(R1/R2)
 <img src="https://user-images.githubusercontent.com/4393979/162888735-083d4fb5-dfd5-499c-94b1-c0fbbec0fda2.png" height="300">
 <img src="https://user-images.githubusercontent.com/4393979/162888869-cc9a45ed-170f-435c-a3c1-43076d0035b2.png" height="300">
