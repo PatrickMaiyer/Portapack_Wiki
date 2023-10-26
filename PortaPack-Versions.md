@@ -16,6 +16,7 @@ The current list is:
 |[H2+ R2](#h2r2)|:+1:|3.2"||:heavy_check_mark:||QFP64||||
 |[H2+ R3](#h2r3)|:+1:|3.2"||:heavy_check_mark:||QFP100|:heavy_check_mark:|||
 |[H2+ R4](#h2r4)|:+1:|3.2"|||:heavy_check_mark:|QFP100||:heavy_check_mark:||
+|[H2+ R5](#h2r5)|:+1:|3.2"||||||||
 |[H3](#h3)|:shit:|2.4"|:heavy_check_mark:|||QFP64||||
 |[H3 mini/ H2 Plus](#h3)|:shit:|3.2"|:heavy_check_mark:|||QFP100||||
 
@@ -101,6 +102,10 @@ A: Check the hints on the top of this page.
 * 3W LTK8002D SOP8 Class D amplifier for the speaker (INS8002e clone).
 * Power IC IP5306 SOP8.
 * Inserting headphone plug doesn't [disable the speaker](https://github.com/eried/portapack-mayhem/wiki/H2-Plus-speaker-modifications).
+
+## H2+ R5
+Bascially H2 with internal microphone and a independent power switch (but only pad/hole exist in some of the boards.)  
+Community reported it works (including the internal microphone), but other infomation are unknown.
 
 ## H3
 Uses custom close source firmware. **Not compatible with Mayhem. Do not buy or support as it's a scam**
