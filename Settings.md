@@ -26,7 +26,7 @@ Note: In firmware versions prior to 1.8.0, apps use the .ini settings file ONLY 
  * Save app settings
 
 ### blacklist
-To disable specific apps completely, a text file named "blacklist" can be created manually in the SETTINGS folder using the Notepad application.  Unwanted applications should be listed in this file using their case-sensitive application name (text that appears under the app's screen icon), and they will be disabled (hidden) effective on the next boot.  (Requires 1.8.0 firmware and an SD card)
+To disable specific apps completely, a text file named "blacklist" can be created manually in the SETTINGS folder using the Notepad application.  Unwanted applications should be listed in this file using their case-sensitive application name (text that appears under the app's screen icon), and they will be disabled (hidden) effective on the next boot.  List one application per line.  (Requires 1.8.0+ firmware and an SD card)
 
 ## Converter
 ![PortapackConverter](https://www.nilorea.net/wp-content/uploads/2023/03/PORTAPACK_CONVERTER.png)
