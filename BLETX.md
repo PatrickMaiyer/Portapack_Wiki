@@ -9,12 +9,16 @@ The **Speed** setting allows the user to adjust how fast the transmit occurs. (T
 
 The **Channel** setting allows you to select which channel to transmit on.
 
-Both setting can be used during transmit to simulate a change in channel and speed.
+The **Packet Type** setting allows you to select between various types of advertisement types.
+
+See link for references on meaning of advertisement types: https://novelbits.io/bluetooth-low-energy-advertisements-part-1/
+
+These setting can be used during transmit to simulate a change in channel and speed.
 
 The progress bar will update, (in Loop Mode), to show how many of the current packets are left to be transmitted. This is also seen by the **Packets Left** indicator on screen.
 
 **Example of file:**
-Below is an example of how the text file show be formatted in order for it to be correctly parsed by the application.
+Below is an example of how the text file show be formatted in order for it to be correctly parsed by the application. To get this transmission to show up on a BLE Scanner app set the toggle to ADV_NONCONNECT
 
 010203040506 190953445220426c7565746f6f7468204c6f7720456e65726779 1000
 
