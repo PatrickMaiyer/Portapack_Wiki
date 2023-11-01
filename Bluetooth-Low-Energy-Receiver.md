@@ -7,5 +7,4 @@ This BLE app has several features which I will highlight in a brief overview.
 3. The Sort Knob will sort the list of MAC indices by either Ascending MAC Address, dB, or by most recently updated entry.
 
 Below short example on using the BLE Rx App.
-
 https://vimeo.com/880005106?share=copy
