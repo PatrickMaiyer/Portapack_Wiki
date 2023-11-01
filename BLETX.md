@@ -7,7 +7,7 @@ The BLETX application has two modes, both which can be used after importing a fi
 
 The **Speed** setting allows the user to adjust how fast the transmit occurs. (This is still a WIP as I have not yet defined literal speeds to the numbers, but **Speed 1** seems to transmit close to 100ms a packet.)
 
-The **Channel **setting allows you to select which channel to transmit on.
+The **Channel** setting allows you to select which channel to transmit on.
 
 Both setting can be used during transmit to simulate a change in channel and speed.
 
