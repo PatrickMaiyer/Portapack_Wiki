@@ -42,7 +42,7 @@
     * [Analog TV](Analog-TV-Receiver)
     * [APRS](APRS-RX)
     * [Audio](Audio-Receivers)
-    * [BTLE](Bluetooth-Low-Energy-Receiver)
+    * [BLE](Bluetooth-Low-Energy-Receiver)
     * [ERT Meter](ERT)
     * [Level](Level)
     * [NRF](decoder-for-NRF24L01)
