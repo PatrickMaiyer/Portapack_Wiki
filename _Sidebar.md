@@ -55,6 +55,7 @@
     * [ADS-B(S)](ADS-B(S))
     * [APRS](APRS-TX)
     * [BHT Xy/EP](BHT)
+    * [BLETX](BLETX)
     * Burger Pager
     * [GPS Sim](GPS-Sim)
     * [Jammer](Jammer)
