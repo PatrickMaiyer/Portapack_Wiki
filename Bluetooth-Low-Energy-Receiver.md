@@ -1,4 +1,4 @@
-As of 10/31/23 the previous BLE implementation has been updated and improved to correct some of the issues the other BLE app lacked.
+As of 10/31/23 the previous BLE implementation has been updated, and improved to correct some of the issues in the previous BTLE app.
 
 This BLE app has several features which I will highlight in a brief overview.
 
