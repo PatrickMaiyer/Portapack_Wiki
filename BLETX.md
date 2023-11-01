@@ -16,10 +16,10 @@ The progress bar will update, (in Loop Mode), to show how many of the current pa
 **Example of file:**
 Below is an example of how the text file show be formatted in order for it to be correctly parsed by the application.
 
-010203040506 00112233445566778899AABBCCDDEEFF 1000
+010203040506 190953445220426c7565746f6f7468204c6f7720456e65726779 1000
 
 010203040506 (MAC Address you want to be transmitted. Must be exactly 12 characters)
-00112233445566778899AABBCCDDEEFF (Packet Data you want to be transmitted. Must be less than 62 characters, 31 byte max advertisement length per BLE spec.)
+190953445220426c7565746f6f7468204c6f7720456e65726779 (Packet Data you want to be transmitted. Must be less than 62 characters, 31 byte max advertisement length per BLE spec.) In this case we are transmitting a packet with data: SDR Bluetooth Low Energy
 1000 (Number of times you want the packet to be repeated.)
 
 Its important to note all parameters must be delimited by a single space.
