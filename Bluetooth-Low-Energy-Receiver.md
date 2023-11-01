@@ -1,14 +1,11 @@
-This is to discover the MAC address of Bluetooth Low Energy device around you.
-It's not perfect because decoded data can't pass CRC, hence there will be 1~2 bit error in result.
+As of 10/31/23 the previous BLE implementation has been updated and improved to correct some of the issues the other BLE app lacked.
 
-![Result of bluetooth hardware(hcitool lescan)](https://user-images.githubusercontent.com/17997195/77241595-5693a200-6c2f-11ea-94fb-2e8ff8a780aa.jpeg)
-![Result of portapack btle search](https://user-images.githubusercontent.com/17997195/77241602-75923400-6c2f-11ea-98a2-1ad0a1c09aba.jpeg)
+This BLE app has several features which I will highlight in a brief overview.
 
-You don't need to change the frequency, since all Bluetooth device will broadcast on the pre-set frequency.
-You might need to adjust gain though.
+1. The BLE app upon entry will scan for BLE advertisement packets, and report them on the screen. The Channel knob can be used to select which advertisement channel to listen on.
+2. Once found the user can then select an individual MAC Addresses entry to pull up a more detailed view of the captured data packet.
+3. The Sort Knob will sort the list of MAC indices by either Ascending MAC Address, dB, or by most recently updated entry.
 
-Theoretically, it's possible to decode some data in the ble packets, like temperature, but it doesn't make sense if there is bit error. 
+Below short example on using the BLE Rx App.
 
-## References:
-
-https://blog.csdn.net/shukebeta008/article/details/105024278
+<div style="padding:91.14% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/880005106?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="BLE Rx App Hack RF Portapack"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
