@@ -1,5 +1,5 @@
 
-[[_TOC_]]
+[[toc]]
 
 # Recon App
 
