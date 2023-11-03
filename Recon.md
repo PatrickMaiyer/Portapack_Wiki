@@ -1,12 +1,12 @@
 
-[[toc]]
+[[_TOC_]]
 
 # Recon App
 
 ![Recon main](https://github.com/eried/portapack-mayhem/assets/3157857/bdd92d23-e8e0-4079-a0dc-ce638787123a)
 
 
-# Introduction
+## Introduction
 The Recon app is full rework of the Scanner app, offering different possibilities and customisations.
 
 Both are using all the frequencies in their hand and pause on a frequency when matching criteria (like modulation, amplitude,...)
