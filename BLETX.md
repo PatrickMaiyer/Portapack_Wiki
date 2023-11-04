@@ -31,3 +31,7 @@ Below is an example of how the text file show be formatted in order for it to be
 Its important to note all parameters must be delimited by a single space.
 
 Each line must follow this format for each packet.
+
+I.E:
+010203040506 190953445220426c7565746f6f7468204c6f7720456e65726779 500
+010203040507 190953445220426c7565746f6f7468204c6f7720456e65726779 500
