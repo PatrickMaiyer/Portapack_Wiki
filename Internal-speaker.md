@@ -26,14 +26,5 @@ On the PortaPack, the speaker connector has 3 pins.
 `SPK-` is towards the centre of the board
 
 ### H1 specific setup
-On the H1, when you add the new speaker you may find that there is no audio. By default the speaker is disabled.
 
-To enable the speaker:
-1. Settings
-2. UI Settings
-3. Ensure Hide H1 Speaker option is disabled (a red **X**)
-4. Click Save
-
-Now a speaker icon will be present on the top line of the display.
-If the icon has an **X** it is muted. You can click on it to unmute, it will turn green.
-
+On the H1 with an AK4951 codec, when you add the new speaker you may find that there is no audio. In this case, use the speaker icon on the title bar to enable the speaker output (grey with "X" indicates muted; green with no "X" indicates it's unmuted).  Warning: Do not set the speaker icon to "unmuted" if the speaker already works when "muted", as on OpenSourceSDRLab PortaPack H2 (it has two audio chips with their outputs tied together and overheating will result if they're both enabled).
