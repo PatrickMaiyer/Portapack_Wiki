@@ -27,4 +27,4 @@ On the PortaPack, the speaker connector has 3 pins.
 
 ### H1 specific setup
 
-On the H1 with an AK4951 codec, when you add the new speaker you may find that there is no audio. In this case, use the speaker icon on the title bar to enable the speaker output (grey with "X" indicates muted; green with no "X" indicates it's unmuted).  Warning: Do not set the speaker icon to "unmuted" if the speaker already works when "muted", as on OpenSourceSDRLab PortaPack H2 (it has two audio chips with their outputs tied together and overheating will result if they're both enabled).
+On the H1 with an AK4951 codec, when you add the new speaker you may find that there is no audio. In this case, use the speaker icon on the title bar to enable the speaker output (grey with "X" indicates muted; green with no "X" indicates it's unmuted).  Warning: Do not set the speaker icon to "unmuted" if the speaker already works when "muted", as on one model of the OpenSourceSDRLab PortaPack H2 which has two audio chips with their outputs tied together (overheating will result if they're both enabled).
