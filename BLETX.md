@@ -30,6 +30,4 @@ Below is an example of how the text file show be formatted in order for it to be
 
 Its important to note all parameters must be delimited by a single space.
 
-**TODO:** I want to eventually add support for multiple packets from a file, but current it only supports one packet per file.
-
-**Disclaimer:** I've tested this transmission with a BLE device which seems to receive packets successfully. However the transmission seem to have trouble showing up on my Android phone. I have not tested iPhone. There is still more research to be done, but updates will be provided as they happen. As far as I can tell BLE data is being transmitting through captures of a Spectrum Analyzer.
+Each line must follow this format for each packet.
