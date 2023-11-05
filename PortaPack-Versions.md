@@ -62,7 +62,7 @@ A: Check the hints on the top of this page.
 
 ### Differences:
 * AK4951 with 3W CS8122S Amplifier chip (INS8002e clone) -- speaker shuts off automatically when headphones plugged in
-* NOTE:  Do not enable AK4951 Speaker Output icon on title bar on this model or the AK4951 IC may overheat (speaker output may be shorted on PCB)
+* NOTE:  Do not enable AK4951 Speaker Output icon on title bar on this model or the AK4951 IC may overheat (CS8122S and AK4951 speaker outputs seem to be tied together on PCB)
 
 
 ## H2+ R1
