@@ -52,5 +52,5 @@ Its important to note all parameters must be delimited by a single space.
 010203040507 190953445220426c7565746f6f7468204c6f7720456e65726779 500
 
 # References:
-
+BLE Rx App: https://github.com/eried/portapack-mayhem/wiki/Bluetooth-Low-Energy-Receiver
 See link for references on meaning of advertisement types: https://novelbits.io/bluetooth-low-energy-advertisements-part-1/
