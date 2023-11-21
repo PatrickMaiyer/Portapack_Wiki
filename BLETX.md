@@ -54,4 +54,4 @@ Its important to note all parameters must be delimited by a single space.
 # References:
 BLE Rx App: https://github.com/eried/portapack-mayhem/wiki/Bluetooth-Low-Energy-Receiver
 
-Advertisement Packet Types: https://novelbits.io/bluetooth-low-energy-advertisements-part-1/
+Advertisement PDU Types: https://novelbits.io/bluetooth-low-energy-advertisements-part-1/
