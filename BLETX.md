@@ -17,7 +17,7 @@ The BLETX application has two modes, both which can be used after importing a fi
 
 5. The **Save Packet** saves to file the current packet list in TX format to the name you specify.
 
-6. The **Switch to RX* button will send you to the BLE RX App. See BLE RX App for more information.
+6. The **Switch to RX** button will send you to the BLE RX App. See BLE RX App for more information.
 
 The progress bar will update, (in Loop Mode), to show how many of the current packets are left to be transmitted. This is also seen by the **Packets Left** indicator on screen.
 
