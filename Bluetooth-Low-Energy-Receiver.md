@@ -25,9 +25,11 @@ MAC Address, Packet Type, and Data
 2. The **Save** button allows the user to save a packet in the format used by the BLE TX app.
 3. The **Done** button brings the user back to the Main Menu.
 
+# Video:
+
 Below short example on using the BLE Rx App.
 
 https://vimeo.com/886881206?share=copy
 
-References:
+# References:
 https://www.bluetooth.com/wp-content/uploads/Files/Specification/Assigned_Numbers.pdf?id=3
