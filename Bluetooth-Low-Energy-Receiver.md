@@ -32,4 +32,6 @@ Below short example on using the BLE Rx App.
 https://vimeo.com/886881206?share=copy
 
 # References:
-https://www.bluetooth.com/wp-content/uploads/Files/Specification/Assigned_Numbers.pdf?id=3
+BLE Tx App: https://github.com/eried/portapack-mayhem/wiki/BLETX
+
+BLE Packet Types: https://www.bluetooth.com/wp-content/uploads/Files/Specification/Assigned_Numbers.pdf?id=3
