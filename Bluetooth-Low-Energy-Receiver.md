@@ -13,7 +13,7 @@ This BLE app has several features which I will highlight in a brief overview.
 
 Below short example on using the BLE Rx App.
 
-https://vimeo.com/880005106?share=copy
+https://vimeo.com/886881206?share=copy
 
 References:
 https://www.bluetooth.com/wp-content/uploads/Files/Specification/Assigned_Numbers.pdf?id=3
