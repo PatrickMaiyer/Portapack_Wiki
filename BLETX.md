@@ -7,6 +7,8 @@ The BLETX application has two modes, both which can be used after importing a fi
 1. Single transmit mode. (This mode transmits a single BLE packet OTA given the file parameters.)
 2. Loop Mode (This mode continuously transmits by the total number of repeats given by the file.)
 
+A file must be present, unless moving from the BLE RX app, in order to transmit a packet. Use the **Open file** button to select which file to transmit. Information on file format is found below. Once loaded, the screen will update the UI with the current packet to send. If there are multiple packets in the file, the screen will update this information based on which packet is being transmitted.
+
 1. The **Speed** setting allows the user to adjust how fast the transmit occurs. (This is still a WIP as I have not yet defined literal speeds to the numbers, but **Speed 1** seems to transmit close to 100ms a packet.)
 
 2. The **Channel** setting allows you to select which channel to transmit on.
