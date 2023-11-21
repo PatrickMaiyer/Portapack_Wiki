@@ -9,7 +9,7 @@ The BLETX application has two modes, both which can be used after importing a fi
 
 A file must be present, unless moving from the BLE RX app, in order to transmit a packet. Use the **Open file** button to select which file to transmit. Information on file format is found below. Once loaded, the screen will update the UI with the current packet to send. If there are multiple packets in the file, the screen will update this information based on which packet is being transmitted.
 
-1. The **Speed** setting allows the user to adjust how fast the transmit occurs.
+1. The **Speed** setting allows the user to adjust how fast the transmit occurs. (**Note:** Values are approximate based on a 16ms timer period)
 
      Current Speed table is as follows:
 
