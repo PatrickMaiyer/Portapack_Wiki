@@ -17,7 +17,7 @@ These setting can be used during transmit to simulate a change in channel and sp
 
 The progress bar will update, (in Loop Mode), to show how many of the current packets are left to be transmitted. This is also seen by the **Packets Left** indicator on screen.
 
-**Example of file:**
+# **Example of file:**
 Below is an example of how the text file show be formatted in order for it to be correctly parsed by the application. To get this transmission to show up on a BLE Scanner app set the toggle to ADV_NONCONNECT
 
 010203040506 190953445220426c7565746f6f7468204c6f7720456e65726779 1000
@@ -32,7 +32,7 @@ Its important to note all parameters must be delimited by a single space.
 
 **Note:** Each line must follow this format for each packet.
 
-**Example:**
+# **Example:**
 
 010203040506 190953445220426c7565746f6f7468204c6f7720456e65726779 500
 
