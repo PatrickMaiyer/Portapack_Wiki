@@ -42,7 +42,7 @@
     * [Analog TV](Analog-TV-Receiver)
     * [APRS](APRS-RX)
     * [Audio](Audio-Receivers)
-    * [BLE Rx](BLE Rx)
+    * [BLE Rx](BLE-Rx)
     * [ERT Meter](ERT)
     * [Level](Level)
     * [NRF](decoder-for-NRF24L01)
@@ -55,7 +55,7 @@
     * [ADS-B(S)](ADS-B(S))
     * [APRS](APRS-TX)
     * [BHT Xy/EP](BHT)
-    * [BLE Tx](BLETx)
+    * [BLE Tx](BLE-Tx)
     * Burger Pager
     * [GPS Sim](GPS-Sim)
     * [Jammer](Jammer)
