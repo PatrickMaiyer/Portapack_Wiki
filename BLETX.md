@@ -23,7 +23,7 @@ A file must be present, unless moving from the BLE RX app, in order to transmit 
 
 2. The **Channel** setting allows you to select which channel to transmit on.
 
-3. The **Packet Type** setting allows you to select between various types of advertisement types.
+3. The **Advertisement PDU Type** setting allows you to select between various types of advertisement types.
 
 4. The **Random** toggle allows you to randomize the MAC Address that you send out with each packet.
 
