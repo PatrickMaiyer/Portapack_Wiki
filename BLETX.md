@@ -11,7 +11,7 @@ A file must be present, unless moving from the BLE RX app, in order to transmit 
 
 1. The **Speed** setting allows the user to adjust how fast the transmit occurs.
 
-   Current Speed table is as follows (**Note:** Values are approximate based on a 16ms timer period): 
+     Current Speed table is as follows (**Note:** Values are approximate based on a 16ms timer period): 
    * Speed 1: 16ms per packet.
    * Speed 2: 32ms per packet.
    * Speed 3: 48ms per packet.
