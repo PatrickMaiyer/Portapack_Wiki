@@ -13,13 +13,11 @@ A file must be present, unless moving from the BLE RX app, in order to transmit 
 
      Current Speed table is as follows:
 
-     (**Note:** Values are approximate based on a 16ms timer period)
-
-   * Speed 1: 16ms per packet.
-   * Speed 2: 32ms per packet.
-   * Speed 3: 48ms per packet.
-   * Speed 4: 100ms per packet.
-   * Speed 5: 200ms per packet.
+   * **Speed 1**: 16ms per packet.
+   * **Speed 2**: 32ms per packet.
+   * **Speed 3**: 48ms per packet.
+   * **Speed 4**: 100ms per packet.
+   * **Speed 5**: 200ms per packet.
 
 2. The **Channel** setting allows you to select which channel to transmit on.
 
