@@ -12,7 +12,7 @@ The current list is:
 |[H1 R2](#h1r1r2)|:+1:|2.4"|:heavy_check_mark:|||QFP64||||
 |[H2 (H2 R1)](#h2)|:+1:|3.2"|:heavy_check_mark:|||QFP64||||
 |[H2 (maxgeek)](#maxgeek-h2)|:question:|3.2"||||QFP64||||
-|[H2 (OpenSource SDRLab)](#h2)|:+1:|3.2"|:heavy_check_mark:|||QFP64|||:heavy_check_mark:|
+|[H2 (old OpenSource SDRLab version)](#h2)|:+1:|3.2"|:heavy_check_mark:|||QFP64|||:heavy_check_mark:|
 |[H2+ R2](#h2r2)|:+1:|3.2"||:heavy_check_mark:||QFP64||||
 |[H2+ R3](#h2r3)|:+1:|3.2"||:heavy_check_mark:||QFP100|:heavy_check_mark:|||
 |[H2+ R4](#h2r4)|:+1:|3.2"|||:heavy_check_mark:|QFP100||:heavy_check_mark:||
@@ -55,7 +55,7 @@ A: Check the hints on the top of this page.
 * Different control/button layout
 * Built in battery
 
-## H2 (OpenSourceSDRLab version)
+## H2 (old OpenSourceSDRLab version)
 ![261866889-6a4c7de5-15f2-4119-9329-db76917f9466-b](https://github.com/eried/portapack-mayhem/assets/129641948/7078c63c-cc35-4636-946c-6f944171d455)
 ![261866887-e3d853ec-9cc2-4884-aecd-d6697331839f-b](https://github.com/eried/portapack-mayhem/assets/129641948/316283e6-6696-499b-9da7-54c6cb06c214)
 
