@@ -1,4 +1,4 @@
-There are many different versions of PortaPack, mainly due to Chinese’s Companies putting their own take of the design such as adding a larger screen, adding charging or changing the main chip due to price and availability.  
+There are many different versions of PortaPack, mainly due to Chinese companies putting their own take of the design such as adding a larger screen, adding charging or changing the main chip due to price and availability.  
 
 **Most manufactures changes components frequently without notifying anyone, thus you should always ask the vendor the compatibility of their hardware before you buy, even if a specific vendor/store/seller already has a lot of positive reviews.**  
 
