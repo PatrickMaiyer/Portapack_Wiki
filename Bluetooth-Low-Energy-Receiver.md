@@ -36,4 +36,4 @@ BLE Tx App: https://github.com/eried/portapack-mayhem/wiki/BLETX
 
 BLE Packet Types: https://www.bluetooth.com/wp-content/uploads/Files/Specification/Assigned_Numbers.pdf?id=3
 
-Reference Code used in protocol port: https://github.com/JiaoXianjun/BTLE
+Reference Code Used in Porting Protocol: https://github.com/JiaoXianjun/BTLE
