@@ -186,7 +186,7 @@ Now that everything is set up you can connect gdb to the LPC4320.
 5.  attach to the device
     * (gdb) attach 1
 6.  load the symbols
-    * (gdb) file firmware/baseband/baseband_adsbrx.elf
+    * (gdb) file build/firmware/baseband/baseband_adsbrx.elf
 7.  look around
     * (gdb) info threads
     * (gdb) info registers
