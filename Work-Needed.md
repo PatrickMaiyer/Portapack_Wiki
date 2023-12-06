@@ -4,18 +4,21 @@ Mayhem firmware is continually evolving.  If you have the time and skill, there 
 * To keep the list of Issues in github clean, some Enhancement suggestions have been Closed in github and moved to this list, so please include "closed" issues when searching github more information on any of the suggestions below.
 * Due to ROM size limitations, new applications may need to be "external", meaning that they are loaded from a file on the SD card versus from the ROM.
 
-# Enhancement Wish List
+# Enhancement Wish List (and many more...)
 
 ## Analog TV App
 * Add support for NTSC.
 
 ## Audio
-* Support for recording from Microphone to a WAV file.
-* Support for playing back WAV files to the Speaker/Headphones.
-* Support for transmitting a recorded WAV file.
+* Add support for recording from Microphone to a WAV file.
+* Add support for playing back WAV files to the Speaker/Headphones.
+* Add support for transmitting a recorded WAV file.
 
 ## Capture Files
-* Support for more advanced editing of capture files.
+* Add support for more advanced editing of capture files.
+
+## ERT Meters
+* Add support for more utility meter types.
 
 ## External Apps
 * Move incomplete or infrequently-used apps external.
