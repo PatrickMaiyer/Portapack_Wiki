@@ -1,4 +1,6 @@
-You can 3d print the following enclosure for your Portapack (click the pictures to get the design files):
+Many PortaPacks on AliExpress come with a metal or plastic enclosure.  Enclosure dimensions, simplicity of assembly/disassembly, connector labeling (if any), and speaker hole positions (if any) varies by supplier.  Some users feel that a metal enclosure is safer for devices that contain LiPo batteries.
+
+You can 3D-print the following enclosure for your Portapack (click the pictures to get the design files):
 
 [<img src="https://raw.githubusercontent.com/eried/portapack-mayhem/master/docs/images/h2_front.jpg" height="300">
 ](https://www.thingiverse.com/thing:4260973)
