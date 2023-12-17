@@ -1,4 +1,4 @@
-The Capture app records into C16 files, and the Replay app read those files.
+The Capture app records into C16 files, and the Replay app read those files.  _(Support for C8 format has since been added to firmware, but this chapter assumes that files were captured in C16 format; most instructions below apply to C8 files as well by just replacing the 16 with 8.)_
 
 As described in an [issue](https://github.com/sharebrained/portapack-hackrf/issues/139) in PortaPack's repo, this format consist of a tuple of 16 bits signed integers. The first number is I and second Q, forming a complex number. As a result, you get a tridimensional representation of the capture: the real and the imaginary parts in the file (I and Q) versus the time (defined by the sample rate, in this case in an adjacent TXT file with the same filename as the C16).
 
