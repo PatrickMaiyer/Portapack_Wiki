@@ -330,3 +330,125 @@ Figure 2. Timing diagrams showing read and write operations for Serial Wire Debu
 
 Before a microcontroller’s SWD port is serviceable, an initialization sequence must be performed, part of which is to switch the protocol from JTAG to SWD. Some ARM Cortex microcontrollers do not support JTAG, but the protocol requires that the JTAG-to-SWD switch is still performed.
 
+## launch.json example for openocd with ft232h
+```json
+
+{
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "name": "(gdb) OpenOCD m4 baseband",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceRoot}/build/firmware/baseband/baseband_sd_over_usb.elf",
+        "args": [],
+        "cwd": "${workspaceRoot}",
+        // "environment": [
+        //     {
+        //         "name": "PATH",
+        //         "value": "${env:PATH}"
+        //     }
+        // ],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "miDebuggerPath": "arm-none-eabi-gdb",
+        "targetArchitecture": "arm",
+        "debugServerPath": "openocd",
+        "debugServerArgs": "-f interface/ftdi/um232h.cfg  -f target/lpc4350.cfg -c \"gdb_breakpoint_override hard\"",
+        "serverStarted": "Listening on port [0-9]+ for gdb connections",
+        "filterStderr": true,
+        "filterStdout": false,
+        "launchCompleteCommand": "None",
+        "postRemoteConnectCommands": [
+            {
+                "description": "Target Remote Device on Port 3333",
+                "text": "target extended-remote :3333",
+                "ignoreFailures": false
+            },
+            {
+                "description": "Respect Hardware Limitations",
+                "text": "set remote hardware-watchpoint-limit 2",
+                "ignoreFailures": false
+            },
+            {
+                "description": "Respect Hardware Limitations",
+                "text": "set remote hardware-breakpoint-limit 4",
+                "ignoreFailures": false
+            },
+            {
+                "description": "Shutdown GDB Server on GDB Detach",
+                "text": "monitor [target current] configure -event gdb-detach { shutdown }",
+                "ignoreFailures": false
+            },
+        ],
+        "stopAtConnect": false,
+        "logging": {
+            "exceptions": true,
+            "engineLogging": false,
+            "moduleLoad": true,
+            "programOutput": true,
+            "trace": false,
+            "traceResponse": false
+        },
+        "useExtendedRemote": true
+    },
+    {
+        "name": "(gdb) OpenOCD m0 application",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceRoot}/build/firmware/application/application.elf",
+        "args": [],
+        "cwd": "${workspaceRoot}",
+        // "environment": [
+        //     {
+        //         "name": "PATH",
+        //         "value": "${env:PATH}"
+        //     }
+        // ],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "miDebuggerPath": "arm-none-eabi-gdb",
+        "targetArchitecture": "arm",
+        "debugServerPath": "openocd",
+        "debugServerArgs": "-f interface/ftdi/um232h.cfg  -f target/lpc4350.cfg -c \"gdb_breakpoint_override hard\"",
+        "serverStarted": "Listening on port [0-9]+ for gdb connections",
+        "filterStderr": true,
+        "filterStdout": false,
+        "launchCompleteCommand": "None",
+        "postRemoteConnectCommands": [
+            {
+                "description": "Target Remote Device on Port 3334",
+                "text": "target extended-remote :3334",
+                "ignoreFailures": false
+            },
+            {
+                "description": "Respect Hardware Limitations",
+                "text": "set remote hardware-watchpoint-limit 1",
+                "ignoreFailures": false
+            },
+            {
+                "description": "Respect Hardware Limitations",
+                "text": "set remote hardware-breakpoint-limit 2",
+                "ignoreFailures": false
+            },
+            {
+                "description": "Shutdown GDB Server on GDB Detach",
+                "text": "monitor [target current] configure -event gdb-detach { shutdown }",
+                "ignoreFailures": false
+            },
+        ],
+        "stopAtConnect": false,
+        "logging": {
+            "exceptions": true,
+            "engineLogging": false,
+            "moduleLoad": true,
+            "programOutput": true,
+            "trace": false,
+            "traceResponse": false
+        },
+        "useExtendedRemote": true
+    },
+    ]
+}
+
+```
