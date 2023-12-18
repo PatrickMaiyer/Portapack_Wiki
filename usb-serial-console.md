@@ -13,6 +13,7 @@ The terminal exposes the ChibiOS/RT Shell:
 # Available Commands
 * help
   * lists all available commands.
+  * ![grafik](https://github.com/eried/portapack-mayhem/assets/13151053/80e42df3-3db7-4804-bdd7-5e33015781ee)
 * info
   * shows the ChibiOS/RT system details.
 * systime
@@ -29,6 +30,7 @@ The terminal exposes the ChibiOS/RT Shell:
   * This is the [Flash Utility](Flash-Utility).
 * screenshot
   * Takes a screenshot.
+  * ![grafik](https://github.com/eried/portapack-mayhem/assets/13151053/1c5278a9-3977-4bf7-8043-44cc524e8b83)
 * write_memory
   * Writes arbitrary memory locations. 
 * read_memory
@@ -49,6 +51,7 @@ The terminal exposes the ChibiOS/RT Shell:
   * Deletes a file.
 * open
   * Opens a file for reading and modification.
+    * Note: The current position will be set to the end of the file. Use "seek 0" to move to the start of the file.
 * seek
   * Sets the current position inside the currently opened file.
 * close
@@ -57,3 +60,4 @@ The terminal exposes the ChibiOS/RT Shell:
   * Reads n bytes from the currently opened file.
 * write
   * Writes bytes from the currently opened file.
+  * ![291070841-9e4ecef9-89bb-4a47-be0c-710384a84a22](https://github.com/eried/portapack-mayhem/assets/13151053/b7156f62-537a-4a7b-9d76-0c197992a040)
