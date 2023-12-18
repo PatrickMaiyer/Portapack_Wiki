@@ -113,6 +113,7 @@
   * [HackRF Mode](HackRF)
 * Additional Information
   * [Updating the CPLD](Updating-the-CPLD)
+* [USB Serial Console](usb-serial-console)
 ## Developer Manual
   * [Compilation of the firmware](Compile-firmware)
      * [How to compile on Windows faster with WSL 2](How-to-compile-faster-with-WSL-2)
