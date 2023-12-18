@@ -32,7 +32,8 @@ The terminal exposes the ChibiOS/RT Shell:
   * Takes a screenshot.
   * ![grafik](https://github.com/eried/portapack-mayhem/assets/13151053/1c5278a9-3977-4bf7-8043-44cc524e8b83)
 * write_memory
-  * Writes arbitrary memory locations. 
+  * Writes arbitrary memory locations.
+  * ![grafik](https://github.com/eried/portapack-mayhem/assets/13151053/6d655d31-8de4-4c70-aa30-e0540583c236)
 * read_memory
   * Reads arbitrary memory locations. 
 * button
