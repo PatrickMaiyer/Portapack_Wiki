@@ -38,9 +38,13 @@ _HackRF CLI tools for MacOS available through MacPorts or Homebrew_
 
 ## MicroSD card files
 
-Your PortaPack has a slot for a memory card. You need to provide a MicroSD with enough space (16GB is recommended, over 32GB will be omitted due the limits of the FAT32). This is necessary for certain functionality, like the world map, GPS simulator, and others. 
+Your PortaPack has a slot for a memory card. You need to provide a MicroSD with enough space (16GB is recommended, over 32GB will be omitted due the limits of the FAT32). This is necessary for certain functionality, like the world map, GPS simulator, external apps, and others. 
 
 Get the latest files from the [![GitHub release (latest by date)](https://img.shields.io/github/v/release/eried/portapack-mayhem?label=Releases&style=social)](https://github.com/eried/portapack-mayhem/releases/latest) page. You need to uncompress (using [7-zip](https://www.7-zip.org/download.html)) the files from `mayhem_vX.Y.Z_COPY_TO_SDCARD.7z` to a FAT32 formatted MicroSD card. 
+
+### External Apps
+
+External apps (placed in the APPS folder of the MicroSD card) will only function if their version matches the firmware version. Be sure to update these files also when updating firmware.
 
 # Troubleshooting
 
