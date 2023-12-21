@@ -44,7 +44,7 @@ Get the latest files from the [![GitHub release (latest by date)](https://img.sh
 
 ### External Apps
 
-External apps (placed in the APPS folder of the MicroSD card) will only function if their version matches the firmware version. Be sure to update these files also when updating firmware.
+External apps (.ppma files placed in the APPS folder of the MicroSD card) will only function if their version matches the firmware version. Be sure to update these files also when updating firmware.
 
 # Troubleshooting
 
