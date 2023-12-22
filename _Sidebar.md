@@ -8,6 +8,7 @@
 * [PortaPack Versions (which one to buy)](PortaPack-Versions)
 * [Hackrf Versions](Hackrf-versions)
 * [Firmware update procedure](Update-firmware)
+  * [Updating the CPLD](Updating-the-CPLD)
 * [Description of the hardware](Hardware-overview)
   * [3d printed enclosure](H2-Enclosure)
   * [Internal speaker](Internal-speaker)
@@ -111,9 +112,7 @@
     * [Temperature](Debug#temperature)
     * [Touch Test](Debug#touch-test)
   * [HackRF Mode](HackRF)
-* Additional Information
-  * [Updating the CPLD](Updating-the-CPLD)
-* [USB Serial Console](usb-serial-console)
+  * [USB Serial Console](usb-serial-console)
 ## Developer Manual
   * [Compilation of the firmware](Compile-firmware)
      * [How to compile on Windows faster with WSL 2](How-to-compile-faster-with-WSL-2)
