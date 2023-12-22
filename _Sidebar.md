@@ -22,7 +22,7 @@
   * [SD Card content and modification](SD-Card-Content)
   * [Text Entry](Text-Entry)
 * [Powering the PortaPack](Powering-the-PortaPack)
-* Troubleshooting
+* [Troubleshooting](Troubleshooting)
   * [Won't boot](Won't-boot)
   * [Config Menu](Config-Menu)
   * [Firmware upgrade](Update-firmware-troubleshooting)
