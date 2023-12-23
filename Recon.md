@@ -2,6 +2,8 @@
 
 ![Recon main](https://github.com/eried/portapack-mayhem/assets/3157857/bdd92d23-e8e0-4079-a0dc-ce638787123a)
 
+## Important note
+Repeater and all associated repeat modes are under development. The documentations related to it are for devs/nightly testers. You will not yet find it in stable.
 
 ## Introduction
 The Recon app is full rework of the Scanner app, offering different possibilities and customisations.
@@ -102,11 +104,14 @@ Buttons and information description, from top to bottom, and left to right. [NAM
 ![Recon App More CONFIG page](https://github.com/eried/portapack-mayhem/assets/3157857/09deebfc-8511-4007-856b-36577ced4c50)
 
 One of the first two options have to be checked else nothing will be loaded at all and only manual range search will be available
-* input: load freqs  => allow load of frequencies
-* input: load ranges => allow load of ranges
-* input: load hamradios => allow load of ham radios
+* load freq => allow load of frequencies
+* load repeater => allow load of frequencies
+* load range => allow load of ranges
+* load hamradio => allow load of ham radios
 * auto update m-ranges => if checked then the manual range start and stop values are updated using the actual searched range values. If it's actually searching a frequency, manual ranges are untouched
-* auto record locked period=> activate auto record during locked wait (green) state. In audio modes, a wav file with actual time of capture as filename is created in AUDIO directory. In SPEC mode, a raw c16 with actual time of capture as filename is created in CAPTURES directory. 
+* record locked period=> activate auto record during locked wait (green) state. In audio modes, a wav file with actual time of capture as filename is created in AUDIO directory. In SPEC mode, a raw c16 with actual time of capture as filename is created in CAPTURES directory. 
+* repeater => activate repeat function.  nb => number of repetitions 
+* amp => enable/disable amp when TX repeat is on.  gain => gain to use when TX repeat is on
 
 **!!BE CAREFUL WITH 'auto record locked period' OPTION. DON'T FORGET CLEANING UP FROM TIMES TO TIMES, TOO MUCH FILES WILL CRASH THINGS!!**
 
@@ -221,12 +226,29 @@ Squelch is saved between runs / updates
 See [Freqman Manager](Freq-manager) page
 
 # Workflow and tips
-Workflow:
+
+## Classic workflow
 * Select an input an output file, adjust the settings in CONFIG while you're at it 
 * Start the RECON, match frequencies, add them to your output file using autosave or STORE button
 * Switch to SCAN mode to refine your results
 
-Tips:
+## Repeater workflow:
+* Select a prepared input file / use the classic workflow to set the frequencies you want in the scanner list
+* In CONFIG/MORE, be sure that repeaters options are set (enable/disable, nb rep, tx amp, tx gain, load repeater entries)
+* For a repeater mode, Recon entries have to use SPEC mode. Set the bandwidth accordingly, it's used as record/replay bandwidth
+* Select the lowest lock time value (l) : 100
+* Select a negative wait locked value, it means on freq as long as there no more than 'wait locked' msec of inactivity. -1500 proved to be good for conversations, for signals you may reduce the wait locked. It's also the minimum recorded time by the way.
+* Set a squelch level that allow to only catch what you want. As an example, here I have a background noise of -40 db, when I hit the remote the level is going up to +5 db. To filter sparse signals from my remote, I set squelch of -10db, and adjust it down to catch more, up to catch less
+* If you're not in 'autostart' you'll have to press 'RESUME' at start and after a record. Don't forget to set it in 'CONFIG' if needed
+* Having 'LOOP' enabled is a good idea whatever your list is (it will allow you to avoid pressing RESUME each time too)
+* Set number of matching packet from 1 to 3 as you want to quickly start recording and not wait for precisely long signal
+* Set match type to continuous match
+* Let it run
+* Hit the remote / Make a MicTX com / whatever you're allowed to record and repeat
+* auto record should start (RAW button should go red)
+* at the end of record, progress bar of replay is shown / played / hidden
+
+## Tips:
 * When a file is loaded and checkbox 'autostart searching' have been checked, the search is starting as soon as the apps open up, using last launch settings
 * If 'autostart searching' is not used, then at the app start the last input list is loaded and the search is set in pause on the first frequency of the list
 * To start a search using the input file, use the PAUSE/CONTINUE/RESTART or RST button
