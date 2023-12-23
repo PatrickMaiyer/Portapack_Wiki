@@ -1,18 +1,19 @@
 # Freqman file format
 
-As a start a warning: the freqman GUI have not been improved and may show partial results.
 Starting from nightly 12/05/2023 the freqman file support empty lines, comment lines, anything which is not matching one of the described fields is ignored.
 
-Maximum number on entries is 60 at the moment. 
+In case you hit the maximum number of entries in a list, (was 60 entries at some point) files is truncated. 
 
 Truncated files list are displayed in yellow.
 
 ## Description of the fields
-`'f=freq' for one SINGLE frequency entry`
+`'f=freq' for one Single frequency entry`
 
-`'a=start_frequency,b=end_frequency' for a RANGE entry`
+`'a=start_frequency,b=end_frequency' for a Range entry`
 
-`'r=ham_relay_rx_freq,t=ham_relay_tx_freq' for a HAMRADIO entry`
+`'r=ham_relay_rx_freq,t=ham_relay_tx_freq' for a HamRadio entry`
+
+`'l=repeater_listening_freq,t=repeater_tx_freq' for a Repeater entry`
 
 `m=modulation`
 
@@ -22,7 +23,9 @@ Truncated files list are displayed in yellow.
 
 `d=description`
 
-**All fields except 'f=' or 'a=,b=' 'r=,t=' are mandatory**. If nothing specified actual value is used, even if actual value is 'not set'
+**All fields except [f=], [a=,b=], [r=,t=] and [l=,t=] are mandatory**.
+
+If nothing specified actual value is used, even if actual value is 'not set'
 
 Any application using the original load_freqman_file will only load frequencies, and will try to populate a range in the list instead of manually stepping in. For developers: I've made a new load_freqman_file_ex func which do return an old list format depending on the parameters
 
@@ -60,6 +63,11 @@ The Recon app is using the old as the new format, taking informations in account
 
 `r=430150000,t=430550000,m=AM,bw=DSB 9k,d=HAM radio`
 
+`l=430150000,t=430150000,m=SPEC,bw=150k,d=100k repeat`
+
+`l=430150000,t=430150000,m=SPEC,bw=1000k,d=1000k repeat`
+
+`l=430150000,t=431150000,m=SPEC,bw=1000k,d=1000k repeat txoffset 1MHz`
 
 ## Possible values for modulation/bandwidth
 
