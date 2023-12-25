@@ -3,8 +3,18 @@ This section provides a set of utilities that can be used to configure some aspe
 This allow the setting of the tone Key mixer setting as a percent of the audio level.
 ## Radio
 In the radio section there are two options, 
-1. Enable/disable the Clock Output. Note that you can change the CLKOUT frequency between 10 kHz to 60000 kHz; press OK when the frequency is highlighted to select which digit position to modify and then use the encoder to scroll through the digit values.
+1. Enable/disable the Clock Output. 
+
+Note 1 : In r9 Hackrf platform , due to our complex fw Architecture and usage of Si5351A , we have fixed the synthetized CLK out freq to 10Mhz.
+
+Note 2 : In all previous r1 to r8 Hackrf platforms , as we are using Si5351C, we do not have that limitation , and user can change the CLKOUT frequency between 4 kHz to 60000 kHz; press OK when the frequency is highlighted to select which digit position to modify and then use the encoder to scroll through the digit values. (it works with both clock references, the internal Hackrf (25Mhz) and the external from Portapack (TCXO 10Mhz ). 
+
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/5c44e075-cf84-4f8f-8ca6-a7979c1bf4aa)
+
+Warning note : be awared that most of current market Portapacks use to have a TCXO 10Mhz clock generator, and when is mounted,  it is connected in parallel to the Hackrf CLK in . So in that case , that signal is present always in the SMA  CLK in connector , and you should better to not connect any other external signal generator there (unless you remove the Portapack from Hackrf) , because you may damage that Portapack TCXO clock IC).
+
 2. Enable/disable the Antenna Bias voltage.  If enabled, ensure that all devices attached to the antenna connector can accept a DC bias voltage.
+
 ## User Interface
 The UI interface  setting for the following can be Enabled (tick) or Disabled (x) or selected value for the backlight timeout:
 * Backlight off after 5 seconds( default) or can be set to 5,15,30 seconds or 1,3,5,10 minutes.
