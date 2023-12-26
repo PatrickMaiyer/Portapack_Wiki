@@ -13,6 +13,12 @@ Note 2 : In all previous r1 to r8 Hackrf platforms , as we are using Si5351C, we
 
 Warning note : be awared that some of current market Portapack boards use to have an integrated TCXO 10Mhz clock generator, and when is mounted,  it is connected in parallel to the Hackrf CLK in port connector. So in that case , that signal is present always in the SMA  CLK in connector , and you should better to not connect any other external signal generator there (unless you remove the Portapack from Hackrf) , because otherwise, you may damage that Portapack TCXO clock IC. 
 
+Here below , you can see two different examples of the embedded TCXO 10Mhz ref. clock,	
+ in a PP  H1 brd (left side ) , PP  H2 brd (right side) boards : 
+
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/ad83b637-4532-4ea8-994b-4372a38f9d15)
+
+
 2. Enable/disable the Antenna Bias voltage.  If enabled, ensure that all devices attached to the antenna connector can accept a DC bias voltage.
 
 ## User Interface
