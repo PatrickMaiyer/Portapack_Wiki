@@ -30,7 +30,8 @@ In the radio section there are three options,
 2. Enable/disable the Antenna Bias voltage.  (it can be activated / deactivated by top title bar (DC bias icon) : green icon means activated, or thought that radio menu (check-box) .  If enabled, ensure that all devices attached to the antenna connector can accept a DC bias voltage.
 
 3. Enable/disable the External TCXO Clock input. (it can be activated / deactivated by that radio menu (check-box).
-      Sometimes, in low battery charge voltage, or other low output TCXO voltage amplitude , we may have some boot problems with that
+      Sometimes, in low battery charge voltage, or other low output TCXO voltage amplitude (much lower than the expected 3.3V pk-pk 
+      from ground)  , we may have some boot problems with that
       external TCXO signal and in that case, we may want to deactivate it.
 
 ## User Interface
