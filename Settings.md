@@ -2,7 +2,7 @@ This section provides a set of utilities that can be used to configure some aspe
 ## Audio
 This allow the setting of the tone Key mixer setting as a percent of the audio level.
 ## Radio
-In the radio section there are two options, 
+In the radio section there are three options, 
 1. Enable/disable the Clock Output. (it can be activated / deactivated by top title bar (CLKout icon) : green icon means activated, or thought that radio menu (check-box)
 
 
@@ -28,6 +28,10 @@ In the radio section there are two options,
 
 
 2. Enable/disable the Antenna Bias voltage.  (it can be activated / deactivated by top title bar (DC bias icon) : green icon means activated, or thought that radio menu (check-box) .  If enabled, ensure that all devices attached to the antenna connector can accept a DC bias voltage.
+
+3. Enable/disable the External TCXO Clock input. (it can be activated / deactivated by that radio menu (check-box).
+      Sometimes, in low battery charge voltage, or other low output TCXO voltage amplitude , we may have some boot problems with that
+      external TCXO signal and in that case, we may want to deactivate it.
 
 ## User Interface
 The UI interface  setting for the following can be Enabled (tick) or Disabled (x) or selected value for the backlight timeout:
