@@ -7,7 +7,7 @@ In the radio section there are two options,
 
 Note 1 : In r9 Hackrf platform , due to our complex fw Architecture and usage of Si5351A , we have fixed the synthetized CLK out freq to 10Mhz.
 
-Note 2 : In all previous r1 to r8 Hackrf platforms , as we are using Si5351C, we do not have that limitation , and user can change the CLKOUT frequency between 4 kHz to 60000 kHz; press OK when the frequency is highlighted to select which digit position to modify and then use the encoder to scroll through the digit values. (it works with both clock references, the internal Hackrf (25Mhz) and the external from Portapack (TCXO 10Mhz ). 
+Note 2 : In all previous r1 to r8 Hackrf platforms , as we are using Si5351C, we do not have that limitation , and user can change the CLKOUT frequency between 4 kHz to 60000 kHz; press OK when the frequency is highlighted to select which digit position to modify and then use the encoder to scroll through the digit values. (it works with both clock references, the internal Hackrf (25Mhz) and the external -when available- from Portapack (TCXO 10Mhz ). 
 
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/5c44e075-cf84-4f8f-8ca6-a7979c1bf4aa)
 
