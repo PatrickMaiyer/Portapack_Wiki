@@ -18,7 +18,7 @@ In the radio section there are three options,
 > ![image](https://github.com/eried/portapack-mayhem/assets/86470699/820c12d9-c724-48ed-ba1d-f3c31e096a07)
 
 
-> Warning note : be awared that some of current market Portapack boards may have an integrated low ppm TCXO 10Mhz clock generator mounted, and when it is built in,  it is connected in parallel to the Hackrf CLK_in port connector. So in that special case ,  that internal clock signal is present always in the SMA  CLK in connector (it is a strange case, CLK_in is behaving as real embedded ref. output of internal TCXO 10Mhz clock) , and you should better to not connect any other external signal generator there (unless you remove the Portapack from Hackrf) , because otherwise, you may damage that Portapack TCXO clock IC. 
+> Warning note : be awared that some of current market Portapack boards may have an integrated low ppm TCXO 10Mhz clock generator mounted, and when it is built in,  it is connected in parallel to the external Hackrf CLK_in port connector. So in that special case ,  that internal clock signal is present always in the SMA  CLK_in connector (this s a strange case, because in those devices,  CLK_in is behaving as real embedded ref. output of internal TCXO 10Mhz clock) , and you should better not connect any other external signal generator there (unless you dissassembly the Portapack from Hackrf) , because otherwise, you will connect two clock signal generators in parallel -the embedded one to the external one -, and you may damage that Portapack TCXO clock IC circuit. 
 
 > Here below , you can see two different examples of the embedded TCXO 10Mhz ref. clock,	
 >  in a PP  H1 brd (left side ) , PP  H2 brd (right side) boards : 
