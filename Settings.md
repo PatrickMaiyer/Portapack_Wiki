@@ -3,7 +3,7 @@ This section provides a set of utilities that can be used to configure some aspe
 This allow the setting of the tone Key mixer setting as a percent of the audio level.
 ## Radio
 In the radio section there are two options, 
-1. Enable/disable the Clock Output.
+1. Enable/disable the Clock Output. (it can be activated / deactivated by top title bar (CLKout icon), or thought that radio menu (check-box)
 
 > Note 1 : In r9 Hackrf platform , due to our complex fw Architecture and usage of Si5351A , we have fixed the synthetized CLK out freq to 10Mhz.
 
