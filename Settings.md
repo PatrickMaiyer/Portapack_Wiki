@@ -19,7 +19,7 @@ In the radio section there are two options,
 > ![image](https://github.com/eried/portapack-mayhem/assets/86470699/ad83b637-4532-4ea8-994b-4372a38f9d15)
 
 
-2. Enable/disable the Antenna Bias voltage.  If enabled, ensure that all devices attached to the antenna connector can accept a DC bias voltage.
+2. Enable/disable the Antenna Bias voltage.  (it can be activated / deactivated by top title bar (DC bias icon), or thought that radio menu (check-box) .  If enabled, ensure that all devices attached to the antenna connector can accept a DC bias voltage.
 
 ## User Interface
 The UI interface  setting for the following can be Enabled (tick) or Disabled (x) or selected value for the backlight timeout:
