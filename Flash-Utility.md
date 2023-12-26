@@ -1,10 +1,10 @@
-This application allows you to install a new firmware on your portapack.
+This application allows you to install a new firmware on your PortaPack.  The Flash utility is the update method of choice for users that may not want to run an application on their PC, have compatibility issues with their OS, or may want to switch between firmware versions when in the field.
 
 # The Flash Utility
 
-* Step 1: Compile or download the image. For example the latest nightly build from https://github.com/eried/portapack-mayhem/releases
-* Step 2: Place the file portapack-h1_h2-mayhem.bin on your SD card in the FIRMWARE folder.
-* Step 3: Start the Flash Utility and select the file.
+* Step 1: Compile or download the image. For example the latest nightly build from https://github.com/eried/portapack-mayhem/releases.  If you download and unzip the latest mayhem_v#.##_COPY_TO_SDCARD.zip contents to your SD card, the latest firmware image will be found in the FIRMWARE folder (this method also updates the external app files in the APPS folder).
+* Step 2: If you download only the file portapack-h1_h2-mayhem.bin, place it in the FIRMWARE folder of your SD card.  (The SD card may be physically plugged into your computer, or left installed in the PortaPack using the "SD over USB" app and connected with a USB cable.)
+* Step 3: Start the Flash Utility and select the new .bin file.
 
 ![grafik](https://user-images.githubusercontent.com/13151053/228267608-cf281412-151d-4405-95d9-300c266e26c9.png)
 
@@ -17,6 +17,9 @@ This application allows you to install a new firmware on your portapack.
 * Step 5: Watch the LEDs blink and wait the 15s
 * Step 6: Double press the knob to turn off the portapack.
 * Step 7: Press the knob to turn on the portapack. You should now have the new firmware installed.
+
+## External apps
+The version of any External Apps must match the version of the currently running firmware.  If only the main firmware is updated, old external apps in the APPS folder of the SD card will not run.  See note in Step 1 above.
 
 # If things go wrong
 Sometimes something goes wrong and you are in a state where the portapack refuses to turn on again. You should know that no matter what you do, you can always recover from such situation. The portapack has a dfu that can never be deleted / overridden and should be used in this situation: [Update-firmware-troubleshooting](Update-firmware-troubleshooting)
