@@ -7,7 +7,7 @@ Get the latest firmware from the [![GitHub release (latest by date)](https://img
 
 ### HackRF/PortaPack itself via Flash Utility
 
-The [Flash Utility](https://github.com/eried/portapack-mayhem/wiki/Flash-Utility) can also be used to program new firmware from a bin file stored on a MicroSD card, mentioned below.
+The [Flash Utility](https://github.com/eried/portapack-mayhem/wiki/Flash-Utility) can also be used to program new firmware from a bin file stored on a MicroSD card, mentioned below.  The Flash utility is the update method of choice for users that may not want to run an app on their PC, or may want to switch between firmware versions when in the field.  If you download and unzip the latest mayhem_v#.##_COPY_TO_SDCARD.zip contents to your SD card, the latest firmware image will be found in the FIRMWARE folder (this method also updates the external apps in the APPS folder, mentioned below).
 
 ### Windows
 
