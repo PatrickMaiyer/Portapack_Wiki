@@ -3,13 +3,20 @@ This section provides a set of utilities that can be used to configure some aspe
 This allow the setting of the tone Key mixer setting as a percent of the audio level.
 ## Radio
 In the radio section there are two options, 
-1. Enable/disable the Clock Output. (it can be activated / deactivated by top title bar (CLKout icon), or thought that radio menu (check-box)
+1. Enable/disable the Clock Output. (it can be activated / deactivated by top title bar (CLKout icon) : green icon means activated, or thought that radio menu (check-box)
+
 
 > Note 1 : In r9 Hackrf platform , due to our complex fw Architecture and usage of Si5351A , we have fixed the synthetized CLK out freq to 10Mhz.
 
 > Note 2 : In all previous r1 to r8 Hackrf platforms , as we are using Si5351C, we do not have that limitation , and user can change the CLKOUT frequency between 4 kHz to 60000 kHz; press OK when the frequency is highlighted to select which digit position to modify and then use the encoder to scroll through the digit values. (it works with both clock references, the internal Hackrf (25Mhz) and the external -when available- from Portapack (TCXO 10Mhz ). 
 
 > ![image](https://github.com/eried/portapack-mayhem/assets/86470699/5c44e075-cf84-4f8f-8ca6-a7979c1bf4aa)
+
+> Note 3 : Zooming previous picture , when the unit detects that external CLOCK_in -usually 10Mhz reference- (from Portapack or from external source) , it is indicated in the top title CLK_in icon 
+> with some top arrow below the icon (right picture) . In case of no detection , it is indicated with some "X" below the icon (left picture),and in that case, the system takes the internal 25Mhz Hackrf clock reference. 
+
+> ![image](https://github.com/eried/portapack-mayhem/assets/86470699/820c12d9-c724-48ed-ba1d-f3c31e096a07)
+
 
 > Warning note : be awared that some of current market Portapack boards may have an integrated low ppm TCXO 10Mhz clock generator mounted, and when it is built in,  it is connected in parallel to the Hackrf CLK_in port connector. So in that case , that signal is present always in the SMA  CLK in connector , and you should better to not connect any other external signal generator there (unless you remove the Portapack from Hackrf) , because otherwise, you may damage that Portapack TCXO clock IC. 
 
@@ -19,7 +26,8 @@ In the radio section there are two options,
 > ![image](https://github.com/eried/portapack-mayhem/assets/86470699/ad83b637-4532-4ea8-994b-4372a38f9d15)
 
 
-2. Enable/disable the Antenna Bias voltage.  (it can be activated / deactivated by top title bar (DC bias icon), or thought that radio menu (check-box) .  If enabled, ensure that all devices attached to the antenna connector can accept a DC bias voltage.
+
+2. Enable/disable the Antenna Bias voltage.  (it can be activated / deactivated by top title bar (DC bias icon) : green icon means activated, or thought that radio menu (check-box) .  If enabled, ensure that all devices attached to the antenna connector can accept a DC bias voltage.
 
 ## User Interface
 The UI interface  setting for the following can be Enabled (tick) or Disabled (x) or selected value for the backlight timeout:
