@@ -101,7 +101,7 @@ Buttons and information description, from top to bottom, and left to right. [NAM
 * clear output at start => If checked then the output file is blanked at app start. If you're using that feature and want to keep one of your search results, do not forgot to go into filemanager to rename the file before starting the Recon app one more time
 
 ## More CONFIG settings page
-![Recon App More CONFIG page](https://github.com/eried/portapack-mayhem/assets/3157857/09deebfc-8511-4007-856b-36577ced4c50)
+![Recon App More CONFIG page](https://github.com/eried/portapack-mayhem/assets/3157857/0f7b57dd-6c2d-4411-a0ce-3f1dc90122ec)
 
 One of the first two options have to be checked else nothing will be loaded at all and only manual range search will be available
 * load freq => allow load of frequencies
@@ -110,10 +110,12 @@ One of the first two options have to be checked else nothing will be loaded at a
 * load hamradio => allow load of ham radios
 * auto update m-ranges => if checked then the manual range start and stop values are updated using the actual searched range values. If it's actually searching a frequency, manual ranges are untouched
 * record locked period=> activate auto record during locked wait (green) state. In audio modes, a wav file with actual time of capture as filename is created in AUDIO directory. In SPEC mode, a raw c16 with actual time of capture as filename is created in CAPTURES directory. 
-* repeater => activate repeat function.  nb => number of repetitions 
+* repeater => activate repeat function.  nb => number of repetitions  
 * amp => enable/disable amp when TX repeat is on.  gain => gain to use when TX repeat is on
 
-**!!BE CAREFUL WITH 'auto record locked period' OPTION. DON'T FORGET CLEANING UP FROM TIMES TO TIMES, TOO MUCH FILES WILL CRASH THINGS!!**
+**!! WARNING: YELLOW COLORED OPTION ARE FOR TX CONFIG !!**
+**!! WARNING: USING REPEATER ACTIVATE RECON TX ABILITIES !!**
+**!! WARNING: BE CAUTIOUS WITH 'auto record locked period' OPTION. DON'T FORGET CLEANING UP FROM TIMES TO TIMES, TOO MUCH FILES WILL CRASH THINGS !!**
 
 # Recon/Search/Manual
 When using the Recon app, 3 modes are accessibles. 
