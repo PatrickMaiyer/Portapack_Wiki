@@ -114,7 +114,9 @@ One of the first two options have to be checked else nothing will be loaded at a
 * amp => enable/disable amp when TX repeat is on.  gain => gain to use when TX repeat is on
 
 **!! WARNING: YELLOW COLORED OPTION ARE FOR TX CONFIG !!**
+
 **!! WARNING: USING REPEATER ACTIVATE RECON TX ABILITIES !!**
+
 **!! WARNING: BE CAUTIOUS WITH 'auto record locked period' OPTION. DON'T FORGET CLEANING UP FROM TIMES TO TIMES, TOO MUCH FILES WILL CRASH THINGS !!**
 
 # Recon/Search/Manual
