@@ -150,5 +150,6 @@
   * [Dissecting the Temperature Logger](Dissecting-the-Temperature-logger)
   * [Differences between H1 and H2](Differences-Between-H1-and-H2-models)
 * [UI Screenshots](UI-Screenshots)
+* [Dev build versions](Dev-build-versions)
 * [Creating a prod/stable release](Creating-a-prod-stable-release) (Maintainers only)
 * [Work Needed (Future Enhancement Suggestions)](Work-needed)
