@@ -1,6 +1,6 @@
 We are trying to work out what is the most recent version we can update to while making it so all devs can still develop using the version on their OS/distro.
 
-| Dev      | GCC Version | Platfrom     | Issues|
+| Dev      | GCC Version | Platform     | Issues|
 |----------|-------------|--------------|--------------|
 | Stable/nightly | 9.2.1       | ubuntu:20.04 | ADSB fails in v1.8.0 - 1.9.1 |
 | @jlynx   | 9.4.0       | Ubuntu (WSL) | None (That I am aware of) |
