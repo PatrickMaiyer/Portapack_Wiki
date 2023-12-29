@@ -1,3 +1,5 @@
+We are trying to work out what is the most recent version we can update to while making it so all devs can still develop using the version on their OS/distro.
+
 | Dev      | GCC Version | Platfrom     | Issues|
 |----------|-------------|--------------|--------------|
 | Stable/nightly | 9.2.1       | ubuntu:20.04 | ADSB fails in v1.8.0 |
