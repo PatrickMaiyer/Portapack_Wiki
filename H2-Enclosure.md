@@ -7,8 +7,7 @@ You can 3D-print the following enclosure for your Portapack (click the pictures 
 
 Encoder knob:
 
-[<img src="https://media.printables.com/media/prints/699213/images/5490724_ac156850-f1c9-434b-a656-042422f6ad7a_ed14507b-6665-4866-9cfe-18d1830d48e8/thumbs/inside/1920x1440/jpg/img_20231230_111750_507.webp" height="300">]
-(https://www.printables.com/pl/model/699213-hackrf-portapack-encoder-knob)
+[<img src="https://media.printables.com/media/prints/699213/images/5490724_ac156850-f1c9-434b-a656-042422f6ad7a_ed14507b-6665-4866-9cfe-18d1830d48e8/thumbs/inside/1920x1440/jpg/img_20231230_111750_507.webp" height="300">](https://www.printables.com/pl/model/699213-hackrf-portapack-encoder-knob)
 
 And the following magnetic cover:
 
