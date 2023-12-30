@@ -8,3 +8,4 @@ Developer testing with various GCC compiler and hardware versions demonstrates c
 | @jlynx   | 9.4.0       | Ubuntu (WSL) | None (That I am aware of) |
 | @u-foka | 13.2.1       | M1 Mac | File size too big |
 | @notherngineer | 9.3.1       | Debian 11 | None |
+| @bernd-herzog | 9.2.1 | ubuntu:22 | None |
