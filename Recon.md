@@ -1,7 +1,6 @@
 # Recon App
 
 ![Recon main](https://github.com/eried/portapack-mayhem/assets/3157857/bdd92d23-e8e0-4079-a0dc-ce638787123a)
-
 - [Recon App](#recon-app)
   * [Important note](#important-note)
   * [Introduction](#introduction)
@@ -31,6 +30,8 @@
 - [Freqman file format](#freqman-file-format)
 - [HamRadio type](#hamradio-type)
 - [Repeater type](#repeater-type)
+  * [In Recon, when current type is Repeater and repeater mode is DISABLED](#in-recon--when-current-type-is-repeater-and-repeater-mode-is-disabled)
+  * [In Recon, when current type is Repeater and repeater mode is ENABLED](#in-recon--when-current-type-is-repeater-and-repeater-mode-is-enabled)
   * [Advanced Repeater configuration](#advanced-repeater-configuration)
     + [Repeater half duplex dual direction example](#repeater-half-duplex-dual-direction-example)
 - [Workflow and tips](#workflow-and-tips)
