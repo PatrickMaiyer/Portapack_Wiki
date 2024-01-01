@@ -35,7 +35,6 @@
   * [In Recon, when current type is Repeater and repeater mode is ENABLED:](#in-recon--when-current-type-is-repeater-and-repeater-mode-is-enabled-)
   * [Advanced Repeater configuration](#advanced-repeater-configuration)
     + [Repeater half duplex dual direction example](#repeater-half-duplex-dual-direction-example)
-    + [What are the possibilities](#what-are-the-possibilities)
 - [Workflow and tips](#workflow-and-tips)
   * [Classic workflow](#classic-workflow)
   * [Repeater workflow:](#repeater-workflow-)
