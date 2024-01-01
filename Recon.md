@@ -2,6 +2,48 @@
 
 ![Recon main](https://github.com/eried/portapack-mayhem/assets/3157857/bdd92d23-e8e0-4079-a0dc-ce638787123a)
 
+- [Recon App](#recon-app)
+  * [Important note](#important-note)
+  * [Introduction](#introduction)
+    + [In AM/NFM/WFM mode](#in-am-nfm-wfm-mode)
+    + [In SPEC mode](#in-spec-mode)
+  * [Limitations](#limitations)
+- [TODO first](#todo-first)
+  * [Common defaults options to set](#common-defaults-options-to-set)
+- [Main Screens](#main-screens)
+- [CONFIG](#config)
+  * [Main RECON settings page](#main-recon-settings-page)
+  * [More CONFIG settings page](#more-config-settings-page)
+- [Recon/Search/Manual](#recon-search-manual)
+  * [RECON mode](#recon-mode)
+  * [SCAN mode](#scan-mode)
+  * [MANUAL-S](#manual-s)
+  * [Wait/lock Coloring conditions:](#wait-lock-coloring-conditions-)
+- [Color meaning for main freq](#color-meaning-for-main-freq)
+- [Wait modes](#wait-modes)
+- [Lock counts](#lock-counts)
+- [Matching modes](#matching-modes)
+  * [Continuous](#continuous)
+  * [Sparse](#sparse)
+- [Frequencies to scan](#frequencies-to-scan)
+- [Modulation Mode](#modulation-mode)
+- [Persistant settings](#persistant-settings)
+- [Freqman file format](#freqman-file-format)
+- [HamRadio type](#hamradio-type)
+- [Repeater type](#repeater-type)
+  * [In Recon, when current type is Repeater and repeater mode is DISABLED:](#in-recon--when-current-type-is-repeater-and-repeater-mode-is-disabled-)
+  * [In Recon, when current type is Repeater and repeater mode is ENABLED:](#in-recon--when-current-type-is-repeater-and-repeater-mode-is-enabled-)
+  * [Advanced Repeater configuration](#advanced-repeater-configuration)
+    + [Repeater half duplex dual direction example](#repeater-half-duplex-dual-direction-example)
+    + [What are the possibilities](#what-are-the-possibilities)
+- [Workflow and tips](#workflow-and-tips)
+  * [Classic workflow](#classic-workflow)
+  * [Repeater workflow:](#repeater-workflow-)
+  * [Tips:](#tips-)
+- [Troubleshooting](#troubleshooting)
+- [Scan speed vs Chosen modulation mode](#scan-speed-vs-chosen-modulation-mode)
+- [Power consumption](#power-consumption)
+
 ## Important note
 Repeater and all associated repeat modes are under development. The documentations related to it are for devs/nightly testers. You will not yet find it in stable.
 
@@ -228,6 +270,114 @@ Squelch is saved between runs / updates
 
 # Freqman file format
 See [Freqman Manager](Freq-manager) page
+
+# HamRadio type
+HamRadio type is special case. 
+
+It represents a Ham Radio relay: relay RX freq for frequency_a (r=) , relay TX freq for frequency_b (t=) 
+
+In Recon, when current type is HamRadio:
+
+- Both RX and TX frequencies are scanned for activity as two single frequencies
+- When clicking 'MIC' while on one of the HamRadio entry frequencies, Mic TX frequency is set to relay RX frequency, and Mic RX frequency is set to relay TX frequency
+
+# Repeater type
+Repeater type is special case. It's an entry that allows the portapack to act as a half duplex Repeater. 
+
+The frequency_a (l=) is the Repeater listening frequency, and frequency_b (t=) is the Repeater TX frequency
+
+**!! WARNING: These functions are activating TX in Recon. You have to know what you do !!**
+
+If you want to use the Repeater functionality:
+- in CONFIG, 'auto record locked' and 'repeater' have to be checked
+- while you're at it, set the number of reps and the delay before each TX
+- the modulation type have to be SPEC and use the target relay signal bandwidth
+
+## In Recon, when current type is Repeater and repeater mode is DISABLED:
+- only listening freq is used to check on activity (l=)
+- entry will be scanned as single frequency
+
+## In Recon, when current type is Repeater and repeater mode is ENABLED:
+- listening freq is used to check on activity (l=)
+- entry will be scanned as single frequency
+- on squelch level match raw record is started
+- on timeout or inactivity timeout the raw record is stopped
+- tx delay is played if any
+- raw record is replayed using the Repeater TX (t=) frequency
+
+Raw Record, when used in conjunction of Repeater, is using the same file to store the record: /CAPTURES/RECON_REPEAT.C16
+
+## Advanced Repeater configuration
+
+The Repeater, in addition of Recon, can be used as a half duplex multiplexed relay. 
+
+Here is a graph showing how Alice and Bob could talk using a Repeater list in Recon
+
+### Repeater half duplex dual direction example
+
+```mermaid
+flowchart LR
+subgraph Repeater half duplex dual direction
+	AliceTX(Alice TX)
+	AliceRX(Alice RX)
+	BobTX(Bob TX)
+	BobRX(Bob RX)
+	R1TX(Repeater 1 TX)
+	R1RX(Repeater 1 RX)
+	R2TX(Repeater 2 TX)
+	R2RX(Repeater 2 RX)
+	AliceTX-->R1RX--->R1TX--->BobRX
+	BobTX-->R2RX--->R2TX--->AliceRX
+	subgraph Alice
+		AliceTX
+		AliceRX
+	end
+	subgraph Bob
+		BobRX
+		BobTX
+	end
+	subgraph Recon Repeater's list
+		subgraph "Repeater 1"
+			R1RX
+			R1TX
+		end
+		subgraph "Repeater 2"
+			R2RX
+			R2TX
+		end
+	end
+end
+```
+
+**In our example:**
+
+- a single portapack is used 
+- in a freqman file, we are using two Repeater entries: R1 and R2
+- R1 is to repeat Alice TX to Bob RX
+- R2 is to repeat Bob TX to Alice RX
+- Recon is set in autostart, continuous scan
+- Wait timeout is set to -1500 (which in our case mean stop recording after 1500ms of inactivity)
+- Lock timeout is set to 100
+- Match Mode is set to continuous
+- NB match is set to 3
+- auto record locked, repeater are checked
+- nb repeat is set to 1 and the delay to 0
+
+**What is going to happen:**
+
+- Alice is going to use any tone/start delay to open Repeater 1
+- Recon is matching a squelch level on Repeater 1 and is going to start record
+- Alice have stopped talking. 1500 ms later, the record is stopped
+- Recon transmit the record to Bob, using Repeater 1 TX frequency
+- Bob hear Alice. He wants to answer, and send to Repeater 2
+- Recon is matching a squelch level on Repeater 2 and is going to start record 
+- Bob have stopped talking. 1500 ms later, the record is stopped
+- Recon transmit the record to Alice, using Repeater 2 TX frequency
+
+### What are the possibilities
+
+- as long as Alice and Bob are not talking simultaneously, they can use the Repeater as much times each as they want
+- you can add more Repeaters in the list. Keep in mind that it's 100ms more scan time for each entry
 
 # Workflow and tips
 
