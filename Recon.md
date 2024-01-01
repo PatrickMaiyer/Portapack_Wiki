@@ -374,7 +374,7 @@ end
 - Bob have stopped talking. 1500 ms later, the record is stopped
 - Recon transmit the record to Alice, using Repeater 2 TX frequency
 
-### What are the possibilities
+**What are the possibilities:**
 
 - as long as Alice and Bob are not talking simultaneously, they can use the Repeater as much times each as they want
 - you can add more Repeaters in the list. Keep in mind that it's 100ms more scan time for each entry
