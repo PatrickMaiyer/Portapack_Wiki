@@ -47,7 +47,7 @@ The terminal exposes the ChibiOS/RT Shell:
     * button 5: Select/Enter
     * button 6: DFU
     * button 7: Rotary Left
-    * button 8: Rotary Right?
+    * button 8: Rotary Right
 * ls
   * Lists files and directories.
 * rm
