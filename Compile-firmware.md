@@ -171,6 +171,7 @@ some compiling errors to check it's better to call it without '-j 8')
     sudo tar --strip=1 -xjvf gcc-arm-none-eabi.tar.bz2 -C armbin
 
     Download an up to date version here if you want to try: https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
+    The nightly build/release system is using version 9.2.1, known as 9-2019-q4-major, found here: https://developer.arm.com/downloads/-/gnu-rm
     Don't forget to change the paths or filenames  accordingly 
 
 ## 3. Link ARM compiler to your bash environment
