@@ -3,19 +3,17 @@
 The Key Items on the App that can be selected with the cursor and changed with the encoder knob are:
 
 * **Title bar:** The usual Items may be changed and displayed.
+* **Frequency:** The default frequency of 911.6 MHz can be modified in newer firmware (the ISM band is commonly ~902 MHz to 928 MHz).
 * **Gain:** Setting are shown in order of AMP 0=0db or 1=14dB, LNA(IF) (0-40) and VGA (Baseband Gain) (0-62).
 
 Fields displays in the App are as follows:
 
 * **ID:** this is the meter ID (should match number/barcode printed on meter).
-* **Tp:** This is the type of meter as indicated in the message. (Likely meter type codes include Electric: 4, 5, 7, 8, 12;  Gas: 0, 1, 2, 9, 12;  Water: 3, 11, 13)
+* **Ty (or Tp):** This is the type of meter as indicated in the message. (Likely meter type codes include Electric: 4, 5, 7, 8, 12;  Gas: 0, 1, 2, 9, 12;  Water: 3, 11, 13)
 * **Consumpt:** The Meter reading value.
-* **Cnt:** The count of the number of readings with the same meter ID.
+* **Tamp:** Tamper flags. For SCM type meters the tamper flags are shown as single-digit physical/encoder tamper flags respectively. For SCM+ or IDM type meters the tamper flags are shown as a 4-digit hexadecimal value.
+* **Ct (or Cnt):** The count of the number of readings with the same meter ID (or ++ if the field width on the screen is exceeded).
 
 The PortaPack ERT receiver monitors approximately 2.5 MHz centered around 911.6 MHz. It does not implement channel filters, so sensitivity is reduced in exchange for monitoring more simultaneous "channels".
 
-If a FAT-formatted micro SD card is present when this mode is entered, the receiver will log received packets to a file named "ERT.TXT". The log file contains one line per packet received. Each line consists of a timestamp in sortable "YYYYMMDDHHMMSS" format, the Manchester-decoded data bits, a "/", and a per-bit Manchester coding error indicator ("1" if the data bit is in error). 
-
-
-
- 
+If a FAT-formatted micro SD card is present when this mode is entered, the receiver will log received packets to a file named "ERT.TXT". The log file contains one line per packet received. Each line consists of a timestamp in sortable "YYYYMMDDHHMMSS" format, the Manchester-decoded data bits, a "/", and a per-bit Manchester coding error indicator ("1" if the data bit is in error), and the meter ID.  Received data that looks like it might be a packet (based on the sync bits) but has an invalid checksum will not be listed on the screen although it will be listed in the log file for debug purposes; adjusting the gain values may help in this case.
