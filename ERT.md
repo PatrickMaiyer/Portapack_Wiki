@@ -12,7 +12,7 @@ Fields displays in the App are as follows:
 * **Ty (or Tp):** This is the type of meter as indicated in the message. (Likely meter type codes include Electric: 4, 5, 7, 8, 12;  Gas: 0, 1, 2, 9, 12;  Water: 3, 11, 13)
 * **Consumpt:** The Meter reading value.
 * **Tamp:** Tamper flags. For SCM type meters the tamper flags are shown as single-digit physical/encoder tamper flags respectively. For SCM+ or IDM type meters the tamper flags are shown as a 4-digit hexadecimal value.
-* **Ct (or Cnt):** The count of the number of readings with the same meter ID (or ++ if the field width on the screen is exceeded).
+* **Ct (or Cnt):** The count of the number of readings with the same meter ID (or ++ if the value exceeds the field width on the screen).
 
 The PortaPack ERT receiver monitors approximately 2.5 MHz centered around 911.6 MHz. It does not implement channel filters, so sensitivity is reduced in exchange for monitoring more simultaneous "channels".
 
