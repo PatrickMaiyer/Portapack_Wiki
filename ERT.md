@@ -8,7 +8,7 @@ The Key Items on the App that can be selected with the cursor and changed with t
 
 Fields displays in the App are as follows:
 
-* **ID:** this is the meter ID (should match number/barcode printed on meter).
+* **ID:** this is the meter ID (in decimal format; should match number/barcode printed on meter).
 * **Ty (or Tp):** This is the type of meter as indicated in the message. (Likely meter type codes include Electric: 4, 5, 7, 8, 12;  Gas: 0, 1, 2, 9, 12;  Water: 3, 11, 13)
 * **Consumpt:** The Meter reading value.
 * **Tamp:** Tamper flags. For SCM type meters the tamper flags are shown as single-digit physical/encoder tamper flags respectively. For SCM+ or IDM type meters the tamper flags are shown as a 4-digit hexadecimal value.
