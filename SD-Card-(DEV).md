@@ -149,6 +149,15 @@ if(check_sd_card()) {                       // Check to see if SD Card is mounte
 }
 ```
 
+## A word about reading and writing
+
+In both mode a hardware limit is preventing any buffered read higher than blocks of 512 to be read or write
+
+**!! While you can and will do buffered read/write, the size of the buffer must not be higher than 512 !!**
+
+See the [related issue discussion](https://github.com/eried/portapack-mayhem/issues/1103)
+
+
 ### Read File   
 
 To read to a file the `read_file()` function from the [File](https://github.com/eried/portapack-mayhem/blob/next/firmware/application/file.cpp) class can be used. The helper function below will return true if the class object `File` opens the file successfully. Success from this open function will have a `is_valid()` function which will return a 0, other values means failure. Inputs for file path and directory name. Again the input for the file path is a `std::filesystem::path` which can be `UTF-16 string literal`. The root of the SD Card is `u""` and any directory beyond that is `u"DIRECTORY/SUB_DIRECTORY"` 
