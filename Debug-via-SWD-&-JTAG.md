@@ -358,9 +358,23 @@ Interface: USB, JTAG, UART, FIFO, SPI, I2C
 Pin Number: 24 Pins
 
 (2) And prepare the proper interface cables to connect 4 wires + GND from the Hackrf connector . 
-From this 10 pin Hackrf  JTAG connector , we need to connect (4 wires + GND)  to the FT232H module.  
 
-![image](https://github.com/eried/portapack-mayhem/assets/86470699/7f3de915-5170-4b47-8206-728adaf83d5d)
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/8a1e6f1c-1808-47b2-bcc6-e1b4a1b1e92c)
+
+From this 10 pin Hackrf  JTAG connector , we need to connect (4 wires + GND)  to the FT232H module. (the yellow pins, in  below JTAG table pinout) 
+
+5 x Pinout:
+
+* AD0 - TCK
+
+* AD1 - TDI
+
+* AD2 - TDO
+
+* AD3 - TMS
+
+* GND - GND
+
 
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/ca3fdb3a-37cf-44fd-9e20-51c23d940c20)
 
