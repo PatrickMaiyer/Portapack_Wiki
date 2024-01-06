@@ -423,7 +423,8 @@ It is matching with the expected M0, M4 JTAG ID,
 
 then , now you are ready to proceed with vscode integration, 
 
-(4) Modify your vscode debug  launch.json  adding those two below Bernd’s  module control blocks (to config the M4 or M0 FT232H JTAG debug) .
+(4) Modify your vscode debug  launch.json (/opt/portapack-mayhem/.vscode/launch.json)
+  adding those two below Bernd’s  module config ini blocks (to config the M4 or M0 FT232H JTAG debug) .
 
 
 Note , it can be added to the previous  SWD Jeff debug  module block  , so in this example , my launch.json file  , will have 3 config blocks , and  every time before debugging , you will need to connect Jeff SWD or FT232H JTAG , and  select the proper one, and click play 
