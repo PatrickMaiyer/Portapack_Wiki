@@ -341,9 +341,13 @@ Before a microcontroller’s SWD port is serviceable, an initialization sequence
 
 Features
 Chip: FT232H
+
 High-Speed to UART/FIFO IC: 480Mb/s
+
 Full Speed: 12Mbits/Second
+
 UART Transfer Data Rate: 12Mbaud
+
 USB to Asynchronous 245 FIFO Mode for Transfer Data Rate: 8 Mbyte/Sec
 USB to Synchronous 245 Parallel FIFO Mode for Transfers: 40 Mbytes/Sec8. Supports a proprietary half duplex FT1248 interface with a configurable width, bi-directional data bus (1, 2, 4 or 8 bits wide).
 CPU-Style FIFO Interface Mode Simplifies CPU Interface Design.
@@ -354,7 +358,7 @@ Interface: USB, JTAG, UART, FIFO, SPI, I2C
 Pin Number: 24 Pins
 
 (2) And prepare the proper interface cables to connect 4 wires + GND from the Hackrf connector . 
-From this 10 pind Hackrf  JTAG connector , we need to connect (4 wires + GND)  to the FT232H module.  
+From this 10 pin Hackrf  JTAG connector , we need to connect (4 wires + GND)  to the FT232H module.  
 
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/7f3de915-5170-4b47-8206-728adaf83d5d)
 
