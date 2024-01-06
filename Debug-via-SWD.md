@@ -353,7 +353,34 @@ I used a bridge Hackrf female cable to make those easy connections .
 
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/a738661a-5bc1-40f3-b16b-32cfc875dad9)
 
-(3) Make sure to have installed the OpenOCD package ,
+(3) Make sure to have installed the OpenOCD package.
+At this point , if you want to confirm that the FT232H has the correct  5 wires connection to the Hackrf JTAG and that you have a correct OpenOCD installation , please power up the Hackrf and connect the FT232H to the USB , and send the following linux command from  terminal :
+"openocd     -f /usr/share/openocd/scripts/interface/ftdi/um232h.cfg   -f target/lpc4350.cfg"
+
+And you should get that similar answer , where it detects M4 and M0 ,
+
+"Open On-Chip Debugger 0.12.0
+Licensed under GNU GPL v2
+For bug reports, read
+    http://openocd.org/doc/doxygen/bugs.html
+Info : auto-selecting first available session transport "jtag". To override use 'transport select <transport>'.
+cortex_m reset_config vectreset
+
+Info : Listening on port 6666 for tcl connections
+Info : Listening on port 4444 for telnet connections
+Info : clock speed 500 kHz
+Info : JTAG tap: lpc4350.m4 tap/device found: 0x4ba00477 (mfg: 0x23b (ARM Ltd), part: 0xba00, ver: 0x4)
+Info : JTAG tap: lpc4350.m0 tap/device found: 0x0ba01477 (mfg: 0x23b (ARM Ltd), part: 0xba01, ver: 0x0)
+Info : [lpc4350.m4] Cortex-M4 r0p1 processor detected
+Info : [lpc4350.m4] target has 6 breakpoints, 4 watchpoints
+Info : [lpc4350.m0] Cortex-M0 r0p0 processor detected
+Info : [lpc4350.m0] target has 2 breakpoints, 1 watchpoints
+Info : starting gdb server for lpc4350.m4 on 3333
+Info : Listening on port 3333 for gdb connections
+Info : starting gdb server for lpc4350.m0 on 3334
+Info : Listening on port 3334 for gdb connections"
+
+Now you are ready to proceed with vscode integration, 
 
 (4) Modify your vscode debug  launch.json  adding those two below Bernd’s  module control blocks (to config the M4 or M0 FT232H JTAG debug) .
 
