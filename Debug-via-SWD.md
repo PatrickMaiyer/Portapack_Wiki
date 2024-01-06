@@ -349,9 +349,9 @@ I used a bridge Hackrf female cable to make those easy connections .
 
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/cbc64b35-e65d-4134-86d5-9e097193f7e5)
 
-![image](https://github.com/eried/portapack-mayhem/assets/86470699/2a375e0a-bfdb-499f-8d38-b9117738012b)
-
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/a738661a-5bc1-40f3-b16b-32cfc875dad9)
+
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/2a375e0a-bfdb-499f-8d38-b9117738012b)
 
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/cd90fa5f-afb7-4a84-a795-52ee39d4bcce)
 
