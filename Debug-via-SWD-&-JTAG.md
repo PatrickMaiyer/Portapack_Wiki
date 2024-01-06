@@ -432,7 +432,7 @@ Note , it can be added to the previous  SWD Jeff debug  module block  , so in th
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/84317aea-d40d-422b-97e7-888dfb6a04e4)
 
 When you select M4 debug 
-→ you will need to update in the  launch.json file the proper .elf  file , according to the selected  proc_m4_file.ccp to be debug.
+→ you will need to update in the  launch.json file the proper .elf  file , according to the selected  proc_m4_file.ccp to be debug. (example :  "program": "${workspaceRoot}/build/firmware/baseband/baseband_weather.elf",)
 
 But when you select M0 debug , 
 → no need to update the application.elf file, because there is only a common one to all mayhem application.  
