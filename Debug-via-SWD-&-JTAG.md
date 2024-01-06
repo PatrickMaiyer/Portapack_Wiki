@@ -376,6 +376,8 @@ I used a bridge Hackrf female cable to make those easy connections .
 
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/16759631-22a0-4a54-8f73-bec586070b37)
 
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/d5458f98-bd65-4d22-85ab-477a2382944b)
+
 
 (3) Make sure to have installed the OpenOCD package.
 
