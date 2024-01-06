@@ -338,6 +338,20 @@ Before a microcontroller’s SWD port is serviceable, an initialization sequence
 
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/f4985d5c-ac16-472c-8be5-4c7baf3375c4)
 
+Features
+Chip: FT232H
+High-Speed to UART/FIFO IC: 480Mb/s
+Full Speed: 12Mbits/Second
+UART Transfer Data Rate: 12Mbaud
+USB to Asynchronous 245 FIFO Mode for Transfer Data Rate: 8 Mbyte/Sec
+USB to Synchronous 245 Parallel FIFO Mode for Transfers: 40 Mbytes/Sec8. Supports a proprietary half duplex FT1248 interface with a configurable width, bi-directional data bus (1, 2, 4 or 8 bits wide).
+CPU-Style FIFO Interface Mode Simplifies CPU Interface Design.
+Fast Serial Interface Option.
+FTDI’s Royalty-Free Virtual Com Port (VCP) and Direct (D2XX) drivers eliminate the requirement for USB driver development in most cases.
+Adjustable Receive Buffer Timeout.
+Interface: USB, JTAG, UART, FIFO, SPI, I2C
+Pin Number: 24 Pins
+
 (2) And prepare the proper interface cables to connect 4 wires + GND from the Hackrf connector . 
 From this 10 pind Hackrf  JTAG connector , we need to connect (4 wires + GND)  to the FT232H module.  
 
@@ -349,11 +363,11 @@ I used a bridge Hackrf female cable to make those easy connections .
 
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/cbc64b35-e65d-4134-86d5-9e097193f7e5)
 
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/2a375e0a-bfdb-499f-8d38-b9117738012b)
+
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/cd90fa5f-afb7-4a84-a795-52ee39d4bcce)
 
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/a738661a-5bc1-40f3-b16b-32cfc875dad9)
-
-![image](https://github.com/eried/portapack-mayhem/assets/86470699/2a375e0a-bfdb-499f-8d38-b9117738012b)
 
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/16759631-22a0-4a54-8f73-bec586070b37)
 
