@@ -140,7 +140,7 @@
   * [Access Radio Hardware](Access-Radio-Hardware)
   * [Interpret Guru meditation crashes](Interpret-Guru-meditation-crashes)
   * Create a Complex App
-  * [Debug via SWD](Debug-via-SWD)
+  * [Debug via SWD & JTAG](Debug-via-SWD-&-JTAG)
 * Tools
   * [make_airlines_db.py](Make-airlines-db)
   * [make_icao24_db.py](Make-icao24-db)
