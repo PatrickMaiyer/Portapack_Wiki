@@ -330,6 +330,54 @@ Figure 2. Timing diagrams showing read and write operations for Serial Wire Debu
 
 Before a microcontroller’s SWD port is serviceable, an initialization sequence must be performed, part of which is to switch the protocol from JTAG to SWD. Some ARM Cortex microcontrollers do not support JTAG, but the protocol requires that the JTAG-to-SWD switch is still performed.
 
+
+## DEBUG  JTAG   M0 / M4   USING  MULTI FT232H  USB TO UART TO   SERIAL / PARALLEL  PORTS 
+
+  
+(1) We need to buy a MULTI PURPOSE USB TO UART FT232H  MODULE  (RS232, RS422 o RS485), USB a FIFO, USB a FT1248, USB a JTAG, USB a SPI, USB a I2C))
+
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/f4985d5c-ac16-472c-8be5-4c7baf3375c4)
+
+(2) And prepare the proper interface cables to connect 4 wires + GND from the Hackrf connector . 
+From this 10 pind Hackrf  JTAG connector , we need to connect (4 wires + GND)  to the FT232H module.  
+
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/7f3de915-5170-4b47-8206-728adaf83d5d)
+
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/ca3fdb3a-37cf-44fd-9e20-51c23d940c20)
+
+I used a bridge Hackrf female cable to make those easy connections .
+
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/cbc64b35-e65d-4134-86d5-9e097193f7e5)
+
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/2a375e0a-bfdb-499f-8d38-b9117738012b)
+
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/a738661a-5bc1-40f3-b16b-32cfc875dad9)
+
+(3) Make sure to have installed the OpenOCD package ,
+
+(4) Modify your vscode debug  launch.json  adding those two below Bernd’s  module control blocks (to config the M4 or M0 FT232H JTAG debug) .
+
+
+Note , it can be added to the previous  SWD Jeff debug  module block  , so in this example , my launch.json file  , will have 3 config blocks , and  every time before debugging , you will need to connect Jeff SWD or FT232H JTAG , and  select the proper one, and click play 
+
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/84317aea-d40d-422b-97e7-888dfb6a04e4)
+
+When you select M4 debug 
+→ you will need to update in the  launch.json file the proper .elf  file , according to the selected  proc_m4_file.ccp to be debug.
+
+But when you select M0 debug , 
+→ no need to update the application.elf file, because there is only a common one to all mayhem application.  
+
+Then you just need to set up the max. 2 x  breakdown points , compile and debug it . 
+
+And following other key Bernd’s  recommendations, when you encounter problems with the optimizer optimizing everything away what you need for troubleshooting, you can disable it for one function:
+
+void attribute((optimize("O0"))) foo(unsigned char data) {
+    // unmodifiable compiler code
+} 
+
+
+
 ## launch.json example for openocd with ft232h
 ```json
 
