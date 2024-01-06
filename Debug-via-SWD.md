@@ -353,8 +353,12 @@ I used a bridge Hackrf female cable to make those easy connections .
 
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/a738661a-5bc1-40f3-b16b-32cfc875dad9)
 
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/16759631-22a0-4a54-8f73-bec586070b37)
+
+
 (3) Make sure to have installed the OpenOCD package.
-At this point , if you want to confirm that the FT232H has the correct  5 wires connection to the Hackrf JTAG and that you have a correct OpenOCD installation , please power up the Hackrf and connect the FT232H to the USB , and send the following linux command from  terminal :
+
+At this point , if you want to confirm that the FT232H has the correct  5 wires connection to the Hackrf cable JTAG and that you have a correct OpenOCD installation , please power up the Hackrf and connect the FT232H module to the USB , and send the following linux command from  terminal :
 "openocd     -f /usr/share/openocd/scripts/interface/ftdi/um232h.cfg   -f target/lpc4350.cfg"
 
 And you should get that similar answer , where it detects M4 and M0 ,
