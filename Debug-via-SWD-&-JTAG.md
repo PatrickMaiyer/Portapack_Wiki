@@ -375,8 +375,7 @@ From this 10 pin Hackrf  JTAG connector , we need to connect (4 wires + GND)  to
 
 * GND - GND
 
-
-![image](https://github.com/eried/portapack-mayhem/assets/86470699/ca3fdb3a-37cf-44fd-9e20-51c23d940c20)
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/4fbe2694-db6b-4419-9818-c2c228f9efcc)
 
 I used a bridge Hackrf female cable to make those easy connections .
 
