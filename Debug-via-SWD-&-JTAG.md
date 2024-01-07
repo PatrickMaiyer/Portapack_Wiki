@@ -385,6 +385,8 @@ I used a bridge Hackrf female cable connector PCB , to make those easy connectio
 
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/cd90fa5f-afb7-4a84-a795-52ee39d4bcce)
 
+![image](https://github.com/eried/portapack-mayhem/assets/86470699/09e2e44e-9727-4b18-8952-12cea8bcd758)
+
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/a738661a-5bc1-40f3-b16b-32cfc875dad9)
 
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/16759631-22a0-4a54-8f73-bec586070b37)
