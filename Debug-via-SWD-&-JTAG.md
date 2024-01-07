@@ -434,7 +434,7 @@ It is matching with the expected M0, M4 JTAG ID,
 
 ![image](https://github.com/eried/portapack-mayhem/assets/86470699/d1c6c8d5-55c6-418d-a571-02a99e1c878c)
 
-then , now you are ready to proceed with vscode integration, 
+then , now you are ready to proceed with vscode debug integration, 
 
 (4) Modify your vscode debug  launch.json (/opt/portapack-mayhem/.vscode/launch.json)
   adding those two below Bernd’s  module config ini blocks (to config the M4 or M0 FT232H JTAG debug) .
