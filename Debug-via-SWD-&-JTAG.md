@@ -450,7 +450,7 @@ When you select M4 debug
 But when you select M0 debug , 
 → no need to update the application.elf file, because there is only a common one to all mayhem application.  
 
-Then you just need to set up the max. 2 x  breakdown points , compile and debug it . 
+Then you just need to set up for m0 a  max. 2 x  breakdown points and 1 watch point , compile and debug it .(for m4 target, it has 6 breakpoints, 4 watchpoints)
 
 And following other key Bernd’s  recommendations, when you encounter problems with the optimizer optimizing everything away what you need for troubleshooting, you can disable it for one function:
 
