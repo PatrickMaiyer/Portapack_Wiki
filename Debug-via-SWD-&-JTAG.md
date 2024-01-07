@@ -332,7 +332,7 @@ Figure 2. Timing diagrams showing read and write operations for Serial Wire Debu
 Before a microcontroller’s SWD port is serviceable, an initialization sequence must be performed, part of which is to switch the protocol from JTAG to SWD. Some ARM Cortex microcontrollers do not support JTAG, but the protocol requires that the JTAG-to-SWD switch is still performed.
 
 
-## (2) DEBUG VIA JTAG   M0 / M4   USING  MULTI FT232H  USB TO UART TO   SERIAL / PARALLEL  PORTS 
+## (2) DEBUG VIA JTAG   M0 / M4   USING  MULTI FT232H  USB TO UART, (TO SERIAL / PARALLEL  PORTS).
 
   
 (1) We need to buy a MULTI PURPOSE USB TO UART FT232H  MODULE  (RS232, RS422 o RS485), USB a FIFO, USB a FT1248, USB a JTAG, USB a SPI, USB a I2C))
