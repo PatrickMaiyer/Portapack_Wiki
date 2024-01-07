@@ -27,4 +27,5 @@ find firmware/application -iname '*.h' -o -iname '*.hpp' -o -iname '*.cpp' -o -i
 
 
 ## CLion
-CLion has built in clang-format, just press Ctrl + Shift + L (Windows and Linux) to format the code with ``.clang-format`` configure file within project directory. If you have clang-tidy or so enabled, you need to disable them.  
+CLion has built in clang-format, just press Ctrl + Shift + L (Windows and Linux) to format the code with ``.clang-format`` configure file within project directory. If you have clang-tidy or so enabled, you need to disable them.    
+Note: KDE default keymap is Alt + Shift + L
