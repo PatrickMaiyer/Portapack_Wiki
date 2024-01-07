@@ -31,4 +31,7 @@ It should be noted in the PortaPack, **the RF settings are called either â€œAmpâ
 
 A good default setting for RX is to start with is RF (Amp=0) i.e. RF amp is off, IF=16, Baseband=16. Increase or decrease the IF and baseband gain controls roughly equally to find the best settings for your situation. Turn on the RF amp if you need help picking up weak signals. If your gain settings are too low, your signal may be buried in the noise. If one or more of your gain settings is too high, you may see distortion (look for unexpected frequencies that pop up when you increase the gain) or the noise floor may be amplified more than your signal.
 
+![294762980-a47d5c5f-9080-40ba-82e3-04851a09e210](https://github.com/eried/portapack-mayhem/assets/13151053/d0eea0c2-097f-4a71-a498-4ceb03bdaa67)
 
+
+To get the optimal level use the radio saturation monitor in the radio section of the [DFU Overlay](DFU-overlay).
